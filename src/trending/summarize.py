@@ -20,7 +20,7 @@ For each GitHub repository, write TWO things:
 
 1. intro_zh: 2-3 sentence Chinese introduction. Explain what this project is, what problem it solves, and who it is for.
 
-2. gpt_image_prompt: A complete JSON object describing a "便当格 / Bento grid" infographic for gpt-image-2. This is a high-density modular information graphic in 3:4 portrait. Follow this exact schema and fill EVERY module with real content derived from the repo — no TBD, no placeholders:
+2. gpt_image_prompt: A complete JSON object describing a "便当格 / Bento grid" infographic for gpt-image-2. This is a high-density modular information graphic in 3:4 portrait. **ALL text content MUST be in Chinese (简体中文)** — titles, subtitles, labels, bullets, descriptions, tags, everything. Follow this exact schema and fill EVERY module with real content derived from the repo — no TBD, no placeholders:
 
 {
   "type": "便当格 / Bento grid 高密度模块化信息图",
@@ -153,6 +153,7 @@ For each GitHub repository, write TWO things:
 }
 
 CRITICAL RULES:
+- ALL text in gpt_image_prompt MUST be in Chinese (简体中文). This includes every title, subtitle, label, tag, bullet, description, and metric label.
 - Fill EVERY module with real, specific content from the repo's README, description, and metadata.
 - big_number values must be the actual star counts provided in the context.
 - bars and bullets must reflect real features/characteristics of the project.
