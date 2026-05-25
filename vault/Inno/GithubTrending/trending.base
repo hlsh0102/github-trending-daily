@@ -1,0 +1,24 @@
+---
+filters:
+  - field: tags
+    value: github-trending
+properties:
+  - name: repo
+    type: text
+  - name: language
+    type: text
+  - name: first_seen
+    type: date
+  - name: appearances
+    type: number
+  - name: tags
+    type: multitext
+views:
+  - type: table
+    name: All Repos
+    columns:
+      - repo
+      - language
+      - appearances
+      - first_seen
+---
