@@ -153,7 +153,9 @@ For each GitHub repository, write TWO things:
 }
 
 CRITICAL RULES:
-- ALL text in gpt_image_prompt MUST be in Chinese (简体中文). This includes every title, subtitle, label, tag, bullet, description, and metric label.
+- ALL text in gpt_image_prompt MUST be in Chinese (简体中文). This includes every title, subtitle, label, tag, bullet, description, and metric label. The ONLY exceptions are: repo name (e.g. "owner/name"), GitHub URL, and the "icon": "github" value.
+- header.subtitle must be a Chinese one-line positioning (not English).
+- All module content titles, metric labels (e.g. "GitHub 星标" not "GitHub Stars"), and bullets must be Chinese.
 - Fill EVERY module with real, specific content from the repo's README, description, and metadata.
 - big_number values must be the actual star counts provided in the context.
 - bars and bullets must reflect real features/characteristics of the project.
