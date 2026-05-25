@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "d451136ca179a45d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbb1820e9dc5f0ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d76ede7b4137285",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "vault/Inno/GithubTrending/trending.base",
+                "viewName": ""
+              },
+              "icon": "lucide-layout-list",
+              "title": "trending"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f18743799585740",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4fa4e6df30447da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aadaea35768ff281",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0423809d84fa9e97",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5ec7ea9f83f49d51",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "977067a665dd47f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd8138374aec32a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09b1d96231864b6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "43fa9cfbf7b10b57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e2bb6946de9819b0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f9d37dcb3d8d9c9e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9cb4647a416399fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "3d76ede7b4137285",
+  "lastOpenFiles": [
+    "vault/Inno/GithubTrending/repos/Fincept-Corporation__FinceptTerminal.md",
+    "vault/Inno/GithubTrending/repos/colbymchenry__codegraph.md",
+    "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
+    "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
+    "vault/Inno/GithubTrending/2026-05-25/assets/01-Lum1104__Understand-Anything.png",
+    "vault/Inno/GithubTrending/trending.base",
+    "vault/Inno/GithubTrending/repos/rohitg00__ai-engineering-from-scratch.md",
+    "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
+    "vault/Inno/GithubTrending/repos/multica-ai__andrej-karpathy-skills.md",
+    "vault/Inno/GithubTrending/repos/mukul975__Anthropic-Cybersecurity-Skills.md",
+    "vault/Inno/GithubTrending/repos/manaflow-ai__cmux.md",
+    "vault/Inno/GithubTrending/repos/Lum1104__Understand-Anything.md",
+    "vault/Inno/GithubTrending/_index.md",
+    "vault/Inno/GithubTrending/2026-05-25/daily.md",
+    "vault/Inno/GithubTrending/2026-05-25/assets/overview.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/10-paperless-ngx__paperless-ngx.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/09-Fincept-Corporation__FinceptTerminal.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/08-multica-ai__andrej-karpathy-skills.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/07-manaflow-ai__cmux.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/06-colbymchenry__codegraph.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/05-mukul975__Anthropic-Cybersecurity-Skills.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/04-affaan-m__ECC.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/03-rohitg00__ai-engineering-from-scratch.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets",
+    "vault/Inno/GithubTrending/2026-05-25",
+    "state/repos.json"
+  ]
+}
