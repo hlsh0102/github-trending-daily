@@ -11,14 +11,12 @@
             "id": "3d76ede7b4137285",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
-                "mode": "source",
-                "source": false
+                "file": "vault/Inno/GithubTrending/2026-05-25/assets/01-Lum1104__Understand-Anything.png"
               },
-              "icon": "lucide-file",
-              "title": "GithubTrending Daily Tool"
+              "icon": "lucide-image",
+              "title": "01-Lum1104__Understand-Anything"
             }
           }
         ]
@@ -183,20 +181,20 @@
   },
   "active": "aadaea35768ff281",
   "lastOpenFiles": [
+    "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
+    "vault/Inno/GithubTrending/repos/rohitg00__ai-engineering-from-scratch.md",
+    "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "test_gpt_prompt.py",
     "src/trending/dedupe.py.tmp.23772.63c8c0b20945",
     "vault/Inno/GithubTrending/2026-05-25/prompts",
     "src/trending/render.py.tmp.23772.6d928d133377",
     "src/trending/summarize.py.tmp.23772.022aa1c4bc20",
     "vault/Inno/GithubTrending/trending.base",
-    "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "vault/Inno/GithubTrending/repos/Fincept-Corporation__FinceptTerminal.md",
     "vault/Inno/GithubTrending/repos/colbymchenry__codegraph.md",
     "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
     "vault/Inno/GithubTrending/2026-05-25/assets/01-Lum1104__Understand-Anything.png",
-    "vault/Inno/GithubTrending/repos/rohitg00__ai-engineering-from-scratch.md",
-    "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
     "vault/Inno/GithubTrending/repos/multica-ai__andrej-karpathy-skills.md",
     "vault/Inno/GithubTrending/repos/mukul975__Anthropic-Cybersecurity-Skills.md",
     "vault/Inno/GithubTrending/repos/manaflow-ai__cmux.md",
