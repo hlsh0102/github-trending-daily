@@ -181,8 +181,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "3d76ede7b4137285",
+  "active": "aadaea35768ff281",
   "lastOpenFiles": [
+    "src/trending/summarize.py.tmp.23772.022aa1c4bc20",
     "vault/Inno/GithubTrending/trending.base",
     "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "vault/Inno/GithubTrending/repos/Fincept-Corporation__FinceptTerminal.md",

@@ -30,6 +30,7 @@ class SummarizedRepo:
     repo: EnrichedRepo
     intro_zh: str
     image_prompt_en: str
+    gpt_image_prompt: str = ""  # JSON string — bento-grid prompt for gpt-image-2
 
 
 @dataclass
