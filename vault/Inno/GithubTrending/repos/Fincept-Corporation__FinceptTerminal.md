@@ -5,7 +5,7 @@ tags:
 repo: Fincept-Corporation/FinceptTerminal
 language: Python
 first_seen: 2026-05-25
-appearances: 1
+appearances: 2
 ---
 
 # Fincept-Corporation/FinceptTerminal
@@ -14,4 +14,5 @@ FinceptTerminal 是一款现代金融应用程序，提供高级市场分析、�
 
 ## 上榜历史
 
+- [[2026-05-25/daily|2026-05-25]] — 462 stars
 - [[2026-05-25/daily|2026-05-25]] — 462 stars

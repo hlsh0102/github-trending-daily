@@ -5,7 +5,7 @@ tags:
 repo: Lum1104/Understand-Anything
 language: TypeScript
 first_seen: 2026-05-25
-appearances: 1
+appearances: 2
 ---
 
 # Lum1104/Understand-Anything
@@ -14,4 +14,5 @@ Understand Anything 是一个将任意代码库、知识库或文档转化为交
 
 ## 上榜历史
 
+- [[2026-05-25/daily|2026-05-25]] — 5625 stars
 - [[2026-05-25/daily|2026-05-25]] — 5625 stars
