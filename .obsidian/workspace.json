@@ -183,6 +183,10 @@
   },
   "active": "aadaea35768ff281",
   "lastOpenFiles": [
+    "test_gpt_prompt.py",
+    "src/trending/dedupe.py.tmp.23772.63c8c0b20945",
+    "vault/Inno/GithubTrending/2026-05-25/prompts",
+    "src/trending/render.py.tmp.23772.6d928d133377",
     "src/trending/summarize.py.tmp.23772.022aa1c4bc20",
     "vault/Inno/GithubTrending/trending.base",
     "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
