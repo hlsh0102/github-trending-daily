@@ -11,12 +11,14 @@
             "id": "3d76ede7b4137285",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "vault/Inno/GithubTrending/2026-05-25/assets/01-Lum1104__Understand-Anything.png"
+                "file": "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "01-Lum1104__Understand-Anything"
+              "icon": "lucide-file",
+              "title": "paperless-ngx__paperless-ngx"
             }
           }
         ]
