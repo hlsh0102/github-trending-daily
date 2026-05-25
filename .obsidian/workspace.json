@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bbb1820e9dc5f0ca",
+        "id": "b5df4f374d7bcf38",
         "type": "tabs",
         "children": [
           {
-            "id": "3d76ede7b4137285",
+            "id": "587164544eb9c42b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,9 +181,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "3d76ede7b4137285",
+  "active": "587164544eb9c42b",
   "lastOpenFiles": [
-    "src/trending/summarize.py.tmp.23772.01a94615261e",
+    "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
+    "vault/Inno/GithubTrending/_index.md",
+    "Untitled.base",
+    "vault/Inno/GithubTrending/2026-05-25/assets/01-Lum1104__Understand-Anything.png",
     "vault/Inno/GithubTrending/2026-05-25/prompts/10-paperless-ngx__paperless-ngx.json",
     "vault/Inno/GithubTrending/2026-05-25/prompts/09-Fincept-Corporation__FinceptTerminal.json",
     "vault/Inno/GithubTrending/2026-05-25/prompts/08-multica-ai__andrej-karpathy-skills.json",
@@ -191,31 +194,27 @@
     "vault/Inno/GithubTrending/2026-05-25/prompts/06-colbymchenry__codegraph.json",
     "vault/Inno/GithubTrending/2026-05-25/prompts/05-mukul975__Anthropic-Cybersecurity-Skills.json",
     "vault/Inno/GithubTrending/2026-05-25/prompts/04-affaan-m__ECC.json",
-    "vault/Inno/GithubTrending/2026-05-25/prompts/03-rohitg00__ai-engineering-from-scratch.json",
     "vault/Inno/GithubTrending/2026-05-25/prompts/02-anthropics__knowledge-work-plugins.json",
     "vault/Inno/GithubTrending/2026-05-25/prompts/01-Lum1104__Understand-Anything.json",
     "vault/Inno/GithubTrending/2026-05-25/assets/overview.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/10-paperless-ngx__paperless-ngx.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/09-Fincept-Corporation__FinceptTerminal.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/08-multica-ai__andrej-karpathy-skills.png",
-    "vault/Inno/GithubTrending/2026-05-25/assets/07-manaflow-ai__cmux.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/06-colbymchenry__codegraph.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/05-mukul975__Anthropic-Cybersecurity-Skills.png",
-    "vault/Inno/GithubTrending/2026-05-25/assets/04-affaan-m__ECC.png",
+    "vault/Inno/GithubTrending/2026-05-25/assets/07-manaflow-ai__cmux.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/03-rohitg00__ai-engineering-from-scratch.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/02-anthropics__knowledge-work-plugins.png",
     "vault/Inno/GithubTrending/2026-05-25/daily.md",
-    "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
+    "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/Fincept-Corporation__FinceptTerminal.md",
     "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
     "vault/Inno/GithubTrending/repos/rohitg00__ai-engineering-from-scratch.md",
     "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "vault/Inno/GithubTrending/repos/colbymchenry__codegraph.md",
-    "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/multica-ai__andrej-karpathy-skills.md",
     "vault/Inno/GithubTrending/repos/mukul975__Anthropic-Cybersecurity-Skills.md",
     "vault/Inno/GithubTrending/repos/manaflow-ai__cmux.md",
-    "vault/Inno/GithubTrending/repos/Lum1104__Understand-Anything.md",
-    "vault/Inno/GithubTrending/_index.md"
+    "vault/Inno/GithubTrending/repos/Lum1104__Understand-Anything.md"
   ]
 }
