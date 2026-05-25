@@ -49,6 +49,7 @@ def split_repos(
                 repo=repo,
                 intro_zh=entry.get("intro_zh", repo.description or ""),
                 image_prompt_en=entry.get("image_prompt_en", ""),
+                gpt_image_prompt=entry.get("gpt_image_prompt", ""),
             )
             existing.append(sr)
         else:
@@ -99,12 +100,14 @@ def reuse_images(
 
 
 def update_state_for_summarized(results: list, state: dict) -> dict:
-    """Write intro_zh and image_prompt_en from LLM results back into state."""
+    """Write intro_zh, image_prompt_en, and gpt_image_prompt from LLM results back into state."""
     for sr in results:
         entry = state.get(sr.repo.full_name)
         if entry:
             entry["intro_zh"] = sr.intro_zh
             entry["image_prompt_en"] = sr.image_prompt_en
+            if sr.gpt_image_prompt:
+                entry["gpt_image_prompt"] = sr.gpt_image_prompt
     return state
 
 
