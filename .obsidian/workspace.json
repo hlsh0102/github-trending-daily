@@ -11,13 +11,14 @@
             "id": "3d76ede7b4137285",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "vault/Inno/GithubTrending/trending.base",
-                "viewName": ""
+                "file": "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-list",
-              "title": "trending"
+              "icon": "lucide-file",
+              "title": "GithubTrending Daily Tool"
             }
           }
         ]
@@ -182,12 +183,13 @@
   },
   "active": "3d76ede7b4137285",
   "lastOpenFiles": [
+    "vault/Inno/GithubTrending/trending.base",
+    "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "vault/Inno/GithubTrending/repos/Fincept-Corporation__FinceptTerminal.md",
     "vault/Inno/GithubTrending/repos/colbymchenry__codegraph.md",
     "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
     "vault/Inno/GithubTrending/2026-05-25/assets/01-Lum1104__Understand-Anything.png",
-    "vault/Inno/GithubTrending/trending.base",
     "vault/Inno/GithubTrending/repos/rohitg00__ai-engineering-from-scratch.md",
     "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
     "vault/Inno/GithubTrending/repos/multica-ai__andrej-karpathy-skills.md",
