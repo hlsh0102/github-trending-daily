@@ -128,6 +128,8 @@ def main() -> None:
     # 10. Git commit & push
     try:
         _git_commit_and_push(today)
+    except subprocess.CalledProcessError as exc:
+        logger.warning("Git commit/push failed (non-fatal): %s\nstderr: %s", exc, exc.stderr)
     except Exception as exc:
         logger.warning("Git commit/push failed (non-fatal): %s", exc)
 
@@ -161,6 +163,16 @@ def _rename_images(all_illustrated: list[IllustratedRepo], assets_dir: Path) -> 
 def _git_commit_and_push(today: str) -> None:
     """Stage ``vault/`` and ``state/``, commit if dirty, push to remote."""
     os.chdir(PROJECT_ROOT)
+
+    # Ensure git identity is set (required in CI)
+    for key, value in [
+        ("user.name", "github-actions[bot]"),
+        ("user.email", "github-actions[bot]@users.noreply.github.com"),
+    ]:
+        subprocess.run(
+            ["git", "config", key, value],
+            capture_output=True,
+        )
 
     subprocess.run(
         ["git", "add", "vault/", "state/"],
