@@ -72,6 +72,7 @@ def main() -> None:
             if match:
                 sr.intro_zh = match.intro_zh
                 sr.image_prompt_en = match.image_prompt_en
+                sr.gpt_image_prompt = match.gpt_image_prompt
         state = update_state_for_summarized(llm_results, state)
         logger.info("  Summarized %d repos", len(llm_results))
     else:
