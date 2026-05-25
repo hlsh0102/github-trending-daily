@@ -1,15 +1,12 @@
-"""Generate 1024×1792 DALL-E 3 thumbnails, with dynamic placeholder fallback."""
-import io
+"""Generate placeholder thumbnails — always colorful, never API-dependent."""
 import logging
 from pathlib import Path
 
-from openai import OpenAI
 from PIL import Image, ImageDraw, ImageFont
 
 from trending.config import (
     SummarizedRepo,
     IllustratedRepo,
-    OPENAI_API_KEY,
 )
 
 logger = logging.getLogger(__name__)
@@ -25,36 +22,17 @@ def illustrate(
     repos: list[SummarizedRepo],
     output_dir: Path,
 ) -> list[IllustratedRepo]:
-    """Generate DALL-E 3 images for each repo (serial, to respect rate limits)."""
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    """Generate placeholder thumbnails for each repo (no external API)."""
     output_dir.mkdir(parents=True, exist_ok=True)
     results: list[IllustratedRepo] = []
 
     for i, repo in enumerate(repos):
         path = output_dir / f"{i + 1:02d}-{repo.repo.owner}__{repo.repo.name}.png"
-        try:
-            _generate_image(client, repo.image_prompt_en, path)
-        except Exception as exc:
-            logger.warning("DALL-E failed for %s: %s. Using placeholder.", repo.repo.full_name, exc)
-            _generate_placeholder(repo.repo.full_name, path, color=PLACEHOLDER_COLORS[i % len(PLACEHOLDER_COLORS)])
-
+        color = PLACEHOLDER_COLORS[i % len(PLACEHOLDER_COLORS)]
+        _generate_placeholder(repo.repo.full_name, path, color=color)
         results.append(IllustratedRepo(repo=repo, image_path=str(path.resolve())))
 
     return results
-
-
-def _generate_image(client: OpenAI, prompt: str, path: Path) -> None:
-    response = client.images.generate(
-        model="dall-e-3",
-        prompt=f"{prompt}. No text, no labels, no words.",
-        size="1024x1792",
-        quality="standard",
-        n=1,
-    )
-    image_url = response.data[0].url
-    import requests
-    img_data = requests.get(image_url, timeout=60).content
-    path.write_bytes(img_data)
 
 
 def _generate_placeholder(text: str, path: Path, color: str = "#6366f1") -> None:

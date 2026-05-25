@@ -1,14 +1,15 @@
-"""Generate Chinese intros and English image prompts via Claude API."""
+"""Generate Chinese intros via DeepSeek API (OpenAI-compatible)."""
 import json
 import logging
 
-from anthropic import Anthropic
+from openai import OpenAI
 
 from trending.config import (
     EnrichedRepo,
     SummarizedRepo,
-    ANTHROPIC_API_KEY,
-    PLACEHOLDER_IMAGE_PROMPT_TEMPLATE,
+    DEEPSEEK_API_KEY,
+    DEEPSEEK_BASE_URL,
+    DEEPSEEK_MODEL,
 )
 
 logger = logging.getLogger(__name__)
@@ -16,16 +17,15 @@ logger = logging.getLogger(__name__)
 SYSTEM_PROMPT = """You are a technical writer who produces structured JSON output.
 For each GitHub repository, write:
 - intro_zh: 2-3 sentence Chinese introduction. Explain what this project is, what problem it solves, and who it is for.
-- image_prompt_en: One English sentence prompt for DALL-E 3, isometric illustration style, no text/labels in the image.
 
 Output ONLY valid JSON. No markdown fences, no extra text."""
 
 
 def summarize(repos: list[EnrichedRepo]) -> list[SummarizedRepo]:
-    """Generate intros and image prompts for each repo via Claude API.
-    Individual failures fall back to description-based intro and generic prompt.
+    """Generate Chinese intros for each repo via DeepSeek API.
+    Individual failures fall back to description-based intro.
     """
-    client = Anthropic(api_key=ANTHROPIC_API_KEY)
+    client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_BASE_URL)
     results: list[SummarizedRepo] = []
 
     for repo in repos:
@@ -33,29 +33,28 @@ def summarize(repos: list[EnrichedRepo]) -> list[SummarizedRepo]:
             sr = _summarize_one(client, repo)
             results.append(sr)
         except Exception as exc:
-            logger.warning("Claude API failed for %s: %s. Using fallback.", repo.full_name, exc)
+            logger.warning("DeepSeek API failed for %s: %s. Using fallback.", repo.full_name, exc)
             results.append(_fallback(repo))
 
     return results
 
 
-def _summarize_one(client: Anthropic, repo: EnrichedRepo) -> SummarizedRepo:
+def _summarize_one(client: OpenAI, repo: EnrichedRepo) -> SummarizedRepo:
     context = _build_context(repo)
-    message = client.messages.create(
-        model="claude-sonnet-4-6-20250514",
+    response = client.chat.completions.create(
+        model=DEEPSEEK_MODEL,
         max_tokens=512,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": context}],
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": context},
+        ],
     )
-    raw = message.content[0].text
+    raw = response.choices[0].message.content
     data = json.loads(raw)
     return SummarizedRepo(
         repo=repo,
         intro_zh=data.get("intro_zh", repo.description or ""),
-        image_prompt_en=data.get(
-            "image_prompt_en",
-            PLACEHOLDER_IMAGE_PROMPT_TEMPLATE.format(full_name=repo.full_name),
-        ),
+        image_prompt_en="",
     )
 
 
@@ -77,5 +76,5 @@ def _fallback(repo: EnrichedRepo) -> SummarizedRepo:
     return SummarizedRepo(
         repo=repo,
         intro_zh=repo.description or f"{repo.full_name} — GitHub Trending 项目。",
-        image_prompt_en=PLACEHOLDER_IMAGE_PROMPT_TEMPLATE.format(full_name=repo.full_name),
+        image_prompt_en="",
     )

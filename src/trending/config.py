@@ -49,8 +49,7 @@ def today_date() -> date:
 
 
 # ---------- env ----------
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 # ---------- paths ----------
@@ -78,7 +77,6 @@ USER_AGENT = (
     "Chrome/126.0.0.0 Safari/537.36"
 )
 
-# ---------- fallback ----------
-PLACEHOLDER_IMAGE_PROMPT_TEMPLATE = (
-    "isometric illustration of {full_name}, minimalist, soft colors"
-)
+# ---------- deepseek ----------
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEEPSEEK_MODEL = "deepseek-chat"
