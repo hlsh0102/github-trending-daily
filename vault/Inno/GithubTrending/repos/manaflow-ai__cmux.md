@@ -5,7 +5,7 @@ tags:
 repo: manaflow-ai/cmux
 language: Swift
 first_seen: 2026-05-25
-appearances: 3
+appearances: 4
 ---
 
 # manaflow-ai/cmux
@@ -14,6 +14,7 @@ cmux 是一款基于 Ghostty 的 macOS 终端模拟器，专为 AI 编码代理�
 
 ## 上榜历史
 
+- [[2026-05-25/daily|2026-05-25]] — 598 stars
 - [[2026-05-25/daily|2026-05-25]] — 598 stars
 - [[2026-05-25/daily|2026-05-25]] — 598 stars
 - [[2026-05-25/daily|2026-05-25]] — 598 stars
