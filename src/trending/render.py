@@ -188,3 +188,26 @@ def render_bases(vault_dir: Path) -> None:
 
     vault_dir.mkdir(parents=True, exist_ok=True)
     base_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def render_gpt_prompts(repos: list[IllustratedRepo], today: str) -> None:
+    """Save gpt-image-2 bento-grid prompt JSON files per repo.
+
+    Each file is written to ``vault/Inno/GithubTrending/<today>/prompts/``
+    as ``{idx:02d}-{owner}__{name}.json``.  Repos with an empty prompt are
+    skipped.
+    """
+    vault = Path(VAULT_DIR)
+    prompts_dir = vault / today / "prompts"
+    prompts_dir.mkdir(parents=True, exist_ok=True)
+
+    for i, illustrated in enumerate(repos, start=1):
+        prompt = illustrated.repo.gpt_image_prompt
+        if not prompt:
+            continue
+
+        r = illustrated.repo.repo
+        safe_name = r.full_name.replace("/", "__")
+        filename = f"{i:02d}-{safe_name}.json"
+        file_path = prompts_dir / filename
+        file_path.write_text(prompt, encoding="utf-8")

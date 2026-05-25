@@ -25,7 +25,7 @@ from trending.dedupe import (
 from trending.enrich import enrich
 from trending.fetch import fetch_trending
 from trending.illustrate import illustrate
-from trending.render import render_all
+from trending.render import render_all, render_gpt_prompts
 from trending.summarize import summarize
 
 logger = logging.getLogger(__name__)
@@ -119,6 +119,10 @@ def main() -> None:
     # 8. Render vault files
     logger.info("Step 8/9: Rendering vault files ...")
     render_all(all_illustrated, today)
+
+    # 8b. Render gpt-image-2 prompt JSONs
+    logger.info("Step 8b: Rendering gpt-image-2 prompts ...")
+    render_gpt_prompts(all_illustrated, today)
 
     # 9. Save state
     logger.info("Step 9/9: Saving state ...")
