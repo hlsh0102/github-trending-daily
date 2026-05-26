@@ -4,8 +4,18 @@ from pathlib import Path
 from trending.config import IllustratedRepo, VAULT_DIR
 
 
-def render_all(repos: list[IllustratedRepo], today: str) -> None:
-    """Orchestrate writing all vault files. Creates directories as needed."""
+def render_all(
+    repos: list[IllustratedRepo],
+    today: str,
+    articles: dict[str, str] | None = None,
+) -> None:
+    """Orchestrate writing all vault files. Creates directories as needed.
+
+    ``articles`` maps ``full_name`` → markdown body. When provided,
+    ``render_articles`` writes one file per repo under ``<today>/articles/``.
+    When omitted, the articles step is skipped (preserves backward
+    compatibility for tests that don't exercise this path).
+    """
     vault = Path(VAULT_DIR)
     daily_dir = vault / today
     assets_dir = daily_dir / "assets"
@@ -14,6 +24,8 @@ def render_all(repos: list[IllustratedRepo], today: str) -> None:
     repos_dir.mkdir(parents=True, exist_ok=True)
 
     render_daily_md(repos, today, daily_dir)
+    if articles:
+        render_articles(articles, repos, today, daily_dir)
     for repo in repos:
         render_repo_md(repo, today, repos_dir)
     render_index_md(today, vault)
