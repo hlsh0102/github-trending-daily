@@ -11,14 +11,13 @@
             "id": "587164544eb9c42b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "vault/Inno/GithubTrending/repos/mukul975__Anthropic-Cybersecurity-Skills.md",
-                "mode": "source",
-                "source": false
+                "file": "vault/Inno/GithubTrending/trending.base",
+                "viewName": ""
               },
-              "icon": "lucide-file",
-              "title": "mukul975__Anthropic-Cybersecurity-Skills"
+              "icon": "lucide-layout-list",
+              "title": "trending"
             }
           }
         ]
@@ -181,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadaea35768ff281",
+  "active": "587164544eb9c42b",
   "lastOpenFiles": [
+    "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
+    "vault/Inno/GithubTrending/repos/mukul975__Anthropic-Cybersecurity-Skills.md",
     "docs/superpowers/plans/2026-05-26-daily-articles.md",
     "docs/superpowers/specs/2026-05-26-daily-articles-design.md",
     "vault/Inno/GithubTrending/2026-05-26/prompts/10-paperless-ngx__paperless-ngx.json",
@@ -210,14 +211,12 @@
     "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
     "vault/Inno/GithubTrending/2026-05-25/daily.md",
-    "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "vault/Inno/GithubTrending/_index.md",
     "vault/Inno/GithubTrending/repos/Fincept-Corporation__FinceptTerminal.md",
     "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
     "vault/Inno/GithubTrending/repos/rohitg00__ai-engineering-from-scratch.md",
     "vault/Inno/GithubTrending/repos/colbymchenry__codegraph.md",
     "vault/Inno/GithubTrending/repos/multica-ai__andrej-karpathy-skills.md",
-    "vault/Inno/GithubTrending/repos/mukul975__Anthropic-Cybersecurity-Skills.md",
     "vault/Inno/GithubTrending/repos/Lum1104__Understand-Anything.md"
   ]
 }
