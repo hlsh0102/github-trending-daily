@@ -5,7 +5,7 @@ tags:
 repo: paperless-ngx/paperless-ngx
 language: Python
 first_seen: 2026-05-25
-appearances: 7
+appearances: 8
 ---
 
 # paperless-ngx/paperless-ngx
@@ -20,4 +20,5 @@ Paperless-ngx 是一个社区驱动的文档管理系统，能够将你的纸质
 - [[2026-05-25/daily|2026-05-25]] — 151 stars
 - [[2026-05-25/daily|2026-05-25]] — 151 stars
 - [[2026-05-25/daily|2026-05-25]] — 151 stars
+- [[2026-05-26/daily|2026-05-26]] — 176 stars
 - [[2026-05-26/daily|2026-05-26]] — 176 stars

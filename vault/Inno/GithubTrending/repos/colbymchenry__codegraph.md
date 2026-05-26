@@ -5,7 +5,7 @@ tags:
 repo: colbymchenry/codegraph
 language: TypeScript
 first_seen: 2026-05-25
-appearances: 7
+appearances: 8
 ---
 
 # colbymchenry/codegraph
@@ -20,4 +20,5 @@ CodeGraph 是一个为 Claude Code、Cursor、Codex、OpenCode 和 Hermes Agent 
 - [[2026-05-25/daily|2026-05-25]] — 3171 stars
 - [[2026-05-25/daily|2026-05-25]] — 3171 stars
 - [[2026-05-25/daily|2026-05-25]] — 3171 stars
+- [[2026-05-26/daily|2026-05-26]] — 3161 stars
 - [[2026-05-26/daily|2026-05-26]] — 3161 stars

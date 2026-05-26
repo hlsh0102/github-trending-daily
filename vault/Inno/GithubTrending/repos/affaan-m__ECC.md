@@ -5,7 +5,7 @@ tags:
 repo: affaan-m/ECC
 language: JavaScript
 first_seen: 2026-05-25
-appearances: 6
+appearances: 7
 ---
 
 # affaan-m/ECC
@@ -19,4 +19,5 @@ ECC 是一个为 Claude Code、Codex、Cursor 等 AI 编程代理设计的性能
 - [[2026-05-25/daily|2026-05-25]] — 2052 stars
 - [[2026-05-25/daily|2026-05-25]] — 2052 stars
 - [[2026-05-25/daily|2026-05-25]] — 2052 stars
+- [[2026-05-26/daily|2026-05-26]] — 2025 stars
 - [[2026-05-26/daily|2026-05-26]] — 2025 stars
