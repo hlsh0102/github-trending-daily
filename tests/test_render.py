@@ -172,3 +172,88 @@ def test_render_repo_md_new_format_creates_index_page():
         assert f"[[{today}/daily|{today}]] — 20 stars" in content
         # Order: 详细介绍历史 must come before 上榜历史
         assert content.index("## 详细介绍历史") < content.index("## 上榜历史")
+
+
+def test_render_repo_md_appends_to_existing_new_format():
+    today = "2026-05-26"
+    repo = make_illustrated("test/example", 5, today)
+
+    with tempfile.TemporaryDirectory() as tmp:
+        repos_dir = Path(tmp) / "repos"
+        repos_dir.mkdir(parents=True)
+        existing = """---
+tags:
+  - trending
+  - repo
+repo: test/example
+language: Python
+first_seen: 2026-05-20
+appearances: 2
+---
+
+# test/example
+
+> 旧介绍。
+
+## 详细介绍历史
+
+- [[2026-05-21/articles/02-test__example|2026-05-21]]
+- [[2026-05-20/articles/01-test__example|2026-05-20]]
+
+## 上榜历史
+
+- [[2026-05-20/daily|2026-05-20]] — 50 stars
+- [[2026-05-21/daily|2026-05-21]] — 75 stars
+"""
+        (repos_dir / "test__example.md").write_text(existing, encoding="utf-8")
+
+        render_repo_md(repo, today, repos_dir)
+        content = (repos_dir / "test__example.md").read_text("utf-8")
+
+        assert "appearances: 3" in content
+        # New article entry appears before the older one
+        idx_new = content.index(f"[[{today}/articles/05-test__example|{today}]]")
+        idx_old = content.index("[[2026-05-21/articles/02-test__example|2026-05-21]]")
+        assert idx_new < idx_old
+        # New daily entry appears before legacy entries
+        idx_daily_new = content.index(f"[[{today}/daily|{today}]] — 20 stars")
+        idx_daily_old = content.index("[[2026-05-20/daily|2026-05-20]] — 50 stars")
+        assert idx_daily_new < idx_daily_old
+
+
+def test_render_repo_md_migrates_legacy_file():
+    today = "2026-05-26"
+    repo = make_illustrated("test/example", 7, today)
+
+    with tempfile.TemporaryDirectory() as tmp:
+        repos_dir = Path(tmp) / "repos"
+        repos_dir.mkdir(parents=True)
+        legacy = """---
+tags:
+  - trending
+  - repo
+repo: test/example
+language: Python
+first_seen: 2026-05-20
+appearances: 1
+---
+
+# test/example
+
+旧式短简介。
+
+## 上榜历史
+
+- [[2026-05-20/daily|2026-05-20]] — 50 stars
+"""
+        (repos_dir / "test__example.md").write_text(legacy, encoding="utf-8")
+
+        render_repo_md(repo, today, repos_dir)
+        content = (repos_dir / "test__example.md").read_text("utf-8")
+
+        assert "appearances: 2" in content
+        assert "## 详细介绍历史" in content
+        assert content.index("## 详细介绍历史") < content.index("## 上榜历史")
+        assert f"[[{today}/articles/07-test__example|{today}]]" in content
+        # Legacy daily entry still present
+        assert "[[2026-05-20/daily|2026-05-20]] — 50 stars" in content
