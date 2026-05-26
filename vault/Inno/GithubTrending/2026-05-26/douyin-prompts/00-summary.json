@@ -1,3 +1,74 @@
 {
-  "prompt_cn": "一张中文科技信息图海报，9:16竖屏(1080×1920)，深色背景(#0D1117 GitHub暗夜黑)，顶部大标题白色粗体字「GitHub Trending 今日TOP10」，副标题「2026年5月26日 · AI工具霸榜」。标题下方10个横向圆角卡片纵向排列，每个卡片左对齐：大号排名数字(01-10)用GitHub绿色(#238636)，项目名(白色)，一行中文标签(灰色小字)，右侧星标数(金色)。卡片从左到右依次为：01 Lum1104/Understand-Anything「代码→交互知识图谱」33820★，02 affaan-m/ECC「AI编码代理优化」193453★，03 rohitg00/ai-engineering-from-scratch「AI工程零基础教程」19883★，04 anthropics/knowledge-work-plugins「Claude知识工作插件集」16297★，05 mukul975/Anthropic-Cybersecurity-Skills「754项网络安全技能」9687★，06 hardikpandya/stop-slop「去AI文本痕迹」4692★，07 Leonxlnx/taste-skill「反AI平庸输出」20542★，08 DigitalPlatDev/FreeDomain「免费域名」166185★，09 jellyfin/jellyfin「开源媒体服务器」52238★，10 Axorax/awesome-free-apps「免费应用清单」4901★。底部三个高亮焦点卡片并排：「🔥 +5604 星标暴涨」「🛡️ 754技能5框架」「🎬 5.2万星开源Plex」。整体风格：极客科技感、高信息密度、无多余装饰。"
+  "type": "短视频封面 + 便当格混合信息图",
+  "goal": "生成一张抖音9:16竖屏封面，GitHub Trending TOP10汇总，标题抓眼球、数据震撼、便当格模块布局",
+  "aspect_ratio": "9:16 portrait (1080×1920)",
+  "background": {
+    "color": "深黑蓝渐变 #0D1117 → #161B22 → #0D1117",
+    "texture": "细微网格线(git风格) + 右下角一个巨大的半透明GitHub猫咪logo水印"
+  },
+  "title_block": {
+    "main_title": "🔥 GitHub今日TOP10",
+    "title_style": "白色超粗体(#FFFFFF)，字号极大，带绿色(#238636)下划线装饰",
+    "subtitle": "2026.05.26 · AI工具霸榜 · 代码图谱暴涨5600⭐",
+    "subtitle_style": "浅灰(#8B949E)，中号字，紧贴主标题下方"
+  },
+  "hero_module": {
+    "position": "画面中央偏上 1/3 处",
+    "style": "大圆角卡片(24px)，半透明深色底(#1C2128)，绿色(#238636)左边框",
+    "content": {
+      "title": "🏆 今日焦点",
+      "project": "Lum1104/Understand-Anything",
+      "tagline": "代码→交互知识图谱",
+      "big_number": "+5,604 ⭐",
+      "big_number_label": "单日暴涨",
+      "visual_hint": "右侧一个3D发光节点网络小图标"
+    }
+  },
+  "stats_row": {
+    "position": "标题下方两行关键数字横排",
+    "style": "3个等宽卡片，背景半透明黑，数字大号发光",
+    "cards": [
+      {"number": "10", "label": "今日上榜", "color": "#238636"},
+      {"number": "166K", "label": "最高星标", "color": "#D4A574"},
+      {"number": "5,604", "label": "最高日增", "color": "#58A6FF"}
+    ]
+  },
+  "ranking_strip": {
+    "position": "画面下半部",
+    "style": "5行×2列紧凑排列，每个条目一行：排名数字(01-10，绿色粗体) + 项目名(白色) + 星标数(金色小字)",
+    "items": [
+      "01 Understand-Anything · 33.8K★",
+      "02 ECC · 193K★",
+      "03 AI-Engineering · 19.9K★",
+      "04 Knowledge-Work-Plugins · 16.3K★",
+      "05 Cybersecurity-Skills · 9.7K★",
+      "06 stop-slop · 4.7K★",
+      "07 taste-skill · 20.5K★",
+      "08 FreeDomain · 166K★",
+      "09 Jellyfin · 52.2K★",
+      "10 Awesome-Free-Apps · 4.9K★"
+    ]
+  },
+  "bottom_bar": {
+    "text": "每天一分钟，带你了解全球开发者都在关注什么 🔍",
+    "style": "底部白色细线分隔 + 灰色小字居中",
+    "handle": "@GitHub精选日报"
+  },
+  "constraints": {
+    "must_feel": "像真实抖音科技博主的高质量封面，不是PPT截图",
+    "must_keep": [
+      "主标题在1米外清晰可辨",
+      "绿色(#238636)和金色(#D4A574)作为强调色贯穿全图",
+      "至少3处出现大数字做视觉锚点",
+      "排名区域清晰但不抢主标题",
+      "整体暗色科技感+霓虹点缀"
+    ],
+    "avoid": [
+      "纯黑背景(要有层次)",
+      "标题文字被任何元素遮挡",
+      "信息堆砌到看不清",
+      "超过5种颜色",
+      "卡通/可爱风格(保持科技极客感)"
+    ]
+  }
 }
