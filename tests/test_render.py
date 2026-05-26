@@ -147,3 +147,28 @@ def test_render_daily_md_includes_article_link():
         content = (daily_dir / "daily.md").read_text("utf-8")
         assert "[详细介绍 →](2026-05-26/articles/01-owner0__repo0.md)" in content
         assert "[详细介绍 →](2026-05-26/articles/10-owner9__repo9.md)" in content
+
+
+def test_render_repo_md_new_format_creates_index_page():
+    today = "2026-05-26"
+    repo = make_illustrated("test/example", 3, today)
+
+    with tempfile.TemporaryDirectory() as tmp:
+        repos_dir = Path(tmp) / "repos"
+        repos_dir.mkdir(parents=True)
+
+        render_repo_md(repo, today, repos_dir)
+        content = (repos_dir / "test__example.md").read_text("utf-8")
+
+        # Frontmatter
+        assert "appearances: 1" in content
+        assert "repo: test/example" in content
+        # Body
+        assert "# test/example" in content
+        assert "> 中文介绍测试。" in content
+        assert "## 详细介绍历史" in content
+        assert "## 上榜历史" in content
+        assert f"[[{today}/articles/03-test__example|{today}]]" in content
+        assert f"[[{today}/daily|{today}]] — 20 stars" in content
+        # Order: 详细介绍历史 must come before 上榜历史
+        assert content.index("## 详细介绍历史") < content.index("## 上榜历史")
