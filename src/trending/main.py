@@ -1,4 +1,4 @@
-"""Pipeline orchestrator: fetch → enrich → dedupe → summarize → illustrate → compose → render → git-commit."""
+"""Pipeline orchestrator: fetch -> enrich -> dedupe -> summarize -> articles -> render -> git-commit."""
 
 import logging
 import os
@@ -61,7 +61,7 @@ def main() -> None:
         # summarize() takes list[EnrichedRepo], so extract from SummarizedRepo
         enriched_for_new = [sr.repo for sr in new]
         llm_results = summarize(enriched_for_new)
-        # Merge LLM-generated intros & prompts back into the 'new' list
+        # Merge LLM-generated intros back into the 'new' list
         llm_map: dict[str, any] = {sr.repo.full_name: sr for sr in llm_results}
         for sr in new:
             match = llm_map.get(sr.repo.full_name)
@@ -113,12 +113,14 @@ def main() -> None:
 
 
 def _rename_images(all_illustrated: list[IllustratedRepo], assets_dir: Path) -> None:
-    """Rename image files to ``{idx:02d}-{owner}__{name}.png`` so that
+    """Deprecated helper retained for old callers.
+
+    Rename image files to ``{idx:02d}-{owner}__{name}.png`` so that
     markdown embeds (which use the merged positional index) resolve correctly.
 
-    After ``reuse_images`` and ``illustrate`` the files may have wrong indices
-    because each function uses its own positional counter.  This function
-    normalises every file to its position in the final merged list.
+    Older image workflows may have produced files with wrong indices because
+    each function used its own positional counter. This function normalises
+    every file to its position in the final merged list.
     """
     for i, ir in enumerate(all_illustrated):
         if not ir.image_path:
