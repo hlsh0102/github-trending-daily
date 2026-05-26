@@ -18,8 +18,6 @@ def render_all(
     """
     vault = Path(VAULT_DIR)
     daily_dir = vault / today
-    assets_dir = daily_dir / "assets"
-    assets_dir.mkdir(parents=True, exist_ok=True)
     repos_dir = vault / "repos"
     repos_dir.mkdir(parents=True, exist_ok=True)
 
@@ -33,7 +31,7 @@ def render_all(
 
 
 def render_daily_md(repos: list[IllustratedRepo], today: str, daily_dir: Path) -> None:
-    """Write daily.md with frontmatter, overview embed, and 10 numbered repo sections."""
+    """Write daily.md with frontmatter and 10 numbered repo sections."""
     lines = [
         "---",
         "tags:",
@@ -46,8 +44,6 @@ def render_daily_md(repos: list[IllustratedRepo], today: str, daily_dir: Path) -
         "",
         f"# GitHub Trending — {today}",
         "",
-        f"![[{today}/assets/overview.png]]",
-        "",
     ]
 
     for i, illustrated in enumerate(repos, start=1):
@@ -56,8 +52,6 @@ def render_daily_md(repos: list[IllustratedRepo], today: str, daily_dir: Path) -
         idx_str = f"{i:02d}"
         lines.extend([
             f"## {i}. [[repos/{safe_name}|{r.full_name}]]",
-            "",
-            f"![[{today}/assets/{idx_str}-{safe_name}.png]]",
             "",
             illustrated.repo.intro_zh,
             "",

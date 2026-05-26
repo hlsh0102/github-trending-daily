@@ -2,7 +2,7 @@
 import tempfile
 from pathlib import Path
 from trending.config import EnrichedRepo, SummarizedRepo, IllustratedRepo
-from trending.render import render_daily_md, render_repo_md, render_index_md, render_bases
+from trending.render import render_daily_md, render_repo_md, render_index_md, render_bases, render_all
 
 
 def make_illustrated(full_name: str, idx: int, today: str) -> IllustratedRepo:
@@ -27,15 +27,12 @@ def test_render_daily_md():
 
     with tempfile.TemporaryDirectory() as tmp:
         daily_dir = Path(tmp) / today
-        assets_dir = daily_dir / "assets"
-        assets_dir.mkdir(parents=True)
-        (assets_dir / "overview.png").touch()
-
         render_daily_md(repos, today, daily_dir)
 
         content = (daily_dir / "daily.md").read_text("utf-8")
         assert "GitHub Trending — 2026-05-25" in content
-        assert "![[2026-05-25/assets/overview.png]]" in content
+        assert "assets/" not in content
+        assert "overview.png" not in content
         assert "owner0/repo0" in content
         assert "owner9/repo9" in content
         assert "tags:" in content
@@ -138,15 +135,29 @@ def test_render_daily_md_includes_article_link():
 
     with tempfile.TemporaryDirectory() as tmp:
         daily_dir = Path(tmp) / today
-        assets_dir = daily_dir / "assets"
-        assets_dir.mkdir(parents=True)
-        (assets_dir / "overview.png").touch()
-
         render_daily_md(repos, today, daily_dir)
 
         content = (daily_dir / "daily.md").read_text("utf-8")
         assert "[详细介绍 →](2026-05-26/articles/01-owner0__repo0.md)" in content
         assert "[详细介绍 →](2026-05-26/articles/10-owner9__repo9.md)" in content
+
+
+def test_render_all_does_not_create_image_or_prompt_dirs(monkeypatch):
+    today = "2026-05-26"
+    repos = [make_illustrated(f"owner{i}/repo{i}", i + 1, today) for i in range(10)]
+    articles = {repo.repo.repo.full_name: "## Intro\n\nBody" for repo in repos}
+
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_dir = Path(tmp)
+        monkeypatch.setattr("trending.render.VAULT_DIR", str(vault_dir))
+
+        render_all(repos, today, articles)
+
+        daily_dir = vault_dir / today
+        assert (daily_dir / "daily.md").exists()
+        assert len(list((daily_dir / "articles").glob("*.md"))) == 10
+        assert not (daily_dir / "assets").exists()
+        assert not (daily_dir / "prompts").exists()
 
 
 def test_render_repo_md_new_format_creates_index_page():

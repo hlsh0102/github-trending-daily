@@ -8,7 +8,7 @@ from trending.config import EnrichedRepo, SummarizedRepo, IllustratedRepo
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_IMAGE_PROMPT = "isometric illustration of {full_name}, minimalist, soft colors"
+DEFAULT_IMAGE_PROMPT = ""
 
 
 def load_state(path: Path) -> dict:
@@ -57,7 +57,7 @@ def split_repos(
             sr = SummarizedRepo(
                 repo=repo,
                 intro_zh=fallback_intro,
-                image_prompt_en=DEFAULT_IMAGE_PROMPT.format(full_name=repo.full_name),
+                image_prompt_en=DEFAULT_IMAGE_PROMPT,
             )
             new.append(sr)
 
@@ -65,7 +65,7 @@ def split_repos(
                 "first_seen": today,
                 "appearances": [today],
                 "intro_zh": fallback_intro,
-                "image_prompt_en": DEFAULT_IMAGE_PROMPT.format(full_name=repo.full_name),
+                "image_prompt_en": DEFAULT_IMAGE_PROMPT,
                 "image_path": "",
             }
 

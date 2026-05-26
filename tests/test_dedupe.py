@@ -37,6 +37,7 @@ def test_split_repos_new_and_existing():
     assert existing[0].repo.full_name == "a/b"
     assert new[0].repo.full_name == "c/d"
     assert "intro_zh" in updated_state["a/b"]
+    assert updated_state["c/d"]["image_prompt_en"] == ""
     assert "2026-05-25" in updated_state["a/b"]["appearances"]
 
 
