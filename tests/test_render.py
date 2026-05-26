@@ -1,4 +1,5 @@
 """Tests for render module."""
+import json
 import tempfile
 from pathlib import Path
 from trending.config import EnrichedRepo, SummarizedRepo, IllustratedRepo
@@ -9,6 +10,7 @@ from trending.render import (
     render_bases,
     render_all,
     render_gpt_prompts,
+    render_douyin_prompts,
 )
 
 
@@ -165,10 +167,48 @@ def test_render_all_does_not_create_image_or_prompt_dirs(monkeypatch):
         daily_dir = vault_dir / today
         assert (daily_dir / "daily.md").exists()
         assert len(list((daily_dir / "articles").glob("*.md"))) == 10
+        assert len(list((daily_dir / "douyin-prompts").glob("*.json"))) == 11
         assert not (daily_dir / "assets").exists()
         assert not (daily_dir / "prompts").exists()
         repo_index = (vault_dir / "repos" / "owner9__repo9.md").read_text("utf-8")
         assert f"[[{today}/articles/10-owner9__repo9|{today}]]" in repo_index
+
+
+def test_render_douyin_prompts_writes_summary_and_project_json():
+    today = "2026-05-26"
+    repos = [
+        make_illustrated("alpha/one", 1, today),
+        make_illustrated("beta/two", 2, today),
+    ]
+
+    with tempfile.TemporaryDirectory() as tmp:
+        daily_dir = Path(tmp) / today
+
+        render_douyin_prompts(repos, today, daily_dir)
+
+        prompts_dir = daily_dir / "douyin-prompts"
+        files = sorted(path.name for path in prompts_dir.glob("*.json"))
+        assert files == [
+            "00-summary.json",
+            "01-alpha__one.json",
+            "02-beta__two.json",
+        ]
+
+        summary = json.loads((prompts_dir / "00-summary.json").read_text("utf-8"))
+        assert summary["aspect_ratio"] == "9:16 portrait (1080×1920)"
+        assert summary["safe_area"]["top_reserved_area"].startswith("画面顶部至少留出 220px")
+        assert summary["title_block"]["position"].startswith("从画面顶部约 260px")
+        assert "标题贴近顶部边缘" in summary["constraints"]["avoid"]
+        assert summary["ranking_strip"]["items"] == [
+            "01 one · 100★",
+            "02 two · 100★",
+        ]
+
+        project = json.loads((prompts_dir / "01-alpha__one.json").read_text("utf-8"))
+        assert project["type"] == "短视频项目介绍卡"
+        assert project["safe_area"]["top_reserved_area"].startswith("画面顶部至少留出 220px")
+        assert project["title_block"]["main_title"] == "one"
+        assert project["content"]["repo"] == "alpha/one"
 
 
 def test_render_gpt_prompts_is_noop(monkeypatch):
