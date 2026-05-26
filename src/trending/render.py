@@ -24,8 +24,8 @@ def render_all(
     render_daily_md(repos, today, daily_dir)
     if articles:
         render_articles(articles, repos, today, daily_dir)
-    for repo in repos:
-        render_repo_md(repo, today, repos_dir)
+    for i, repo in enumerate(repos, start=1):
+        render_repo_md(repo, today, repos_dir, article_idx=i)
     render_index_md(today, vault)
     render_bases(vault)
 
@@ -64,7 +64,12 @@ def render_daily_md(repos: list[IllustratedRepo], today: str, daily_dir: Path) -
     (daily_dir / "daily.md").write_text("\n".join(lines), encoding="utf-8")
 
 
-def render_repo_md(illustrated: IllustratedRepo, today: str, repos_dir: Path) -> None:
+def render_repo_md(
+    illustrated: IllustratedRepo,
+    today: str,
+    repos_dir: Path,
+    article_idx: int | None = None,
+) -> None:
     """Write or update ``repos/<owner>__<name>.md`` index page.
 
     Sections (in order):
@@ -85,7 +90,7 @@ def render_repo_md(illustrated: IllustratedRepo, today: str, repos_dir: Path) ->
     safe_name = r.full_name.replace("/", "__")
     file_path = repos_dir / f"{safe_name}.md"
 
-    article_idx = _article_index_for(illustrated)
+    article_idx = article_idx or _article_index_for(illustrated)
     article_entry = (
         f"- [[{today}/articles/{article_idx:02d}-{safe_name}|{today}]]"
     )
@@ -264,26 +269,8 @@ def render_bases(vault_dir: Path) -> None:
 
 
 def render_gpt_prompts(repos: list[IllustratedRepo], today: str) -> None:
-    """Save gpt-image-2 bento-grid prompt JSON files per repo.
-
-    Each file is written to ``vault/Inno/GithubTrending/<today>/prompts/``
-    as ``{idx:02d}-{owner}__{name}.json``.  Repos with an empty prompt are
-    skipped.
-    """
-    vault = Path(VAULT_DIR)
-    prompts_dir = vault / today / "prompts"
-    prompts_dir.mkdir(parents=True, exist_ok=True)
-
-    for i, illustrated in enumerate(repos, start=1):
-        prompt = illustrated.repo.gpt_image_prompt
-        if not prompt:
-            continue
-
-        r = illustrated.repo.repo
-        safe_name = r.full_name.replace("/", "__")
-        filename = f"{i:02d}-{safe_name}.json"
-        file_path = prompts_dir / filename
-        file_path.write_text(prompt, encoding="utf-8")
+    """Deprecated no-op: prompt JSON output is intentionally disabled."""
+    return None
 
 
 def render_articles(

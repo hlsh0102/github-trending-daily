@@ -2,7 +2,14 @@
 import tempfile
 from pathlib import Path
 from trending.config import EnrichedRepo, SummarizedRepo, IllustratedRepo
-from trending.render import render_daily_md, render_repo_md, render_index_md, render_bases, render_all
+from trending.render import (
+    render_daily_md,
+    render_repo_md,
+    render_index_md,
+    render_bases,
+    render_all,
+    render_gpt_prompts,
+)
 
 
 def make_illustrated(full_name: str, idx: int, today: str) -> IllustratedRepo:
@@ -145,6 +152,8 @@ def test_render_daily_md_includes_article_link():
 def test_render_all_does_not_create_image_or_prompt_dirs(monkeypatch):
     today = "2026-05-26"
     repos = [make_illustrated(f"owner{i}/repo{i}", i + 1, today) for i in range(10)]
+    for repo in repos:
+        repo.image_path = ""
     articles = {repo.repo.repo.full_name: "## Intro\n\nBody" for repo in repos}
 
     with tempfile.TemporaryDirectory() as tmp:
@@ -158,6 +167,22 @@ def test_render_all_does_not_create_image_or_prompt_dirs(monkeypatch):
         assert len(list((daily_dir / "articles").glob("*.md"))) == 10
         assert not (daily_dir / "assets").exists()
         assert not (daily_dir / "prompts").exists()
+        repo_index = (vault_dir / "repos" / "owner9__repo9.md").read_text("utf-8")
+        assert f"[[{today}/articles/10-owner9__repo9|{today}]]" in repo_index
+
+
+def test_render_gpt_prompts_is_noop(monkeypatch):
+    today = "2026-05-26"
+    repos = [make_illustrated("owner/repo", 1, today)]
+    repos[0].repo.gpt_image_prompt = '{"prompt": "unused"}'
+
+    with tempfile.TemporaryDirectory() as tmp:
+        vault_dir = Path(tmp)
+        monkeypatch.setattr("trending.render.VAULT_DIR", str(vault_dir))
+
+        render_gpt_prompts(repos, today)
+
+        assert not (vault_dir / today / "prompts").exists()
 
 
 def test_render_repo_md_new_format_creates_index_page():

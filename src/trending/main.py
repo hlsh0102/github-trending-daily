@@ -10,22 +10,17 @@ from trending.config import (
     IllustratedRepo,
     PROJECT_ROOT,
     STATE_FILE,
-    VAULT_DIR,
     today_str,
 )
-from trending.compose import compose
 from trending.dedupe import (
     load_state,
-    reuse_images,
     save_state,
     split_repos,
-    update_state_for_illustrated,
     update_state_for_summarized,
 )
 from trending.enrich import enrich
 from trending.fetch import fetch_trending
-from trending.illustrate import illustrate
-from trending.render import render_all, render_gpt_prompts
+from trending.render import render_all
 from trending.summarize import summarize
 from trending.article import generate_articles
 
@@ -79,60 +74,30 @@ def main() -> None:
     else:
         logger.info("Step 4/9: No new repos — skipping summarize")
 
-    # 5. Illustrate
-    today_dir = Path(VAULT_DIR) / today
-    today_assets_dir = today_dir / "assets"
-    today_assets_dir.mkdir(parents=True, exist_ok=True)
-
-    # 5a. Reuse old images for existing repos
-    existing_illustrated = reuse_images(existing, state, today, today_assets_dir)
-    logger.info("  Reused images for %d existing repos", len(existing_illustrated))
-
-    # 5b. Generate new images for new repos
-    new_illustrated: list[IllustratedRepo] = []
-    if new:
-        logger.info("Step 5/9: Illustrating %d new repos via DALL-E ...", len(new))
-        new_illustrated = illustrate(new, today_assets_dir)
-        state = update_state_for_illustrated(new_illustrated, state)
-        logger.info("  Illustrated %d new repos", len(new_illustrated))
-
-    # 6. Merge all IllustratedRepo in original fetch order
-    logger.info("Step 6/9: Merging illustrated repos in fetch order ...")
-    illustrated_by_name: dict[str, IllustratedRepo] = {}
-    for ir in existing_illustrated + new_illustrated:
-        illustrated_by_name[ir.repo.repo.full_name] = ir
+    # 5. Merge summarized repos in original fetch order. The render layer still
+    # consumes IllustratedRepo, but image_path is intentionally empty.
+    logger.info("Step 5/8: Merging summarized repos in fetch order ...")
+    summarized_by_name = {sr.repo.full_name: sr for sr in existing + new}
 
     all_illustrated: list[IllustratedRepo] = []
     for repo in repos:
-        ir = illustrated_by_name.get(repo.full_name)
-        if ir:
-            all_illustrated.append(ir)
+        sr = summarized_by_name.get(repo.full_name)
+        if sr:
+            all_illustrated.append(IllustratedRepo(repo=sr, image_path=""))
 
-    logger.info("  Merged %d illustrated repos", len(all_illustrated))
+    logger.info("  Merged %d repos", len(all_illustrated))
 
-    # Re-number image files to match merged order so markdown embeds resolve
-    _rename_images(all_illustrated, today_assets_dir)
-
-    # 7. Compose overview.png
-    logger.info("Step 7/9: Compositing overview image ...")
-    overview_path = today_assets_dir / "overview.png"
-    compose(all_illustrated, overview_path)
-
-    # 7c. Generate detailed Chinese articles
-    logger.info("Step 7c: Generating articles for %d repos ...", len(all_illustrated))
+    # 6. Generate detailed Chinese articles
+    logger.info("Step 6/8: Generating articles for %d repos ...", len(all_illustrated))
     articles = generate_articles(all_illustrated)
     logger.info("  Generated %d articles", len(articles))
 
-    # 8. Render vault files
-    logger.info("Step 8/9: Rendering vault files ...")
+    # 7. Render vault files
+    logger.info("Step 7/8: Rendering vault files ...")
     render_all(all_illustrated, today, articles)
 
-    # 8b. Render gpt-image-2 prompt JSONs
-    logger.info("Step 8b: Rendering gpt-image-2 prompts ...")
-    render_gpt_prompts(all_illustrated, today)
-
-    # 9. Save state
-    logger.info("Step 9/9: Saving state ...")
+    # 8. Save state
+    logger.info("Step 8/8: Saving state ...")
     save_state(state, state_path)
     logger.info("  State saved to %s", state_path)
 

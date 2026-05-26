@@ -183,6 +183,7 @@
   },
   "active": "587164544eb9c42b",
   "lastOpenFiles": [
+    "tests/__pycache__/test_article.cpython-313-pytest-9.0.3.pyc",
     "src/trending/summarize.py",
     "tests/__pycache__/test_summarize.cpython-313-pytest-9.0.3.pyc",
     "tests/test_summarize.py",
@@ -196,7 +197,6 @@
     "vault/Inno/GithubTrending/2026-05-26/prompts/07-manaflow-ai__cmux.json",
     "vault/Inno/GithubTrending/2026-05-26/prompts/06-colbymchenry__codegraph.json",
     "vault/Inno/GithubTrending/2026-05-26/prompts/04-affaan-m__ECC.json",
-    "vault/Inno/GithubTrending/2026-05-26/prompts/05-mukul975__Anthropic-Cybersecurity-Skills.json",
     "vault/Inno/GithubTrending/2026-05-26/assets/overview.png",
     "vault/Inno/GithubTrending/2026-05-26/assets/10-paperless-ngx__paperless-ngx.png",
     "vault/Inno/GithubTrending/2026-05-26/assets/08-multica-ai__andrej-karpathy-skills.png",

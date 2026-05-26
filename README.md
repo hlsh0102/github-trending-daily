@@ -8,9 +8,8 @@ GitHub Actions + Python, auto-generate daily GitHub Trending top 10 into an Obsi
 GitHub Actions (UTC 02:00 / Beijing 10:00)
   -> Scrape github.com/trending
   -> GitHub REST API for README/license metadata
-  -> Claude API for Chinese summary + scoring prompt
-  -> DALL-E 3 banner image at 1024x1792
-  -> Pillow compose into 1080x2340 iPhone wallpaper grid (2x5)
+  -> DeepSeek API for Chinese summaries and detailed articles
+  -> Write one daily summary md and ten article md files
   -> Write to vault/Inno/GithubTrending/
   -> git commit & push
 ```
@@ -21,7 +20,7 @@ GitHub Actions (UTC 02:00 / Beijing 10:00)
 
 - Python 3.11+
 - [uv](https://docs.astral.sh/uv/)
-- API keys: [Anthropic Console](https://console.anthropic.com/) + [OpenAI Platform](https://platform.openai.com/)
+- API key: DeepSeek API key
 
 ### Quick Start
 
@@ -30,8 +29,7 @@ git clone <this-repo>
 cd github-trending-daily
 uv sync
 
-export ANTHROPIC_API_KEY="sk-ant-..."
-export OPENAI_API_KEY="sk-..."
+export DEEPSEEK_API_KEY="sk-..."
 export GITHUB_TOKEN="ghp_..."  # optional, avoids API rate limits on repo metadata
 
 uv run python -m trending.main
@@ -43,8 +41,7 @@ Add these secrets in your GitHub repo under Settings -> Secrets and variables ->
 
 | Secret | Purpose |
 |--------|---------|
-| `ANTHROPIC_API_KEY` | Claude API for Chinese summaries |
-| `OPENAI_API_KEY` | OpenAI API for DALL-E 3 images |
+| `DEEPSEEK_API_KEY` | DeepSeek API for Chinese summaries and detailed articles |
 
 `GITHUB_TOKEN` is automatically provided by Actions. No manual setup needed unless you run locally and want repo metadata enrichment.
 

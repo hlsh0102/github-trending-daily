@@ -4,7 +4,7 @@ import tempfile
 from pathlib import Path
 from unittest.mock import patch
 
-from trending.config import EnrichedRepo, IllustratedRepo, Repo, SummarizedRepo
+from trending.config import EnrichedRepo, Repo, SummarizedRepo
 from trending.main import main
 
 
@@ -66,17 +66,11 @@ def test_main_pipeline_all_existing():
     ]
 
     # 5a. Illustrated repos — images reused from state
-    illustrated = [
-        IllustratedRepo(repo=s, image_path=f"/nonexistent/img_{i:02d}.png")
-        for i, s in enumerate(summarized)
-    ]
-
     # ------------------------------------------------------------------
     # Temporary directory to isolate filesystem operations
     # ------------------------------------------------------------------
     with tempfile.TemporaryDirectory() as tmpdir:
         tmp = Path(tmpdir)
-        vault_dir = tmp / "vault" / "Inno" / "GithubTrending"
         state_file = tmp / "state" / "repos.json"
 
         with (
@@ -88,21 +82,15 @@ def test_main_pipeline_all_existing():
                 return_value=(summarized, [], {}),  # all existing, no new
             ),
             patch("trending.main.summarize") as mock_summarize,
-            patch("trending.main.reuse_images", return_value=illustrated) as mock_reuse_images,
-            patch("trending.main.illustrate") as mock_illustrate,
-            patch("trending.main.compose") as mock_compose,
             patch("trending.main.render_all") as mock_render_all,
-            patch("trending.main.render_gpt_prompts") as mock_render_gpt_prompts,
             patch("trending.main.generate_articles", return_value={}),
             # -- state I/O -------------------------------------------------------
             patch("trending.main.load_state", return_value={}),
             patch("trending.main.save_state"),
             patch("trending.main.update_state_for_summarized", return_value={}),
-            patch("trending.main.update_state_for_illustrated", return_value={}) as mock_update_illustrated,
             # -- git ------------------------------------------------------------
             patch("trending.main._git_commit_and_push"),
             # -- paths (so real vault / state files are never touched) -----------
-            patch("trending.main.VAULT_DIR", str(vault_dir)),
             patch("trending.main.STATE_FILE", str(state_file)),
         ):
             main()
@@ -111,11 +99,6 @@ def test_main_pipeline_all_existing():
         # Assertions: no API calls were made
         # ------------------------------------------------------------------
         mock_summarize.assert_not_called()
-        mock_reuse_images.assert_not_called()
-        mock_illustrate.assert_not_called()
-        mock_compose.assert_not_called()
-        mock_render_gpt_prompts.assert_not_called()
-        mock_update_illustrated.assert_not_called()
         rendered_repos = mock_render_all.call_args.args[0]
         assert len(rendered_repos) == 10
         assert all(repo.image_path == "" for repo in rendered_repos)
