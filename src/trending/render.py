@@ -168,12 +168,17 @@ def _ensure_articles_section(content: str) -> str:
 
 def _prepend_to_section(content: str, heading: str, entry: str) -> str:
     """Insert ``entry`` immediately after ``heading`` (with a blank line),
-    so the newest item appears first within that section."""
-    pattern = rf"^({re.escape(heading)}\s*\n)"
+    so the newest item appears first within that section.
+
+    The pattern consumes the heading line plus an optional trailing blank
+    line so we can rebuild the section with exactly one blank line between
+    heading and entries — preventing accumulation across daily updates.
+    """
+    pattern = rf"^({re.escape(heading)})\n(\n)?"
     if re.search(pattern, content, flags=re.MULTILINE):
         return re.sub(
             pattern,
-            rf"\g<1>\n{entry}\n",
+            rf"\g<1>\n\n{entry}\n",
             content,
             count=1,
             flags=re.MULTILINE,
