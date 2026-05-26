@@ -211,3 +211,43 @@ def render_gpt_prompts(repos: list[IllustratedRepo], today: str) -> None:
         filename = f"{i:02d}-{safe_name}.json"
         file_path = prompts_dir / filename
         file_path.write_text(prompt, encoding="utf-8")
+
+
+def render_articles(
+    articles: dict[str, str],
+    repos: list[IllustratedRepo],
+    today: str,
+    daily_dir: Path,
+) -> None:
+    """Write detailed article markdown files to ``<daily_dir>/articles/``.
+
+    For each repo whose ``full_name`` is present in ``articles``, write
+    ``{idx:02d}-{owner}__{name}.md`` with a frontmatter block plus the
+    LLM-generated body. Repos absent from ``articles`` are skipped silently.
+    """
+    articles_dir = daily_dir / "articles"
+    articles_dir.mkdir(parents=True, exist_ok=True)
+
+    for i, illustrated in enumerate(repos, start=1):
+        r = illustrated.repo.repo
+        body = articles.get(r.full_name)
+        if body is None:
+            continue
+
+        safe_name = r.full_name.replace("/", "__")
+        filename = f"{i:02d}-{safe_name}.md"
+        frontmatter = "\n".join([
+            "---",
+            "tags:",
+            "  - trending",
+            "  - article",
+            f"repo: {r.full_name}",
+            f"date: {today}",
+            f"language: {r.language or 'Unknown'}",
+            f"stars_total: {r.stars_total}",
+            f"stars_today: {r.stars_today}",
+            "---",
+            "",
+        ])
+        content = frontmatter + body.strip() + "\n"
+        (articles_dir / filename).write_text(content, encoding="utf-8")

@@ -78,3 +78,55 @@ def test_render_bases():
         content = (vault_dir / "trending.base").read_text("utf-8")
         assert "github-trending" in content
         assert "appearances" in content
+
+
+from trending.render import render_articles
+
+
+def test_render_articles_writes_files_with_frontmatter():
+    today = "2026-05-26"
+    repos = [
+        make_illustrated("alpha/one", 1, today),
+        make_illustrated("beta/two", 2, today),
+    ]
+    articles = {
+        "alpha/one": "## 项目概述\n\nAlpha 的内容。",
+        "beta/two": "## 项目概述\n\nBeta 的内容。",
+    }
+
+    with tempfile.TemporaryDirectory() as tmp:
+        daily_dir = Path(tmp) / today
+        daily_dir.mkdir(parents=True)
+
+        render_articles(articles, repos, today, daily_dir)
+
+        a = (daily_dir / "articles" / "01-alpha__one.md").read_text("utf-8")
+        b = (daily_dir / "articles" / "02-beta__two.md").read_text("utf-8")
+
+        assert "tags:\n  - trending\n  - article" in a
+        assert "repo: alpha/one" in a
+        assert f"date: {today}" in a
+        assert "language: Python" in a
+        assert "stars_total: 100" in a
+        assert "stars_today: 20" in a
+        assert "## 项目概述" in a
+        assert "Alpha 的内容。" in a
+        assert "Beta 的内容。" in b
+
+
+def test_render_articles_skips_missing_entries():
+    today = "2026-05-26"
+    repos = [
+        make_illustrated("alpha/one", 1, today),
+        make_illustrated("beta/two", 2, today),
+    ]
+    articles = {"alpha/one": "## 项目概述\n\n仅 Alpha"}
+
+    with tempfile.TemporaryDirectory() as tmp:
+        daily_dir = Path(tmp) / today
+        daily_dir.mkdir(parents=True)
+
+        render_articles(articles, repos, today, daily_dir)
+
+        assert (daily_dir / "articles" / "01-alpha__one.md").exists()
+        assert not (daily_dir / "articles" / "02-beta__two.md").exists()
