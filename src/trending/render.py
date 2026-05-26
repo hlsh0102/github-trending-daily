@@ -50,6 +50,7 @@ def render_daily_md(repos: list[IllustratedRepo], today: str, daily_dir: Path) -
             illustrated.repo.intro_zh,
             "",
             f"[GitHub]({r.url})",
+            f"[详细介绍 →]({today}/articles/{idx_str}-{safe_name}.md)",
             "",
         ])
 

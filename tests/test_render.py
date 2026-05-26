@@ -130,3 +130,20 @@ def test_render_articles_skips_missing_entries():
 
         assert (daily_dir / "articles" / "01-alpha__one.md").exists()
         assert not (daily_dir / "articles" / "02-beta__two.md").exists()
+
+
+def test_render_daily_md_includes_article_link():
+    today = "2026-05-26"
+    repos = [make_illustrated(f"owner{i}/repo{i}", i + 1, today) for i in range(10)]
+
+    with tempfile.TemporaryDirectory() as tmp:
+        daily_dir = Path(tmp) / today
+        assets_dir = daily_dir / "assets"
+        assets_dir.mkdir(parents=True)
+        (assets_dir / "overview.png").touch()
+
+        render_daily_md(repos, today, daily_dir)
+
+        content = (daily_dir / "daily.md").read_text("utf-8")
+        assert "[详细介绍 →](2026-05-26/articles/01-owner0__repo0.md)" in content
+        assert "[详细介绍 →](2026-05-26/articles/10-owner9__repo9.md)" in content
