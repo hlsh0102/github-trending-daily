@@ -92,6 +92,7 @@ def test_main_pipeline_all_existing():
             patch("trending.main.illustrate") as mock_illustrate,
             patch("trending.main.compose"),
             patch("trending.main.render_all"),
+            patch("trending.main.generate_articles", return_value={}),
             # -- state I/O -------------------------------------------------------
             patch("trending.main.load_state", return_value={}),
             patch("trending.main.save_state"),
