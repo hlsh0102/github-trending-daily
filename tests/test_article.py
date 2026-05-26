@@ -32,3 +32,21 @@ def test_generate_articles_fallback_on_exception():
         result = generate_articles([repo])
 
     assert result == {"owner/name": "回退中文简介"}
+
+
+def test_generate_articles_success_path():
+    repo = _make_illustrated("owner/name")
+
+    fake_resp = MagicMock()
+    fake_resp.choices = [MagicMock()]
+    fake_resp.choices[0].message.content = "## 项目概述\n\n这是一个项目。"
+
+    with patch("trending.article.OpenAI") as mock_openai:
+        client = MagicMock()
+        client.chat.completions.create.return_value = fake_resp
+        mock_openai.return_value = client
+
+        result = generate_articles([repo])
+
+    assert "owner/name" in result
+    assert result["owner/name"].startswith("## 项目概述")
