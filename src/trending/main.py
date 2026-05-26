@@ -27,6 +27,7 @@ from trending.fetch import fetch_trending
 from trending.illustrate import illustrate
 from trending.render import render_all, render_gpt_prompts
 from trending.summarize import summarize
+from trending.article import generate_articles
 
 logger = logging.getLogger(__name__)
 
@@ -117,9 +118,14 @@ def main() -> None:
     overview_path = today_assets_dir / "overview.png"
     compose(all_illustrated, overview_path)
 
+    # 7c. Generate detailed Chinese articles
+    logger.info("Step 7c: Generating articles for %d repos ...", len(all_illustrated))
+    articles = generate_articles(all_illustrated)
+    logger.info("  Generated %d articles", len(articles))
+
     # 8. Render vault files
     logger.info("Step 8/9: Rendering vault files ...")
-    render_all(all_illustrated, today)
+    render_all(all_illustrated, today, articles)
 
     # 8b. Render gpt-image-2 prompt JSONs
     logger.info("Step 8b: Rendering gpt-image-2 prompts ...")
