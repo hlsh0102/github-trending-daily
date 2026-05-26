@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Inno/GithubTrending/2026-05-26/daily.md",
+                "file": "vault/Inno/GithubTrending/2026-05-26/articles/01-Lum1104__Understand-Anything.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "daily"
+              "title": "01-Lum1104__Understand-Anything"
             }
           }
         ]
@@ -193,6 +193,7 @@
   },
   "active": "587164544eb9c42b",
   "lastOpenFiles": [
+    "vault/Inno/GithubTrending/2026-05-26/daily.md",
     "pytest-cache-files-l__6hir0",
     "tests/__pycache__/test_render.cpython-314-pytest-9.0.3.pyc",
     "src/trending/__pycache__/summarize.cpython-314.pyc",
@@ -203,7 +204,6 @@
     "src/trending/__pycache__/main.cpython-314.pyc",
     "tests/__pycache__/test_main_pipeline.cpython-314-pytest-9.0.3.pyc",
     "src/trending/__pycache__/fetch.cpython-314.pyc",
-    "tests/__pycache__/test_fetch.cpython-314-pytest-9.0.3.pyc",
     "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "vault/Inno/GithubTrending/repos/mukul975__Anthropic-Cybersecurity-Skills.md",
     "docs/superpowers/plans/2026-05-26-daily-articles.md",
@@ -218,7 +218,6 @@
     "vault/Inno/GithubTrending/2026-05-26/assets/04-affaan-m__ECC.png",
     "vault/Inno/GithubTrending/2026-05-26/assets/03-rohitg00__ai-engineering-from-scratch.png",
     "vault/Inno/GithubTrending/2026-05-26/assets/02-anthropics__knowledge-work-plugins.png",
-    "vault/Inno/GithubTrending/2026-05-26/daily.md",
     "vault/Inno/GithubTrending/repos/manaflow-ai__cmux.md",
     "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
