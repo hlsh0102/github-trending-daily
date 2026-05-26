@@ -179,6 +179,9 @@
   },
   "active": "aadaea35768ff281",
   "lastOpenFiles": [
+    "vault/Inno/GithubTrending/2026-05-26/douyin-prompts",
+    "vault/Inno/GithubTrending/2026-05-26/douyin-prompt.md",
+    "vault/Inno/GithubTrending/2026-05-26/douyin-prompt.md.tmp.27272.6361b538ad8e",
     "vault/Inno/GithubTrending/2026-05-26/douyin/study-note-sample-01.png",
     "tools/make_study_note_sample.py",
     "vault/Inno/GithubTrending/2026-05-26/douyin/dossier-sample-01.png",
@@ -193,7 +196,6 @@
     "vault/Inno/GithubTrending/2026-05-26/douyin/06-06-hardikpandya__stop-slop.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/05-05-mukul975__Anthropic-Cybersecurity-Skills.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/04-04-anthropics__knowledge-work-plugins.png",
-    "vault/Inno/GithubTrending/2026-05-26/douyin/03-03-rohitg00__ai-engineering-from-scratch.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin",
     "tools/generate_douyin_cards.py",
     "tools",
@@ -219,11 +221,9 @@
     "vault/Inno/GithubTrending/repos/colbymchenry__codegraph.md",
     "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
     "tests/__pycache__/test_article.cpython-313-pytest-9.0.3.pyc",
-    "src/trending/summarize.py",
     "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
     "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/2026-05-26/articles/10-paperless-ngx__paperless-ngx.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/09-Fincept-Corporation__FinceptTerminal.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/08-multica-ai__andrej-karpathy-skills.md"
+    "vault/Inno/GithubTrending/2026-05-26/articles/09-Fincept-Corporation__FinceptTerminal.md"
   ]
 }
