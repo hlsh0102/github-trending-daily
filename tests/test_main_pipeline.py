@@ -65,6 +65,7 @@ def test_main_pipeline_all_existing():
         for e in enriched
     ]
 
+    # 5a. Illustrated repos — images reused from state
     # ------------------------------------------------------------------
     # Temporary directory to isolate filesystem operations
     # ------------------------------------------------------------------
