@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
+                "file": "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "anthropics__knowledge-work-plugins"
+              "title": "GithubTrending Daily Tool"
             }
           }
         ]
@@ -171,18 +171,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "587164544eb9c42b",
   "lastOpenFiles": [
+    "vault/Inno/GithubTrending/trending.base",
+    "vault/Inno/GithubTrending/2026-05-25/daily.md",
+    "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
     "vault/Inno/GithubTrending/_index.md",
     "Untitled.base",
@@ -205,8 +208,6 @@
     "vault/Inno/GithubTrending/2026-05-25/assets/07-manaflow-ai__cmux.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/03-rohitg00__ai-engineering-from-scratch.png",
     "vault/Inno/GithubTrending/2026-05-25/assets/02-anthropics__knowledge-work-plugins.png",
-    "vault/Inno/GithubTrending/2026-05-25/daily.md",
-    "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
     "vault/Inno/GithubTrending/repos/Fincept-Corporation__FinceptTerminal.md",
     "vault/Inno/GithubTrending/repos/paperless-ngx__paperless-ngx.md",
     "vault/Inno/GithubTrending/repos/rohitg00__ai-engineering-from-scratch.md",
