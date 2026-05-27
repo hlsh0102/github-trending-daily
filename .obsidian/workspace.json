@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b5df4f374d7bcf38",
+        "id": "6c210b316af9fcdf",
         "type": "tabs",
         "children": [
           {
-            "id": "587164544eb9c42b",
+            "id": "7c97702e5c93f7c4",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 531.5
   },
   "right": {
     "id": "977067a665dd47f4",
@@ -157,45 +157,72 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "84dd043d3f5539b1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadaea35768ff281",
+  "active": "7c97702e5c93f7c4",
   "lastOpenFiles": [
-    "vault/Inno/GithubTrending/2026-05-26/douyin-description.md",
-    "garden-gpt-image-2/prompt/douyin-github-trending-cover-20260526.md",
-    "garden-gpt-image-2/prompt",
-    "garden-gpt-image-2",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/10-Axorax__awesome-free-apps.json",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/09-jellyfin__jellyfin.json",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/08-DigitalPlatDev__FreeDomain.json",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/07-Leonxlnx__taste-skill.json",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/06-hardikpandya__stop-slop.json",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/05-mukul975__Anthropic-Cybersecurity-Skills.json",
-    "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/05-mukul975__Anthropic-Cybersecurity-Skills.json.tmp.27272.ba1707753b01",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/04-anthropics__knowledge-work-plugins.json",
+    "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/03-rohitg00__ai-engineering-from-scratch.json",
+    "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/02-affaan-m__ECC.json",
+    "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/01-Lum1104__Understand-Anything.json",
+    "vault/Inno/GithubTrending/2026-05-26/douyin-prompts/00-summary.json",
+    "vault/Inno/GithubTrending/2026-05-26/articles/10-Axorax__awesome-free-apps.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/09-jellyfin__jellyfin.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/08-DigitalPlatDev__FreeDomain.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/07-Leonxlnx__taste-skill.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/05-mukul975__Anthropic-Cybersecurity-Skills.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/06-hardikpandya__stop-slop.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/04-anthropics__knowledge-work-plugins.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/03-rohitg00__ai-engineering-from-scratch.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/02-affaan-m__ECC.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/01-Lum1104__Understand-Anything.md",
     "vault/Inno/GithubTrending/2026-05-26/douyin-prompt.md",
-    "vault/Inno/GithubTrending/2026-05-26/douyin/study-note-sample-01.png",
-    "vault/Inno/GithubTrending/2026-05-26/douyin/dossier-sample-01.png",
+    "vault/Inno/GithubTrending/2026-05-26/douyin-description.md",
+    "vault/Inno/GithubTrending/2026-05-26/daily.md",
+    "garden-gpt-image-2/prompt/02-anthropics__knowledge-work-plugins-bento-20260526-160500.md",
+    "conflict-files-obsidian-git.md",
+    "vault/Inno/GithubTrending/repos/jellyfin__jellyfin.md",
+    "vault/Inno/GithubTrending/repos/hardikpandya__stop-slop.md",
+    "vault/Inno/GithubTrending/repos/Leonxlnx__taste-skill.md",
+    "vault/Inno/GithubTrending/repos/DigitalPlatDev__FreeDomain.md",
+    "vault/Inno/GithubTrending/repos/Axorax__awesome-free-apps.md",
     "vault/Inno/GithubTrending/2026-05-26/douyin/redesign-sample-01.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/douyin_intro.md",
+    "vault/Inno/GithubTrending/2026-05-26/douyin/dossier-sample-01.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/10-10-Axorax__awesome-free-apps.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/09-09-jellyfin__jellyfin.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/08-08-DigitalPlatDev__FreeDomain.png",
@@ -203,27 +230,10 @@
     "vault/Inno/GithubTrending/2026-05-26/douyin/06-06-hardikpandya__stop-slop.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/05-05-mukul975__Anthropic-Cybersecurity-Skills.png",
     "vault/Inno/GithubTrending/2026-05-26/douyin/04-04-anthropics__knowledge-work-plugins.png",
-    "vault/Inno/GithubTrending/repos/Axorax__awesome-free-apps.md",
-    "vault/Inno/GithubTrending/repos/jellyfin__jellyfin.md",
-    "vault/Inno/GithubTrending/repos/DigitalPlatDev__FreeDomain.md",
-    "vault/Inno/GithubTrending/repos/Leonxlnx__taste-skill.md",
-    "vault/Inno/GithubTrending/repos/hardikpandya__stop-slop.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/10-Axorax__awesome-free-apps.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/09-jellyfin__jellyfin.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/08-DigitalPlatDev__FreeDomain.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/06-hardikpandya__stop-slop.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/07-Leonxlnx__taste-skill.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/05-mukul975__Anthropic-Cybersecurity-Skills.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/04-anthropics__knowledge-work-plugins.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/03-rohitg00__ai-engineering-from-scratch.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/02-affaan-m__ECC.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/01-Lum1104__Understand-Anything.md",
-    "vault/Inno/GithubTrending/2026-05-26/daily.md",
-    "vault/Inno/GithubTrending/repos/Lum1104__Understand-Anything.md",
-    "vault/Inno/GithubTrending/repos/colbymchenry__codegraph.md",
-    "vault/Inno/GithubTrending/repos/affaan-m__ECC.md",
-    "vault/Inno/GithubTrending/GithubTrending Daily Tool.md",
-    "vault/Inno/GithubTrending/repos/anthropics__knowledge-work-plugins.md",
-    "vault/Inno/GithubTrending/2026-05-26/articles/10-paperless-ngx__paperless-ngx.md"
+    "vault/Inno/GithubTrending/2026-05-26/douyin/03-03-rohitg00__ai-engineering-from-scratch.png",
+    "garden-gpt-image-2/prompt/04-affaan-m__ECC-douyin-A1-20260526-170000.md",
+    "garden-gpt-image-2/prompt/03-rohitg00__ai-engineering-from-scratch-douyin-A1-20260526-170000.md",
+    "garden-gpt-image-2/prompt/02-anthropics__knowledge-work-plugins-douyin-A1-20260526-170000.md",
+    "garden-gpt-image-2/prompt/07-manaflow-ai__cmux-douyin-A1-20260526-170000.md"
   ]
 }
