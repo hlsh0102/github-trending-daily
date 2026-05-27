@@ -23,6 +23,8 @@ from trending.fetch import fetch_trending
 from trending.render import render_all
 from trending.summarize import summarize
 from trending.article import generate_articles
+from trending.douyin_description import generate_douyin_description
+from trending.visual_hints import generate_visual_hints
 
 logger = logging.getLogger(__name__)
 
@@ -39,17 +41,17 @@ def main() -> None:
     logger.info("=== Trending pipeline START for %s ===", today)
 
     # 1. Fetch trending repos
-    logger.info("Step 1/9: Fetching trending repos ...")
+    logger.info("Step 1/10: Fetching trending repos ...")
     repos = fetch_trending("daily")
     logger.info("  Fetched %d repos", len(repos))
 
     # 2. Enrich via GitHub REST API
-    logger.info("Step 2/9: Enriching via GitHub REST ...")
+    logger.info("Step 2/10: Enriching via GitHub REST ...")
     enriched = enrich(repos)
     logger.info("  Enriched %d repos", len(enriched))
 
     # 3. Dedupe — split into existing (reuse) and new (need LLM)
-    logger.info("Step 3/9: Deduplicating against state ...")
+    logger.info("Step 3/10: Deduplicating against state ...")
     state_path = Path(STATE_FILE)
     state = load_state(state_path)
     existing, new, state = split_repos(enriched, state, today)
@@ -57,7 +59,7 @@ def main() -> None:
 
     # 4. Summarize new repos via Claude API
     if new:
-        logger.info("Step 4/9: Summarizing %d new repos via Claude ...", len(new))
+        logger.info("Step 4/10: Summarizing %d new repos via Claude ...", len(new))
         # summarize() takes list[EnrichedRepo], so extract from SummarizedRepo
         enriched_for_new = [sr.repo for sr in new]
         llm_results = summarize(enriched_for_new)
@@ -72,11 +74,11 @@ def main() -> None:
         state = update_state_for_summarized(llm_results, state)
         logger.info("  Summarized %d repos", len(llm_results))
     else:
-        logger.info("Step 4/9: No new repos — skipping summarize")
+        logger.info("Step 4/10: No new repos — skipping summarize")
 
     # 5. Merge summarized repos in original fetch order. The render layer still
     # consumes IllustratedRepo, but image_path is intentionally empty.
-    logger.info("Step 5/8: Merging summarized repos in fetch order ...")
+    logger.info("Step 5/10: Merging summarized repos in fetch order ...")
     summarized_by_name = {sr.repo.full_name: sr for sr in existing + new}
 
     all_illustrated: list[IllustratedRepo] = []
@@ -88,16 +90,26 @@ def main() -> None:
     logger.info("  Merged %d repos", len(all_illustrated))
 
     # 6. Generate detailed Chinese articles
-    logger.info("Step 6/8: Generating articles for %d repos ...", len(all_illustrated))
+    logger.info("Step 6/10: Generating articles for %d repos ...", len(all_illustrated))
     articles = generate_articles(all_illustrated)
     logger.info("  Generated %d articles", len(articles))
 
-    # 7. Render vault files
-    logger.info("Step 7/8: Rendering vault files ...")
-    render_all(all_illustrated, today, articles)
+    # 7. Generate differentiated visual hints for project image prompts
+    logger.info("Step 7/10: Generating Douyin visual hints ...")
+    visual_hints = generate_visual_hints(all_illustrated, articles)
+    logger.info("  Generated %d visual hints", len(visual_hints))
 
-    # 8. Save state
-    logger.info("Step 8/8: Saving state ...")
+    # 8. Generate Douyin post copy
+    logger.info("Step 8/10: Generating Douyin description ...")
+    douyin_description = generate_douyin_description(all_illustrated, articles)
+    logger.info("  Generated Douyin description with %d chars", len(douyin_description))
+
+    # 9. Render vault files
+    logger.info("Step 9/10: Rendering vault files ...")
+    render_all(all_illustrated, today, articles, douyin_description, visual_hints)
+
+    # 10. Save state
+    logger.info("Step 10/10: Saving state ...")
     save_state(state, state_path)
     logger.info("  State saved to %s", state_path)
 

@@ -84,6 +84,8 @@ def test_main_pipeline_all_existing():
             patch("trending.main.summarize") as mock_summarize,
             patch("trending.main.render_all") as mock_render_all,
             patch("trending.main.generate_articles", return_value={}),
+            patch("trending.main.generate_visual_hints", return_value={"owner0/repo0": "视觉提示"}) as mock_generate_visual_hints,
+            patch("trending.main.generate_douyin_description", return_value="抖音文案") as mock_generate_douyin_description,
             # -- state I/O -------------------------------------------------------
             patch("trending.main.load_state", return_value={}),
             patch("trending.main.save_state"),
@@ -99,6 +101,10 @@ def test_main_pipeline_all_existing():
         # Assertions: no API calls were made
         # ------------------------------------------------------------------
         mock_summarize.assert_not_called()
+        mock_generate_visual_hints.assert_called_once()
+        mock_generate_douyin_description.assert_called_once()
         rendered_repos = mock_render_all.call_args.args[0]
         assert len(rendered_repos) == 10
         assert all(repo.image_path == "" for repo in rendered_repos)
+        assert mock_render_all.call_args.args[3] == "抖音文案"
+        assert mock_render_all.call_args.args[4] == {"owner0/repo0": "视觉提示"}

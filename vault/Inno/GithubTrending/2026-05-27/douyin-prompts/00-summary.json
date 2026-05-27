@@ -16,8 +16,14 @@
     "main_title": "🔥 GitHub今日TOP10",
     "position": "从画面顶部约 260px 开始，居中偏上，但不要贴近顶部边缘",
     "title_style": "白色超粗体(#FFFFFF)，字号极大，1米外清晰可辨，带绿色(#238636)下划线装饰",
-    "subtitle": "2026.05.27 · 开源项目精选 · Understand-Anything 暴涨4.7K⭐",
+    "subtitle": "开源项目精选 · Understand-Anything 暴涨4.7K⭐",
     "subtitle_style": "浅灰(#8B949E)，中号字，紧贴主标题下方，但不得进入顶部安全区"
+  },
+  "date_badge": {
+    "text": "2026.05.27",
+    "position": "标题上方或标题左上侧，仍然位于顶部安全区下方，作为日报日期身份强提示",
+    "style": "醒目的绿色描边胶囊或金色小日历徽章，字号大于副标题但小于主标题，必须第一眼可见",
+    "icon": "小日历图标"
   },
   "hero_module": {
     "position": "标题下方，画面中上部 40% 区域",
@@ -36,21 +42,28 @@
     "style": "3个等宽卡片，背景半透明黑，数字大号发光",
     "cards": [
       {
-        "number": "10",
-        "label": "今日上榜",
-        "color": "#238636"
-      },
-      {
-        "number": "194K",
-        "label": "最高星标",
+        "number": "0",
+        "label": "新上榜",
         "color": "#D4A574"
       },
       {
         "number": "4.7K",
         "label": "最高日增",
         "color": "#58A6FF"
+      },
+      {
+        "number": "194K",
+        "label": "最高星标",
+        "color": "#D4A574"
       }
     ]
+  },
+  "comparison": {
+    "baseline_date": "2026-05-26",
+    "rule": "与 vault 中早于今天的最近一个日期目录的 daily.md 排行榜对比；当前榜单里不存在于该历史榜单的项目标记为新上榜",
+    "new_entries_count": 0,
+    "new_entries": [],
+    "visual_instruction": "在 ranking_strip 中所有新上榜条目右侧添加醒目的 🆕 新上榜 标签，使用绿色描边或金色小胶囊，但不要抢主标题"
   },
   "ranking_strip": {
     "position": "画面下半部，但避开底部160px安全区",

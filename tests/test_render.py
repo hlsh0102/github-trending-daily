@@ -11,6 +11,7 @@ from trending.render import (
     render_all,
     render_gpt_prompts,
     render_douyin_prompts,
+    render_douyin_description,
 )
 
 
@@ -175,16 +176,33 @@ def test_render_all_does_not_create_image_or_prompt_dirs(monkeypatch):
 
 
 def test_render_douyin_prompts_writes_summary_and_project_json():
-    today = "2026-05-26"
+    today = "2026-05-27"
     repos = [
         make_illustrated("alpha/one", 1, today),
         make_illustrated("beta/two", 2, today),
     ]
 
     with tempfile.TemporaryDirectory() as tmp:
-        daily_dir = Path(tmp) / today
+        vault_dir = Path(tmp)
+        previous_dir = vault_dir / "2026-05-25"
+        previous_dir.mkdir(parents=True)
+        previous_dir.joinpath("daily.md").write_text(
+            "\n".join([
+                "# GitHub Trending — 2026-05-25",
+                "",
+                "## 1. [[repos/alpha__one|alpha/one]]",
+                "",
+            ]),
+            encoding="utf-8",
+        )
+        daily_dir = vault_dir / today
 
-        render_douyin_prompts(repos, today, daily_dir)
+        render_douyin_prompts(
+            repos,
+            today,
+            daily_dir,
+            {"alpha/one": "一个专属视觉实验室展示独特项目能力"},
+        )
 
         prompts_dir = daily_dir / "douyin-prompts"
         files = sorted(path.name for path in prompts_dir.glob("*.json"))
@@ -198,10 +216,17 @@ def test_render_douyin_prompts_writes_summary_and_project_json():
         assert summary["aspect_ratio"] == "9:16 portrait (1080×1920)"
         assert summary["safe_area"]["top_reserved_area"].startswith("画面顶部至少留出 220px")
         assert summary["title_block"]["position"].startswith("从画面顶部约 260px")
+        assert summary["date_badge"]["text"] == "2026.05.27"
+        assert "醒目" in summary["date_badge"]["style"]
         assert "标题贴近顶部边缘" in summary["constraints"]["avoid"]
+        assert summary["comparison"]["baseline_date"] == "2026-05-25"
+        assert summary["comparison"]["new_entries"] == ["02 beta/two"]
+        stat_labels = [card["label"] for card in summary["stats_row"]["cards"]]
+        assert "今日上榜" not in stat_labels
+        assert stat_labels == ["新上榜", "最高日增", "最高星标"]
         assert summary["ranking_strip"]["items"] == [
             "01 one · 100★",
-            "02 two · 100★",
+            "02 two · 100★ · 🆕 新上榜",
         ]
 
         project = json.loads((prompts_dir / "01-alpha__one.json").read_text("utf-8"))
@@ -209,6 +234,23 @@ def test_render_douyin_prompts_writes_summary_and_project_json():
         assert project["safe_area"]["top_reserved_area"].startswith("画面顶部至少留出 220px")
         assert project["title_block"]["main_title"] == "one"
         assert project["content"]["repo"] == "alpha/one"
+        assert "tagline" not in project["content"]
+        assert "intro_cards" in project["content"]
+        assert project["content"]["visual_hint"] == "一个专属视觉实验室展示独特项目能力"
+        assert "不要把长段落简介放进画面" in project["layout_rules"]
+        assert "..." not in project["prompt_cn"]
+        assert "…" not in project["prompt_cn"]
+
+        assert not (prompts_dir / "all-prompts.md").exists()
+
+
+def test_render_douyin_description_writes_md_file():
+    with tempfile.TemporaryDirectory() as tmp:
+        daily_dir = Path(tmp) / "2026-05-27"
+
+        render_douyin_description("今天的抖音文案", daily_dir)
+
+        assert (daily_dir / "douyin-description.md").read_text("utf-8") == "今天的抖音文案\n"
 
 
 def test_render_gpt_prompts_is_noop(monkeypatch):
