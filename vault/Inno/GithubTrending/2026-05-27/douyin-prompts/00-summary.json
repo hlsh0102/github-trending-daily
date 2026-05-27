@@ -56,15 +56,15 @@
     "position": "画面下半部，但避开底部160px安全区",
     "style": "5行×2列紧凑排列，每个条目一行：排名数字(01-10，绿色粗体) + 项目名(白色) + 星标数(金色小字)",
     "items": [
-      "01 Understand-Anything · 36.4K★",
+      "01 Understand-Anything · 37.0K★",
       "02 ECC · 194K★",
-      "03 ai-engineering-from-scratch · 21.0K★",
+      "03 ai-engineering-from-scratch · 21.2K★",
       "04 knowledge-work-plugins · 16.8K★",
-      "05 Anthropic-Cybersecurity-Skills · 10.2K★",
-      "06 stop-slop · 5.1K★",
-      "07 taste-skill · 22.2K★",
+      "05 Anthropic-Cybersecurity-Skills · 10.3K★",
+      "06 stop-slop · 5.2K★",
+      "07 taste-skill · 22.6K★",
       "08 FreeDomain · 167K★",
-      "09 jellyfin · 52.4K★",
+      "09 jellyfin · 52.5K★",
       "10 awesome-free-apps · 5.4K★"
     ]
   },

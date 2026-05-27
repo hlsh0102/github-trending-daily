@@ -5,7 +5,7 @@ tags:
 repo: affaan-m/ECC
 language: JavaScript
 first_seen: 2026-05-27
-appearances: 1
+appearances: 2
 ---
 
 # affaan-m/ECC
@@ -15,7 +15,9 @@ appearances: 1
 ## 详细介绍历史
 
 - [[2026-05-27/articles/02-affaan-m__ECC|2026-05-27]]
+- [[2026-05-27/articles/02-affaan-m__ECC|2026-05-27]]
 
 ## 上榜历史
 
+- [[2026-05-27/daily|2026-05-27]] — 1915 stars
 - [[2026-05-27/daily|2026-05-27]] — 1915 stars

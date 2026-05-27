@@ -5,84 +5,85 @@ tags:
 repo: jellyfin/jellyfin
 date: 2026-05-27
 language: C#
-stars_total: 52425
+stars_total: 52455
 stars_today: 83
 ---
 ## 项目概述
 
-Jellyfin 是一个完全免费、开源的媒体系统软件，旨在帮助用户构建个人媒体服务器，实现电影、电视节目、音乐、照片等媒体内容的集中管理与跨设备播放。该项目由社区驱动开发，所有代码均以 GPL-2.0 许可证发布，没有任何付费版本或隐藏功能。核心服务器（Server Backend）采用 C# 编写，提供 RESTful API 供各平台客户端调用。
-
-该项目最初源于 Emby 3.5.2 版本的一个分支，当 Emby 转向闭源商业模式后，社区决定维护一个完全自由的替代方案。Jellyfin 的目标用户包括：希望自主管理媒体库的家庭用户、注重隐私且不愿将数据交给第三方云服务的爱好者、以及需要离线或局域网内稳定播放的小型组织。
+Jellyfin 是一款完全免费、开源的自托管媒体系统，旨在为用户提供一个全功能、跨平台的个人媒体库管理解决方案。它的核心是一个运行在服务器上的后端程序，负责扫描、整理和流式传输用户的电影、电视剧、音乐、照片等媒体内容，并通过 API 向各种客户端设备提供服务。Jellyfin 的目标用户包括希望拥有完全控制权、注重隐私且不希望被商业媒体平台（如 Plex、Emby 的付费版）限制的家庭用户、媒体发烧友以及小型组织。该项目基于 .NET（C#）开发，遵循 GNU GPL v2 许可证，从社区贡献中持续演进。
 
 ## 核心功能
 
-- **多格式媒体转码与直通**：支持常见的视频、音频和字幕格式，并根据客户端能力自动转码（如 H.264/H.265、AAC/AC3 等），同时支持硬件加速转码（Intel QuickSync、NVIDIA NVENC、AMD VAAPI 等）。
-- **跨平台客户端支持**：官方提供 Android、iOS、iPadOS、Android TV、Apple TV、Roku、Kodi 插件以及 Web 播放器，社区还维护了 PS4/PS5、Xbox、LG/Samsung 智能电视等非官方客户端。
-- **元数据自动获取**：集成 The Movie Database（TMDB）、TheTVDB、MusicBrainz、OpenSubtitles 等数据源，自动为媒体文件匹配封面、简介、演员、评分等信息。
-- **用户管理与家长控制**：支持创建多个独立用户账户，为每个账户设置内容访问限制（如年龄分级、禁止特定库）、观看记录分离及播放权限。
-- **DLNA 与 Chromecast 支持**：自动发现局域网的 DLNA 设备，支持将媒体推送到 Chromecast 协议设备播放。
-- **集成直播电视**：配合 IPTV 或电视棒（如 HDHomeRun），提供可录制、回放的直播电视频道管理功能。
+- **媒体库管理**：支持自动扫描和导入电影、电视剧、音乐、音乐视频、播客、照片等媒体内容，可自动抓取元数据、海报、片名、演员信息等。
+- **实时转码与流媒体**：内置硬件加速转码能力，支持将不同格式、分辨率的媒体实时转换为客户端设备能流畅播放的格式，确保在各种网络和设备条件下都能获得良好体验。
+- **多用户与权限控制**：支持创建多个用户账户，可针对每个用户设置访问权限、家长控制（观影限制、内容分级过滤）、观看进度跟踪。
+- **多平台客户端支持**：通过网页浏览器直接访问，同时提供适用于 Android、iOS、Apple TV、Roku、Kodi、智能电视、游戏主机等设备的官方或社区客户端。
+- **插件生态系统**：支持通过插件扩展功能，例如添加字幕自动下载、元数据刮削器、转码后处理、通知、主题定制等。
+- **直播电视与 DVR**：可连接支持的网络电视调谐器（如 HDHomeRun、M3U 播放列表），提供直播电视观看和录制功能。
 
 ## 技术架构
 
-Jellyfin 服务器端基于 .NET Core 框架（现为 .NET 平台）构建，采用跨平台设计，可运行于 Windows、macOS、Linux 以及 Docker 容器环境中。其核心架构遵循以下几个设计特点：
+Jellyfin 采用典型的主从架构设计。服务器后端基于 ASP.NET Core 构建于 .NET 平台上，使用 C# 作为主要开发语言。其核心组件包括：
 
-1. **插件化扩展**：服务器核心通过接口定义对外暴露，播放器、转码器、元数据获取等功能均由独立的插件系统加载。用户可以从客户端或 Web 界面浏览、安装社区开发的插件，例如自定义皮肤、增强型搜索、通知推送等。
-2. **数据库持久化**：使用轻量级的 SQLite 数据库存储媒体库元数据、用户配置、播放进度等信息，同时也支持外部数据库如 PostgreSQL 和 MariaDB 进行替换。
-3. **流媒体传输优化**：采用 HTTP Live Streaming（HLS）和传统 RTMP 协议进行媒体传输，支持动态段大小调整以适配不稳定的网络。对于快速跳转场景，采用关键帧对齐技术减少缓冲区延迟。
-4. **微服务化的内部通信**：虽然整体架构为单体应用，但通过依赖注入（DI）模式将媒体扫描、转码、音频处理等模块解耦。配合消息队列（如基于 Redis 的 pub/sub）实现异步任务处理，例如在后台运行媒体库扫描而不阻塞用户请求。
+- **媒体扫描引擎**：通过文件系统监听或定时任务扫描配置的媒体目录，解析文件元数据，并与在线数据库（如 TheMovieDB、TheTVDB、MusicBrainz）进行匹配，创建结构化的媒体条目。
+- **流媒体引擎**：利用 FFmpeg 进行媒体解析、解复用、解码、滤镜、编码和封装。支持多种硬件加速方案（Intel QSV、NVIDIA NVENC、AMD AMF、VAAPI 等），以降低 CPU 负载并提高转码效率。
+- **数据持久层**：使用 SQLite 作为默认数据库，存储媒体库信息、用户数据、播放进度、设置等，也支持迁移至 PostgreSQL 以获得更高性能。
+- **RESTful API**：提供全面的 HTTP API 接口，供所有官方客户端和第三方应用调用，实现播放控制、媒体库检索、用户管理、设备注册等功能。
+- **跨平台兼容**：由于使用 .NET 的跨平台能力，Jellyfin 服务器可以运行在 Windows、Linux、macOS 以及 Docker 容器中，适应各种宿主环境。
+
+设计上的关键原则是模块化和可扩展性。所有核心功能通过接口和依赖注入组织，方便社区通过插件贡献新功能而不影响主分支的稳定性。
 
 ## 安装与使用
 
-Jellyfin 的部署方式非常灵活，以下是几种常见方式：
+以下是基于 Docker 的快速安装方式（推荐），也可从 GitHub Releases 下载对应平台的安装包。
 
-**Docker 部署（推荐）**：
-```bash
-# 创建持久化目录
-mkdir -p /path/to/jellyfin/{config,cache}
-# 启动容器（端口8096为Web界面，8920为HTTPS可选）
-docker run -d \
-  --name jellyfin \
-  -p 8096:8096 \
-  -v /path/to/jellyfin/config:/config \
-  -v /path/to/jellyfin/cache:/cache \
-  -v /path/to/media:/media \
-  --restart unless-stopped \
-  jellyfin/jellyfin
-```
+**前提条件**：确保系统安装有 Docker Engine（版本 20.10+），并预留足够的存储空间存放媒体文件和配置数据。
 
-**Windows 安装**：
-从 GitHub Releases 页面下载最新的安装包（.msi 或 .exe），运行后按照向导设置媒体库路径和网络端口。服务器启动后，浏览器访问 `http://localhost:8096` 即可进入初始化界面。
+**安装步骤**：
 
-**Linux 手动安装**：
-以 Ubuntu/Debian 为例，添加官方仓库后通过 apt 安装：
-```bash
-wget -O - https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key | sudo apt-key add -
-echo "deb https://repo.jellyfin.org/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/jellyfin.list
-sudo apt update && sudo apt install jellyfin
-sudo systemctl start jellyfin
-```
+1.  创建配置目录和媒体目录：
+    ```bash
+    mkdir -p /opt/jellyfin/{config,cache}
+    mkdir -p /path/to/media
+    ```
 
-首次运行需通过 Web 界面完成设置向导：选择媒体库类型（电影、剧集、音乐等）、添加媒体目录、配置语言和元数据源。完成后，即可通过任意客户端应用登录并开始播放。
+2.  运行 Docker 容器：
+    ```bash
+    docker run -d \
+      --name jellyfin \
+      -p 8096:8096 \
+      -v /opt/jellyfin/config:/config \
+      -v /opt/jellyfin/cache:/cache \
+      -v /path/to/media:/media:ro \
+      --restart unless-stopped \
+      jellyfin/jellyfin:latest
+    ```
+
+3.  打开浏览器，访问 `http://<服务器IP>:8096`，按照引导完成初始设置（创建管理员账户、添加媒体库、配置语言等）。
+
+**最小可用示例**：将一部电影文件放入 `/path/to/media/movies/` 目录，在初始设置中添加“电影”类型媒体库并指向该目录，Jellyfin 会自动扫描并呈现电影封面与信息。随后即可在同一局域网内的任意设备上通过浏览器或客户端播放。
 
 ## 适用场景
 
-- **家庭媒体中心**：将散落在不同设备上的电影、电视剧和家庭录像集中管理，全家多成员通过手机、平板、电视同时观看，且各人独立记录观看进度。
-- **离线旅行媒体库**：出差或旅行前，使用 Jellyfin 下载功能将内容缓存到移动设备，无需网络即可在飞机或地铁中观看，同时避免付费平台的内容合法性担忧。
-- **小型教育或社区分支库**：工作室、学校或小区局域网内搭建，用于共享教学视频、培训材料或社区活动记录，可利用用户权限控制仅特定人可访问某些资源。
-- **直播电视与录制服务**：配合 IPTV 源或数字电视接收器，实现电视频道的直播、回看及自动录制，替代传统电视盒子的部分功能。
+- **家庭媒体中心**：集中管理家庭成员收藏的电影、电视剧、家庭照片和音乐，在客厅电视、卧室平板、手机等不同设备上无缝续播。
+- **个人播客与有声书库**：利用 Jellyfin 的播客功能订阅和下载音频节目，或管理自己的有声书文件，通过移动 App 随时收听。
+- **远程访问与分享**：通过配置反向代理（如 Nginx）和 HTTPS，将 Jellyfin 暴露在公网，让身处异地的亲友访问你共享的媒体库，无需传输原始文件。
+- **小型学校或机构媒体资料室**：用于存储教学视频、课件录音、活动照片，并创建不同权限的用户账户供教师和学生使用。
 
 ## 项目亮点
 
-- **完全自由无收费**：与 Plex（部分功能需订阅 Plex Pass）和 Emby（高级转码需购买解锁）不同，Jellyfin 的所有功能包括硬件转码、挂载云盘、多用户权限等完全免费，且不会在播放界面插入任何广告或推荐内容。
-- **社区驱动生态**：超过 5000 名贡献者在 GitHub 上活跃迭代，平均每月发布 1-2 个稳定更新。用户可通过 Fider 网站直接投票决定新增功能，Matrix/Riot 聊天室和论坛提供即时技术支持，决策过程透明开放。
-- **灵活的硬件转码**：支持几乎所有主流 CPU 和 GPU 硬件加速方案（包括 Intel 的 QSV、NVIDIA 的 NVENC、AMD 的 VCE 等），且可通过 Docker 绑定设备快速启用。相比之下，Plex 仅对部分硬件提供非完整支持，且需验证身份。
-- **高度可定制性**：从服务器插件到客户端皮肤（如 Jellyfin-Vue 前端项目）全部开源，开发者可任意修改代码或提交 PR。普通用户也能通过配置文件调整转码参数、缓存策略等细节，在低配置设备上也能流畅运行。
+与同类商业或开源媒体系统（如 Plex、Emby）相比，Jellyfin 具有以下差异化优势：
+
+- **完全免费与无限制**：所有功能（包括硬件转码、多用户、家长控制、直播电视）对所有人开放，无任何付费墙或功能限制。用户不必担心订阅费用或商业策略变更。
+- **纯开源与社区驱动**：代码完全托管在 GitHub 上，任何人都可以查看、审阅和贡献。开发路线由社区投票（通过 features.jellyfin.org）决定，而非商业公司主导。
+- **强隐私保护**：服务器与客户端之间的通信完全可控，无任何第三方遥测、广告植入或对用户使用习惯的数据收集。元数据可完全离线管理或配置自定义刮削器。
+- **高自定义能力**：从媒体库元数据字段、转码参数、用户界面主题，到 API 扩展和插件开发，几乎所有方面都允许用户按自身需求调整，这在对 UI 或功能有特殊要求的场景下极为重要。
 
 ## 相关链接
 
 - [GitHub 仓库](https://github.com/jellyfin/jellyfin)
-- [官方文档](https://jellyfin.org/docs/)
-- [功能需求投票](https://features.jellyfin.org/)
-- [Docker 镜像](https://hub.docker.com/r/jellyfin/jellyfin)
-- [在线演示（Demo）](https://demo.jellyfin.org/stable)
+- [官方网站](https://jellyfin.org)
+- [文档](https://jellyfin.org/docs)
+- [插件目录](https://jellyfin.org/plugins)
+- [状态看板](https://status.jellyfin.org)
+- [社区讨论（Matrix）](https://matrix.to/#/#jellyfinorg:matrix.org)

@@ -5,7 +5,7 @@ tags:
 repo: Axorax/awesome-free-apps
 language: JavaScript
 first_seen: 2026-05-27
-appearances: 1
+appearances: 2
 ---
 
 # Axorax/awesome-free-apps
@@ -15,7 +15,9 @@ appearances: 1
 ## 详细介绍历史
 
 - [[2026-05-27/articles/10-Axorax__awesome-free-apps|2026-05-27]]
+- [[2026-05-27/articles/10-Axorax__awesome-free-apps|2026-05-27]]
 
 ## 上榜历史
 
+- [[2026-05-27/daily|2026-05-27]] — 731 stars
 - [[2026-05-27/daily|2026-05-27]] — 731 stars

@@ -5,7 +5,7 @@ tags:
 repo: jellyfin/jellyfin
 language: C#
 first_seen: 2026-05-27
-appearances: 1
+appearances: 2
 ---
 
 # jellyfin/jellyfin
@@ -15,7 +15,9 @@ appearances: 1
 ## 详细介绍历史
 
 - [[2026-05-27/articles/09-jellyfin__jellyfin|2026-05-27]]
+- [[2026-05-27/articles/09-jellyfin__jellyfin|2026-05-27]]
 
 ## 上榜历史
 
+- [[2026-05-27/daily|2026-05-27]] — 83 stars
 - [[2026-05-27/daily|2026-05-27]] — 83 stars

@@ -5,7 +5,7 @@ tags:
 repo: Lum1104/Understand-Anything
 language: TypeScript
 first_seen: 2026-05-27
-appearances: 1
+appearances: 2
 ---
 
 # Lum1104/Understand-Anything
@@ -15,7 +15,9 @@ appearances: 1
 ## 详细介绍历史
 
 - [[2026-05-27/articles/01-Lum1104__Understand-Anything|2026-05-27]]
+- [[2026-05-27/articles/01-Lum1104__Understand-Anything|2026-05-27]]
 
 ## 上榜历史
 
+- [[2026-05-27/daily|2026-05-27]] — 4697 stars
 - [[2026-05-27/daily|2026-05-27]] — 4697 stars
