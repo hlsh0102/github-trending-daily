@@ -5,7 +5,7 @@ tags:
 repo: anthropics/knowledge-work-plugins
 language: Python
 first_seen: 2026-05-27
-appearances: 2
+appearances: 3
 ---
 
 # anthropics/knowledge-work-plugins
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-05-28/articles/05-anthropics__knowledge-work-plugins|2026-05-28]]
 - [[2026-05-27/articles/04-anthropics__knowledge-work-plugins|2026-05-27]]
 - [[2026-05-27/articles/04-anthropics__knowledge-work-plugins|2026-05-27]]
 
 ## 上榜历史
 
+- [[2026-05-28/daily|2026-05-28]] — 695 stars
 - [[2026-05-27/daily|2026-05-27]] — 1718 stars
 - [[2026-05-27/daily|2026-05-27]] — 1718 stars
