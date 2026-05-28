@@ -214,11 +214,13 @@ def test_render_douyin_prompts_writes_summary_and_project_json():
 
         summary = json.loads((prompts_dir / "00-summary.json").read_text("utf-8"))
         assert summary["aspect_ratio"] == "9:16 portrait (1080×1920)"
-        assert summary["safe_area"]["top_reserved_area"].startswith("画面顶部至少留出 220px")
-        assert summary["title_block"]["position"].startswith("从画面顶部约 260px")
+        assert summary["safe_area"]["top_reserved_area"].startswith("画面顶部约 180px")
+        assert summary["title_block"]["position"].startswith("从画面顶部约 220px")
+        assert summary["title_block"]["hook_headline"] == "今日最值得看的开源项目"
         assert summary["date_badge"]["text"] == "2026.05.27"
         assert "醒目" in summary["date_badge"]["style"]
         assert "标题贴近顶部边缘" in summary["constraints"]["avoid"]
+        assert "顶部安全区大面积空白" in summary["constraints"]["avoid"]
         assert summary["comparison"]["baseline_date"] == "2026-05-25"
         assert summary["comparison"]["new_entries"] == ["02 beta/two"]
         stat_labels = [card["label"] for card in summary["stats_row"]["cards"]]
@@ -231,17 +233,64 @@ def test_render_douyin_prompts_writes_summary_and_project_json():
 
         project = json.loads((prompts_dir / "01-alpha__one.json").read_text("utf-8"))
         assert project["type"] == "短视频项目介绍卡"
-        assert project["safe_area"]["top_reserved_area"].startswith("画面顶部至少留出 220px")
+        assert project["safe_area"]["top_reserved_area"].startswith("画面顶部约 180px")
         assert project["title_block"]["main_title"] == "one"
+        assert project["title_block"]["position"].startswith("从画面顶部约 220px")
+        assert "hook_headline" in project["title_block"]
         assert project["content"]["repo"] == "alpha/one"
         assert "tagline" not in project["content"]
         assert "intro_cards" in project["content"]
+        assert "workflow_nodes" in project["content"]
         assert project["content"]["visual_hint"] == "一个专属视觉实验室展示独特项目能力"
         assert "不要把长段落简介放进画面" in project["layout_rules"]
+        assert "主视觉必须表达项目用途和工作流，不能只是一张无信息量的大插画" in project["layout_rules"]
         assert "..." not in project["prompt_cn"]
         assert "…" not in project["prompt_cn"]
+        assert "核心功能大字" in project["prompt_cn"]
+        assert "功能流程图式主视觉" in project["prompt_cn"]
 
         assert not (prompts_dir / "all-prompts.md").exists()
+
+
+def test_render_douyin_prompt_for_short_video_generator_is_workflow_first():
+    today = "2026-05-28"
+    repo = EnrichedRepo(
+        owner="harry0703",
+        name="MoneyPrinterTurbo",
+        full_name="harry0703/MoneyPrinterTurbo",
+        description="AI-powered short video generator",
+        language="Python",
+        stars_total=63500,
+        stars_today=1700,
+        url="https://github.com/harry0703/MoneyPrinterTurbo",
+    )
+    summarized = SummarizedRepo(
+        repo=repo,
+        intro_zh="MoneyPrinterTurbo 是一个基于 AI 大模型的短视频自动生成工具。用户只需提供视频主题或关键词，即可自动完成文案撰写、素材匹配、字幕添加和背景音乐合成，最终输出高清短视频。",
+        image_prompt_en="",
+    )
+    repos = [IllustratedRepo(repo=summarized, image_path="")]
+
+    with tempfile.TemporaryDirectory() as tmp:
+        daily_dir = Path(tmp) / today
+        render_douyin_prompts(repos, today, daily_dir)
+
+        project = json.loads(
+            (daily_dir / "douyin-prompts" / "01-harry0703__MoneyPrinterTurbo.json").read_text("utf-8")
+        )
+
+    assert project["title_block"]["hook_headline"] == "AI 一键生成短视频"
+    assert project["content"]["workflow_nodes"] == ["输入主题", "写文案", "找素材", "加字幕", "配音乐", "高清成片"]
+    assert [card["text"] for card in project["content"]["intro_cards"]] == [
+        "AI短视频",
+        "主题关键词",
+        "文案素材",
+        "字幕配乐",
+        "开源免费",
+    ]
+    assert "媒体服务器" not in project["prompt_cn"]
+    assert "输入/核心能力/输出结果" in project["prompt_cn"]
+    assert "AI 一键生成短视频" in project["prompt_cn"]
 
 
 def test_render_douyin_description_writes_md_file():

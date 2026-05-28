@@ -4,7 +4,7 @@ import json
 from unittest.mock import MagicMock, patch
 
 from trending.config import EnrichedRepo, IllustratedRepo, SummarizedRepo
-from trending.visual_hints import generate_visual_hints
+from trending.visual_hints import fallback_visual_hint, generate_visual_hints
 
 
 def _make_illustrated(full_name: str, intro: str = "测试项目。") -> IllustratedRepo:
@@ -53,6 +53,8 @@ def test_generate_visual_hints_success_path():
         "owner/two": "一个数据管线实验室连接训练和部署",
     }
     messages = client.chat.completions.create.call_args.kwargs["messages"]
+    assert "一眼看懂" in messages[0]["content"]
+    assert "输入、核心能力、输出结果" in messages[0]["content"]
     assert "owner/one" in messages[1]["content"]
     assert "Article excerpt" in messages[1]["content"]
 
@@ -74,3 +76,17 @@ def test_generate_visual_hints_fallback_on_exception():
 
     assert "rohitg00/ai-engineering-from-scratch" in result
     assert "AI工程学习路线图" in result["rohitg00/ai-engineering-from-scratch"]
+
+
+def test_short_video_fallback_hint_prioritizes_generation_workflow():
+    item = _make_illustrated(
+        "harry0703/MoneyPrinterTurbo",
+        "AI 大模型短视频自动生成工具，自动完成文案、素材、字幕、配乐并输出高清短视频。",
+    )
+
+    hint = fallback_visual_hint(item)
+
+    assert "AI视频引擎" in hint
+    assert "文案" in hint
+    assert "竖屏高清成片" in hint
+    assert "媒体服务器" not in hint

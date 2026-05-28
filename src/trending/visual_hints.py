@@ -22,6 +22,8 @@ SYSTEM_PROMPT = """你是短视频科技封面的视觉创意总监。
 要求：
 - 每个 visual_hint 必须明显不同，不要都写成“发光代码仓库、节点网络、AI核心”。
 - 结合项目用途、目标用户、技术场景来设计主视觉。
+- 主视觉必须帮助观众一眼看懂“这个项目是做什么的”，优先画输入、核心能力、输出结果或真实使用场景。
+- 不要只描述一个巨大装饰物；如果有主体物，它必须服务于功能流程表达。
 - 每条 25-60 个汉字，具体可画，不要抽象口号。
 - 保持暗色科技风、3D等距/高级科技封面感。
 - 不要要求画长段落文字。
@@ -55,6 +57,8 @@ def fallback_visual_hint(item: IllustratedRepo) -> str:
     repo = item.repo.repo
     intro = item.repo.intro_zh
     text = f"{repo.full_name} {repo.description or ''} {intro}".lower()
+    if _is_short_video_generator(text):
+        return "输入主题经过AI视频引擎生成文案、素材、字幕、配乐和竖屏高清成片"
     if "knowledge-work-plugins" in text or "knowledge work" in text or "知识工作" in text:
         return "知识工作桌面同时展开文档、日历、邮件和检索面板，Claude插件在中心调度"
     if "stop-slop" in text or "ai 痕迹" in text or "ai味" in text or "ai 味" in text:
@@ -73,11 +77,19 @@ def fallback_visual_hint(item: IllustratedRepo) -> str:
         return "AI编码助手控制台连接记忆、技能、安全策略和工具调用模块"
     if "domain" in text or "域名" in text:
         return "域名雷达地图上漂浮免费域名卡片，连接个人网站和DNS节点"
-    if "media" in text or "video" in text or "媒体" in text:
+    if "media" in text or "媒体" in text:
         return "家庭媒体服务器向电视、平板、手机推送影片库的多屏播放网络"
     if "compiler" in text or "编译" in text or repo.language == "C":
         return "代码文件进入编译器芯片，输出二进制光流和极简语法树"
     return "项目控制台展示核心功能模块、星标增长曲线和开发者工作流"
+
+
+def _is_short_video_generator(text: str) -> bool:
+    return (
+        "moneyprinterturbo" in text
+        or ("short video" in text and ("generate" in text or "generator" in text or "create" in text))
+        or ("短视频" in text and any(keyword in text for keyword in ["生成", "自动", "文案", "字幕", "配乐", "素材"]))
+    )
 
 
 def _generate_one(
