@@ -5,7 +5,7 @@ tags:
 repo: hardikpandya/stop-slop
 language: Unknown
 first_seen: 2026-05-27
-appearances: 3
+appearances: 4
 ---
 
 # hardikpandya/stop-slop
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-05-29/articles/04-hardikpandya__stop-slop|2026-05-29]]
 - [[2026-05-28/articles/03-hardikpandya__stop-slop|2026-05-28]]
 - [[2026-05-27/articles/06-hardikpandya__stop-slop|2026-05-27]]
 - [[2026-05-27/articles/06-hardikpandya__stop-slop|2026-05-27]]
 
 ## 上榜历史
 
+- [[2026-05-29/daily|2026-05-29]] — 761 stars
 - [[2026-05-28/daily|2026-05-28]] — 664 stars
 - [[2026-05-27/daily|2026-05-27]] — 539 stars
 - [[2026-05-27/daily|2026-05-27]] — 539 stars

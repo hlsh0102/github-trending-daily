@@ -5,7 +5,7 @@ tags:
 repo: DigitalPlatDev/FreeDomain
 language: HTML
 first_seen: 2026-05-27
-appearances: 2
+appearances: 3
 ---
 
 # DigitalPlatDev/FreeDomain
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-05-29/articles/06-DigitalPlatDev__FreeDomain|2026-05-29]]
 - [[2026-05-27/articles/08-DigitalPlatDev__FreeDomain|2026-05-27]]
 - [[2026-05-27/articles/08-DigitalPlatDev__FreeDomain|2026-05-27]]
 
 ## 上榜历史
 
+- [[2026-05-29/daily|2026-05-29]] — 1761 stars
 - [[2026-05-27/daily|2026-05-27]] — 1219 stars
 - [[2026-05-27/daily|2026-05-27]] — 1219 stars
