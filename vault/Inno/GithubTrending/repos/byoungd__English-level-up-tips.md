@@ -5,7 +5,7 @@ tags:
 repo: byoungd/English-level-up-tips
 language: Unknown
 first_seen: 2026-05-29
-appearances: 1
+appearances: 2
 ---
 
 # byoungd/English-level-up-tips
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-05-30/articles/10-byoungd__English-level-up-tips|2026-05-30]]
 - [[2026-05-29/articles/07-byoungd__English-level-up-tips|2026-05-29]]
 
 ## 上榜历史
 
+- [[2026-05-30/daily|2026-05-30]] — 1566 stars
 - [[2026-05-29/daily|2026-05-29]] — 2019 stars
