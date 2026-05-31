@@ -5,7 +5,7 @@ tags:
 repo: galilai-group/stable-worldmodel
 language: Python
 first_seen: 2026-05-30
-appearances: 1
+appearances: 2
 ---
 
 # galilai-group/stable-worldmodel
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-05-31/articles/09-galilai-group__stable-worldmodel|2026-05-31]]
 - [[2026-05-30/articles/09-galilai-group__stable-worldmodel|2026-05-30]]
 
 ## 上榜历史
 
+- [[2026-05-31/daily|2026-05-31]] — 318 stars
 - [[2026-05-30/daily|2026-05-30]] — 362 stars
