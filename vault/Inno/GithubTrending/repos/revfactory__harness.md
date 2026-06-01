@@ -5,7 +5,7 @@ tags:
 repo: revfactory/harness
 language: HTML
 first_seen: 2026-05-29
-appearances: 2
+appearances: 3
 ---
 
 # revfactory/harness
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-01/articles/08-revfactory__harness|2026-06-01]]
 - [[2026-05-31/articles/05-revfactory__harness|2026-05-31]]
 - [[2026-05-29/articles/10-revfactory__harness|2026-05-29]]
 
 ## 上榜历史
 
+- [[2026-06-01/daily|2026-06-01]] — 323 stars
 - [[2026-05-31/daily|2026-05-31]] — 55 stars
 - [[2026-05-29/daily|2026-05-29]] — 65 stars
