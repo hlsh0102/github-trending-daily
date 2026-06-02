@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vault/Inno/GithubTrending/2026-05-26/articles/01-Lum1104__Understand-Anything.md",
+                "file": "vault/Inno/GithubTrending/2026-06-01/articles/04-nesquena__hermes-webui.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Lum1104__Understand-Anything"
+              "title": "04-nesquena__hermes-webui"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531.5
+    "width": 363.5
   },
   "right": {
     "id": "977067a665dd47f4",
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,8 +192,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aadaea35768ff281",
+  "active": "7c97702e5c93f7c4",
   "lastOpenFiles": [
+    "vault/Inno/GithubTrending/2026-06-01/articles/03-D4Vinci__Scrapling.md",
+    "vault/Inno/GithubTrending/2026-06-01/articles/02-microsoft__markitdown.md",
+    "vault/Inno/GithubTrending/2026-06-01/articles/01-harry0703__MoneyPrinterTurbo.md",
+    "vault/Inno/GithubTrending/2026-05-26/articles/01-Lum1104__Understand-Anything.md",
     "vault/Inno/GithubTrending/2026-06-02/douyin-images/preview-contact-sheet.jpg",
     "vault/Inno/GithubTrending/2026-06-02/douyin-images/10-revfactory__harness.png",
     "vault/Inno/GithubTrending/2026-06-02/douyin-images/09-TauricResearch__TradingAgents.png",
@@ -203,7 +208,6 @@
     "vault/Inno/GithubTrending/2026-06-02/douyin-images/04-harry0703__MoneyPrinterTurbo.png",
     "vault/Inno/GithubTrending/2026-06-02/douyin-images/03-supermemoryai__supermemory.png",
     "vault/Inno/GithubTrending/2026-06-02/douyin-images/02-nesquena__hermes-webui.png",
-    "vault/Inno/GithubTrending/2026-06-02/douyin-images/01-microsoft__markitdown.png",
     "vault/Inno/GithubTrending/2026-06-02/douyin-images",
     "vault/Inno/GithubTrending/repos/pbakaus__impeccable.md",
     "vault/Inno/GithubTrending/repos/TauricResearch__TradingAgents.md",
@@ -235,9 +239,6 @@
     "vault/Inno/GithubTrending/repos/D4Vinci__Scrapling.md",
     "vault/Inno/GithubTrending/2026-06-01/articles/10-supermemoryai__supermemory.md",
     "vault/Inno/GithubTrending/2026-06-01/articles/09-FareedKhan-dev__train-llm-from-scratch.md",
-    "vault/Inno/GithubTrending/2026-06-01/articles/08-revfactory__harness.md",
-    "vault/Inno/GithubTrending/2026-06-01/articles/06-github__docs.md",
-    "vault/Inno/GithubTrending/2026-06-01/articles/07-OpenBMB__VoxCPM.md",
-    "vault/Inno/GithubTrending/2026-06-01/articles/05-EveryInc__compound-engineering-plugin.md"
+    "vault/Inno/GithubTrending/2026-06-01/articles/08-revfactory__harness.md"
   ]
 }
