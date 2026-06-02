@@ -5,7 +5,7 @@ tags:
 repo: supermemoryai/supermemory
 language: TypeScript
 first_seen: 2026-06-01
-appearances: 1
+appearances: 2
 ---
 
 # supermemoryai/supermemory
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-02/articles/03-supermemoryai__supermemory|2026-06-02]]
 - [[2026-06-01/articles/10-supermemoryai__supermemory|2026-06-01]]
 
 ## 上榜历史
 
+- [[2026-06-02/daily|2026-06-02]] — 647 stars
 - [[2026-06-01/daily|2026-06-01]] — 264 stars

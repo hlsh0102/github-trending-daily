@@ -5,7 +5,7 @@ tags:
 repo: microsoft/markitdown
 language: Python
 first_seen: 2026-05-29
-appearances: 4
+appearances: 5
 ---
 
 # microsoft/markitdown
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-06-02/articles/01-microsoft__markitdown|2026-06-02]]
 - [[2026-06-01/articles/02-microsoft__markitdown|2026-06-01]]
 - [[2026-05-31/articles/01-microsoft__markitdown|2026-05-31]]
 - [[2026-05-30/articles/02-microsoft__markitdown|2026-05-30]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-06-02/daily|2026-06-02]] — 3034 stars
 - [[2026-06-01/daily|2026-06-01]] — 2798 stars
 - [[2026-05-31/daily|2026-05-31]] — 2470 stars
 - [[2026-05-30/daily|2026-05-30]] — 1873 stars

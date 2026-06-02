@@ -5,7 +5,7 @@ tags:
 repo: EveryInc/compound-engineering-plugin
 language: TypeScript
 first_seen: 2026-05-30
-appearances: 3
+appearances: 4
 ---
 
 # EveryInc/compound-engineering-plugin
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-06-02/articles/08-EveryInc__compound-engineering-plugin|2026-06-02]]
 - [[2026-06-01/articles/05-EveryInc__compound-engineering-plugin|2026-06-01]]
 - [[2026-05-31/articles/06-EveryInc__compound-engineering-plugin|2026-05-31]]
 - [[2026-05-30/articles/03-EveryInc__compound-engineering-plugin|2026-05-30]]
 
 ## 上榜历史
 
+- [[2026-06-02/daily|2026-06-02]] — 417 stars
 - [[2026-06-01/daily|2026-06-01]] — 251 stars
 - [[2026-05-31/daily|2026-05-31]] — 349 stars
 - [[2026-05-30/daily|2026-05-30]] — 353 stars
