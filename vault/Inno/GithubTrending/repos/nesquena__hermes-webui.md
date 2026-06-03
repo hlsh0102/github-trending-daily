@@ -5,7 +5,7 @@ tags:
 repo: nesquena/hermes-webui
 language: Python
 first_seen: 2026-06-01
-appearances: 2
+appearances: 3
 ---
 
 # nesquena/hermes-webui
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-03/articles/05-nesquena__hermes-webui|2026-06-03]]
 - [[2026-06-02/articles/02-nesquena__hermes-webui|2026-06-02]]
 - [[2026-06-01/articles/04-nesquena__hermes-webui|2026-06-01]]
 
 ## 上榜历史
 
+- [[2026-06-03/daily|2026-06-03]] — 1722 stars
 - [[2026-06-02/daily|2026-06-02]] — 945 stars
 - [[2026-06-01/daily|2026-06-01]] — 357 stars
