@@ -1,0 +1,21 @@
+---
+tags:
+  - trending
+  - repo
+repo: NousResearch/hermes-agent
+language: Python
+first_seen: 2026-06-04
+appearances: 1
+---
+
+# NousResearch/hermes-agent
+
+> Hermes Agent 是由 Nous Research 开发的自改进型 AI 代理。它通过内置的学习循环从经验中创建技能、在对话中持续优化、记忆过去交互并构建用户模型，逐步提升对用户的适应性。该项目支持在低至 5 美元的 VPS、GPU 集群或近乎零空闲成本的服务器化基础设施上运行，适用于希望通过自定义模型获得个性化 AI 助手的开发者和高级用户。
+
+## 详细介绍历史
+
+- [[2026-06-04/articles/04-NousResearch__hermes-agent|2026-06-04]]
+
+## 上榜历史
+
+- [[2026-06-04/daily|2026-06-04]] — 1735 stars
