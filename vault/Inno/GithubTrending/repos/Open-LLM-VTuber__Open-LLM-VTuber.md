@@ -5,7 +5,7 @@ tags:
 repo: Open-LLM-VTuber/Open-LLM-VTuber
 language: Python
 first_seen: 2026-06-04
-appearances: 1
+appearances: 2
 ---
 
 # Open-LLM-VTuber/Open-LLM-VTuber
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-05/articles/08-Open-LLM-VTuber__Open-LLM-VTuber|2026-06-05]]
 - [[2026-06-04/articles/10-Open-LLM-VTuber__Open-LLM-VTuber|2026-06-04]]
 
 ## 上榜历史
 
+- [[2026-06-05/daily|2026-06-05]] — 581 stars
 - [[2026-06-04/daily|2026-06-04]] — 693 stars
