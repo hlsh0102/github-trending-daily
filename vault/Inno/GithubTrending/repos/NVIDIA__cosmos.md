@@ -5,7 +5,7 @@ tags:
 repo: NVIDIA/cosmos
 language: Jupyter Notebook
 first_seen: 2026-06-05
-appearances: 1
+appearances: 2
 ---
 
 # NVIDIA/cosmos
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-06/articles/07-NVIDIA__cosmos|2026-06-06]]
 - [[2026-06-05/articles/06-NVIDIA__cosmos|2026-06-05]]
 
 ## 上榜历史
 
+- [[2026-06-06/daily|2026-06-06]] — 479 stars
 - [[2026-06-05/daily|2026-06-05]] — 133 stars

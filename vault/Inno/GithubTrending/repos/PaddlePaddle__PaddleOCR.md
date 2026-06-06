@@ -5,7 +5,7 @@ tags:
 repo: PaddlePaddle/PaddleOCR
 language: Python
 first_seen: 2026-06-05
-appearances: 1
+appearances: 2
 ---
 
 # PaddlePaddle/PaddleOCR
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-06/articles/10-PaddlePaddle__PaddleOCR|2026-06-06]]
 - [[2026-06-05/articles/04-PaddlePaddle__PaddleOCR|2026-06-05]]
 
 ## 上榜历史
 
+- [[2026-06-06/daily|2026-06-06]] — 747 stars
 - [[2026-06-05/daily|2026-06-05]] — 141 stars
