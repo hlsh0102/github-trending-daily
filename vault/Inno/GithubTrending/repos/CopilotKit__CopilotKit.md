@@ -5,7 +5,7 @@ tags:
 repo: CopilotKit/CopilotKit
 language: TypeScript
 first_seen: 2026-06-06
-appearances: 1
+appearances: 2
 ---
 
 # CopilotKit/CopilotKit
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-07/articles/02-CopilotKit__CopilotKit|2026-06-07]]
 - [[2026-06-06/articles/03-CopilotKit__CopilotKit|2026-06-06]]
 
 ## 上榜历史
 
+- [[2026-06-07/daily|2026-06-07]] — 631 stars
 - [[2026-06-06/daily|2026-06-06]] — 366 stars
