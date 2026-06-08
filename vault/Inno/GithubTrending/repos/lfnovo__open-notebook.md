@@ -5,7 +5,7 @@ tags:
 repo: lfnovo/open-notebook
 language: TypeScript
 first_seen: 2026-06-05
-appearances: 2
+appearances: 3
 ---
 
 # lfnovo/open-notebook
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-08/articles/05-lfnovo__open-notebook|2026-06-08]]
 - [[2026-06-06/articles/04-lfnovo__open-notebook|2026-06-06]]
 - [[2026-06-05/articles/07-lfnovo__open-notebook|2026-06-05]]
 
 ## 上榜历史
 
+- [[2026-06-08/daily|2026-06-08]] — 554 stars
 - [[2026-06-06/daily|2026-06-06]] — 1152 stars
 - [[2026-06-05/daily|2026-06-05]] — 212 stars

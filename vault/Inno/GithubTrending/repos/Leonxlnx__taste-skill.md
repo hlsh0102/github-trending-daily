@@ -5,7 +5,7 @@ tags:
 repo: Leonxlnx/taste-skill
 language: Shell
 first_seen: 2026-05-27
-appearances: 5
+appearances: 6
 ---
 
 # Leonxlnx/taste-skill
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-06-08/articles/03-Leonxlnx__taste-skill|2026-06-08]]
 - [[2026-05-30/articles/06-Leonxlnx__taste-skill|2026-05-30]]
 - [[2026-05-29/articles/03-Leonxlnx__taste-skill|2026-05-29]]
 - [[2026-05-28/articles/06-Leonxlnx__taste-skill|2026-05-28]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-06-08/daily|2026-06-08]] — 1103 stars
 - [[2026-05-30/daily|2026-05-30]] — 2062 stars
 - [[2026-05-29/daily|2026-05-29]] — 2234 stars
 - [[2026-05-28/daily|2026-05-28]] — 2715 stars
