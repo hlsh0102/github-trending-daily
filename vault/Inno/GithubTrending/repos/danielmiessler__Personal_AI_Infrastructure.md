@@ -5,7 +5,7 @@ tags:
 repo: danielmiessler/Personal_AI_Infrastructure
 language: TypeScript
 first_seen: 2026-06-07
-appearances: 1
+appearances: 2
 ---
 
 # danielmiessler/Personal_AI_Infrastructure
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-09/articles/06-danielmiessler__Personal_AI_Infrastructure|2026-06-09]]
 - [[2026-06-07/articles/04-danielmiessler__Personal_AI_Infrastructure|2026-06-07]]
 
 ## 上榜历史
 
+- [[2026-06-09/daily|2026-06-09]] — 62 stars
 - [[2026-06-07/daily|2026-06-07]] — 70 stars
