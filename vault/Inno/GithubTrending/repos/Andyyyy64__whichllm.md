@@ -5,7 +5,7 @@ tags:
 repo: Andyyyy64/whichllm
 language: Python
 first_seen: 2026-06-09
-appearances: 1
+appearances: 2
 ---
 
 # Andyyyy64/whichllm
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-10/articles/07-Andyyyy64__whichllm|2026-06-10]]
 - [[2026-06-09/articles/10-Andyyyy64__whichllm|2026-06-09]]
 
 ## 上榜历史
 
+- [[2026-06-10/daily|2026-06-10]] — 633 stars
 - [[2026-06-09/daily|2026-06-09]] — 143 stars

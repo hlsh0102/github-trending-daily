@@ -5,7 +5,7 @@ tags:
 repo: yikart/AiToEarn
 language: TypeScript
 first_seen: 2026-06-08
-appearances: 1
+appearances: 2
 ---
 
 # yikart/AiToEarn
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-10/articles/10-yikart__AiToEarn|2026-06-10]]
 - [[2026-06-08/articles/06-yikart__AiToEarn|2026-06-08]]
 
 ## 上榜历史
 
+- [[2026-06-10/daily|2026-06-10]] — 402 stars
 - [[2026-06-08/daily|2026-06-08]] — 183 stars

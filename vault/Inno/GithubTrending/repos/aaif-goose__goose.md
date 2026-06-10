@@ -5,7 +5,7 @@ tags:
 repo: aaif-goose/goose
 language: Rust
 first_seen: 2026-06-08
-appearances: 1
+appearances: 2
 ---
 
 # aaif-goose/goose
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-10/articles/06-aaif-goose__goose|2026-06-10]]
 - [[2026-06-08/articles/07-aaif-goose__goose|2026-06-08]]
 
 ## 上榜历史
 
+- [[2026-06-10/daily|2026-06-10]] — 489 stars
 - [[2026-06-08/daily|2026-06-08]] — 322 stars

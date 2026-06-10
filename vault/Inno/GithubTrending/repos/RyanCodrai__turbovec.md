@@ -5,7 +5,7 @@ tags:
 repo: RyanCodrai/turbovec
 language: Python
 first_seen: 2026-06-08
-appearances: 2
+appearances: 3
 ---
 
 # RyanCodrai/turbovec
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-10/articles/02-RyanCodrai__turbovec|2026-06-10]]
 - [[2026-06-09/articles/02-RyanCodrai__turbovec|2026-06-09]]
 - [[2026-06-08/articles/10-RyanCodrai__turbovec|2026-06-08]]
 
 ## 上榜历史
 
+- [[2026-06-10/daily|2026-06-10]] — 1801 stars
 - [[2026-06-09/daily|2026-06-09]] — 1729 stars
 - [[2026-06-08/daily|2026-06-08]] — 1554 stars
