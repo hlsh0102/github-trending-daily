@@ -5,7 +5,7 @@ tags:
 repo: phuryn/pm-skills
 language: Unknown
 first_seen: 2026-06-09
-appearances: 1
+appearances: 2
 ---
 
 # phuryn/pm-skills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-11/articles/02-phuryn__pm-skills|2026-06-11]]
 - [[2026-06-09/articles/08-phuryn__pm-skills|2026-06-09]]
 
 ## 上榜历史
 
+- [[2026-06-11/daily|2026-06-11]] — 804 stars
 - [[2026-06-09/daily|2026-06-09]] — 164 stars

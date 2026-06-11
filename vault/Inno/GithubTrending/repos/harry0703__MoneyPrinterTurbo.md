@@ -5,7 +5,7 @@ tags:
 repo: harry0703/MoneyPrinterTurbo
 language: Python
 first_seen: 2026-05-28
-appearances: 6
+appearances: 7
 ---
 
 # harry0703/MoneyPrinterTurbo
@@ -14,6 +14,7 @@ appearances: 6
 
 ## 详细介绍历史
 
+- [[2026-06-11/articles/09-harry0703__MoneyPrinterTurbo|2026-06-11]]
 - [[2026-06-02/articles/04-harry0703__MoneyPrinterTurbo|2026-06-02]]
 - [[2026-06-01/articles/01-harry0703__MoneyPrinterTurbo|2026-06-01]]
 - [[2026-05-31/articles/02-harry0703__MoneyPrinterTurbo|2026-05-31]]
@@ -23,6 +24,7 @@ appearances: 6
 
 ## 上榜历史
 
+- [[2026-06-11/daily|2026-06-11]] — 1389 stars
 - [[2026-06-02/daily|2026-06-02]] — 3375 stars
 - [[2026-06-01/daily|2026-06-01]] — 1937 stars
 - [[2026-05-31/daily|2026-05-31]] — 2768 stars
