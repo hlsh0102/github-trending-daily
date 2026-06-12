@@ -5,7 +5,7 @@ tags:
 repo: x1xhlol/system-prompts-and-models-of-ai-tools
 language: Unknown
 first_seen: 2026-06-10
-appearances: 2
+appearances: 3
 ---
 
 # x1xhlol/system-prompts-and-models-of-ai-tools
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-12/articles/07-x1xhlol__system-prompts-and-models-of-ai-tools|2026-06-12]]
 - [[2026-06-11/articles/06-x1xhlol__system-prompts-and-models-of-ai-tools|2026-06-11]]
 - [[2026-06-10/articles/09-x1xhlol__system-prompts-and-models-of-ai-tools|2026-06-10]]
 
 ## 上榜历史
 
+- [[2026-06-12/daily|2026-06-12]] — 368 stars
 - [[2026-06-11/daily|2026-06-11]] — 393 stars
 - [[2026-06-10/daily|2026-06-10]] — 79 stars
