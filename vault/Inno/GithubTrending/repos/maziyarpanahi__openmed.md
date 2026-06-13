@@ -5,7 +5,7 @@ tags:
 repo: maziyarpanahi/openmed
 language: Python
 first_seen: 2026-06-11
-appearances: 2
+appearances: 3
 ---
 
 # maziyarpanahi/openmed
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-13/articles/08-maziyarpanahi__openmed|2026-06-13]]
 - [[2026-06-12/articles/03-maziyarpanahi__openmed|2026-06-12]]
 - [[2026-06-11/articles/10-maziyarpanahi__openmed|2026-06-11]]
 
 ## 上榜历史
 
+- [[2026-06-13/daily|2026-06-13]] — 515 stars
 - [[2026-06-12/daily|2026-06-12]] — 426 stars
 - [[2026-06-11/daily|2026-06-11]] — 527 stars
