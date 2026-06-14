@@ -5,7 +5,7 @@ tags:
 repo: music-assistant/server
 language: Python
 first_seen: 2026-06-13
-appearances: 1
+appearances: 2
 ---
 
 # music-assistant/server
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-14/articles/06-music-assistant__server|2026-06-14]]
 - [[2026-06-13/articles/02-music-assistant__server|2026-06-13]]
 
 ## 上榜历史
 
+- [[2026-06-14/daily|2026-06-14]] — 270 stars
 - [[2026-06-13/daily|2026-06-13]] — 20 stars
