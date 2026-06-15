@@ -5,7 +5,7 @@ tags:
 repo: chatwoot/chatwoot
 language: Ruby
 first_seen: 2026-06-14
-appearances: 1
+appearances: 2
 ---
 
 # chatwoot/chatwoot
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-15/articles/05-chatwoot__chatwoot|2026-06-15]]
 - [[2026-06-14/articles/03-chatwoot__chatwoot|2026-06-14]]
 
 ## 上榜历史
 
+- [[2026-06-15/daily|2026-06-15]] — 400 stars
 - [[2026-06-14/daily|2026-06-14]] — 83 stars
