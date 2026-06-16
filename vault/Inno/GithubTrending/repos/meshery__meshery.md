@@ -5,7 +5,7 @@ tags:
 repo: meshery/meshery
 language: TypeScript
 first_seen: 2026-06-15
-appearances: 1
+appearances: 2
 ---
 
 # meshery/meshery
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-16/articles/04-meshery__meshery|2026-06-16]]
 - [[2026-06-15/articles/07-meshery__meshery|2026-06-15]]
 
 ## 上榜历史
 
+- [[2026-06-16/daily|2026-06-16]] — 228 stars
 - [[2026-06-15/daily|2026-06-15]] — 20 stars

@@ -5,7 +5,7 @@ tags:
 repo: iptv-org/iptv
 language: TypeScript
 first_seen: 2026-06-13
-appearances: 3
+appearances: 4
 ---
 
 # iptv-org/iptv
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-06-16/articles/01-iptv-org__iptv|2026-06-16]]
 - [[2026-06-15/articles/01-iptv-org__iptv|2026-06-15]]
 - [[2026-06-14/articles/01-iptv-org__iptv|2026-06-14]]
 - [[2026-06-13/articles/05-iptv-org__iptv|2026-06-13]]
 
 ## 上榜历史
 
+- [[2026-06-16/daily|2026-06-16]] — 2657 stars
 - [[2026-06-15/daily|2026-06-15]] — 1528 stars
 - [[2026-06-14/daily|2026-06-14]] — 530 stars
 - [[2026-06-13/daily|2026-06-13]] — 179 stars

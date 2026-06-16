@@ -5,7 +5,7 @@ tags:
 repo: jwasham/coding-interview-university
 language: Unknown
 first_seen: 2026-06-05
-appearances: 1
+appearances: 2
 ---
 
 # jwasham/coding-interview-university
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-16/articles/09-jwasham__coding-interview-university|2026-06-16]]
 - [[2026-06-05/articles/09-jwasham__coding-interview-university|2026-06-05]]
 
 ## 上榜历史
 
+- [[2026-06-16/daily|2026-06-16]] — 364 stars
 - [[2026-06-05/daily|2026-06-05]] — 632 stars
