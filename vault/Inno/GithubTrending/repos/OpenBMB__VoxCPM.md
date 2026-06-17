@@ -5,7 +5,7 @@ tags:
 repo: OpenBMB/VoxCPM
 language: Python
 first_seen: 2026-05-31
-appearances: 3
+appearances: 4
 ---
 
 # OpenBMB/VoxCPM
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-06-17/articles/10-OpenBMB__VoxCPM|2026-06-17]]
 - [[2026-06-03/articles/07-OpenBMB__VoxCPM|2026-06-03]]
 - [[2026-06-01/articles/07-OpenBMB__VoxCPM|2026-06-01]]
 - [[2026-05-31/articles/08-OpenBMB__VoxCPM|2026-05-31]]
 
 ## 上榜历史
 
+- [[2026-06-17/daily|2026-06-17]] — 408 stars
 - [[2026-06-03/daily|2026-06-03]] — 783 stars
 - [[2026-06-01/daily|2026-06-01]] — 635 stars
 - [[2026-05-31/daily|2026-05-31]] — 779 stars

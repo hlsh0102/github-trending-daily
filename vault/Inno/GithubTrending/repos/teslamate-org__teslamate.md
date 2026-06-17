@@ -5,7 +5,7 @@ tags:
 repo: teslamate-org/teslamate
 language: Elixir
 first_seen: 2026-06-16
-appearances: 1
+appearances: 2
 ---
 
 # teslamate-org/teslamate
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-17/articles/03-teslamate-org__teslamate|2026-06-17]]
 - [[2026-06-16/articles/02-teslamate-org__teslamate|2026-06-16]]
 
 ## 上榜历史
 
+- [[2026-06-17/daily|2026-06-17]] — 215 stars
 - [[2026-06-16/daily|2026-06-16]] — 33 stars

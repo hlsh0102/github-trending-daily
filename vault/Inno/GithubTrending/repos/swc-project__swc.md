@@ -5,7 +5,7 @@ tags:
 repo: swc-project/swc
 language: Rust
 first_seen: 2026-06-15
-appearances: 1
+appearances: 2
 ---
 
 # swc-project/swc
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-17/articles/02-swc-project__swc|2026-06-17]]
 - [[2026-06-15/articles/04-swc-project__swc|2026-06-15]]
 
 ## 上榜历史
 
+- [[2026-06-17/daily|2026-06-17]] — 20 stars
 - [[2026-06-15/daily|2026-06-15]] — 163 stars
