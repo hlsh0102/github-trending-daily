@@ -5,7 +5,7 @@ tags:
 repo: krahets/hello-algo
 language: Java
 first_seen: 2026-06-16
-appearances: 1
+appearances: 2
 ---
 
 # krahets/hello-algo
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-18/articles/10-krahets__hello-algo|2026-06-18]]
 - [[2026-06-16/articles/06-krahets__hello-algo|2026-06-16]]
 
 ## 上榜历史
 
+- [[2026-06-18/daily|2026-06-18]] — 96 stars
 - [[2026-06-16/daily|2026-06-16]] — 71 stars
