@@ -5,7 +5,7 @@ tags:
 repo: n0-computer/iroh
 language: Rust
 first_seen: 2026-06-18
-appearances: 1
+appearances: 2
 ---
 
 # n0-computer/iroh
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-19/articles/02-n0-computer__iroh|2026-06-19]]
 - [[2026-06-18/articles/02-n0-computer__iroh|2026-06-18]]
 
 ## 上榜历史
 
+- [[2026-06-19/daily|2026-06-19]] — 369 stars
 - [[2026-06-18/daily|2026-06-18]] — 421 stars
