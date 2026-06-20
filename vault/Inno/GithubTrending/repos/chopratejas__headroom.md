@@ -5,7 +5,7 @@ tags:
 repo: chopratejas/headroom
 language: Python
 first_seen: 2026-06-03
-appearances: 4
+appearances: 5
 ---
 
 # chopratejas/headroom
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-06-20/articles/07-chopratejas__headroom|2026-06-20]]
 - [[2026-06-06/articles/02-chopratejas__headroom|2026-06-06]]
 - [[2026-06-05/articles/01-chopratejas__headroom|2026-06-05]]
 - [[2026-06-04/articles/01-chopratejas__headroom|2026-06-04]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-06-20/daily|2026-06-20]] — 4005 stars
 - [[2026-06-06/daily|2026-06-06]] — 2473 stars
 - [[2026-06-05/daily|2026-06-05]] — 3142 stars
 - [[2026-06-04/daily|2026-06-04]] — 3530 stars

@@ -5,7 +5,7 @@ tags:
 repo: zai-org/GLM-5
 language: Unknown
 first_seen: 2026-06-19
-appearances: 1
+appearances: 2
 ---
 
 # zai-org/GLM-5
@@ -15,8 +15,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-20/articles/09-zai-org__GLM-5|2026-06-20]]
 - [[2026-06-19/articles/05-zai-org__GLM-5|2026-06-19]]
 
 ## 上榜历史
 
+- [[2026-06-20/daily|2026-06-20]] — 480 stars
 - [[2026-06-19/daily|2026-06-19]] — 202 stars

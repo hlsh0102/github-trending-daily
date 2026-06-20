@@ -5,7 +5,7 @@ tags:
 repo: withastro/flue
 language: TypeScript
 first_seen: 2026-06-19
-appearances: 1
+appearances: 2
 ---
 
 # withastro/flue
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-20/articles/10-withastro__flue|2026-06-20]]
 - [[2026-06-19/articles/08-withastro__flue|2026-06-19]]
 
 ## 上榜历史
 
+- [[2026-06-20/daily|2026-06-20]] — 309 stars
 - [[2026-06-19/daily|2026-06-19]] — 162 stars
