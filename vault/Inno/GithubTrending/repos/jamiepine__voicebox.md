@@ -1,0 +1,21 @@
+---
+tags:
+  - trending
+  - repo
+repo: jamiepine/voicebox
+language: TypeScript
+first_seen: 2026-06-21
+appearances: 1
+---
+
+# jamiepine/voicebox
+
+> Voicebox 是一个开源的人工智能语音工作室，能够在本地计算机上运行完整的语音输入/输出流程。该项目提供语音克隆、文本转语音生成、语音听写以及与自定义声音代理对话等功能。Voicebox 面向需要离线、隐私优先的语音合成与识别能力的开发者和个人用户。
+
+## 详细介绍历史
+
+- [[2026-06-21/articles/10-jamiepine__voicebox|2026-06-21]]
+
+## 上榜历史
+
+- [[2026-06-21/daily|2026-06-21]] — 145 stars

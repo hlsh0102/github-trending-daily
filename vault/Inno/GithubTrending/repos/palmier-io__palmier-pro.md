@@ -5,7 +5,7 @@ tags:
 repo: palmier-io/palmier-pro
 language: Swift
 first_seen: 2026-06-20
-appearances: 1
+appearances: 2
 ---
 
 # palmier-io/palmier-pro
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-21/articles/01-palmier-io__palmier-pro|2026-06-21]]
 - [[2026-06-20/articles/03-palmier-io__palmier-pro|2026-06-20]]
 
 ## 上榜历史
 
+- [[2026-06-21/daily|2026-06-21]] — 902 stars
 - [[2026-06-20/daily|2026-06-20]] — 756 stars
