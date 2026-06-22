@@ -5,7 +5,7 @@ tags:
 repo: koala73/worldmonitor
 language: TypeScript
 first_seen: 2026-06-20
-appearances: 1
+appearances: 2
 ---
 
 # koala73/worldmonitor
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-22/articles/06-koala73__worldmonitor|2026-06-22]]
 - [[2026-06-20/articles/04-koala73__worldmonitor|2026-06-20]]
 
 ## 上榜历史
 
+- [[2026-06-22/daily|2026-06-22]] — 163 stars
 - [[2026-06-20/daily|2026-06-20]] — 156 stars

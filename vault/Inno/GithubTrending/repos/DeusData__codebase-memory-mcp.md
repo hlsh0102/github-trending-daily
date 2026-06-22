@@ -5,7 +5,7 @@ tags:
 repo: DeusData/codebase-memory-mcp
 language: C
 first_seen: 2026-06-18
-appearances: 4
+appearances: 5
 ---
 
 # DeusData/codebase-memory-mcp
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-06-22/articles/08-DeusData__codebase-memory-mcp|2026-06-22]]
 - [[2026-06-21/articles/05-DeusData__codebase-memory-mcp|2026-06-21]]
 - [[2026-06-20/articles/01-DeusData__codebase-memory-mcp|2026-06-20]]
 - [[2026-06-19/articles/06-DeusData__codebase-memory-mcp|2026-06-19]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-06-22/daily|2026-06-22]] — 1032 stars
 - [[2026-06-21/daily|2026-06-21]] — 1271 stars
 - [[2026-06-20/daily|2026-06-20]] — 1058 stars
 - [[2026-06-19/daily|2026-06-19]] — 2322 stars
