@@ -5,7 +5,7 @@ tags:
 repo: penpot/penpot
 language: Clojure
 first_seen: 2026-06-18
-appearances: 3
+appearances: 4
 ---
 
 # penpot/penpot
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-06-23/articles/05-penpot__penpot|2026-06-23]]
 - [[2026-06-22/articles/04-penpot__penpot|2026-06-22]]
 - [[2026-06-21/articles/02-penpot__penpot|2026-06-21]]
 - [[2026-06-18/articles/09-penpot__penpot|2026-06-18]]
 
 ## 上榜历史
 
+- [[2026-06-23/daily|2026-06-23]] — 728 stars
 - [[2026-06-22/daily|2026-06-22]] — 1135 stars
 - [[2026-06-21/daily|2026-06-21]] — 420 stars
 - [[2026-06-18/daily|2026-06-18]] — 70 stars

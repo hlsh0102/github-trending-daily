@@ -5,7 +5,7 @@ tags:
 repo: jamiepine/voicebox
 language: TypeScript
 first_seen: 2026-06-21
-appearances: 1
+appearances: 2
 ---
 
 # jamiepine/voicebox
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-23/articles/03-jamiepine__voicebox|2026-06-23]]
 - [[2026-06-21/articles/10-jamiepine__voicebox|2026-06-21]]
 
 ## 上榜历史
 
+- [[2026-06-23/daily|2026-06-23]] — 529 stars
 - [[2026-06-21/daily|2026-06-21]] — 145 stars
