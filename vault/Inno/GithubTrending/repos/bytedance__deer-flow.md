@@ -5,7 +5,7 @@ tags:
 repo: bytedance/deer-flow
 language: Python
 first_seen: 2026-06-22
-appearances: 2
+appearances: 3
 ---
 
 # bytedance/deer-flow
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-24/articles/05-bytedance__deer-flow|2026-06-24]]
 - [[2026-06-23/articles/10-bytedance__deer-flow|2026-06-23]]
 - [[2026-06-22/articles/07-bytedance__deer-flow|2026-06-22]]
 
 ## 上榜历史
 
+- [[2026-06-24/daily|2026-06-24]] — 739 stars
 - [[2026-06-23/daily|2026-06-23]] — 738 stars
 - [[2026-06-22/daily|2026-06-22]] — 442 stars
