@@ -1,0 +1,21 @@
+---
+tags:
+  - trending
+  - repo
+repo: ripienaar/free-for-dev
+language: HTML
+first_seen: 2026-06-27
+appearances: 1
+---
+
+# ripienaar/free-for-dev
+
+> 这是一个为基础设施开发者（如系统管理员、DevOps 实践者）整理的免费服务列表，涵盖 SaaS、PaaS、IaaS 等提供免费层的产品。项目解决了开发者寻找免费服务耗时的问题，通过社区贡献（1600 多人参与）持续更新。适用于希望利用免费资源降低开发或运维成本的个人开发者及开源项目。
+
+## 详细介绍历史
+
+- [[2026-06-27/articles/06-ripienaar__free-for-dev|2026-06-27]]
+
+## 上榜历史
+
+- [[2026-06-27/daily|2026-06-27]] — 90 stars

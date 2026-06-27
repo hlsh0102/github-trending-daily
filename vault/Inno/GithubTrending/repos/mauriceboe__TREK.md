@@ -5,7 +5,7 @@ tags:
 repo: mauriceboe/TREK
 language: TypeScript
 first_seen: 2026-06-26
-appearances: 1
+appearances: 2
 ---
 
 # mauriceboe/TREK
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-27/articles/09-mauriceboe__TREK|2026-06-27]]
 - [[2026-06-26/articles/04-mauriceboe__TREK|2026-06-26]]
 
 ## 上榜历史
 
+- [[2026-06-27/daily|2026-06-27]] — 1060 stars
 - [[2026-06-26/daily|2026-06-26]] — 241 stars
