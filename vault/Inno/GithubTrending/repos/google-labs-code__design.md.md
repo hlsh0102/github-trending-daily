@@ -5,7 +5,7 @@ tags:
 repo: google-labs-code/design.md
 language: TypeScript
 first_seen: 2026-06-25
-appearances: 3
+appearances: 4
 ---
 
 # google-labs-code/design.md
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-06-28/articles/06-google-labs-code__design.md|2026-06-28]]
 - [[2026-06-27/articles/02-google-labs-code__design.md|2026-06-27]]
 - [[2026-06-26/articles/01-google-labs-code__design.md|2026-06-26]]
 - [[2026-06-25/articles/10-google-labs-code__design.md|2026-06-25]]
 
 ## 上榜历史
 
+- [[2026-06-28/daily|2026-06-28]] — 1541 stars
 - [[2026-06-27/daily|2026-06-27]] — 2407 stars
 - [[2026-06-26/daily|2026-06-26]] — 1475 stars
 - [[2026-06-25/daily|2026-06-25]] — 619 stars

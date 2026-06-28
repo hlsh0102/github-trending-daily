@@ -5,7 +5,7 @@ tags:
 repo: simplex-chat/simplex-chat
 language: Haskell
 first_seen: 2026-06-27
-appearances: 1
+appearances: 2
 ---
 
 # simplex-chat/simplex-chat
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-28/articles/01-simplex-chat__simplex-chat|2026-06-28]]
 - [[2026-06-27/articles/01-simplex-chat__simplex-chat|2026-06-27]]
 
 ## 上榜历史
 
+- [[2026-06-28/daily|2026-06-28]] — 1469 stars
 - [[2026-06-27/daily|2026-06-27]] — 432 stars

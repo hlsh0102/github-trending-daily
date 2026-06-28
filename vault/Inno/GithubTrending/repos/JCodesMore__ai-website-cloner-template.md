@@ -5,7 +5,7 @@ tags:
 repo: JCodesMore/ai-website-cloner-template
 language: TypeScript
 first_seen: 2026-06-25
-appearances: 2
+appearances: 3
 ---
 
 # JCodesMore/ai-website-cloner-template
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-28/articles/09-JCodesMore__ai-website-cloner-template|2026-06-28]]
 - [[2026-06-26/articles/06-JCodesMore__ai-website-cloner-template|2026-06-26]]
 - [[2026-06-25/articles/05-JCodesMore__ai-website-cloner-template|2026-06-25]]
 
 ## 上榜历史
 
+- [[2026-06-28/daily|2026-06-28]] — 750 stars
 - [[2026-06-26/daily|2026-06-26]] — 1024 stars
 - [[2026-06-25/daily|2026-06-25]] — 692 stars
