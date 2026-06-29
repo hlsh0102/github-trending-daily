@@ -5,7 +5,7 @@ tags:
 repo: commaai/openpilot
 language: Python
 first_seen: 2026-06-27
-appearances: 2
+appearances: 3
 ---
 
 # commaai/openpilot
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-29/articles/03-commaai__openpilot|2026-06-29]]
 - [[2026-06-28/articles/03-commaai__openpilot|2026-06-28]]
 - [[2026-06-27/articles/03-commaai__openpilot|2026-06-27]]
 
 ## 上榜历史
 
+- [[2026-06-29/daily|2026-06-29]] — 266 stars
 - [[2026-06-28/daily|2026-06-28]] — 322 stars
 - [[2026-06-27/daily|2026-06-27]] — 80 stars

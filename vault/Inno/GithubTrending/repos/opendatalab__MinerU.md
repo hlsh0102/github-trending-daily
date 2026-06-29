@@ -5,7 +5,7 @@ tags:
 repo: opendatalab/MinerU
 language: Python
 first_seen: 2026-06-27
-appearances: 1
+appearances: 2
 ---
 
 # opendatalab/MinerU
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-29/articles/09-opendatalab__MinerU|2026-06-29]]
 - [[2026-06-27/articles/07-opendatalab__MinerU|2026-06-27]]
 
 ## 上榜历史
 
+- [[2026-06-29/daily|2026-06-29]] — 380 stars
 - [[2026-06-27/daily|2026-06-27]] — 960 stars
