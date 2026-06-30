@@ -5,7 +5,7 @@ tags:
 repo: cupy/cupy
 language: Python
 first_seen: 2026-06-29
-appearances: 1
+appearances: 2
 ---
 
 # cupy/cupy
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-06-30/articles/03-cupy__cupy|2026-06-30]]
 - [[2026-06-29/articles/07-cupy__cupy|2026-06-29]]
 
 ## 上榜历史
 
+- [[2026-06-30/daily|2026-06-30]] — 352 stars
 - [[2026-06-29/daily|2026-06-29]] — 174 stars

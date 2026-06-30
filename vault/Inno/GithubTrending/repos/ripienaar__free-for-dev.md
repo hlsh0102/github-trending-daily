@@ -5,7 +5,7 @@ tags:
 repo: ripienaar/free-for-dev
 language: HTML
 first_seen: 2026-06-27
-appearances: 3
+appearances: 4
 ---
 
 # ripienaar/free-for-dev
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-06-30/articles/07-ripienaar__free-for-dev|2026-06-30]]
 - [[2026-06-29/articles/02-ripienaar__free-for-dev|2026-06-29]]
 - [[2026-06-28/articles/05-ripienaar__free-for-dev|2026-06-28]]
 - [[2026-06-27/articles/06-ripienaar__free-for-dev|2026-06-27]]
 
 ## 上榜历史
 
+- [[2026-06-30/daily|2026-06-30]] — 1935 stars
 - [[2026-06-29/daily|2026-06-29]] — 495 stars
 - [[2026-06-28/daily|2026-06-28]] — 459 stars
 - [[2026-06-27/daily|2026-06-27]] — 90 stars

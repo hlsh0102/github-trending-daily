@@ -1,0 +1,21 @@
+---
+tags:
+  - trending
+  - repo
+repo: msitarzewski/agency-agents
+language: Shell
+first_seen: 2026-06-30
+appearances: 1
+---
+
+# msitarzewski/agency-agents
+
+> Agency Agents 是一个精心打造的 AI 代理集合，每个代理都专注于特定领域（如前端开发、社群运营等），具备独特的个性、工作流程和可交付成果。该项目旨在提供一套可直接投入生产的专业化 AI 工作团队，适合需要通过 AI 代理完成具体任务、提升工作效率的开发者和团队。
+
+## 详细介绍历史
+
+- [[2026-06-30/articles/02-msitarzewski__agency-agents|2026-06-30]]
+
+## 上榜历史
+
+- [[2026-06-30/daily|2026-06-30]] — 1425 stars

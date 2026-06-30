@@ -5,7 +5,7 @@ tags:
 repo: xbtlin/ai-berkshire
 language: Python
 first_seen: 2026-06-26
-appearances: 4
+appearances: 5
 ---
 
 # xbtlin/ai-berkshire
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-06-30/articles/09-xbtlin__ai-berkshire|2026-06-30]]
 - [[2026-06-29/articles/04-xbtlin__ai-berkshire|2026-06-29]]
 - [[2026-06-28/articles/02-xbtlin__ai-berkshire|2026-06-28]]
 - [[2026-06-27/articles/10-xbtlin__ai-berkshire|2026-06-27]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-06-30/daily|2026-06-30]] — 1386 stars
 - [[2026-06-29/daily|2026-06-29]] — 1445 stars
 - [[2026-06-28/daily|2026-06-28]] — 685 stars
 - [[2026-06-27/daily|2026-06-27]] — 1274 stars

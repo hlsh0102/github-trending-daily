@@ -5,7 +5,7 @@ tags:
 repo: soxoj/maigret
 language: Python
 first_seen: 2026-06-11
-appearances: 2
+appearances: 3
 ---
 
 # soxoj/maigret
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-06-30/articles/05-soxoj__maigret|2026-06-30]]
 - [[2026-06-12/articles/06-soxoj__maigret|2026-06-12]]
 - [[2026-06-11/articles/05-soxoj__maigret|2026-06-11]]
 
 ## 上榜历史
 
+- [[2026-06-30/daily|2026-06-30]] — 224 stars
 - [[2026-06-12/daily|2026-06-12]] — 661 stars
 - [[2026-06-11/daily|2026-06-11]] — 318 stars
