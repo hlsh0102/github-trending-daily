@@ -5,7 +5,7 @@ tags:
 repo: hasaneyldrm/exercises-dataset
 language: HTML
 first_seen: 2026-07-01
-appearances: 1
+appearances: 2
 ---
 
 # hasaneyldrm/exercises-dataset
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-02/articles/04-hasaneyldrm__exercises-dataset|2026-07-02]]
 - [[2026-07-01/articles/01-hasaneyldrm__exercises-dataset|2026-07-01]]
 
 ## 上榜历史
 
+- [[2026-07-02/daily|2026-07-02]] — 2470 stars
 - [[2026-07-01/daily|2026-07-01]] — 1343 stars

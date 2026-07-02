@@ -5,7 +5,7 @@ tags:
 repo: logto-io/logto
 language: TypeScript
 first_seen: 2026-06-30
-appearances: 1
+appearances: 2
 ---
 
 # logto-io/logto
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-02/articles/08-logto-io__logto|2026-07-02]]
 - [[2026-06-30/articles/08-logto-io__logto|2026-06-30]]
 
 ## 上榜历史
 
+- [[2026-07-02/daily|2026-07-02]] — 113 stars
 - [[2026-06-30/daily|2026-06-30]] — 158 stars

@@ -5,7 +5,7 @@ tags:
 repo: Mebus/cupp
 language: Python
 first_seen: 2026-07-01
-appearances: 1
+appearances: 2
 ---
 
 # Mebus/cupp
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-02/articles/10-Mebus__cupp|2026-07-02]]
 - [[2026-07-01/articles/08-Mebus__cupp|2026-07-01]]
 
 ## 上榜历史
 
+- [[2026-07-02/daily|2026-07-02]] — 184 stars
 - [[2026-07-01/daily|2026-07-01]] — 32 stars
