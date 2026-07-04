@@ -5,7 +5,7 @@ tags:
 repo: actions/checkout
 language: TypeScript
 first_seen: 2026-07-03
-appearances: 1
+appearances: 2
 ---
 
 # actions/checkout
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-04/articles/05-actions__checkout|2026-07-04]]
 - [[2026-07-03/articles/09-actions__checkout|2026-07-03]]
 
 ## 上榜历史
 
+- [[2026-07-04/daily|2026-07-04]] — 129 stars
 - [[2026-07-03/daily|2026-07-03]] — 26 stars

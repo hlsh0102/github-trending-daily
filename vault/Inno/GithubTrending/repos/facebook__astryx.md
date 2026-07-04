@@ -5,7 +5,7 @@ tags:
 repo: facebook/astryx
 language: TypeScript
 first_seen: 2026-07-02
-appearances: 1
+appearances: 2
 ---
 
 # facebook/astryx
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-04/articles/08-facebook__astryx|2026-07-04]]
 - [[2026-07-02/articles/05-facebook__astryx|2026-07-02]]
 
 ## 上榜历史
 
+- [[2026-07-04/daily|2026-07-04]] — 885 stars
 - [[2026-07-02/daily|2026-07-02]] — 708 stars
