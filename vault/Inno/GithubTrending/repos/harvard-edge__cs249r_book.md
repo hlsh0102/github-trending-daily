@@ -5,7 +5,7 @@ tags:
 repo: harvard-edge/cs249r_book
 language: Python
 first_seen: 2026-07-04
-appearances: 1
+appearances: 2
 ---
 
 # harvard-edge/cs249r_book
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-05/articles/08-harvard-edge__cs249r_book|2026-07-05]]
 - [[2026-07-04/articles/10-harvard-edge__cs249r_book|2026-07-04]]
 
 ## 上榜历史
 
+- [[2026-07-05/daily|2026-07-05]] — 443 stars
 - [[2026-07-04/daily|2026-07-04]] — 793 stars
