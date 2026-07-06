@@ -5,7 +5,7 @@ tags:
 repo: alibaba/page-agent
 language: TypeScript
 first_seen: 2026-07-05
-appearances: 1
+appearances: 2
 ---
 
 # alibaba/page-agent
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-06/articles/08-alibaba__page-agent|2026-07-06]]
 - [[2026-07-05/articles/03-alibaba__page-agent|2026-07-05]]
 
 ## 上榜历史
 
+- [[2026-07-06/daily|2026-07-06]] — 805 stars
 - [[2026-07-05/daily|2026-07-05]] — 742 stars

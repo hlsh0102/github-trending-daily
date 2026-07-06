@@ -5,7 +5,7 @@ tags:
 repo: usestrix/strix
 language: Python
 first_seen: 2026-07-01
-appearances: 5
+appearances: 6
 ---
 
 # usestrix/strix
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-07-06/articles/10-usestrix__strix|2026-07-06]]
 - [[2026-07-05/articles/04-usestrix__strix|2026-07-05]]
 - [[2026-07-04/articles/01-usestrix__strix|2026-07-04]]
 - [[2026-07-03/articles/01-usestrix__strix|2026-07-03]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-07-06/daily|2026-07-06]] — 1114 stars
 - [[2026-07-05/daily|2026-07-05]] — 1904 stars
 - [[2026-07-04/daily|2026-07-04]] — 2803 stars
 - [[2026-07-03/daily|2026-07-03]] — 2137 stars

@@ -5,7 +5,7 @@ tags:
 repo: openai/codex-plugin-cc
 language: JavaScript
 first_seen: 2026-07-04
-appearances: 2
+appearances: 3
 ---
 
 # openai/codex-plugin-cc
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-06/articles/02-openai__codex-plugin-cc|2026-07-06]]
 - [[2026-07-05/articles/01-openai__codex-plugin-cc|2026-07-05]]
 - [[2026-07-04/articles/02-openai__codex-plugin-cc|2026-07-04]]
 
 ## 上榜历史
 
+- [[2026-07-06/daily|2026-07-06]] — 1532 stars
 - [[2026-07-05/daily|2026-07-05]] — 718 stars
 - [[2026-07-04/daily|2026-07-04]] — 634 stars
