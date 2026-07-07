@@ -5,7 +5,7 @@ tags:
 repo: ogulcancelik/herdr
 language: Rust
 first_seen: 2026-07-05
-appearances: 2
+appearances: 3
 ---
 
 # ogulcancelik/herdr
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-07/articles/09-ogulcancelik__herdr|2026-07-07]]
 - [[2026-07-06/articles/07-ogulcancelik__herdr|2026-07-06]]
 - [[2026-07-05/articles/10-ogulcancelik__herdr|2026-07-05]]
 
 ## 上榜历史
 
+- [[2026-07-07/daily|2026-07-07]] — 779 stars
 - [[2026-07-06/daily|2026-07-06]] — 651 stars
 - [[2026-07-05/daily|2026-07-05]] — 707 stars

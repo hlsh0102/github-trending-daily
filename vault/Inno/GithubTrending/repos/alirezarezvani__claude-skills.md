@@ -5,7 +5,7 @@ tags:
 repo: alirezarezvani/claude-skills
 language: Python
 first_seen: 2026-07-06
-appearances: 1
+appearances: 2
 ---
 
 # alirezarezvani/claude-skills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-07/articles/06-alirezarezvani__claude-skills|2026-07-07]]
 - [[2026-07-06/articles/05-alirezarezvani__claude-skills|2026-07-06]]
 
 ## 上榜历史
 
+- [[2026-07-07/daily|2026-07-07]] — 610 stars
 - [[2026-07-06/daily|2026-07-06]] — 392 stars
