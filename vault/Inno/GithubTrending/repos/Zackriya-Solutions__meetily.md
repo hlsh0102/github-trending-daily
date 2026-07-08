@@ -5,7 +5,7 @@ tags:
 repo: Zackriya-Solutions/meetily
 language: Rust
 first_seen: 2026-07-05
-appearances: 3
+appearances: 4
 ---
 
 # Zackriya-Solutions/meetily
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-07-08/articles/02-Zackriya-Solutions__meetily|2026-07-08]]
 - [[2026-07-07/articles/03-Zackriya-Solutions__meetily|2026-07-07]]
 - [[2026-07-06/articles/01-Zackriya-Solutions__meetily|2026-07-06]]
 - [[2026-07-05/articles/06-Zackriya-Solutions__meetily|2026-07-05]]
 
 ## 上榜历史
 
+- [[2026-07-08/daily|2026-07-08]] — 1777 stars
 - [[2026-07-07/daily|2026-07-07]] — 2494 stars
 - [[2026-07-06/daily|2026-07-06]] — 1409 stars
 - [[2026-07-05/daily|2026-07-05]] — 718 stars
