@@ -5,7 +5,7 @@ tags:
 repo: alibaba/zvec
 language: C++
 first_seen: 2026-06-19
-appearances: 1
+appearances: 2
 ---
 
 # alibaba/zvec
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-09/articles/10-alibaba__zvec|2026-07-09]]
 - [[2026-06-19/articles/07-alibaba__zvec|2026-06-19]]
 
 ## 上榜历史
 
+- [[2026-07-09/daily|2026-07-09]] — 395 stars
 - [[2026-06-19/daily|2026-06-19]] — 259 stars
