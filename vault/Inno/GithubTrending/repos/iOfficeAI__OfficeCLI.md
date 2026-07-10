@@ -5,7 +5,7 @@ tags:
 repo: iOfficeAI/OfficeCLI
 language: C#
 first_seen: 2026-07-08
-appearances: 2
+appearances: 3
 ---
 
 # iOfficeAI/OfficeCLI
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-10/articles/04-iOfficeAI__OfficeCLI|2026-07-10]]
 - [[2026-07-09/articles/07-iOfficeAI__OfficeCLI|2026-07-09]]
 - [[2026-07-08/articles/10-iOfficeAI__OfficeCLI|2026-07-08]]
 
 ## 上榜历史
 
+- [[2026-07-10/daily|2026-07-10]] — 1929 stars
 - [[2026-07-09/daily|2026-07-09]] — 1717 stars
 - [[2026-07-08/daily|2026-07-08]] — 893 stars
