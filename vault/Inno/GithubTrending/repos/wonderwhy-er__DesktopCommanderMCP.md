@@ -5,7 +5,7 @@ tags:
 repo: wonderwhy-er/DesktopCommanderMCP
 language: TypeScript
 first_seen: 2026-07-10
-appearances: 1
+appearances: 2
 ---
 
 # wonderwhy-er/DesktopCommanderMCP
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-11/articles/01-wonderwhy-er__DesktopCommanderMCP|2026-07-11]]
 - [[2026-07-10/articles/05-wonderwhy-er__DesktopCommanderMCP|2026-07-10]]
 
 ## 上榜历史
 
+- [[2026-07-11/daily|2026-07-11]] — 328 stars
 - [[2026-07-10/daily|2026-07-10]] — 185 stars
