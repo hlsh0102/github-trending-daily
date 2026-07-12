@@ -5,7 +5,7 @@ tags:
 repo: oven-sh/bun
 language: Rust
 first_seen: 2026-07-11
-appearances: 1
+appearances: 2
 ---
 
 # oven-sh/bun
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-12/articles/10-oven-sh__bun|2026-07-12]]
 - [[2026-07-11/articles/02-oven-sh__bun|2026-07-11]]
 
 ## 上榜历史
 
+- [[2026-07-12/daily|2026-07-12]] — 658 stars
 - [[2026-07-11/daily|2026-07-11]] — 209 stars

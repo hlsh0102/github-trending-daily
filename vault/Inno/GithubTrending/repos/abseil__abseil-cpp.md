@@ -5,7 +5,7 @@ tags:
 repo: abseil/abseil-cpp
 language: C++
 first_seen: 2026-07-11
-appearances: 1
+appearances: 2
 ---
 
 # abseil/abseil-cpp
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-12/articles/02-abseil__abseil-cpp|2026-07-12]]
 - [[2026-07-11/articles/03-abseil__abseil-cpp|2026-07-11]]
 
 ## 上榜历史
 
+- [[2026-07-12/daily|2026-07-12]] — 118 stars
 - [[2026-07-11/daily|2026-07-11]] — 89 stars

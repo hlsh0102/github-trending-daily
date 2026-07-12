@@ -5,7 +5,7 @@ tags:
 repo: openai/plugins
 language: JavaScript
 first_seen: 2026-06-07
-appearances: 2
+appearances: 3
 ---
 
 # openai/plugins
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-12/articles/07-openai__plugins|2026-07-12]]
 - [[2026-06-09/articles/09-openai__plugins|2026-06-09]]
 - [[2026-06-07/articles/05-openai__plugins|2026-06-07]]
 
 ## 上榜历史
 
+- [[2026-07-12/daily|2026-07-12]] — 29 stars
 - [[2026-06-09/daily|2026-06-09]] — 296 stars
 - [[2026-06-07/daily|2026-06-07]] — 213 stars

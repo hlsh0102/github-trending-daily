@@ -5,7 +5,7 @@ tags:
 repo: catchorg/Catch2
 language: C++
 first_seen: 2026-07-11
-appearances: 1
+appearances: 2
 ---
 
 # catchorg/Catch2
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-12/articles/01-catchorg__Catch2|2026-07-12]]
 - [[2026-07-11/articles/09-catchorg__Catch2|2026-07-11]]
 
 ## 上榜历史
 
+- [[2026-07-12/daily|2026-07-12]] — 113 stars
 - [[2026-07-11/daily|2026-07-11]] — 76 stars
