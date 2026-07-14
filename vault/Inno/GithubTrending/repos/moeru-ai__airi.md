@@ -1,0 +1,21 @@
+---
+tags:
+  - trending
+  - repo
+repo: moeru-ai/airi
+language: TypeScript
+first_seen: 2026-07-14
+appearances: 1
+---
+
+# moeru-ai/airi
+
+> 💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
+
+## 详细介绍历史
+
+- [[2026-07-14/articles/03-moeru-ai__airi|2026-07-14]]
+
+## 上榜历史
+
+- [[2026-07-14/daily|2026-07-14]] — 78 stars
