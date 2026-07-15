@@ -5,7 +5,7 @@ tags:
 repo: Raphire/Win11Debloat
 language: PowerShell
 first_seen: 2026-07-14
-appearances: 1
+appearances: 2
 ---
 
 # Raphire/Win11Debloat
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-15/articles/07-Raphire__Win11Debloat|2026-07-15]]
 - [[2026-07-14/articles/06-Raphire__Win11Debloat|2026-07-14]]
 
 ## 上榜历史
 
+- [[2026-07-15/daily|2026-07-15]] — 783 stars
 - [[2026-07-14/daily|2026-07-14]] — 118 stars

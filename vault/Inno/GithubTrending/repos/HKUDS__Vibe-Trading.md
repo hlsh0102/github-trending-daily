@@ -5,7 +5,7 @@ tags:
 repo: HKUDS/Vibe-Trading
 language: Python
 first_seen: 2026-06-29
-appearances: 4
+appearances: 5
 ---
 
 # HKUDS/Vibe-Trading
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-07-15/articles/06-HKUDS__Vibe-Trading|2026-07-15]]
 - [[2026-07-14/articles/02-HKUDS__Vibe-Trading|2026-07-14]]
 - [[2026-07-13/articles/03-HKUDS__Vibe-Trading|2026-07-13]]
 - [[2026-07-02/articles/03-HKUDS__Vibe-Trading|2026-07-02]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-07-15/daily|2026-07-15]] — 1256 stars
 - [[2026-07-14/daily|2026-07-14]] — 1153 stars
 - [[2026-07-13/daily|2026-07-13]] — 768 stars
 - [[2026-07-02/daily|2026-07-02]] — 694 stars
