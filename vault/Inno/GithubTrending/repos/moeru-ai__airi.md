@@ -5,7 +5,7 @@ tags:
 repo: moeru-ai/airi
 language: TypeScript
 first_seen: 2026-07-14
-appearances: 1
+appearances: 2
 ---
 
 # moeru-ai/airi
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-16/articles/04-moeru-ai__airi|2026-07-16]]
 - [[2026-07-14/articles/03-moeru-ai__airi|2026-07-14]]
 
 ## 上榜历史
 
+- [[2026-07-16/daily|2026-07-16]] — 110 stars
 - [[2026-07-14/daily|2026-07-14]] — 78 stars

@@ -5,7 +5,7 @@ tags:
 repo: Dicklesworthstone/destructive_command_guard
 language: Rust
 first_seen: 2026-07-13
-appearances: 1
+appearances: 2
 ---
 
 # Dicklesworthstone/destructive_command_guard
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-16/articles/05-Dicklesworthstone__destructive_command_guard|2026-07-16]]
 - [[2026-07-13/articles/01-Dicklesworthstone__destructive_command_guard|2026-07-13]]
 
 ## 上榜历史
 
+- [[2026-07-16/daily|2026-07-16]] — 471 stars
 - [[2026-07-13/daily|2026-07-13]] — 444 stars
