@@ -5,7 +5,7 @@ tags:
 repo: OpenCut-app/OpenCut
 language: TypeScript
 first_seen: 2026-07-14
-appearances: 3
+appearances: 4
 ---
 
 # OpenCut-app/OpenCut
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-07-17/articles/03-OpenCut-app__OpenCut|2026-07-17]]
 - [[2026-07-16/articles/01-OpenCut-app__OpenCut|2026-07-16]]
 - [[2026-07-15/articles/03-OpenCut-app__OpenCut|2026-07-15]]
 - [[2026-07-14/articles/01-OpenCut-app__OpenCut|2026-07-14]]
 
 ## 上榜历史
 
+- [[2026-07-17/daily|2026-07-17]] — 3537 stars
 - [[2026-07-16/daily|2026-07-16]] — 1664 stars
 - [[2026-07-15/daily|2026-07-15]] — 4276 stars
 - [[2026-07-14/daily|2026-07-14]] — 1229 stars

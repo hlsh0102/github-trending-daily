@@ -5,7 +5,7 @@ tags:
 repo: openinterpreter/openinterpreter
 language: Rust
 first_seen: 2026-07-16
-appearances: 1
+appearances: 2
 ---
 
 # openinterpreter/openinterpreter
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-17/articles/05-openinterpreter__openinterpreter|2026-07-17]]
 - [[2026-07-16/articles/07-openinterpreter__openinterpreter|2026-07-16]]
 
 ## 上榜历史
 
+- [[2026-07-17/daily|2026-07-17]] — 661 stars
 - [[2026-07-16/daily|2026-07-16]] — 299 stars
