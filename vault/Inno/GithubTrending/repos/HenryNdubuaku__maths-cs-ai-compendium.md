@@ -5,7 +5,7 @@ tags:
 repo: HenryNdubuaku/maths-cs-ai-compendium
 language: TypeScript
 first_seen: 2026-07-16
-appearances: 1
+appearances: 2
 ---
 
 # HenryNdubuaku/maths-cs-ai-compendium
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-18/articles/03-HenryNdubuaku__maths-cs-ai-compendium|2026-07-18]]
 - [[2026-07-16/articles/09-HenryNdubuaku__maths-cs-ai-compendium|2026-07-16]]
 
 ## 上榜历史
 
+- [[2026-07-18/daily|2026-07-18]] — 200 stars
 - [[2026-07-16/daily|2026-07-16]] — 725 stars

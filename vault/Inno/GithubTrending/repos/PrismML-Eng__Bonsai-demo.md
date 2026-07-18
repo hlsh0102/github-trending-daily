@@ -5,7 +5,7 @@ tags:
 repo: PrismML-Eng/Bonsai-demo
 language: Shell
 first_seen: 2026-07-17
-appearances: 1
+appearances: 2
 ---
 
 # PrismML-Eng/Bonsai-demo
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-18/articles/07-PrismML-Eng__Bonsai-demo|2026-07-18]]
 - [[2026-07-17/articles/06-PrismML-Eng__Bonsai-demo|2026-07-17]]
 
 ## 上榜历史
 
+- [[2026-07-18/daily|2026-07-18]] — 278 stars
 - [[2026-07-17/daily|2026-07-17]] — 196 stars
