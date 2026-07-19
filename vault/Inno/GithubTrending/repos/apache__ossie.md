@@ -5,7 +5,7 @@ tags:
 repo: apache/ossie
 language: Python
 first_seen: 2026-07-17
-appearances: 1
+appearances: 2
 ---
 
 # apache/ossie
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-19/articles/02-apache__ossie|2026-07-19]]
 - [[2026-07-17/articles/01-apache__ossie|2026-07-17]]
 
 ## 上榜历史
 
+- [[2026-07-19/daily|2026-07-19]] — 47 stars
 - [[2026-07-17/daily|2026-07-17]] — 60 stars

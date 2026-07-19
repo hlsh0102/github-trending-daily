@@ -5,7 +5,7 @@ tags:
 repo: PostHog/posthog
 language: Python
 first_seen: 2026-07-17
-appearances: 2
+appearances: 3
 ---
 
 # PostHog/posthog
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-19/articles/03-PostHog__posthog|2026-07-19]]
 - [[2026-07-18/articles/02-PostHog__posthog|2026-07-18]]
 - [[2026-07-17/articles/04-PostHog__posthog|2026-07-17]]
 
 ## 上榜历史
 
+- [[2026-07-19/daily|2026-07-19]] — 338 stars
 - [[2026-07-18/daily|2026-07-18]] — 438 stars
 - [[2026-07-17/daily|2026-07-17]] — 77 stars

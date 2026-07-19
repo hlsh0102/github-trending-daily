@@ -5,7 +5,7 @@ tags:
 repo: Robbyant/lingbot-map
 language: Python
 first_seen: 2026-06-29
-appearances: 1
+appearances: 2
 ---
 
 # Robbyant/lingbot-map
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-19/articles/01-Robbyant__lingbot-map|2026-07-19]]
 - [[2026-06-29/articles/05-Robbyant__lingbot-map|2026-06-29]]
 
 ## 上榜历史
 
+- [[2026-07-19/daily|2026-07-19]] — 831 stars
 - [[2026-06-29/daily|2026-06-29]] — 372 stars
