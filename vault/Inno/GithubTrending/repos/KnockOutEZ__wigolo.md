@@ -5,7 +5,7 @@ tags:
 repo: KnockOutEZ/wigolo
 language: TypeScript
 first_seen: 2026-07-19
-appearances: 1
+appearances: 2
 ---
 
 # KnockOutEZ/wigolo
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-20/articles/06-KnockOutEZ__wigolo|2026-07-20]]
 - [[2026-07-19/articles/09-KnockOutEZ__wigolo|2026-07-19]]
 
 ## 上榜历史
 
+- [[2026-07-20/daily|2026-07-20]] — 595 stars
 - [[2026-07-19/daily|2026-07-19]] — 203 stars
