@@ -5,7 +5,7 @@ tags:
 repo: kvcache-ai/ktransformers
 language: Python
 first_seen: 2026-07-20
-appearances: 1
+appearances: 2
 ---
 
 # kvcache-ai/ktransformers
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-21/articles/06-kvcache-ai__ktransformers|2026-07-21]]
 - [[2026-07-20/articles/03-kvcache-ai__ktransformers|2026-07-20]]
 
 ## 上榜历史
 
+- [[2026-07-21/daily|2026-07-21]] — 458 stars
 - [[2026-07-20/daily|2026-07-20]] — 360 stars

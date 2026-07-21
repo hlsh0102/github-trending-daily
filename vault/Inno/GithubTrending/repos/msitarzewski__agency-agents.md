@@ -5,7 +5,7 @@ tags:
 repo: msitarzewski/agency-agents
 language: Shell
 first_seen: 2026-06-30
-appearances: 4
+appearances: 5
 ---
 
 # msitarzewski/agency-agents
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-07-21/articles/05-msitarzewski__agency-agents|2026-07-21]]
 - [[2026-07-03/articles/03-msitarzewski__agency-agents|2026-07-03]]
 - [[2026-07-02/articles/01-msitarzewski__agency-agents|2026-07-02]]
 - [[2026-07-01/articles/03-msitarzewski__agency-agents|2026-07-01]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-07-21/daily|2026-07-21]] — 862 stars
 - [[2026-07-03/daily|2026-07-03]] — 3032 stars
 - [[2026-07-02/daily|2026-07-02]] — 2114 stars
 - [[2026-07-01/daily|2026-07-01]] — 1791 stars
