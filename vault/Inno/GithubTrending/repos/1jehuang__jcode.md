@@ -5,7 +5,7 @@ tags:
 repo: 1jehuang/jcode
 language: Rust
 first_seen: 2026-07-21
-appearances: 1
+appearances: 2
 ---
 
 # 1jehuang/jcode
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-22/articles/06-1jehuang__jcode|2026-07-22]]
 - [[2026-07-21/articles/02-1jehuang__jcode|2026-07-21]]
 
 ## 上榜历史
 
+- [[2026-07-22/daily|2026-07-22]] — 843 stars
 - [[2026-07-21/daily|2026-07-21]] — 568 stars

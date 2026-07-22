@@ -5,7 +5,7 @@ tags:
 repo: every-app/open-seo
 language: TypeScript
 first_seen: 2026-06-26
-appearances: 2
+appearances: 3
 ---
 
 # every-app/open-seo
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-22/articles/09-every-app__open-seo|2026-07-22]]
 - [[2026-07-21/articles/10-every-app__open-seo|2026-07-21]]
 - [[2026-06-26/articles/07-every-app__open-seo|2026-06-26]]
 
 ## 上榜历史
 
+- [[2026-07-22/daily|2026-07-22]] — 849 stars
 - [[2026-07-21/daily|2026-07-21]] — 939 stars
 - [[2026-06-26/daily|2026-06-26]] — 57 stars

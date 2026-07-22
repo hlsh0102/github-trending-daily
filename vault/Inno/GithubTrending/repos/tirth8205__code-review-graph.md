@@ -5,7 +5,7 @@ tags:
 repo: tirth8205/code-review-graph
 language: Python
 first_seen: 2026-07-18
-appearances: 4
+appearances: 5
 ---
 
 # tirth8205/code-review-graph
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-07-22/articles/03-tirth8205__code-review-graph|2026-07-22]]
 - [[2026-07-21/articles/01-tirth8205__code-review-graph|2026-07-21]]
 - [[2026-07-20/articles/02-tirth8205__code-review-graph|2026-07-20]]
 - [[2026-07-19/articles/06-tirth8205__code-review-graph|2026-07-19]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-07-22/daily|2026-07-22]] — 1925 stars
 - [[2026-07-21/daily|2026-07-21]] — 1833 stars
 - [[2026-07-20/daily|2026-07-20]] — 663 stars
 - [[2026-07-19/daily|2026-07-19]] — 355 stars

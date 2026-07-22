@@ -5,7 +5,7 @@ tags:
 repo: bojieli/ai-agent-book
 language: Python
 first_seen: 2026-07-20
-appearances: 1
+appearances: 2
 ---
 
 # bojieli/ai-agent-book
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-22/articles/02-bojieli__ai-agent-book|2026-07-22]]
 - [[2026-07-20/articles/01-bojieli__ai-agent-book|2026-07-20]]
 
 ## 上榜历史
 
+- [[2026-07-22/daily|2026-07-22]] — 4624 stars
 - [[2026-07-20/daily|2026-07-20]] — 1734 stars
