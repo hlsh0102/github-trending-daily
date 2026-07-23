@@ -5,7 +5,7 @@ tags:
 repo: ruvnet/RuView
 language: Rust
 first_seen: 2026-07-07
-appearances: 3
+appearances: 4
 ---
 
 # ruvnet/RuView
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-07-23/articles/02-ruvnet__RuView|2026-07-23]]
 - [[2026-07-09/articles/02-ruvnet__RuView|2026-07-09]]
 - [[2026-07-08/articles/04-ruvnet__RuView|2026-07-08]]
 - [[2026-07-07/articles/04-ruvnet__RuView|2026-07-07]]
 
 ## 上榜历史
 
+- [[2026-07-23/daily|2026-07-23]] — 741 stars
 - [[2026-07-09/daily|2026-07-09]] — 799 stars
 - [[2026-07-08/daily|2026-07-08]] — 1129 stars
 - [[2026-07-07/daily|2026-07-07]] — 470 stars
