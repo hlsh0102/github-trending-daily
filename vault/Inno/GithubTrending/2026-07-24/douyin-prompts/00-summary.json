@@ -1,0 +1,122 @@
+{
+  "type": "短视频封面 + 便当格混合信息图",
+  "goal": "生成一张抖音9:16竖屏封面，GitHub Trending TOP10汇总，标题抓眼球、数据震撼、便当格模块布局，同时适配手机刘海/摄像头遮挡区域",
+  "aspect_ratio": "9:16 portrait (1080×1920)",
+  "safe_area": {
+    "top_reserved_area": "画面顶部约 180px 为抖音安全区，不放主标题、副标题、项目名、关键数字等重要信息",
+    "title_position": "主标题块从画面约 220px 处开始，位于抖音刘海/状态栏下方，但不要低于 250px",
+    "top_area_usage": "顶部安全区不要空，只放不可读的低透明度网格、星点、代码线、GitHub风格装饰线、霓虹绿节点和电路线",
+    "bottom_reserved_area": "底部至少留出 160px，避免抖音文案、按钮或进度条遮挡核心信息"
+  },
+  "background": {
+    "color": "深黑蓝渐变 #0D1117 → #161B22 → #0D1117",
+    "texture": "细微网格线(git风格) + 右下角一个巨大的半透明GitHub猫咪logo水印"
+  },
+  "title_block": {
+    "main_title": "🔥 GitHub今日TOP10",
+    "position": "从画面顶部约 220px 开始，居中偏上，但不要低于 250px 或贴近顶部边缘",
+    "title_style": "白色超粗体(#FFFFFF)，字号极大，1米外清晰可辨，带绿色(#238636)下划线装饰",
+    "subtitle": "开源项目精选 · worldmonitor 暴涨3.2K⭐",
+    "subtitle_style": "浅灰(#8B949E)，中号字，紧贴主标题下方，但不得进入顶部安全区",
+    "hook_headline": "今日最值得看的开源项目",
+    "hook_style": "副标题下方的大号粗体钩子，强调今日看点和榜单价值，必须完整可读"
+  },
+  "date_badge": {
+    "text": "2026.07.24",
+    "position": "标题上方或标题左上侧，仍然位于顶部安全区下方，作为日报日期身份强提示",
+    "style": "醒目的绿色描边胶囊或金色小日历徽章，字号大于副标题但小于主标题，必须第一眼可见",
+    "icon": "小日历图标"
+  },
+  "hero_module": {
+    "position": "标题下方，画面中上部 40% 区域",
+    "style": "大圆角卡片(24px)，半透明深色底(#1C2128)，绿色(#238636)左边框",
+    "readability_rule": "必须直接展示今日焦点项目、单日增长和它解决的问题，不能只放抽象装饰图",
+    "content": {
+      "title": "🏆 今日焦点",
+      "project": "koala73/worldmonitor",
+      "tagline": "World Monitor 是一个实时全球情报仪表盘，利用人工智能聚合新闻、监控地缘政治动态并追踪基础设施状况。它旨在为分析师、记者和决策者提…",
+      "big_number": "+3.2K ⭐",
+      "big_number_label": "单日暴涨",
+      "visual_hint": "一个发光代码仓库向外连接知识节点和星标粒子的3D等距插画"
+    }
+  },
+  "stats_row": {
+    "position": "hero模块下方，三张关键数字卡片横排",
+    "style": "3个等宽卡片，背景半透明黑，数字大号发光",
+    "cards": [
+      {
+        "number": "5",
+        "label": "新上榜",
+        "color": "#D4A574"
+      },
+      {
+        "number": "3.2K",
+        "label": "最高日增",
+        "color": "#58A6FF"
+      },
+      {
+        "number": "72.0K",
+        "label": "最高星标",
+        "color": "#D4A574"
+      }
+    ]
+  },
+  "comparison": {
+    "baseline_date": "2026-07-23",
+    "rule": "与 vault 中早于今天的最近一个日期目录的 daily.md 排行榜对比；当前榜单里不存在于该历史榜单的项目标记为新上榜",
+    "new_entries_count": 5,
+    "new_entries": [
+      "01 block/buzz",
+      "04 Pumpkin-MC/Pumpkin",
+      "05 citrolabs/ego-lite",
+      "09 earthtojake/text-to-cad",
+      "10 agegr/pi-web"
+    ],
+    "visual_instruction": "在 ranking_strip 中所有新上榜条目右侧添加醒目的 🆕 新上榜 标签，使用绿色描边或金色小胶囊，但不要抢主标题"
+  },
+  "ranking_strip": {
+    "position": "画面下半部，但避开底部160px安全区",
+    "style": "5行×2列紧凑排列，每个条目一行：排名数字(01-10，绿色粗体) + 项目名(白色) + 星标数(金色小字)",
+    "items": [
+      "01 buzz · 7.5K★ · 🆕 新上榜",
+      "02 worldmonitor · 72.0K★",
+      "03 Kronos · 33.2K★",
+      "04 Pumpkin · 9.0K★ · 🆕 新上榜",
+      "05 ego-lite · 1.8K★ · 🆕 新上榜",
+      "06 Apollo-11 · 71.2K★",
+      "07 OmniRoute · 27.5K★",
+      "08 awesome-claude-skills · 69.6K★",
+      "09 text-to-cad · 10.1K★ · 🆕 新上榜",
+      "10 pi-web · 2.5K★ · 🆕 新上榜"
+    ]
+  },
+  "bottom_bar": {
+    "text": "每天一分钟，带你了解全球开发者都在关注什么 🔍",
+    "position": "底部安全区上方，不贴底",
+    "style": "底部白色细线分隔 + 灰色小字居中",
+    "handle": "@GitHub精选日报"
+  },
+  "constraints": {
+    "must_feel": "像真实抖音科技博主的高质量封面，不是PPT截图",
+    "must_keep": [
+      "主标题不能出现在画面顶部180px以内",
+      "主标题在1米外清晰可辨",
+      "副标题下方必须有一句大号功能钩子，让观众1秒内知道项目用途",
+      "中央主视觉必须是功能流程或使用场景，不允许只是无信息量的大装饰图",
+      "绿色(#238636)和金色(#D4A574)作为强调色贯穿全图",
+      "至少3处出现大数字做视觉锚点",
+      "排名区域清晰但不抢主标题",
+      "整体暗色科技感+霓虹点缀"
+    ],
+    "avoid": [
+      "标题贴近顶部边缘",
+      "标题文字被手机刘海、摄像头、状态栏或任何元素遮挡",
+      "顶部安全区大面积空白",
+      "中间区域只有漂亮插画但看不出项目用途",
+      "纯黑背景(要有层次)",
+      "信息堆砌到看不清",
+      "超过5种颜色",
+      "卡通/可爱/手账风格"
+    ]
+  }
+}

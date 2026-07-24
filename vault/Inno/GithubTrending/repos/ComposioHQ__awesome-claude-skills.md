@@ -5,7 +5,7 @@ tags:
 repo: ComposioHQ/awesome-claude-skills
 language: Python
 first_seen: 2026-07-23
-appearances: 1
+appearances: 2
 ---
 
 # ComposioHQ/awesome-claude-skills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-24/articles/08-ComposioHQ__awesome-claude-skills|2026-07-24]]
 - [[2026-07-23/articles/10-ComposioHQ__awesome-claude-skills|2026-07-23]]
 
 ## 上榜历史
 
+- [[2026-07-24/daily|2026-07-24]] — 636 stars
 - [[2026-07-23/daily|2026-07-23]] — 163 stars
