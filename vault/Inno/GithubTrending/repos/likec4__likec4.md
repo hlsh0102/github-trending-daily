@@ -5,7 +5,7 @@ tags:
 repo: likec4/likec4
 language: TypeScript
 first_seen: 2026-07-23
-appearances: 1
+appearances: 2
 ---
 
 # likec4/likec4
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-25/articles/07-likec4__likec4|2026-07-25]]
 - [[2026-07-23/articles/05-likec4__likec4|2026-07-23]]
 
 ## 上榜历史
 
+- [[2026-07-25/daily|2026-07-25]] — 337 stars
 - [[2026-07-23/daily|2026-07-23]] — 80 stars
