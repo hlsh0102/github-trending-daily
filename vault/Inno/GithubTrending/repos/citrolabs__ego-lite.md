@@ -5,7 +5,7 @@ tags:
 repo: citrolabs/ego-lite
 language: JavaScript
 first_seen: 2026-07-24
-appearances: 2
+appearances: 3
 ---
 
 # citrolabs/ego-lite
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-26/articles/03-citrolabs__ego-lite|2026-07-26]]
 - [[2026-07-25/articles/08-citrolabs__ego-lite|2026-07-25]]
 - [[2026-07-24/articles/05-citrolabs__ego-lite|2026-07-24]]
 
 ## 上榜历史
 
+- [[2026-07-26/daily|2026-07-26]] — 986 stars
 - [[2026-07-25/daily|2026-07-25]] — 880 stars
 - [[2026-07-24/daily|2026-07-24]] — 247 stars

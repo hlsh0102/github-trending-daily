@@ -5,7 +5,7 @@ tags:
 repo: Pumpkin-MC/Pumpkin
 language: Rust
 first_seen: 2026-07-24
-appearances: 2
+appearances: 3
 ---
 
 # Pumpkin-MC/Pumpkin
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-26/articles/09-Pumpkin-MC__Pumpkin|2026-07-26]]
 - [[2026-07-25/articles/04-Pumpkin-MC__Pumpkin|2026-07-25]]
 - [[2026-07-24/articles/04-Pumpkin-MC__Pumpkin|2026-07-24]]
 
 ## 上榜历史
 
+- [[2026-07-26/daily|2026-07-26]] — 358 stars
 - [[2026-07-25/daily|2026-07-25]] — 473 stars
 - [[2026-07-24/daily|2026-07-24]] — 565 stars

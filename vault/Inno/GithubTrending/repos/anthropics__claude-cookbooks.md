@@ -5,7 +5,7 @@ tags:
 repo: anthropics/claude-cookbooks
 language: Jupyter Notebook
 first_seen: 2026-07-10
-appearances: 2
+appearances: 3
 ---
 
 # anthropics/claude-cookbooks
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-26/articles/05-anthropics__claude-cookbooks|2026-07-26]]
 - [[2026-07-13/articles/06-anthropics__claude-cookbooks|2026-07-13]]
 - [[2026-07-10/articles/06-anthropics__claude-cookbooks|2026-07-10]]
 
 ## 上榜历史
 
+- [[2026-07-26/daily|2026-07-26]] — 132 stars
 - [[2026-07-13/daily|2026-07-13]] — 459 stars
 - [[2026-07-10/daily|2026-07-10]] — 194 stars
