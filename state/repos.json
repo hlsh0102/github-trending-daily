@@ -160,7 +160,8 @@
       "2026-07-24",
       "2026-07-25",
       "2026-07-26",
-      "2026-07-27"
+      "2026-07-27",
+      "2026-07-28"
     ],
     "intro_zh": "Kronos是一个专为金融市场打造的基础模型，旨在理解并生成金融市场的‘语言’。该项目通过深度学习技术分析金融文本、交易数据等市场信号，帮助投资者、分析师和量化研究者在市场预测、风险管理和交易策略等方面获得更智能的辅助。基于MIT开源协议，Kronos提供了可部署的预训练模型和相关工具，适用于金融领域的自然语言处理和时间序列分析任务。",
     "image_prompt_en": "",
@@ -367,7 +368,8 @@
     "first_seen": "2026-06-02",
     "appearances": [
       "2026-06-02",
-      "2026-07-27"
+      "2026-07-27",
+      "2026-07-28"
     ],
     "intro_zh": "Impeccable 是一个前端设计语言工具集，专为大型语言模型（如 Claude）设计，旨在通过提供7个领域参考文件、23个设计命令和27条确定性反模式规则，帮助AI生成更专业、一致的用户界面。它解决了AI模型因训练数据重复而导致输出雷同（如统一使用 Inter 字体、紫蓝渐变、卡片嵌套等）的问题，适用于需要定制化前端设计成果的开发者、设计师和AI提示工程团队。该项目包含可直接运行的CLI工具和浏览器扩展，无需额外的LLM API即可执行设计审核。",
     "image_prompt_en": "",
@@ -2206,7 +2208,8 @@
     "first_seen": "2026-07-14",
     "appearances": [
       "2026-07-14",
-      "2026-07-16"
+      "2026-07-16",
+      "2026-07-28"
     ],
     "intro_zh": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
     "image_prompt_en": "",
@@ -2640,7 +2643,8 @@
     "first_seen": "2026-07-25",
     "appearances": [
       "2026-07-25",
-      "2026-07-27"
+      "2026-07-27",
+      "2026-07-28"
     ],
     "intro_zh": "Pretty fancy and modern terminal file manager",
     "image_prompt_en": "",
@@ -2649,7 +2653,8 @@
   "alibaba/open-code-review": {
     "first_seen": "2026-07-26",
     "appearances": [
-      "2026-07-26"
+      "2026-07-26",
+      "2026-07-28"
     ],
     "intro_zh": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
     "image_prompt_en": "",
@@ -2659,7 +2664,8 @@
     "first_seen": "2026-07-26",
     "appearances": [
       "2026-07-26",
-      "2026-07-27"
+      "2026-07-27",
+      "2026-07-28"
     ],
     "intro_zh": "bluetooth mesh chat, IRC vibes",
     "image_prompt_en": "",
@@ -2698,6 +2704,42 @@
       "2026-07-27"
     ],
     "intro_zh": "Chat2DB 是一款开源的、跨平台的数据库客户端和 SQL 工作台，支持 Windows、macOS 和 Linux。它集成了 AI 助手，允许用户使用自有模型通过自然语言生成、解释和优化 SQL，同时提供完整的 SQL 编辑、执行与格式化功能。该项目面向开发人员、数据库管理员、数据分析师和数据团队，旨在提升数据库操作与查询效率。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "amnezia-vpn/amnezia-client": {
+    "first_seen": "2026-07-28",
+    "appearances": [
+      "2026-07-28"
+    ],
+    "intro_zh": "Amnezia 是一款开源 VPN 客户端，支持桌面和移动平台。它允许用户在自己的服务器上部署 VPN，从而完全控制网络连接和数据隐私。该项目适合希望绕过网络限制并自行管理 VPN 服务的用户。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "opengeos/GeoLibre": {
+    "first_seen": "2026-07-28",
+    "appearances": [
+      "2026-07-28"
+    ],
+    "intro_zh": "GeoLibre 是一款免费开源、轻量级的云原生 GIS 平台，用于可视化、探索和分析地理空间数据。它能在 Web 浏览器、桌面端、移动端以及 Jupyter notebook 中运行，同时保证用户数据的本地化和隐私性。该项目适用于需要跨平台地理信息处理能力的研究者、开发者和数据分析师。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "NanmiCoder/MediaCrawler": {
+    "first_seen": "2026-07-28",
+    "appearances": [
+      "2026-07-28"
+    ],
+    "intro_zh": "MediaCrawler 是一个基于 Python 的多平台自媒体数据采集工具，支持小红书、抖音、快手、B站、微博、贴吧、知乎等主流网站的帖子、视频、评论等公开信息爬取。该项目利用 Playwright 等自动化技术模拟用户浏览行为，帮助开发者和研究人员高效获取社交媒体上的结构化数据，用于学习和研究目的。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "jenkinsci/jenkins": {
+    "first_seen": "2026-07-28",
+    "appearances": [
+      "2026-07-28"
+    ],
+    "intro_zh": "Jenkins 是一个用 Java 编写的开源自动化服务器，通过超过 2000 个插件支持构建、测试、静态代码分析和部署等开发工作流的自动化。它帮助开发团队将重复性任务交给机器处理，从而专注于更有价值的工作。该项目适合任何需要持续集成和持续交付的软件开发团队。",
     "image_prompt_en": "",
     "image_path": ""
   }
