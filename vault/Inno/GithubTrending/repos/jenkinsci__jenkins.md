@@ -5,7 +5,7 @@ tags:
 repo: jenkinsci/jenkins
 language: Java
 first_seen: 2026-07-28
-appearances: 1
+appearances: 2
 ---
 
 # jenkinsci/jenkins
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-29/articles/02-jenkinsci__jenkins|2026-07-29]]
 - [[2026-07-28/articles/10-jenkinsci__jenkins|2026-07-28]]
 
 ## 上榜历史
 
+- [[2026-07-29/daily|2026-07-29]] — 180 stars
 - [[2026-07-28/daily|2026-07-28]] — 180 stars

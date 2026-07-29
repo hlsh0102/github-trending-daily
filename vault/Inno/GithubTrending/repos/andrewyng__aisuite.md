@@ -5,7 +5,7 @@ tags:
 repo: andrewyng/aisuite
 language: Python
 first_seen: 2026-06-14
-appearances: 1
+appearances: 2
 ---
 
 # andrewyng/aisuite
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-29/articles/04-andrewyng__aisuite|2026-07-29]]
 - [[2026-06-14/articles/10-andrewyng__aisuite|2026-06-14]]
 
 ## 上榜历史
 
+- [[2026-07-29/daily|2026-07-29]] — 62 stars
 - [[2026-06-14/daily|2026-06-14]] — 127 stars
