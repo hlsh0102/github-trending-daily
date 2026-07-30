@@ -23,7 +23,8 @@
       "2026-06-05",
       "2026-06-06",
       "2026-07-03",
-      "2026-07-29"
+      "2026-07-29",
+      "2026-07-30"
     ],
     "intro_zh": "ECC是一个用于提升AI编码助手（如Claude Code、Codex、Opencode、Cursor等）性能的代理工具优化系统。它通过技能、直觉、记忆、安全机制和以研究为先的开发方式，帮助开发者在编码过程中更高效地利用AI代理。该项目适合希望优化AI编码助手工作流、提升开发效率的软件工程师和技术团队。",
     "image_prompt_en": "",
@@ -218,7 +219,8 @@
       "2026-07-03",
       "2026-07-09",
       "2026-07-11",
-      "2026-07-26"
+      "2026-07-26",
+      "2026-07-30"
     ],
     "intro_zh": "Superpowers 是一个为编程代理设计的完整软件开发方法论，构建在一组可组合的技能和初始指令之上。它通过引导代理在编码前先明确规格、制定实现计划，并采用子代理驱动开发流程，来解决代理直接编写代码时缺乏上下文、测试和项目纪律的问题。该项目适用于希望提升编码代理自主工作质量和效率的开发者。",
     "image_prompt_en": "",
@@ -2212,7 +2214,8 @@
       "2026-07-14",
       "2026-07-16",
       "2026-07-28",
-      "2026-07-29"
+      "2026-07-29",
+      "2026-07-30"
     ],
     "intro_zh": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
     "image_prompt_en": "",
@@ -2485,7 +2488,8 @@
     "first_seen": "2026-07-21",
     "appearances": [
       "2026-07-21",
-      "2026-07-22"
+      "2026-07-22",
+      "2026-07-30"
     ],
     "intro_zh": "jcode 是一个面向代码开发者的智能代理框架，用 Rust 编写，旨在提升多会话工作流的效率与性能。它通过高度可定制的架构和资源优化，帮助用户在处理复杂编程任务时实现更高的技能上限。该项目适合需要强大、可扩展编码代理支持的专业开发者。",
     "image_prompt_en": "",
@@ -2723,7 +2727,8 @@
     "first_seen": "2026-07-28",
     "appearances": [
       "2026-07-28",
-      "2026-07-29"
+      "2026-07-29",
+      "2026-07-30"
     ],
     "intro_zh": "GeoLibre 是一款免费开源、轻量级的云原生 GIS 平台，用于可视化、探索和分析地理空间数据。它能在 Web 浏览器、桌面端、移动端以及 Jupyter notebook 中运行，同时保证用户数据的本地化和隐私性。该项目适用于需要跨平台地理信息处理能力的研究者、开发者和数据分析师。",
     "image_prompt_en": "",
@@ -2769,7 +2774,8 @@
   "huggingface/speech-to-speech": {
     "first_seen": "2026-07-29",
     "appearances": [
-      "2026-07-29"
+      "2026-07-29",
+      "2026-07-30"
     ],
     "intro_zh": "Speech-to-Speech 是一个低延迟、完全模块化的语音智能体管道，由 Hugging Face 开源。它将语音活动检测、语音识别、大语言模型推理和语音合成串联起来，并对外提供与 OpenAI Realtime API 兼容的 WebSocket 接口。项目允许用户自由替换每个组件，并支持将大语言模型指向云服务或本地部署的开源模型，适合需要构建本地、端到端语音对话系统的开发者和研究人员。",
     "image_prompt_en": "",
@@ -2790,6 +2796,42 @@
       "2026-07-29"
     ],
     "intro_zh": "这是一个系统性交易（量化交易）资源的精选列表，汇集了用于研究、开发和运行交易策略的库、包、策略、书籍、博客和教程。项目涵盖了97个库和包、40多种策略以及55本书籍，适合从初学者到专业交易者的不同需求。该列表由社区维护，旨在为量化交易者提供一个全面的参考指南。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "grokability/snipe-it": {
+    "first_seen": "2026-07-30",
+    "appearances": [
+      "2026-07-30"
+    ],
+    "intro_zh": "Snipe-IT 是一个免费开源的 IT 资产/许可证管理系统，用于跟踪公司内部的硬件设备（如笔记本电脑）和软件许可证。它基于 Laravel 框架构建，采用 Web 方式运行，需要部署在服务器上通过浏览器访问。该项目适合 IT 运维人员使用，帮助管理资产的生命周期、折旧和合规性。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "deepfakes/faceswap": {
+    "first_seen": "2026-07-30",
+    "appearances": [
+      "2026-07-30"
+    ],
+    "intro_zh": "FaceSwap 是一个基于深度学习的开源工具，用于在图片和视频中识别并交换人脸。该项目提供了完整的训练和推理流程，支持多种模型架构，适合对深度学习和计算机视觉感兴趣的用户进行人脸合成实验。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "microsoft/VibeVoice": {
+    "first_seen": "2026-07-30",
+    "appearances": [
+      "2026-07-30"
+    ],
+    "intro_zh": "VibeVoice 是微软推出的开源前沿语音 AI 项目，旨在提供统一的语音识别（ASR）和语音合成能力。该项目通过高效的模型设计和量化解码方案，使得在边缘 CPU 上即可实现实时语音识别，无需依赖 GPU。面向需要高精度、低延迟语音 AI 的开发者与研究人员。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "different-ai/openwork": {
+    "first_seen": "2026-07-30",
+    "appearances": [
+      "2026-07-30"
+    ],
+    "intro_zh": "OpenWork 是一款免费开源的桌面应用，旨在共享 AI 工作流，作为 Claude Cowork 和 Codex 的开源替代方案。它支持在 Codex、Claude Code、Cursor 等 AI 代理中复用相同的技能、MCP 和连接服务，适合需要跨工具、团队成员或机器统一配置的个人和团队。对于需要集中管理访问权限和连接的大型组织，它还提供了管理界面。",
     "image_prompt_en": "",
     "image_path": ""
   }

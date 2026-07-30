@@ -5,7 +5,7 @@ tags:
 repo: opengeos/GeoLibre
 language: TypeScript
 first_seen: 2026-07-28
-appearances: 2
+appearances: 3
 ---
 
 # opengeos/GeoLibre
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-30/articles/01-opengeos__GeoLibre|2026-07-30]]
 - [[2026-07-29/articles/09-opengeos__GeoLibre|2026-07-29]]
 - [[2026-07-28/articles/04-opengeos__GeoLibre|2026-07-28]]
 
 ## 上榜历史
 
+- [[2026-07-30/daily|2026-07-30]] — 671 stars
 - [[2026-07-29/daily|2026-07-29]] — 607 stars
 - [[2026-07-28/daily|2026-07-28]] — 420 stars

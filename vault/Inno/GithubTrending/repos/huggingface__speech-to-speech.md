@@ -5,7 +5,7 @@ tags:
 repo: huggingface/speech-to-speech
 language: Python
 first_seen: 2026-07-29
-appearances: 1
+appearances: 2
 ---
 
 # huggingface/speech-to-speech
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-30/articles/04-huggingface__speech-to-speech|2026-07-30]]
 - [[2026-07-29/articles/07-huggingface__speech-to-speech|2026-07-29]]
 
 ## 上榜历史
 
+- [[2026-07-30/daily|2026-07-30]] — 827 stars
 - [[2026-07-29/daily|2026-07-29]] — 227 stars
