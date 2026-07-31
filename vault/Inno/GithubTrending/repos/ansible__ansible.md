@@ -5,7 +5,7 @@ tags:
 repo: ansible/ansible
 language: Python
 first_seen: 2026-07-04
-appearances: 1
+appearances: 2
 ---
 
 # ansible/ansible
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-31/articles/10-ansible__ansible|2026-07-31]]
 - [[2026-07-04/articles/07-ansible__ansible|2026-07-04]]
 
 ## 上榜历史
 
+- [[2026-07-31/daily|2026-07-31]] — 29 stars
 - [[2026-07-04/daily|2026-07-04]] — 65 stars

@@ -5,7 +5,7 @@ tags:
 repo: pascalorg/editor
 language: TypeScript
 first_seen: 2026-07-29
-appearances: 1
+appearances: 2
 ---
 
 # pascalorg/editor
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-07-31/articles/06-pascalorg__editor|2026-07-31]]
 - [[2026-07-29/articles/01-pascalorg__editor|2026-07-29]]
 
 ## 上榜历史
 
+- [[2026-07-31/daily|2026-07-31]] — 625 stars
 - [[2026-07-29/daily|2026-07-29]] — 341 stars

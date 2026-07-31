@@ -5,7 +5,7 @@ tags:
 repo: microsoft/PowerToys
 language: C
 first_seen: 2026-06-14
-appearances: 2
+appearances: 3
 ---
 
 # microsoft/PowerToys
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-07-31/articles/09-microsoft__PowerToys|2026-07-31]]
 - [[2026-06-28/articles/07-microsoft__PowerToys|2026-06-28]]
 - [[2026-06-14/articles/09-microsoft__PowerToys|2026-06-14]]
 
 ## 上榜历史
 
+- [[2026-07-31/daily|2026-07-31]] — 70 stars
 - [[2026-06-28/daily|2026-06-28]] — 57 stars
 - [[2026-06-14/daily|2026-06-14]] — 370 stars
