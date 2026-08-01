@@ -5,7 +5,7 @@ tags:
 repo: paperswithbacktest/awesome-systematic-trading
 language: Python
 first_seen: 2026-07-29
-appearances: 2
+appearances: 3
 ---
 
 # paperswithbacktest/awesome-systematic-trading
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-01/articles/04-paperswithbacktest__awesome-systematic-trading|2026-08-01]]
 - [[2026-07-31/articles/03-paperswithbacktest__awesome-systematic-trading|2026-07-31]]
 - [[2026-07-29/articles/10-paperswithbacktest__awesome-systematic-trading|2026-07-29]]
 
 ## 上榜历史
 
+- [[2026-08-01/daily|2026-08-01]] — 763 stars
 - [[2026-07-31/daily|2026-07-31]] — 621 stars
 - [[2026-07-29/daily|2026-07-29]] — 309 stars
