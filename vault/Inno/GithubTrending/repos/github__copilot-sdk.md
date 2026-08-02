@@ -5,7 +5,7 @@ tags:
 repo: github/copilot-sdk
 language: Java
 first_seen: 2026-06-05
-appearances: 4
+appearances: 5
 ---
 
 # github/copilot-sdk
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-08-02/articles/06-github__copilot-sdk|2026-08-02]]
 - [[2026-08-01/articles/06-github__copilot-sdk|2026-08-01]]
 - [[2026-07-20/articles/08-github__copilot-sdk|2026-07-20]]
 - [[2026-07-18/articles/05-github__copilot-sdk|2026-07-18]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-08-02/daily|2026-08-02]] — 142 stars
 - [[2026-08-01/daily|2026-08-01]] — 7 stars
 - [[2026-07-20/daily|2026-07-20]] — 39 stars
 - [[2026-07-18/daily|2026-07-18]] — 233 stars

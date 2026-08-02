@@ -5,7 +5,7 @@ tags:
 repo: zhaoxuya520/reverse-skill
 language: PowerShell
 first_seen: 2026-08-01
-appearances: 1
+appearances: 2
 ---
 
 # zhaoxuya520/reverse-skill
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-02/articles/04-zhaoxuya520__reverse-skill|2026-08-02]]
 - [[2026-08-01/articles/01-zhaoxuya520__reverse-skill|2026-08-01]]
 
 ## 上榜历史
 
+- [[2026-08-02/daily|2026-08-02]] — 1320 stars
 - [[2026-08-01/daily|2026-08-01]] — 335 stars
