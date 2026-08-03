@@ -5,7 +5,7 @@ tags:
 repo: usekaneo/kaneo
 language: TypeScript
 first_seen: 2026-08-01
-appearances: 2
+appearances: 3
 ---
 
 # usekaneo/kaneo
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-03/articles/02-usekaneo__kaneo|2026-08-03]]
 - [[2026-08-02/articles/03-usekaneo__kaneo|2026-08-02]]
 - [[2026-08-01/articles/09-usekaneo__kaneo|2026-08-01]]
 
 ## 上榜历史
 
+- [[2026-08-03/daily|2026-08-03]] — 496 stars
 - [[2026-08-02/daily|2026-08-02]] — 760 stars
 - [[2026-08-01/daily|2026-08-01]] — 194 stars

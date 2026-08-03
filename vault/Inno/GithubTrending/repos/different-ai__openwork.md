@@ -5,7 +5,7 @@ tags:
 repo: different-ai/openwork
 language: TypeScript
 first_seen: 2026-07-30
-appearances: 3
+appearances: 4
 ---
 
 # different-ai/openwork
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-08-03/articles/07-different-ai__openwork|2026-08-03]]
 - [[2026-08-01/articles/02-different-ai__openwork|2026-08-01]]
 - [[2026-07-31/articles/04-different-ai__openwork|2026-07-31]]
 - [[2026-07-30/articles/09-different-ai__openwork|2026-07-30]]
 
 ## 上榜历史
 
+- [[2026-08-03/daily|2026-08-03]] — 280 stars
 - [[2026-08-01/daily|2026-08-01]] — 806 stars
 - [[2026-07-31/daily|2026-07-31]] — 915 stars
 - [[2026-07-30/daily|2026-07-30]] — 97 stars

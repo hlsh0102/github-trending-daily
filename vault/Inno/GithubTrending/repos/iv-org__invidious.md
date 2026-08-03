@@ -5,7 +5,7 @@ tags:
 repo: iv-org/invidious
 language: Crystal
 first_seen: 2026-08-02
-appearances: 1
+appearances: 2
 ---
 
 # iv-org/invidious
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-03/articles/04-iv-org__invidious|2026-08-03]]
 - [[2026-08-02/articles/10-iv-org__invidious|2026-08-02]]
 
 ## 上榜历史
 
+- [[2026-08-03/daily|2026-08-03]] — 305 stars
 - [[2026-08-02/daily|2026-08-02]] — 435 stars

@@ -5,7 +5,7 @@ tags:
 repo: codecrafters-io/build-your-own-x
 language: Markdown
 first_seen: 2026-07-18
-appearances: 2
+appearances: 3
 ---
 
 # codecrafters-io/build-your-own-x
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-03/articles/05-codecrafters-io__build-your-own-x|2026-08-03]]
 - [[2026-07-19/articles/10-codecrafters-io__build-your-own-x|2026-07-19]]
 - [[2026-07-18/articles/01-codecrafters-io__build-your-own-x|2026-07-18]]
 
 ## 上榜历史
 
+- [[2026-08-03/daily|2026-08-03]] — 674 stars
 - [[2026-07-19/daily|2026-07-19]] — 1126 stars
 - [[2026-07-18/daily|2026-07-18]] — 1068 stars
