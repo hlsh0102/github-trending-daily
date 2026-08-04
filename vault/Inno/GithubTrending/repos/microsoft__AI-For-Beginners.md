@@ -5,7 +5,7 @@ tags:
 repo: microsoft/AI-For-Beginners
 language: Jupyter Notebook
 first_seen: 2026-07-31
-appearances: 4
+appearances: 5
 ---
 
 # microsoft/AI-For-Beginners
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-08-04/articles/06-microsoft__AI-For-Beginners|2026-08-04]]
 - [[2026-08-03/articles/01-microsoft__AI-For-Beginners|2026-08-03]]
 - [[2026-08-02/articles/01-microsoft__AI-For-Beginners|2026-08-02]]
 - [[2026-08-01/articles/05-microsoft__AI-For-Beginners|2026-08-01]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-08-04/daily|2026-08-04]] — 1902 stars
 - [[2026-08-03/daily|2026-08-03]] — 2629 stars
 - [[2026-08-02/daily|2026-08-02]] — 949 stars
 - [[2026-08-01/daily|2026-08-01]] — 1592 stars

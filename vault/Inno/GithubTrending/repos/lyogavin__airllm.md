@@ -5,7 +5,7 @@ tags:
 repo: lyogavin/airllm
 language: Jupyter Notebook
 first_seen: 2026-07-19
-appearances: 2
+appearances: 3
 ---
 
 # lyogavin/airllm
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-04/articles/01-lyogavin__airllm|2026-08-04]]
 - [[2026-08-03/articles/03-lyogavin__airllm|2026-08-03]]
 - [[2026-07-19/articles/08-lyogavin__airllm|2026-07-19]]
 
 ## 上榜历史
 
+- [[2026-08-04/daily|2026-08-04]] — 1085 stars
 - [[2026-08-03/daily|2026-08-03]] — 819 stars
 - [[2026-07-19/daily|2026-07-19]] — 161 stars
