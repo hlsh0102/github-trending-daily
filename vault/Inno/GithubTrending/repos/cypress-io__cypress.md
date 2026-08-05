@@ -5,7 +5,7 @@ tags:
 repo: cypress-io/cypress
 language: TypeScript
 first_seen: 2026-06-15
-appearances: 2
+appearances: 3
 ---
 
 # cypress-io/cypress
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-05/articles/07-cypress-io__cypress|2026-08-05]]
 - [[2026-06-17/articles/07-cypress-io__cypress|2026-06-17]]
 - [[2026-06-15/articles/08-cypress-io__cypress|2026-06-15]]
 
 ## 上榜历史
 
+- [[2026-08-05/daily|2026-08-05]] — 11 stars
 - [[2026-06-17/daily|2026-06-17]] — 13 stars
 - [[2026-06-15/daily|2026-06-15]] — 39 stars

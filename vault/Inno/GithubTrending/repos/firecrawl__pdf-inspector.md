@@ -5,7 +5,7 @@ tags:
 repo: firecrawl/pdf-inspector
 language: Rust
 first_seen: 2026-08-04
-appearances: 1
+appearances: 2
 ---
 
 # firecrawl/pdf-inspector
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-05/articles/03-firecrawl__pdf-inspector|2026-08-05]]
 - [[2026-08-04/articles/03-firecrawl__pdf-inspector|2026-08-04]]
 
 ## 上榜历史
 
+- [[2026-08-05/daily|2026-08-05]] — 2540 stars
 - [[2026-08-04/daily|2026-08-04]] — 1699 stars

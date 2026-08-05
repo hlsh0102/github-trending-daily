@@ -5,7 +5,7 @@ tags:
 repo: microsoft/generative-ai-for-beginners
 language: Jupyter Notebook
 first_seen: 2026-08-02
-appearances: 3
+appearances: 4
 ---
 
 # microsoft/generative-ai-for-beginners
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-08-05/articles/06-microsoft__generative-ai-for-beginners|2026-08-05]]
 - [[2026-08-04/articles/07-microsoft__generative-ai-for-beginners|2026-08-04]]
 - [[2026-08-03/articles/08-microsoft__generative-ai-for-beginners|2026-08-03]]
 - [[2026-08-02/articles/05-microsoft__generative-ai-for-beginners|2026-08-02]]
 
 ## 上榜历史
 
+- [[2026-08-05/daily|2026-08-05]] — 783 stars
 - [[2026-08-04/daily|2026-08-04]] — 775 stars
 - [[2026-08-03/daily|2026-08-03]] — 588 stars
 - [[2026-08-02/daily|2026-08-02]] — 108 stars
