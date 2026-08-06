@@ -5,7 +5,7 @@ tags:
 repo: donnemartin/system-design-primer
 language: Python
 first_seen: 2026-08-04
-appearances: 1
+appearances: 2
 ---
 
 # donnemartin/system-design-primer
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-06/articles/04-donnemartin__system-design-primer|2026-08-06]]
 - [[2026-08-04/articles/08-donnemartin__system-design-primer|2026-08-04]]
 
 ## 上榜历史
 
+- [[2026-08-06/daily|2026-08-06]] — 303 stars
 - [[2026-08-04/daily|2026-08-04]] — 237 stars

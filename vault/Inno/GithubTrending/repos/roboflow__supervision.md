@@ -5,7 +5,7 @@ tags:
 repo: roboflow/supervision
 language: Python
 first_seen: 2026-06-10
-appearances: 1
+appearances: 2
 ---
 
 # roboflow/supervision
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-06/articles/09-roboflow__supervision|2026-08-06]]
 - [[2026-06-10/articles/03-roboflow__supervision|2026-06-10]]
 
 ## 上榜历史
 
+- [[2026-08-06/daily|2026-08-06]] — 146 stars
 - [[2026-06-10/daily|2026-06-10]] — 733 stars

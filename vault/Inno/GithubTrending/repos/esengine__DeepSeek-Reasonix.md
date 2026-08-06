@@ -5,7 +5,7 @@ tags:
 repo: esengine/DeepSeek-Reasonix
 language: Go
 first_seen: 2026-08-04
-appearances: 1
+appearances: 2
 ---
 
 # esengine/DeepSeek-Reasonix
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-06/articles/06-esengine__DeepSeek-Reasonix|2026-08-06]]
 - [[2026-08-04/articles/04-esengine__DeepSeek-Reasonix|2026-08-04]]
 
 ## 上榜历史
 
+- [[2026-08-06/daily|2026-08-06]] — 747 stars
 - [[2026-08-04/daily|2026-08-04]] — 883 stars
