@@ -5,7 +5,7 @@ tags:
 repo: huangruiteng/loopx
 language: Python
 first_seen: 2026-08-06
-appearances: 1
+appearances: 2
 ---
 
 # huangruiteng/loopx
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-07/articles/06-huangruiteng__loopx|2026-08-07]]
 - [[2026-08-06/articles/02-huangruiteng__loopx|2026-08-06]]
 
 ## 上榜历史
 
+- [[2026-08-07/daily|2026-08-07]] — 847 stars
 - [[2026-08-06/daily|2026-08-06]] — 326 stars

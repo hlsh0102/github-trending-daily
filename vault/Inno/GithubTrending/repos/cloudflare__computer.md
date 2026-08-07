@@ -5,7 +5,7 @@ tags:
 repo: cloudflare/computer
 language: TypeScript
 first_seen: 2026-08-06
-appearances: 1
+appearances: 2
 ---
 
 # cloudflare/computer
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-07/articles/03-cloudflare__computer|2026-08-07]]
 - [[2026-08-06/articles/01-cloudflare__computer|2026-08-06]]
 
 ## 上榜历史
 
+- [[2026-08-07/daily|2026-08-07]] — 2802 stars
 - [[2026-08-06/daily|2026-08-06]] — 891 stars

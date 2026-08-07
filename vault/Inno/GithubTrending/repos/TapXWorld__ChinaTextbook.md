@@ -5,7 +5,7 @@ tags:
 repo: TapXWorld/ChinaTextbook
 language: Roff
 first_seen: 2026-06-10
-appearances: 1
+appearances: 2
 ---
 
 # TapXWorld/ChinaTextbook
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-07/articles/08-TapXWorld__ChinaTextbook|2026-08-07]]
 - [[2026-06-10/articles/08-TapXWorld__ChinaTextbook|2026-06-10]]
 
 ## 上榜历史
 
+- [[2026-08-07/daily|2026-08-07]] — 134 stars
 - [[2026-06-10/daily|2026-06-10]] — 519 stars
