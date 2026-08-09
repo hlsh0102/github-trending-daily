@@ -5,7 +5,7 @@ tags:
 repo: google/guava
 language: Java
 first_seen: 2026-08-07
-appearances: 1
+appearances: 2
 ---
 
 # google/guava
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-09/articles/08-google__guava|2026-08-09]]
 - [[2026-08-07/articles/07-google__guava|2026-08-07]]
 
 ## 上榜历史
 
+- [[2026-08-09/daily|2026-08-09]] — 93 stars
 - [[2026-08-07/daily|2026-08-07]] — 13 stars
