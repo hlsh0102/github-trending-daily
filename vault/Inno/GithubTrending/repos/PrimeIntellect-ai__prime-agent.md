@@ -5,7 +5,7 @@ tags:
 repo: PrimeIntellect-ai/prime-agent
 language: TypeScript
 first_seen: 2026-08-08
-appearances: 2
+appearances: 3
 ---
 
 # PrimeIntellect-ai/prime-agent
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-10/articles/01-PrimeIntellect-ai__prime-agent|2026-08-10]]
 - [[2026-08-09/articles/01-PrimeIntellect-ai__prime-agent|2026-08-09]]
 - [[2026-08-08/articles/01-PrimeIntellect-ai__prime-agent|2026-08-08]]
 
 ## 上榜历史
 
+- [[2026-08-10/daily|2026-08-10]] — 2356 stars
 - [[2026-08-09/daily|2026-08-09]] — 2483 stars
 - [[2026-08-08/daily|2026-08-08]] — 2293 stars

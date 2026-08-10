@@ -5,7 +5,7 @@ tags:
 repo: goauthentik/authentik
 language: Python
 first_seen: 2026-08-07
-appearances: 3
+appearances: 4
 ---
 
 # goauthentik/authentik
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-08-10/articles/08-goauthentik__authentik|2026-08-10]]
 - [[2026-08-09/articles/06-goauthentik__authentik|2026-08-09]]
 - [[2026-08-08/articles/06-goauthentik__authentik|2026-08-08]]
 - [[2026-08-07/articles/05-goauthentik__authentik|2026-08-07]]
 
 ## 上榜历史
 
+- [[2026-08-10/daily|2026-08-10]] — 310 stars
 - [[2026-08-09/daily|2026-08-09]] — 467 stars
 - [[2026-08-08/daily|2026-08-08]] — 530 stars
 - [[2026-08-07/daily|2026-08-07]] — 138 stars
