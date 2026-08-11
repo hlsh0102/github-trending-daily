@@ -5,7 +5,7 @@ tags:
 repo: LadybirdBrowser/ladybird
 language: C++
 first_seen: 2026-08-09
-appearances: 1
+appearances: 2
 ---
 
 # LadybirdBrowser/ladybird
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-11/articles/07-LadybirdBrowser__ladybird|2026-08-11]]
 - [[2026-08-09/articles/09-LadybirdBrowser__ladybird|2026-08-09]]
 
 ## 上榜历史
 
+- [[2026-08-11/daily|2026-08-11]] — 56 stars
 - [[2026-08-09/daily|2026-08-09]] — 48 stars

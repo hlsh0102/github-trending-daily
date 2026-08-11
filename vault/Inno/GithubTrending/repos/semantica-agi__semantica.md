@@ -5,7 +5,7 @@ tags:
 repo: semantica-agi/semantica
 language: Python
 first_seen: 2026-08-08
-appearances: 1
+appearances: 2
 ---
 
 # semantica-agi/semantica
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-11/articles/01-semantica-agi__semantica|2026-08-11]]
 - [[2026-08-08/articles/07-semantica-agi__semantica|2026-08-08]]
 
 ## 上榜历史
 
+- [[2026-08-11/daily|2026-08-11]] — 970 stars
 - [[2026-08-08/daily|2026-08-08]] — 122 stars

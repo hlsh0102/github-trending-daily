@@ -5,7 +5,7 @@ tags:
 repo: NanmiCoder/MediaCrawler
 language: Python
 first_seen: 2026-07-28
-appearances: 1
+appearances: 2
 ---
 
 # NanmiCoder/MediaCrawler
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-11/articles/03-NanmiCoder__MediaCrawler|2026-08-11]]
 - [[2026-07-28/articles/06-NanmiCoder__MediaCrawler|2026-07-28]]
 
 ## 上榜历史
 
+- [[2026-08-11/daily|2026-08-11]] — 259 stars
 - [[2026-07-28/daily|2026-07-28]] — 362 stars
