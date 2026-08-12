@@ -5,7 +5,7 @@ tags:
 repo: vitali87/code-graph-rag
 language: Python
 first_seen: 2026-08-10
-appearances: 1
+appearances: 2
 ---
 
 # vitali87/code-graph-rag
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-12/articles/07-vitali87__code-graph-rag|2026-08-12]]
 - [[2026-08-10/articles/02-vitali87__code-graph-rag|2026-08-10]]
 
 ## 上榜历史
 
+- [[2026-08-12/daily|2026-08-12]] — 341 stars
 - [[2026-08-10/daily|2026-08-10]] — 96 stars
