@@ -5,7 +5,7 @@ tags:
 repo: github/spec-kit
 language: Python
 first_seen: 2026-06-05
-appearances: 2
+appearances: 3
 ---
 
 # github/spec-kit
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-15/articles/08-github__spec-kit|2026-08-15]]
 - [[2026-07-14/articles/09-github__spec-kit|2026-07-14]]
 - [[2026-06-05/articles/05-github__spec-kit|2026-06-05]]
 
 ## 上榜历史
 
+- [[2026-08-15/daily|2026-08-15]] — 1160 stars
 - [[2026-07-14/daily|2026-07-14]] — 543 stars
 - [[2026-06-05/daily|2026-06-05]] — 321 stars

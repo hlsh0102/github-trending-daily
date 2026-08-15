@@ -5,7 +5,7 @@ tags:
 repo: megadose/holehe
 language: Python
 first_seen: 2026-08-14
-appearances: 1
+appearances: 2
 ---
 
 # megadose/holehe
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-15/articles/03-megadose__holehe|2026-08-15]]
 - [[2026-08-14/articles/08-megadose__holehe|2026-08-14]]
 
 ## 上榜历史
 
+- [[2026-08-15/daily|2026-08-15]] — 427 stars
 - [[2026-08-14/daily|2026-08-14]] — 195 stars

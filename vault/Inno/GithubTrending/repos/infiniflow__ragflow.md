@@ -5,7 +5,7 @@ tags:
 repo: infiniflow/ragflow
 language: Go
 first_seen: 2026-08-13
-appearances: 1
+appearances: 2
 ---
 
 # infiniflow/ragflow
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-15/articles/10-infiniflow__ragflow|2026-08-15]]
 - [[2026-08-13/articles/09-infiniflow__ragflow|2026-08-13]]
 
 ## 上榜历史
 
+- [[2026-08-15/daily|2026-08-15]] — 473 stars
 - [[2026-08-13/daily|2026-08-13]] — 139 stars

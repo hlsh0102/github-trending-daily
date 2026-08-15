@@ -5,7 +5,7 @@ tags:
 repo: smicallef/spiderfoot
 language: Python
 first_seen: 2026-08-14
-appearances: 1
+appearances: 2
 ---
 
 # smicallef/spiderfoot
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-15/articles/05-smicallef__spiderfoot|2026-08-15]]
 - [[2026-08-14/articles/09-smicallef__spiderfoot|2026-08-14]]
 
 ## 上榜历史
 
+- [[2026-08-15/daily|2026-08-15]] — 293 stars
 - [[2026-08-14/daily|2026-08-14]] — 283 stars
