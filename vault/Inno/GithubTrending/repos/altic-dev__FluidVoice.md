@@ -5,7 +5,7 @@ tags:
 repo: altic-dev/FluidVoice
 language: Swift
 first_seen: 2026-06-29
-appearances: 4
+appearances: 5
 ---
 
 # altic-dev/FluidVoice
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-08-16/articles/10-altic-dev__FluidVoice|2026-08-16]]
 - [[2026-08-14/articles/05-altic-dev__FluidVoice|2026-08-14]]
 - [[2026-07-01/articles/04-altic-dev__FluidVoice|2026-07-01]]
 - [[2026-06-30/articles/04-altic-dev__FluidVoice|2026-06-30]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-08-16/daily|2026-08-16]] — 104 stars
 - [[2026-08-14/daily|2026-08-14]] — 76 stars
 - [[2026-07-01/daily|2026-07-01]] — 588 stars
 - [[2026-06-30/daily|2026-06-30]] — 830 stars

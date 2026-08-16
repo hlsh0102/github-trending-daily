@@ -5,7 +5,7 @@ tags:
 repo: unslothai/unsloth
 language: Python
 first_seen: 2026-08-14
-appearances: 1
+appearances: 2
 ---
 
 # unslothai/unsloth
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-16/articles/05-unslothai__unsloth|2026-08-16]]
 - [[2026-08-14/articles/06-unslothai__unsloth|2026-08-14]]
 
 ## 上榜历史
 
+- [[2026-08-16/daily|2026-08-16]] — 434 stars
 - [[2026-08-14/daily|2026-08-14]] — 328 stars

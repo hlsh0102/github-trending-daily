@@ -5,7 +5,7 @@ tags:
 repo: cactus-compute/needle
 language: Python
 first_seen: 2026-08-14
-appearances: 2
+appearances: 3
 ---
 
 # cactus-compute/needle
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-16/articles/04-cactus-compute__needle|2026-08-16]]
 - [[2026-08-15/articles/02-cactus-compute__needle|2026-08-15]]
 - [[2026-08-14/articles/04-cactus-compute__needle|2026-08-14]]
 
 ## 上榜历史
 
+- [[2026-08-16/daily|2026-08-16]] — 547 stars
 - [[2026-08-15/daily|2026-08-15]] — 662 stars
 - [[2026-08-14/daily|2026-08-14]] — 769 stars
