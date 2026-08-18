@@ -5,7 +5,7 @@ tags:
 repo: mukul975/Anthropic-Cybersecurity-Skills
 language: Python
 first_seen: 2026-05-27
-appearances: 7
+appearances: 8
 ---
 
 # mukul975/Anthropic-Cybersecurity-Skills
@@ -14,6 +14,7 @@ appearances: 7
 
 ## 详细介绍历史
 
+- [[2026-08-18/articles/05-mukul975__Anthropic-Cybersecurity-Skills|2026-08-18]]
 - [[2026-06-26/articles/10-mukul975__Anthropic-Cybersecurity-Skills|2026-06-26]]
 - [[2026-06-24/articles/03-mukul975__Anthropic-Cybersecurity-Skills|2026-06-24]]
 - [[2026-06-23/articles/04-mukul975__Anthropic-Cybersecurity-Skills|2026-06-23]]
@@ -24,6 +25,7 @@ appearances: 7
 
 ## 上榜历史
 
+- [[2026-08-18/daily|2026-08-18]] — 198 stars
 - [[2026-06-26/daily|2026-06-26]] — 571 stars
 - [[2026-06-24/daily|2026-06-24]] — 1041 stars
 - [[2026-06-23/daily|2026-06-23]] — 956 stars

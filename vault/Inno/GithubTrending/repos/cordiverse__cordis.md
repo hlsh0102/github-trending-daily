@@ -5,7 +5,7 @@ tags:
 repo: cordiverse/cordis
 language: TypeScript
 first_seen: 2026-08-16
-appearances: 1
+appearances: 2
 ---
 
 # cordiverse/cordis
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-18/articles/10-cordiverse__cordis|2026-08-18]]
 - [[2026-08-16/articles/01-cordiverse__cordis|2026-08-16]]
 
 ## 上榜历史
 
+- [[2026-08-18/daily|2026-08-18]] — 957 stars
 - [[2026-08-16/daily|2026-08-16]] — 599 stars
