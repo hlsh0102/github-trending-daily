@@ -5,7 +5,7 @@ tags:
 repo: jundot/omlx
 language: Python
 first_seen: 2026-08-18
-appearances: 1
+appearances: 2
 ---
 
 # jundot/omlx
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-19/articles/10-jundot__omlx|2026-08-19]]
 - [[2026-08-18/articles/08-jundot__omlx|2026-08-18]]
 
 ## 上榜历史
 
+- [[2026-08-19/daily|2026-08-19]] — 370 stars
 - [[2026-08-18/daily|2026-08-18]] — 78 stars
