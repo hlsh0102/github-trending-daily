@@ -5,7 +5,7 @@ tags:
 repo: obra/superpowers
 language: Shell
 first_seen: 2026-05-29
-appearances: 15
+appearances: 16
 ---
 
 # obra/superpowers
@@ -14,6 +14,7 @@ appearances: 15
 
 ## 详细介绍历史
 
+- [[2026-08-20/articles/07-obra__superpowers|2026-08-20]]
 - [[2026-08-08/articles/05-obra__superpowers|2026-08-08]]
 - [[2026-08-06/articles/08-obra__superpowers|2026-08-06]]
 - [[2026-08-05/articles/05-obra__superpowers|2026-08-05]]
@@ -32,6 +33,7 @@ appearances: 15
 
 ## 上榜历史
 
+- [[2026-08-20/daily|2026-08-20]] — 557 stars
 - [[2026-08-08/daily|2026-08-08]] — 782 stars
 - [[2026-08-06/daily|2026-08-06]] — 931 stars
 - [[2026-08-05/daily|2026-08-05]] — 653 stars

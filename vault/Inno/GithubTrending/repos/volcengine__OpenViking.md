@@ -5,7 +5,7 @@ tags:
 repo: volcengine/OpenViking
 language: Python
 first_seen: 2026-08-19
-appearances: 1
+appearances: 2
 ---
 
 # volcengine/OpenViking
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-20/articles/02-volcengine__OpenViking|2026-08-20]]
 - [[2026-08-19/articles/04-volcengine__OpenViking|2026-08-19]]
 
 ## 上榜历史
 
+- [[2026-08-20/daily|2026-08-20]] — 804 stars
 - [[2026-08-19/daily|2026-08-19]] — 213 stars

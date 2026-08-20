@@ -5,7 +5,7 @@ tags:
 repo: immich-app/immich
 language: TypeScript
 first_seen: 2026-08-18
-appearances: 1
+appearances: 2
 ---
 
 # immich-app/immich
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-20/articles/10-immich-app__immich|2026-08-20]]
 - [[2026-08-18/articles/09-immich-app__immich|2026-08-18]]
 
 ## 上榜历史
 
+- [[2026-08-20/daily|2026-08-20]] — 128 stars
 - [[2026-08-18/daily|2026-08-18]] — 175 stars
