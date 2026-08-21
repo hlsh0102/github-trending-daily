@@ -5,7 +5,7 @@ tags:
 repo: santifer/career-ops
 language: JavaScript
 first_seen: 2026-06-09
-appearances: 4
+appearances: 5
 ---
 
 # santifer/career-ops
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-08-21/articles/06-santifer__career-ops|2026-08-21]]
 - [[2026-08-20/articles/09-santifer__career-ops|2026-08-20]]
 - [[2026-08-18/articles/07-santifer__career-ops|2026-08-18]]
 - [[2026-07-03/articles/05-santifer__career-ops|2026-07-03]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-08-21/daily|2026-08-21]] — 816 stars
 - [[2026-08-20/daily|2026-08-20]] — 198 stars
 - [[2026-08-18/daily|2026-08-18]] — 218 stars
 - [[2026-07-03/daily|2026-07-03]] — 372 stars
