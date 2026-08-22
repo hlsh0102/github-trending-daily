@@ -5,7 +5,7 @@ tags:
 repo: AprilNEA/OpenLogi
 language: Rust
 first_seen: 2026-08-21
-appearances: 1
+appearances: 2
 ---
 
 # AprilNEA/OpenLogi
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-22/articles/04-AprilNEA__OpenLogi|2026-08-22]]
 - [[2026-08-21/articles/03-AprilNEA__OpenLogi|2026-08-21]]
 
 ## 上榜历史
 
+- [[2026-08-22/daily|2026-08-22]] — 1380 stars
 - [[2026-08-21/daily|2026-08-21]] — 1545 stars

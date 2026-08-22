@@ -5,7 +5,7 @@ tags:
 repo: microsoft/TypeScript
 language: TypeScript
 first_seen: 2026-07-11
-appearances: 1
+appearances: 2
 ---
 
 # microsoft/TypeScript
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-22/articles/06-microsoft__TypeScript|2026-08-22]]
 - [[2026-07-11/articles/08-microsoft__TypeScript|2026-07-11]]
 
 ## 上榜历史
 
+- [[2026-08-22/daily|2026-08-22]] — 65 stars
 - [[2026-07-11/daily|2026-07-11]] — 177 stars
