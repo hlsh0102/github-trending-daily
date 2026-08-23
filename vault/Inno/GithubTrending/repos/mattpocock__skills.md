@@ -5,7 +5,7 @@ tags:
 repo: mattpocock/skills
 language: Shell
 first_seen: 2026-07-11
-appearances: 9
+appearances: 10
 ---
 
 # mattpocock/skills
@@ -14,6 +14,7 @@ appearances: 9
 
 ## 详细介绍历史
 
+- [[2026-08-23/articles/02-mattpocock__skills|2026-08-23]]
 - [[2026-08-22/articles/01-mattpocock__skills|2026-08-22]]
 - [[2026-08-21/articles/02-mattpocock__skills|2026-08-21]]
 - [[2026-08-20/articles/06-mattpocock__skills|2026-08-20]]
@@ -26,6 +27,7 @@ appearances: 9
 
 ## 上榜历史
 
+- [[2026-08-23/daily|2026-08-23]] — 2683 stars
 - [[2026-08-22/daily|2026-08-22]] — 3362 stars
 - [[2026-08-21/daily|2026-08-21]] — 2192 stars
 - [[2026-08-20/daily|2026-08-20]] — 1894 stars

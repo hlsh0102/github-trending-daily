@@ -5,7 +5,7 @@ tags:
 repo: makeplane/plane
 language: TypeScript
 first_seen: 2026-06-19
-appearances: 1
+appearances: 2
 ---
 
 # makeplane/plane
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-23/articles/06-makeplane__plane|2026-08-23]]
 - [[2026-06-19/articles/10-makeplane__plane|2026-06-19]]
 
 ## 上榜历史
 
+- [[2026-08-23/daily|2026-08-23]] — 263 stars
 - [[2026-06-19/daily|2026-06-19]] — 613 stars

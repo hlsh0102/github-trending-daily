@@ -5,7 +5,7 @@ tags:
 repo: anthropics/claude-code
 language: Python
 first_seen: 2026-05-30
-appearances: 2
+appearances: 3
 ---
 
 # anthropics/claude-code
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-23/articles/08-anthropics__claude-code|2026-08-23]]
 - [[2026-05-31/articles/03-anthropics__claude-code|2026-05-31]]
 - [[2026-05-30/articles/05-anthropics__claude-code|2026-05-30]]
 
 ## 上榜历史
 
+- [[2026-08-23/daily|2026-08-23]] — 127 stars
 - [[2026-05-31/daily|2026-05-31]] — 592 stars
 - [[2026-05-30/daily|2026-05-30]] — 395 stars

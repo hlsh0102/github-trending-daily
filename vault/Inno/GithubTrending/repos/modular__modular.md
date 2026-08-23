@@ -5,7 +5,7 @@ tags:
 repo: modular/modular
 language: Mojo
 first_seen: 2026-08-21
-appearances: 2
+appearances: 3
 ---
 
 # modular/modular
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-23/articles/10-modular__modular|2026-08-23]]
 - [[2026-08-22/articles/10-modular__modular|2026-08-22]]
 - [[2026-08-21/articles/01-modular__modular|2026-08-21]]
 
 ## 上榜历史
 
+- [[2026-08-23/daily|2026-08-23]] — 395 stars
 - [[2026-08-22/daily|2026-08-22]] — 913 stars
 - [[2026-08-21/daily|2026-08-21]] — 268 stars
