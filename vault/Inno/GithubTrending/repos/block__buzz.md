@@ -5,7 +5,7 @@ tags:
 repo: block/buzz
 language: Rust
 first_seen: 2026-07-24
-appearances: 4
+appearances: 5
 ---
 
 # block/buzz
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-08-24/articles/06-block__buzz|2026-08-24]]
 - [[2026-07-27/articles/03-block__buzz|2026-07-27]]
 - [[2026-07-26/articles/01-block__buzz|2026-07-26]]
 - [[2026-07-25/articles/01-block__buzz|2026-07-25]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-08-24/daily|2026-08-24]] — 410 stars
 - [[2026-07-27/daily|2026-07-27]] — 1710 stars
 - [[2026-07-26/daily|2026-07-26]] — 2491 stars
 - [[2026-07-25/daily|2026-07-25]] — 3270 stars
