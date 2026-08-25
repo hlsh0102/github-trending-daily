@@ -5,7 +5,7 @@ tags:
 repo: Alishahryar1/free-claude-code
 language: Python
 first_seen: 2026-08-24
-appearances: 1
+appearances: 2
 ---
 
 # Alishahryar1/free-claude-code
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-25/articles/01-Alishahryar1__free-claude-code|2026-08-25]]
 - [[2026-08-24/articles/08-Alishahryar1__free-claude-code|2026-08-24]]
 
 ## 上榜历史
 
+- [[2026-08-25/daily|2026-08-25]] — 891 stars
 - [[2026-08-24/daily|2026-08-24]] — 1081 stars

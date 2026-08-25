@@ -5,7 +5,7 @@ tags:
 repo: openai/codex
 language: Rust
 first_seen: 2026-08-23
-appearances: 2
+appearances: 3
 ---
 
 # openai/codex
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-25/articles/02-openai__codex|2026-08-25]]
 - [[2026-08-24/articles/01-openai__codex|2026-08-24]]
 - [[2026-08-23/articles/01-openai__codex|2026-08-23]]
 
 ## 上榜历史
 
+- [[2026-08-25/daily|2026-08-25]] — 1994 stars
 - [[2026-08-24/daily|2026-08-24]] — 2715 stars
 - [[2026-08-23/daily|2026-08-23]] — 1544 stars
