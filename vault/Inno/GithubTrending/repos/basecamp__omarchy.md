@@ -5,7 +5,7 @@ tags:
 repo: basecamp/omarchy
 language: Shell
 first_seen: 2026-08-19
-appearances: 2
+appearances: 3
 ---
 
 # basecamp/omarchy
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-26/articles/09-basecamp__omarchy|2026-08-26]]
 - [[2026-08-24/articles/04-basecamp__omarchy|2026-08-24]]
 - [[2026-08-19/articles/07-basecamp__omarchy|2026-08-19]]
 
 ## 上榜历史
 
+- [[2026-08-26/daily|2026-08-26]] — 1083 stars
 - [[2026-08-24/daily|2026-08-24]] — 750 stars
 - [[2026-08-19/daily|2026-08-19]] — 356 stars

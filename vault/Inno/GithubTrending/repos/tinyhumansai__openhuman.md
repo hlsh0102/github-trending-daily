@@ -5,7 +5,7 @@ tags:
 repo: tinyhumansai/openhuman
 language: Rust
 first_seen: 2026-08-24
-appearances: 1
+appearances: 2
 ---
 
 # tinyhumansai/openhuman
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-26/articles/08-tinyhumansai__openhuman|2026-08-26]]
 - [[2026-08-24/articles/09-tinyhumansai__openhuman|2026-08-24]]
 
 ## 上榜历史
 
+- [[2026-08-26/daily|2026-08-26]] — 542 stars
 - [[2026-08-24/daily|2026-08-24]] — 39 stars

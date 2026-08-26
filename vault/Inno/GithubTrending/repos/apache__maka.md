@@ -5,7 +5,7 @@ tags:
 repo: apache/maka
 language: TypeScript
 first_seen: 2026-08-24
-appearances: 2
+appearances: 3
 ---
 
 # apache/maka
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-26/articles/04-apache__maka|2026-08-26]]
 - [[2026-08-25/articles/09-apache__maka|2026-08-25]]
 - [[2026-08-24/articles/07-apache__maka|2026-08-24]]
 
 ## 上榜历史
 
+- [[2026-08-26/daily|2026-08-26]] — 543 stars
 - [[2026-08-25/daily|2026-08-25]] — 411 stars
 - [[2026-08-24/daily|2026-08-24]] — 51 stars

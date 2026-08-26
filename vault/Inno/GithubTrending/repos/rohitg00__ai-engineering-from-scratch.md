@@ -5,7 +5,7 @@ tags:
 repo: rohitg00/ai-engineering-from-scratch
 language: Python
 first_seen: 2026-05-27
-appearances: 6
+appearances: 7
 ---
 
 # rohitg00/ai-engineering-from-scratch
@@ -14,6 +14,7 @@ appearances: 6
 
 ## 详细介绍历史
 
+- [[2026-08-26/articles/07-rohitg00__ai-engineering-from-scratch|2026-08-26]]
 - [[2026-07-21/articles/04-rohitg00__ai-engineering-from-scratch|2026-07-21]]
 - [[2026-07-20/articles/04-rohitg00__ai-engineering-from-scratch|2026-07-20]]
 - [[2026-07-19/articles/05-rohitg00__ai-engineering-from-scratch|2026-07-19]]
@@ -23,6 +24,7 @@ appearances: 6
 
 ## 上榜历史
 
+- [[2026-08-26/daily|2026-08-26]] — 569 stars
 - [[2026-07-21/daily|2026-07-21]] — 823 stars
 - [[2026-07-20/daily|2026-07-20]] — 501 stars
 - [[2026-07-19/daily|2026-07-19]] — 191 stars
