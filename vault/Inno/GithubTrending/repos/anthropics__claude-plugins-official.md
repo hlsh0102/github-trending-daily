@@ -5,7 +5,7 @@ tags:
 repo: anthropics/claude-plugins-official
 language: Python
 first_seen: 2026-06-24
-appearances: 1
+appearances: 2
 ---
 
 # anthropics/claude-plugins-official
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-27/articles/05-anthropics__claude-plugins-official|2026-08-27]]
 - [[2026-06-24/articles/08-anthropics__claude-plugins-official|2026-06-24]]
 
 ## 上榜历史
 
+- [[2026-08-27/daily|2026-08-27]] — 290 stars
 - [[2026-06-24/daily|2026-06-24]] — 77 stars
