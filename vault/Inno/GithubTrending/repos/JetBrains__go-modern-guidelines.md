@@ -5,7 +5,7 @@ tags:
 repo: JetBrains/go-modern-guidelines
 language: Go
 first_seen: 2026-08-27
-appearances: 1
+appearances: 2
 ---
 
 # JetBrains/go-modern-guidelines
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-28/articles/06-JetBrains__go-modern-guidelines|2026-08-28]]
 - [[2026-08-27/articles/04-JetBrains__go-modern-guidelines|2026-08-27]]
 
 ## 上榜历史
 
+- [[2026-08-28/daily|2026-08-28]] — 574 stars
 - [[2026-08-27/daily|2026-08-27]] — 314 stars

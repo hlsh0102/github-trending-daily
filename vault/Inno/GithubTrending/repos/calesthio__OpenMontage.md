@@ -5,7 +5,7 @@ tags:
 repo: calesthio/OpenMontage
 language: Python
 first_seen: 2026-06-20
-appearances: 8
+appearances: 9
 ---
 
 # calesthio/OpenMontage
@@ -14,6 +14,7 @@ appearances: 8
 
 ## 详细介绍历史
 
+- [[2026-08-28/articles/07-calesthio__OpenMontage|2026-08-28]]
 - [[2026-08-27/articles/08-calesthio__OpenMontage|2026-08-27]]
 - [[2026-06-26/articles/02-calesthio__OpenMontage|2026-06-26]]
 - [[2026-06-25/articles/01-calesthio__OpenMontage|2026-06-25]]
@@ -25,6 +26,7 @@ appearances: 8
 
 ## 上榜历史
 
+- [[2026-08-28/daily|2026-08-28]] — 1144 stars
 - [[2026-08-27/daily|2026-08-27]] — 1284 stars
 - [[2026-06-26/daily|2026-06-26]] — 3434 stars
 - [[2026-06-25/daily|2026-06-25]] — 3719 stars
