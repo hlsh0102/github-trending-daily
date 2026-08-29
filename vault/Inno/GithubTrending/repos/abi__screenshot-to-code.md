@@ -5,7 +5,7 @@ tags:
 repo: abi/screenshot-to-code
 language: Python
 first_seen: 2026-08-28
-appearances: 1
+appearances: 2
 ---
 
 # abi/screenshot-to-code
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-29/articles/08-abi__screenshot-to-code|2026-08-29]]
 - [[2026-08-28/articles/08-abi__screenshot-to-code|2026-08-28]]
 
 ## 上榜历史
 
+- [[2026-08-29/daily|2026-08-29]] — 326 stars
 - [[2026-08-28/daily|2026-08-28]] — 309 stars

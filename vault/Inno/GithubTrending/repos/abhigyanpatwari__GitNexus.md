@@ -5,7 +5,7 @@ tags:
 repo: abhigyanpatwari/GitNexus
 language: TypeScript
 first_seen: 2026-08-28
-appearances: 1
+appearances: 2
 ---
 
 # abhigyanpatwari/GitNexus
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-29/articles/05-abhigyanpatwari__GitNexus|2026-08-29]]
 - [[2026-08-28/articles/05-abhigyanpatwari__GitNexus|2026-08-28]]
 
 ## 上榜历史
 
+- [[2026-08-29/daily|2026-08-29]] — 202 stars
 - [[2026-08-28/daily|2026-08-28]] — 189 stars
