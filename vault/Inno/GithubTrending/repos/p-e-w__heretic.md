@@ -5,7 +5,7 @@ tags:
 repo: p-e-w/heretic
 language: Python
 first_seen: 2026-05-28
-appearances: 2
+appearances: 3
 ---
 
 # p-e-w/heretic
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-08-30/articles/06-p-e-w__heretic|2026-08-30]]
 - [[2026-06-02/articles/07-p-e-w__heretic|2026-06-02]]
 - [[2026-05-28/articles/07-p-e-w__heretic|2026-05-28]]
 
 ## 上榜历史
 
+- [[2026-08-30/daily|2026-08-30]] — 150 stars
 - [[2026-06-02/daily|2026-06-02]] — 249 stars
 - [[2026-05-28/daily|2026-05-28]] — 211 stars
