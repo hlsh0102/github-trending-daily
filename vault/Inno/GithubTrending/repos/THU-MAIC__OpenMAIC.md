@@ -5,7 +5,7 @@ tags:
 repo: THU-MAIC/OpenMAIC
 language: TypeScript
 first_seen: 2026-08-30
-appearances: 1
+appearances: 2
 ---
 
 # THU-MAIC/OpenMAIC
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-31/articles/01-THU-MAIC__OpenMAIC|2026-08-31]]
 - [[2026-08-30/articles/05-THU-MAIC__OpenMAIC|2026-08-30]]
 
 ## 上榜历史
 
+- [[2026-08-31/daily|2026-08-31]] — 1370 stars
 - [[2026-08-30/daily|2026-08-30]] — 907 stars

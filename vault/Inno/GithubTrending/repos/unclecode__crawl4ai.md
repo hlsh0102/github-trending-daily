@@ -5,7 +5,7 @@ tags:
 repo: unclecode/crawl4ai
 language: Python
 first_seen: 2026-07-10
-appearances: 1
+appearances: 2
 ---
 
 # unclecode/crawl4ai
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-08-31/articles/06-unclecode__crawl4ai|2026-08-31]]
 - [[2026-07-10/articles/08-unclecode__crawl4ai|2026-07-10]]
 
 ## 上榜历史
 
+- [[2026-08-31/daily|2026-08-31]] — 221 stars
 - [[2026-07-10/daily|2026-07-10]] — 215 stars
