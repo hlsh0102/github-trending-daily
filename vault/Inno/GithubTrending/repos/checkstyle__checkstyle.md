@@ -5,7 +5,7 @@ tags:
 repo: checkstyle/checkstyle
 language: Java
 first_seen: 2026-08-31
-appearances: 1
+appearances: 2
 ---
 
 # checkstyle/checkstyle
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-01/articles/08-checkstyle__checkstyle|2026-09-01]]
 - [[2026-08-31/articles/10-checkstyle__checkstyle|2026-08-31]]
 
 ## 上榜历史
 
+- [[2026-09-01/daily|2026-09-01]] — 198 stars
 - [[2026-08-31/daily|2026-08-31]] — 115 stars

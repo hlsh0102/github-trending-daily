@@ -5,7 +5,7 @@ tags:
 repo: tt-a1i/archify
 language: JavaScript
 first_seen: 2026-08-27
-appearances: 5
+appearances: 6
 ---
 
 # tt-a1i/archify
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-09-01/articles/02-tt-a1i__archify|2026-09-01]]
 - [[2026-08-31/articles/04-tt-a1i__archify|2026-08-31]]
 - [[2026-08-30/articles/01-tt-a1i__archify|2026-08-30]]
 - [[2026-08-29/articles/01-tt-a1i__archify|2026-08-29]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-09-01/daily|2026-09-01]] — 3991 stars
 - [[2026-08-31/daily|2026-08-31]] — 3722 stars
 - [[2026-08-30/daily|2026-08-30]] — 3902 stars
 - [[2026-08-29/daily|2026-08-29]] — 4562 stars

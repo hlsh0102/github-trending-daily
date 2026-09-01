@@ -5,7 +5,7 @@ tags:
 repo: majd/ipatool
 language: Go
 first_seen: 2026-08-31
-appearances: 1
+appearances: 2
 ---
 
 # majd/ipatool
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-01/articles/05-majd__ipatool|2026-09-01]]
 - [[2026-08-31/articles/08-majd__ipatool|2026-08-31]]
 
 ## 上榜历史
 
+- [[2026-09-01/daily|2026-09-01]] — 373 stars
 - [[2026-08-31/daily|2026-08-31]] — 58 stars

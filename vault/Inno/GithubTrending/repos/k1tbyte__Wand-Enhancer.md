@@ -5,7 +5,7 @@ tags:
 repo: k1tbyte/Wand-Enhancer
 language: C#
 first_seen: 2026-07-13
-appearances: 1
+appearances: 2
 ---
 
 # k1tbyte/Wand-Enhancer
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-01/articles/04-k1tbyte__Wand-Enhancer|2026-09-01]]
 - [[2026-07-13/articles/10-k1tbyte__Wand-Enhancer|2026-07-13]]
 
 ## 上榜历史
 
+- [[2026-09-01/daily|2026-09-01]] — 582 stars
 - [[2026-07-13/daily|2026-07-13]] — 609 stars
