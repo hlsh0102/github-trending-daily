@@ -5,7 +5,7 @@ tags:
 repo: browser-use/video-use
 language: Python
 first_seen: 2026-06-30
-appearances: 3
+appearances: 4
 ---
 
 # browser-use/video-use
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-09-02/articles/08-browser-use__video-use|2026-09-02]]
 - [[2026-07-03/articles/08-browser-use__video-use|2026-07-03]]
 - [[2026-07-01/articles/06-browser-use__video-use|2026-07-01]]
 - [[2026-06-30/articles/10-browser-use__video-use|2026-06-30]]
 
 ## 上榜历史
 
+- [[2026-09-02/daily|2026-09-02]] — 472 stars
 - [[2026-07-03/daily|2026-07-03]] — 554 stars
 - [[2026-07-01/daily|2026-07-01]] — 721 stars
 - [[2026-06-30/daily|2026-06-30]] — 967 stars

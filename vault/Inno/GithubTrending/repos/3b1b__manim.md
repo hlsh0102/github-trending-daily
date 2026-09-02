@@ -5,7 +5,7 @@ tags:
 repo: 3b1b/manim
 language: Python
 first_seen: 2026-08-12
-appearances: 1
+appearances: 2
 ---
 
 # 3b1b/manim
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-02/articles/06-3b1b__manim|2026-09-02]]
 - [[2026-08-12/articles/09-3b1b__manim|2026-08-12]]
 
 ## 上榜历史
 
+- [[2026-09-02/daily|2026-09-02]] — 86 stars
 - [[2026-08-12/daily|2026-08-12]] — 197 stars
