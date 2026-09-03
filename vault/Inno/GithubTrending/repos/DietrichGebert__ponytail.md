@@ -5,7 +5,7 @@ tags:
 repo: DietrichGebert/ponytail
 language: JavaScript
 first_seen: 2026-08-27
-appearances: 1
+appearances: 2
 ---
 
 # DietrichGebert/ponytail
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-03/articles/03-DietrichGebert__ponytail|2026-09-03]]
 - [[2026-08-27/articles/07-DietrichGebert__ponytail|2026-08-27]]
 
 ## 上榜历史
 
+- [[2026-09-03/daily|2026-09-03]] — 1354 stars
 - [[2026-08-27/daily|2026-08-27]] — 1610 stars
