@@ -5,7 +5,7 @@ tags:
 repo: fmtlib/fmt
 language: C++
 first_seen: 2026-09-03
-appearances: 1
+appearances: 2
 ---
 
 # fmtlib/fmt
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-04/articles/01-fmtlib__fmt|2026-09-04]]
 - [[2026-09-03/articles/01-fmtlib__fmt|2026-09-03]]
 
 ## 上榜历史
 
+- [[2026-09-04/daily|2026-09-04]] — 963 stars
 - [[2026-09-03/daily|2026-09-03]] — 14 stars

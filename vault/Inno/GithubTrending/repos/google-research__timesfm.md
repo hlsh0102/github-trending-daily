@@ -5,7 +5,7 @@ tags:
 repo: google-research/timesfm
 language: Python
 first_seen: 2026-06-18
-appearances: 5
+appearances: 6
 ---
 
 # google-research/timesfm
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-09-04/articles/09-google-research__timesfm|2026-09-04]]
 - [[2026-09-03/articles/02-google-research__timesfm|2026-09-03]]
 - [[2026-06-21/articles/06-google-research__timesfm|2026-06-21]]
 - [[2026-06-20/articles/02-google-research__timesfm|2026-06-20]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-09-04/daily|2026-09-04]] — 1618 stars
 - [[2026-09-03/daily|2026-09-03]] — 343 stars
 - [[2026-06-21/daily|2026-06-21]] — 433 stars
 - [[2026-06-20/daily|2026-06-20]] — 1510 stars
