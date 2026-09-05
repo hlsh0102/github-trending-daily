@@ -5,7 +5,7 @@ tags:
 repo: blader/humanizer
 language: Python
 first_seen: 2026-09-04
-appearances: 1
+appearances: 2
 ---
 
 # blader/humanizer
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-05/articles/06-blader__humanizer|2026-09-05]]
 - [[2026-09-04/articles/08-blader__humanizer|2026-09-04]]
 
 ## 上榜历史
 
+- [[2026-09-05/daily|2026-09-05]] — 1130 stars
 - [[2026-09-04/daily|2026-09-04]] — 1208 stars
