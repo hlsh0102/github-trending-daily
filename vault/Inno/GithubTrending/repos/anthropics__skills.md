@@ -5,7 +5,7 @@ tags:
 repo: anthropics/skills
 language: Python
 first_seen: 2026-08-12
-appearances: 4
+appearances: 5
 ---
 
 # anthropics/skills
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-09-06/articles/06-anthropics__skills|2026-09-06]]
 - [[2026-09-05/articles/05-anthropics__skills|2026-09-05]]
 - [[2026-09-04/articles/05-anthropics__skills|2026-09-04]]
 - [[2026-08-14/articles/03-anthropics__skills|2026-08-14]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-09-06/daily|2026-09-06]] — 475 stars
 - [[2026-09-05/daily|2026-09-05]] — 511 stars
 - [[2026-09-04/daily|2026-09-04]] — 281 stars
 - [[2026-08-14/daily|2026-08-14]] — 312 stars
