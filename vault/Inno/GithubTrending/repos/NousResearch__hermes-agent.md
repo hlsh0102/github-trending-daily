@@ -5,7 +5,7 @@ tags:
 repo: NousResearch/hermes-agent
 language: Python
 first_seen: 2026-06-04
-appearances: 9
+appearances: 10
 ---
 
 # NousResearch/hermes-agent
@@ -14,6 +14,7 @@ appearances: 9
 
 ## 详细介绍历史
 
+- [[2026-09-07/articles/04-NousResearch__hermes-agent|2026-09-07]]
 - [[2026-09-06/articles/04-NousResearch__hermes-agent|2026-09-06]]
 - [[2026-09-05/articles/07-NousResearch__hermes-agent|2026-09-05]]
 - [[2026-09-04/articles/03-NousResearch__hermes-agent|2026-09-04]]
@@ -26,6 +27,7 @@ appearances: 9
 
 ## 上榜历史
 
+- [[2026-09-07/daily|2026-09-07]] — 520 stars
 - [[2026-09-06/daily|2026-09-06]] — 575 stars
 - [[2026-09-05/daily|2026-09-05]] — 720 stars
 - [[2026-09-04/daily|2026-09-04]] — 774 stars
