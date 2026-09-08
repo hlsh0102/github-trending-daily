@@ -5,7 +5,7 @@ tags:
 repo: coreyhaines31/marketingskills
 language: JavaScript
 first_seen: 2026-07-14
-appearances: 1
+appearances: 2
 ---
 
 # coreyhaines31/marketingskills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-08/articles/07-coreyhaines31__marketingskills|2026-09-08]]
 - [[2026-07-14/articles/10-coreyhaines31__marketingskills|2026-07-14]]
 
 ## 上榜历史
 
+- [[2026-09-08/daily|2026-09-08]] — 580 stars
 - [[2026-07-14/daily|2026-07-14]] — 299 stars

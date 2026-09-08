@@ -5,7 +5,7 @@ tags:
 repo: heygen-com/hyperframes
 language: TypeScript
 first_seen: 2026-06-23
-appearances: 1
+appearances: 2
 ---
 
 # heygen-com/hyperframes
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-08/articles/01-heygen-com__hyperframes|2026-09-08]]
 - [[2026-06-23/articles/08-heygen-com__hyperframes|2026-06-23]]
 
 ## 上榜历史
 
+- [[2026-09-08/daily|2026-09-08]] — 474 stars
 - [[2026-06-23/daily|2026-06-23]] — 395 stars
