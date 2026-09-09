@@ -5,7 +5,7 @@ tags:
 repo: multica-ai/andrej-karpathy-skills
 language: Unknown
 first_seen: 2026-08-25
-appearances: 1
+appearances: 2
 ---
 
 # multica-ai/andrej-karpathy-skills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-09/articles/08-multica-ai__andrej-karpathy-skills|2026-09-09]]
 - [[2026-08-25/articles/04-multica-ai__andrej-karpathy-skills|2026-08-25]]
 
 ## 上榜历史
 
+- [[2026-09-09/daily|2026-09-09]] — 333 stars
 - [[2026-08-25/daily|2026-08-25]] — 588 stars

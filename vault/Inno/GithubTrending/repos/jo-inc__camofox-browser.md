@@ -5,7 +5,7 @@ tags:
 repo: jo-inc/camofox-browser
 language: JavaScript
 first_seen: 2026-09-08
-appearances: 1
+appearances: 2
 ---
 
 # jo-inc/camofox-browser
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-09/articles/10-jo-inc__camofox-browser|2026-09-09]]
 - [[2026-09-08/articles/04-jo-inc__camofox-browser|2026-09-08]]
 
 ## 上榜历史
 
+- [[2026-09-09/daily|2026-09-09]] — 871 stars
 - [[2026-09-08/daily|2026-09-08]] — 135 stars

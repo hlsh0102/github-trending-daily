@@ -5,7 +5,7 @@ tags:
 repo: openai/skills
 language: Python
 first_seen: 2026-09-07
-appearances: 1
+appearances: 2
 ---
 
 # openai/skills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-09/articles/03-openai__skills|2026-09-09]]
 - [[2026-09-07/articles/05-openai__skills|2026-09-07]]
 
 ## 上榜历史
 
+- [[2026-09-09/daily|2026-09-09]] — 490 stars
 - [[2026-09-07/daily|2026-09-07]] — 46 stars
