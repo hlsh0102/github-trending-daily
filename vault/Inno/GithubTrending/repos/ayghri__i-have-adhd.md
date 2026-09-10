@@ -5,7 +5,7 @@ tags:
 repo: ayghri/i-have-adhd
 language: Python
 first_seen: 2026-07-22
-appearances: 3
+appearances: 4
 ---
 
 # ayghri/i-have-adhd
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-09-10/articles/01-ayghri__i-have-adhd|2026-09-10]]
 - [[2026-09-09/articles/01-ayghri__i-have-adhd|2026-09-09]]
 - [[2026-07-23/articles/03-ayghri__i-have-adhd|2026-07-23]]
 - [[2026-07-22/articles/04-ayghri__i-have-adhd|2026-07-22]]
 
 ## 上榜历史
 
+- [[2026-09-10/daily|2026-09-10]] — 4650 stars
 - [[2026-09-09/daily|2026-09-09]] — 656 stars
 - [[2026-07-23/daily|2026-07-23]] — 1699 stars
 - [[2026-07-22/daily|2026-07-22]] — 1866 stars
