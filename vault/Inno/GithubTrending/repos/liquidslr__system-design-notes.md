@@ -5,7 +5,7 @@ tags:
 repo: liquidslr/system-design-notes
 language: Unknown
 first_seen: 2026-09-10
-appearances: 1
+appearances: 2
 ---
 
 # liquidslr/system-design-notes
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-11/articles/07-liquidslr__system-design-notes|2026-09-11]]
 - [[2026-09-10/articles/08-liquidslr__system-design-notes|2026-09-10]]
 
 ## 上榜历史
 
+- [[2026-09-11/daily|2026-09-11]] — 900 stars
 - [[2026-09-10/daily|2026-09-10]] — 1397 stars

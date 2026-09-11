@@ -5,7 +5,7 @@ tags:
 repo: Tencent/teamai-cli
 language: TypeScript
 first_seen: 2026-09-10
-appearances: 1
+appearances: 2
 ---
 
 # Tencent/teamai-cli
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-11/articles/05-Tencent__teamai-cli|2026-09-11]]
 - [[2026-09-10/articles/02-Tencent__teamai-cli|2026-09-10]]
 
 ## 上榜历史
 
+- [[2026-09-11/daily|2026-09-11]] — 841 stars
 - [[2026-09-10/daily|2026-09-10]] — 556 stars

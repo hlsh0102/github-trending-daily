@@ -5,7 +5,7 @@ tags:
 repo: freestylefly/awesome-gpt-image-2
 language: JavaScript
 first_seen: 2026-08-24
-appearances: 6
+appearances: 7
 ---
 
 # freestylefly/awesome-gpt-image-2
@@ -14,6 +14,7 @@ appearances: 6
 
 ## 详细介绍历史
 
+- [[2026-09-11/articles/09-freestylefly__awesome-gpt-image-2|2026-09-11]]
 - [[2026-09-10/articles/10-freestylefly__awesome-gpt-image-2|2026-09-10]]
 - [[2026-08-29/articles/10-freestylefly__awesome-gpt-image-2|2026-08-29]]
 - [[2026-08-28/articles/10-freestylefly__awesome-gpt-image-2|2026-08-28]]
@@ -23,6 +24,7 @@ appearances: 6
 
 ## 上榜历史
 
+- [[2026-09-11/daily|2026-09-11]] — 962 stars
 - [[2026-09-10/daily|2026-09-10]] — 705 stars
 - [[2026-08-29/daily|2026-08-29]] — 1687 stars
 - [[2026-08-28/daily|2026-08-28]] — 1687 stars

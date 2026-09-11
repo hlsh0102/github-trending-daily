@@ -5,7 +5,7 @@ tags:
 repo: AlexsJones/llmfit
 language: Rust
 first_seen: 2026-08-18
-appearances: 1
+appearances: 2
 ---
 
 # AlexsJones/llmfit
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-11/articles/06-AlexsJones__llmfit|2026-09-11]]
 - [[2026-08-18/articles/06-AlexsJones__llmfit|2026-08-18]]
 
 ## 上榜历史
 
+- [[2026-09-11/daily|2026-09-11]] — 258 stars
 - [[2026-08-18/daily|2026-08-18]] — 198 stars
