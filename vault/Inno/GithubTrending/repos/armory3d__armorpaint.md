@@ -5,7 +5,7 @@ tags:
 repo: armory3d/armorpaint
 language: C
 first_seen: 2026-09-11
-appearances: 1
+appearances: 2
 ---
 
 # armory3d/armorpaint
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-12/articles/06-armory3d__armorpaint|2026-09-12]]
 - [[2026-09-11/articles/10-armory3d__armorpaint|2026-09-11]]
 
 ## 上榜历史
 
+- [[2026-09-12/daily|2026-09-12]] — 350 stars
 - [[2026-09-11/daily|2026-09-11]] — 72 stars

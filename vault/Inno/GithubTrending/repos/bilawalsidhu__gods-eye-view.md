@@ -5,7 +5,7 @@ tags:
 repo: bilawalsidhu/gods-eye-view
 language: JavaScript
 first_seen: 2026-08-28
-appearances: 4
+appearances: 5
 ---
 
 # bilawalsidhu/gods-eye-view
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-09-12/articles/02-bilawalsidhu__gods-eye-view|2026-09-12]]
 - [[2026-09-11/articles/02-bilawalsidhu__gods-eye-view|2026-09-11]]
 - [[2026-08-30/articles/02-bilawalsidhu__gods-eye-view|2026-08-30]]
 - [[2026-08-29/articles/04-bilawalsidhu__gods-eye-view|2026-08-29]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-09-12/daily|2026-09-12]] — 3680 stars
 - [[2026-09-11/daily|2026-09-11]] — 1762 stars
 - [[2026-08-30/daily|2026-08-30]] — 1855 stars
 - [[2026-08-29/daily|2026-08-29]] — 3829 stars
