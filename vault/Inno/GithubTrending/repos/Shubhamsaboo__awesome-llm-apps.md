@@ -5,7 +5,7 @@ tags:
 repo: Shubhamsaboo/awesome-llm-apps
 language: Python
 first_seen: 2026-07-13
-appearances: 6
+appearances: 7
 ---
 
 # Shubhamsaboo/awesome-llm-apps
@@ -14,6 +14,7 @@ appearances: 6
 
 ## 详细介绍历史
 
+- [[2026-09-13/articles/10-Shubhamsaboo__awesome-llm-apps|2026-09-13]]
 - [[2026-08-26/articles/10-Shubhamsaboo__awesome-llm-apps|2026-08-26]]
 - [[2026-07-17/articles/08-Shubhamsaboo__awesome-llm-apps|2026-07-17]]
 - [[2026-07-16/articles/10-Shubhamsaboo__awesome-llm-apps|2026-07-16]]
@@ -23,6 +24,7 @@ appearances: 6
 
 ## 上榜历史
 
+- [[2026-09-13/daily|2026-09-13]] — 230 stars
 - [[2026-08-26/daily|2026-08-26]] — 161 stars
 - [[2026-07-17/daily|2026-07-17]] — 923 stars
 - [[2026-07-16/daily|2026-07-16]] — 1236 stars

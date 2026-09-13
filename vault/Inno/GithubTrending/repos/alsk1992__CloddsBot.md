@@ -5,7 +5,7 @@ tags:
 repo: alsk1992/CloddsBot
 language: TypeScript
 first_seen: 2026-09-11
-appearances: 2
+appearances: 3
 ---
 
 # alsk1992/CloddsBot
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-09-13/articles/08-alsk1992__CloddsBot|2026-09-13]]
 - [[2026-09-12/articles/07-alsk1992__CloddsBot|2026-09-12]]
 - [[2026-09-11/articles/04-alsk1992__CloddsBot|2026-09-11]]
 
 ## 上榜历史
 
+- [[2026-09-13/daily|2026-09-13]] — 376 stars
 - [[2026-09-12/daily|2026-09-12]] — 626 stars
 - [[2026-09-11/daily|2026-09-11]] — 277 stars

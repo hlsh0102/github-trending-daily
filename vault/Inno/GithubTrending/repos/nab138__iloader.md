@@ -5,7 +5,7 @@ tags:
 repo: nab138/iloader
 language: TypeScript
 first_seen: 2026-09-12
-appearances: 1
+appearances: 2
 ---
 
 # nab138/iloader
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-13/articles/04-nab138__iloader|2026-09-13]]
 - [[2026-09-12/articles/03-nab138__iloader|2026-09-12]]
 
 ## 上榜历史
 
+- [[2026-09-13/daily|2026-09-13]] — 209 stars
 - [[2026-09-12/daily|2026-09-12]] — 50 stars
