@@ -5,7 +5,7 @@ tags:
 repo: yuliskov/SmartTube
 language: Java
 first_seen: 2026-09-13
-appearances: 1
+appearances: 2
 ---
 
 # yuliskov/SmartTube
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-14/articles/10-yuliskov__SmartTube|2026-09-14]]
 - [[2026-09-13/articles/09-yuliskov__SmartTube|2026-09-13]]
 
 ## 上榜历史
 
+- [[2026-09-14/daily|2026-09-14]] — 233 stars
 - [[2026-09-13/daily|2026-09-13]] — 136 stars

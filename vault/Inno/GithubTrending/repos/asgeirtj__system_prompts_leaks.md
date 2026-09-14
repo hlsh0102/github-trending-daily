@@ -5,7 +5,7 @@ tags:
 repo: asgeirtj/system_prompts_leaks
 language: JavaScript
 first_seen: 2026-07-05
-appearances: 6
+appearances: 7
 ---
 
 # asgeirtj/system_prompts_leaks
@@ -14,6 +14,7 @@ appearances: 6
 
 ## 详细介绍历史
 
+- [[2026-09-14/articles/07-asgeirtj__system_prompts_leaks|2026-09-14]]
 - [[2026-09-13/articles/03-asgeirtj__system_prompts_leaks|2026-09-13]]
 - [[2026-07-09/articles/08-asgeirtj__system_prompts_leaks|2026-07-09]]
 - [[2026-07-08/articles/05-asgeirtj__system_prompts_leaks|2026-07-08]]
@@ -23,6 +24,7 @@ appearances: 6
 
 ## 上榜历史
 
+- [[2026-09-14/daily|2026-09-14]] — 706 stars
 - [[2026-09-13/daily|2026-09-13]] — 217 stars
 - [[2026-07-09/daily|2026-07-09]] — 1218 stars
 - [[2026-07-08/daily|2026-07-08]] — 1691 stars
