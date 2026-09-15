@@ -5,7 +5,7 @@ tags:
 repo: alibaba/open-code-review
 language: Go
 first_seen: 2026-07-26
-appearances: 2
+appearances: 3
 ---
 
 # alibaba/open-code-review
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-09-15/articles/02-alibaba__open-code-review|2026-09-15]]
 - [[2026-07-28/articles/09-alibaba__open-code-review|2026-07-28]]
 - [[2026-07-26/articles/02-alibaba__open-code-review|2026-07-26]]
 
 ## 上榜历史
 
+- [[2026-09-15/daily|2026-09-15]] — 1571 stars
 - [[2026-07-28/daily|2026-07-28]] — 979 stars
 - [[2026-07-26/daily|2026-07-26]] — 431 stars

@@ -5,7 +5,7 @@ tags:
 repo: 666ghj/MiroFish
 language: Python
 first_seen: 2026-06-06
-appearances: 2
+appearances: 3
 ---
 
 # 666ghj/MiroFish
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-09-15/articles/05-666ghj__MiroFish|2026-09-15]]
 - [[2026-08-08/articles/08-666ghj__MiroFish|2026-08-08]]
 - [[2026-06-06/articles/08-666ghj__MiroFish|2026-06-06]]
 
 ## 上榜历史
 
+- [[2026-09-15/daily|2026-09-15]] — 560 stars
 - [[2026-08-08/daily|2026-08-08]] — 141 stars
 - [[2026-06-06/daily|2026-06-06]] — 320 stars

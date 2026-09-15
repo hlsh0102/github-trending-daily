@@ -5,7 +5,7 @@ tags:
 repo: multimodal-art-projection/YuE
 language: Python
 first_seen: 2026-09-14
-appearances: 1
+appearances: 2
 ---
 
 # multimodal-art-projection/YuE
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-15/articles/03-multimodal-art-projection__YuE|2026-09-15]]
 - [[2026-09-14/articles/09-multimodal-art-projection__YuE|2026-09-14]]
 
 ## 上榜历史
 
+- [[2026-09-15/daily|2026-09-15]] — 559 stars
 - [[2026-09-14/daily|2026-09-14]] — 487 stars

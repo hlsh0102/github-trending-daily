@@ -5,7 +5,7 @@ tags:
 repo: debpalash/VoiceStudio
 language: Python
 first_seen: 2026-09-03
-appearances: 1
+appearances: 2
 ---
 
 # debpalash/VoiceStudio
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-15/articles/04-debpalash__VoiceStudio|2026-09-15]]
 - [[2026-09-03/articles/04-debpalash__VoiceStudio|2026-09-03]]
 
 ## 上榜历史
 
+- [[2026-09-15/daily|2026-09-15]] — 2776 stars
 - [[2026-09-03/daily|2026-09-03]] — 832 stars
