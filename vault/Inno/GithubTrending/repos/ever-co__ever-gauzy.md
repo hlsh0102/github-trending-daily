@@ -5,7 +5,7 @@ tags:
 repo: ever-co/ever-gauzy
 language: TypeScript
 first_seen: 2026-09-14
-appearances: 1
+appearances: 2
 ---
 
 # ever-co/ever-gauzy
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-16/articles/03-ever-co__ever-gauzy|2026-09-16]]
 - [[2026-09-14/articles/02-ever-co__ever-gauzy|2026-09-14]]
 
 ## 上榜历史
 
+- [[2026-09-16/daily|2026-09-16]] — 634 stars
 - [[2026-09-14/daily|2026-09-14]] — 191 stars

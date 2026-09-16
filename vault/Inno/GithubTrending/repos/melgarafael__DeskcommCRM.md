@@ -5,7 +5,7 @@ tags:
 repo: melgarafael/DeskcommCRM
 language: TypeScript
 first_seen: 2026-09-12
-appearances: 3
+appearances: 4
 ---
 
 # melgarafael/DeskcommCRM
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-09-16/articles/06-melgarafael__DeskcommCRM|2026-09-16]]
 - [[2026-09-14/articles/05-melgarafael__DeskcommCRM|2026-09-14]]
 - [[2026-09-13/articles/02-melgarafael__DeskcommCRM|2026-09-13]]
 - [[2026-09-12/articles/04-melgarafael__DeskcommCRM|2026-09-12]]
 
 ## 上榜历史
 
+- [[2026-09-16/daily|2026-09-16]] — 193 stars
 - [[2026-09-14/daily|2026-09-14]] — 432 stars
 - [[2026-09-13/daily|2026-09-13]] — 504 stars
 - [[2026-09-12/daily|2026-09-12]] — 152 stars

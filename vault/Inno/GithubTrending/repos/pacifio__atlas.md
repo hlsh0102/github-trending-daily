@@ -5,7 +5,7 @@ tags:
 repo: pacifio/atlas
 language: Rust
 first_seen: 2026-09-03
-appearances: 1
+appearances: 2
 ---
 
 # pacifio/atlas
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-16/articles/10-pacifio__atlas|2026-09-16]]
 - [[2026-09-03/articles/09-pacifio__atlas|2026-09-03]]
 
 ## 上榜历史
 
+- [[2026-09-16/daily|2026-09-16]] — 91 stars
 - [[2026-09-03/daily|2026-09-03]] — 888 stars

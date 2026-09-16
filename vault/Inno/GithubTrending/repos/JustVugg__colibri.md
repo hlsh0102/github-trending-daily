@@ -5,7 +5,7 @@ tags:
 repo: JustVugg/colibri
 language: C
 first_seen: 2026-09-14
-appearances: 2
+appearances: 3
 ---
 
 # JustVugg/colibri
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-09-16/articles/02-JustVugg__colibri|2026-09-16]]
 - [[2026-09-15/articles/01-JustVugg__colibri|2026-09-15]]
 - [[2026-09-14/articles/01-JustVugg__colibri|2026-09-14]]
 
 ## 上榜历史
 
+- [[2026-09-16/daily|2026-09-16]] — 2026 stars
 - [[2026-09-15/daily|2026-09-15]] — 2173 stars
 - [[2026-09-14/daily|2026-09-14]] — 868 stars
