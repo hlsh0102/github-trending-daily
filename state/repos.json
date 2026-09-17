@@ -60,7 +60,8 @@
     "appearances": [
       "2026-05-26",
       "2026-05-27",
-      "2026-05-28"
+      "2026-05-28",
+      "2026-09-17"
     ],
     "intro_zh": "anthropics/knowledge-work-plugins 是一个旨在为知识工作者提供Claude Cowork插件的开源仓库。该项目提供了各种工具和扩展，帮助用户在日常工作中更高效地集成和使用Claude AI助手。适用于需要利用人工智能辅助完成文档处理、信息检索等任务的知识工作者。",
     "image_prompt_en": "",
@@ -1353,7 +1354,8 @@
       "2026-06-23",
       "2026-07-20",
       "2026-07-21",
-      "2026-07-23"
+      "2026-07-23",
+      "2026-09-17"
     ],
     "intro_zh": "Voicebox 是一个开源的人工智能语音工作室，能够在本地计算机上运行完整的语音输入/输出流程。该项目提供语音克隆、文本转语音生成、语音听写以及与自定义声音代理对话等功能。Voicebox 面向需要离线、隐私优先的语音合成与识别能力的开发者和个人用户。",
     "image_prompt_en": "",
@@ -2823,7 +2825,8 @@
       "2026-07-26",
       "2026-07-28",
       "2026-09-15",
-      "2026-09-16"
+      "2026-09-16",
+      "2026-09-17"
     ],
     "intro_zh": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
     "image_prompt_en": "",
@@ -3938,7 +3941,8 @@
   "Lakr233/vphone-cli": {
     "first_seen": "2026-08-31",
     "appearances": [
-      "2026-08-31"
+      "2026-08-31",
+      "2026-09-17"
     ],
     "intro_zh": "vphone-cli 是一个基于 Apple Virtualization.framework 的命令行工具，用于在 Apple Silicon Mac 上启动虚拟 iPhone。它利用 PCC（Private Cloud Compute）研究虚拟机基础设施，通过一条命令完成从下载、修补、DFU 恢复到首次启动的完整流程。该项目面向希望在 macOS 环境中运行虚拟 iOS 系统进行测试或研究的开发者。工具以 MIT 许可证开源，要求 macOS 15 及以上版本，并需要调整系统的 SIP/AMFI 安全设置以支持特定的私有权限。",
     "image_prompt_en": "",
@@ -4335,7 +4339,8 @@
     "appearances": [
       "2026-09-14",
       "2026-09-15",
-      "2026-09-16"
+      "2026-09-16",
+      "2026-09-17"
     ],
     "intro_zh": "Colibrì 是一个用纯 C 实现的 MoE 大模型推理引擎，无外部依赖，通过将磁盘、内存和显存视为统一的分层推理架构，使消费级和异构硬件也能运行参数量达 744B 至 2.8T 的前沿 MoE 模型。它目前支持 GLM、Kimi、DeepSeek、Qwen 和 OLMoE 等多个模型家族，并提供统一的 chat、serve 和 web 命令行前端。该项目面向希望在自有硬件上本地部署超大规模 MoE 模型的开发者与研究者。",
     "image_prompt_en": "",
@@ -4345,7 +4350,8 @@
     "first_seen": "2026-09-14",
     "appearances": [
       "2026-09-14",
-      "2026-09-16"
+      "2026-09-16",
+      "2026-09-17"
     ],
     "intro_zh": "Ever Gauzy 是一个开源的企业管理平台，集成了 ERP、CRM、HRM、ATS、项目管理和员工工时与生产力跟踪等模块。它旨在为协作型、按需服务和共享经济模式的企业提供统一的后台管理解决方案，避免使用多个割裂的商业软件。该项目主要面向需要一体化业务管理工具的中小企业、创业团队以及希望自行部署和定制系统的开发者。",
     "image_prompt_en": "",
@@ -4418,7 +4424,8 @@
   "NationalSecurityAgency/ghidra": {
     "first_seen": "2026-09-16",
     "appearances": [
-      "2026-09-16"
+      "2026-09-16",
+      "2026-09-17"
     ],
     "intro_zh": "Ghidra 是由美国国家安全局研究部门开发并维护的软件逆向工程（SRE）框架，提供反汇编、汇编、反编译、图形化分析和脚本编写等功能，支持多种处理器指令集和可执行文件格式。它旨在解决复杂逆向工程中的规模化和团队协作问题，并提供可定制、可扩展的研究平台，适用于分析恶意代码和挖掘系统潜在漏洞的安全研究人员。用户可通过 Java 或 Python 开发自定义扩展组件和脚本。",
     "image_prompt_en": "",
@@ -4430,6 +4437,33 @@
       "2026-09-16"
     ],
     "intro_zh": "LibreChat 是一个功能增强的开源 ChatGPT 克隆项目，支持 OpenAI、Anthropic、Google、AWS、Azure、Groq、Mistral、OpenRouter 等多种 AI 服务商，并提供模型切换、消息搜索、代码解释器、Artifacts、预设、多用户认证和 OpenAPI 操作等功能。它旨在解决用户希望在一个自托管界面中统一接入和管理多种大语言模型、且无需依赖单一闭源平台的问题。该项目适合希望自行部署 AI 聊天服务、需要多模型支持与数据隐私控制的开发者及团队使用。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "cloudflare/security-audit-skill": {
+    "first_seen": "2026-09-17",
+    "appearances": [
+      "2026-09-17"
+    ],
+    "intro_zh": "security-audit-skill 是一个面向编码代理的安全审计技能，将代理转变为安全审计员。它通过侦察、覆盖驱动的漏洞搜寻、候选人验证、结构化输出、独立记录核验和目标中立的报告六个阶段执行多阶段审计，生成可独立验证的机器可读发现。该技能适合需要对单一代码仓库进行结构化安全审计的开发者和安全团队使用。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "abue-ammar/tinycast": {
+    "first_seen": "2026-09-17",
+    "appearances": [
+      "2026-09-17"
+    ],
+    "intro_zh": "Tinycast 是一个用 Swift 编写的原生 macOS 启动器，提供快捷键唤起、应用搜索和剪贴板历史功能。它基于 SwiftUI 和 AppKit 构建，无第三方依赖，内存占用低于 100 MB，并可运行 Raycast 扩展。该项目面向需要轻量、注重隐私的 macOS 效率工具用户。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "ankitects/anki": {
+    "first_seen": "2026-09-17",
+    "appearances": [
+      "2026-09-17"
+    ],
+    "intro_zh": "Anki 是一个基于间隔重复算法的智能闪卡学习程序，旨在帮助用户高效记忆和复习知识。它适用于学生、语言学习者以及任何需要长期记忆信息的人群。该仓库包含 Anki 计算机版的源代码，主要使用 Rust 语言开发。",
     "image_prompt_en": "",
     "image_path": ""
   }

@@ -5,7 +5,7 @@ tags:
 repo: Lakr233/vphone-cli
 language: Swift
 first_seen: 2026-08-31
-appearances: 1
+appearances: 2
 ---
 
 # Lakr233/vphone-cli
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-17/articles/06-Lakr233__vphone-cli|2026-09-17]]
 - [[2026-08-31/articles/03-Lakr233__vphone-cli|2026-08-31]]
 
 ## 上榜历史
 
+- [[2026-09-17/daily|2026-09-17]] — 547 stars
 - [[2026-08-31/daily|2026-08-31]] — 361 stars

@@ -5,7 +5,7 @@ tags:
 repo: NationalSecurityAgency/ghidra
 language: Java
 first_seen: 2026-09-16
-appearances: 1
+appearances: 2
 ---
 
 # NationalSecurityAgency/ghidra
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-17/articles/10-NationalSecurityAgency__ghidra|2026-09-17]]
 - [[2026-09-16/articles/08-NationalSecurityAgency__ghidra|2026-09-16]]
 
 ## 上榜历史
 
+- [[2026-09-17/daily|2026-09-17]] — 1059 stars
 - [[2026-09-16/daily|2026-09-16]] — 725 stars
