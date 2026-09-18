@@ -5,7 +5,7 @@ tags:
 repo: alphaXiv/OpenResearch
 language: Rust
 first_seen: 2026-09-16
-appearances: 1
+appearances: 2
 ---
 
 # alphaXiv/OpenResearch
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-18/articles/05-alphaXiv__OpenResearch|2026-09-18]]
 - [[2026-09-16/articles/07-alphaXiv__OpenResearch|2026-09-16]]
 
 ## 上榜历史
 
+- [[2026-09-18/daily|2026-09-18]] — 939 stars
 - [[2026-09-16/daily|2026-09-16]] — 531 stars
