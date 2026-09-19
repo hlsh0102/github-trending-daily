@@ -5,7 +5,7 @@ tags:
 repo: Tencent/BrowserSkill
 language: TypeScript
 first_seen: 2026-09-18
-appearances: 1
+appearances: 2
 ---
 
 # Tencent/BrowserSkill
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-19/articles/05-Tencent__BrowserSkill|2026-09-19]]
 - [[2026-09-18/articles/04-Tencent__BrowserSkill|2026-09-18]]
 
 ## 上榜历史
 
+- [[2026-09-19/daily|2026-09-19]] — 1306 stars
 - [[2026-09-18/daily|2026-09-18]] — 1302 stars

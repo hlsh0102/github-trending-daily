@@ -5,7 +5,7 @@ tags:
 repo: ankitects/anki
 language: Rust
 first_seen: 2026-09-17
-appearances: 1
+appearances: 2
 ---
 
 # ankitects/anki
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-19/articles/09-ankitects__anki|2026-09-19]]
 - [[2026-09-17/articles/09-ankitects__anki|2026-09-17]]
 
 ## 上榜历史
 
+- [[2026-09-19/daily|2026-09-19]] — 174 stars
 - [[2026-09-17/daily|2026-09-17]] — 58 stars
