@@ -5,7 +5,7 @@ tags:
 repo: addyosmani/agent-skills
 language: Shell
 first_seen: 2026-06-11
-appearances: 18
+appearances: 19
 ---
 
 # addyosmani/agent-skills
@@ -14,6 +14,7 @@ appearances: 18
 
 ## 详细介绍历史
 
+- [[2026-09-20/articles/03-addyosmani__agent-skills|2026-09-20]]
 - [[2026-09-19/articles/06-addyosmani__agent-skills|2026-09-19]]
 - [[2026-09-18/articles/03-addyosmani__agent-skills|2026-09-18]]
 - [[2026-08-12/articles/05-addyosmani__agent-skills|2026-08-12]]
@@ -35,6 +36,7 @@ appearances: 18
 
 ## 上榜历史
 
+- [[2026-09-20/daily|2026-09-20]] — 556 stars
 - [[2026-09-19/daily|2026-09-19]] — 675 stars
 - [[2026-09-18/daily|2026-09-18]] — 680 stars
 - [[2026-08-12/daily|2026-08-12]] — 578 stars
