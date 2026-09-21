@@ -5,7 +5,7 @@ tags:
 repo: higgsfield-ai/higgsfield
 language: Jupyter Notebook
 first_seen: 2026-09-20
-appearances: 1
+appearances: 2
 ---
 
 # higgsfield-ai/higgsfield
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-21/articles/09-higgsfield-ai__higgsfield|2026-09-21]]
 - [[2026-09-20/articles/07-higgsfield-ai__higgsfield|2026-09-20]]
 
 ## 上榜历史
 
+- [[2026-09-21/daily|2026-09-21]] — 465 stars
 - [[2026-09-20/daily|2026-09-20]] — 196 stars

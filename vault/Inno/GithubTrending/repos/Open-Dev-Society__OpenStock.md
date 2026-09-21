@@ -5,7 +5,7 @@ tags:
 repo: Open-Dev-Society/OpenStock
 language: TypeScript
 first_seen: 2026-09-20
-appearances: 1
+appearances: 2
 ---
 
 # Open-Dev-Society/OpenStock
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-21/articles/10-Open-Dev-Society__OpenStock|2026-09-21]]
 - [[2026-09-20/articles/06-Open-Dev-Society__OpenStock|2026-09-20]]
 
 ## 上榜历史
 
+- [[2026-09-21/daily|2026-09-21]] — 755 stars
 - [[2026-09-20/daily|2026-09-20]] — 472 stars

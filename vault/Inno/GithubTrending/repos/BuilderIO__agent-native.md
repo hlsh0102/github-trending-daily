@@ -5,7 +5,7 @@ tags:
 repo: BuilderIO/agent-native
 language: TypeScript
 first_seen: 2026-06-20
-appearances: 1
+appearances: 2
 ---
 
 # BuilderIO/agent-native
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-21/articles/02-BuilderIO__agent-native|2026-09-21]]
 - [[2026-06-20/articles/06-BuilderIO__agent-native|2026-06-20]]
 
 ## 上榜历史
 
+- [[2026-09-21/daily|2026-09-21]] — 98 stars
 - [[2026-06-20/daily|2026-06-20]] — 147 stars
