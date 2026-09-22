@@ -5,7 +5,7 @@ tags:
 repo: anthropics/financial-services
 language: Python
 first_seen: 2026-09-21
-appearances: 1
+appearances: 2
 ---
 
 # anthropics/financial-services
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-22/articles/06-anthropics__financial-services|2026-09-22]]
 - [[2026-09-21/articles/05-anthropics__financial-services|2026-09-21]]
 
 ## 上榜历史
 
+- [[2026-09-22/daily|2026-09-22]] — 424 stars
 - [[2026-09-21/daily|2026-09-21]] — 260 stars

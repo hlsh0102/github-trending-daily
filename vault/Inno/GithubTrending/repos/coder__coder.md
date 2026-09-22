@@ -5,7 +5,7 @@ tags:
 repo: coder/coder
 language: Go
 first_seen: 2026-09-20
-appearances: 1
+appearances: 2
 ---
 
 # coder/coder
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-22/articles/05-coder__coder|2026-09-22]]
 - [[2026-09-20/articles/04-coder__coder|2026-09-20]]
 
 ## 上榜历史
 
+- [[2026-09-22/daily|2026-09-22]] — 460 stars
 - [[2026-09-20/daily|2026-09-20]] — 402 stars

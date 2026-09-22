@@ -5,7 +5,7 @@ tags:
 repo: trycua/cua
 language: HTML
 first_seen: 2026-06-16
-appearances: 3
+appearances: 4
 ---
 
 # trycua/cua
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-09-22/articles/02-trycua__cua|2026-09-22]]
 - [[2026-09-21/articles/04-trycua__cua|2026-09-21]]
 - [[2026-09-20/articles/02-trycua__cua|2026-09-20]]
 - [[2026-06-16/articles/08-trycua__cua|2026-06-16]]
 
 ## 上榜历史
 
+- [[2026-09-22/daily|2026-09-22]] — 609 stars
 - [[2026-09-21/daily|2026-09-21]] — 1018 stars
 - [[2026-09-20/daily|2026-09-20]] — 859 stars
 - [[2026-06-16/daily|2026-06-16]] — 70 stars
