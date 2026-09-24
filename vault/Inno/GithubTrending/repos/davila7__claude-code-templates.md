@@ -5,7 +5,7 @@ tags:
 repo: davila7/claude-code-templates
 language: Python
 first_seen: 2026-07-12
-appearances: 1
+appearances: 2
 ---
 
 # davila7/claude-code-templates
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-24/articles/03-davila7__claude-code-templates|2026-09-24]]
 - [[2026-07-12/articles/03-davila7__claude-code-templates|2026-07-12]]
 
 ## 上榜历史
 
+- [[2026-09-24/daily|2026-09-24]] — 389 stars
 - [[2026-07-12/daily|2026-07-12]] — 232 stars

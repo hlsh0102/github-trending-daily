@@ -5,7 +5,7 @@ tags:
 repo: agent-substrate/substrate
 language: Go
 first_seen: 2026-08-21
-appearances: 1
+appearances: 2
 ---
 
 # agent-substrate/substrate
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-24/articles/08-agent-substrate__substrate|2026-09-24]]
 - [[2026-08-21/articles/09-agent-substrate__substrate|2026-08-21]]
 
 ## 上榜历史
 
+- [[2026-09-24/daily|2026-09-24]] — 558 stars
 - [[2026-08-21/daily|2026-08-21]] — 22 stars

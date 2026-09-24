@@ -261,7 +261,8 @@
       "2026-09-09",
       "2026-09-10",
       "2026-09-11",
-      "2026-09-12"
+      "2026-09-12",
+      "2026-09-24"
     ],
     "intro_zh": "Superpowers 是一个为编程代理设计的完整软件开发方法论，构建在一组可组合的技能和初始指令之上。它通过引导代理在编码前先明确规格、制定实现计划，并采用子代理驱动开发流程，来解决代理直接编写代码时缺乏上下文、测试和项目纪律的问题。该项目适用于希望提升编码代理自主工作质量和效率的开发者。",
     "image_prompt_en": "",
@@ -1317,7 +1318,8 @@
     "appearances": [
       "2026-06-20",
       "2026-09-21",
-      "2026-09-22"
+      "2026-09-22",
+      "2026-09-24"
     ],
     "intro_zh": "Agent-Native 是一个开源框架，用于构建同时具备丰富用户界面和自主代理能力的应用。它解决了传统上用户界面与自主代理相互分离的问题，使二者能共享同一数据库和状态，实现双向实时同步。该框架适合希望开发兼具交互式界面与智能代理功能应用的开发者，支持多用户实时协作和上下文感知操作。",
     "image_prompt_en": "",
@@ -2261,7 +2263,8 @@
   "davila7/claude-code-templates": {
     "first_seen": "2026-07-12",
     "appearances": [
-      "2026-07-12"
+      "2026-07-12",
+      "2026-09-24"
     ],
     "intro_zh": "这是一个为Claude Code提供即用型配置模板的命令行工具，帮助开发者快速管理和监控Claude Code的执行环境。它通过预定义的模板集合简化了AI编码助手的初始化与参数设置流程，适合需要统一或反复配置Claude Code的Python开发者。",
     "image_prompt_en": "",
@@ -3700,7 +3703,8 @@
   "agent-substrate/substrate": {
     "first_seen": "2026-08-21",
     "appearances": [
-      "2026-08-21"
+      "2026-08-21",
+      "2026-09-24"
     ],
     "intro_zh": "Agent Substrate 是一个用于大规模智能体（Agent）部署的高性能运行时环境，由 Google 开发（非官方支持产品）。它通过将大量空闲的智能体映射到少量就绪的工作节点上，实现了高密度的资源复用，并支持微VM和gVisor等多种沙箱技术。该系统专注于智能体的生命周期管理（如创建、销毁、挂起和恢复）以及实时流量路由，旨在解决大规模运行智能体时的资源效率和调度问题，适合需要管理和运行大量AI智能体应用的后台基础设施团队。",
     "image_prompt_en": "",
@@ -4546,7 +4550,8 @@
     "appearances": [
       "2026-09-20",
       "2026-09-21",
-      "2026-09-22"
+      "2026-09-22",
+      "2026-09-24"
     ],
     "intro_zh": "OpenStock 是一个开源的市场数据追踪平台，旨在作为昂贵商业行情服务的免费替代方案。它支持查看实时价格、设置个性化提醒，并浏览详细的公司信息。该项目面向希望以零成本获取股票行情与基本面数据的个人投资者和开发者，采用 TypeScript 编写并遵循 AGPL-3.0 许可证。",
     "image_prompt_en": "",
@@ -4594,7 +4599,8 @@
     "first_seen": "2026-09-21",
     "appearances": [
       "2026-09-21",
-      "2026-09-22"
+      "2026-09-22",
+      "2026-09-24"
     ],
     "intro_zh": "该仓库提供面向金融服务工作流的 Claude 参考代理、技能与数据连接器，覆盖投资银行、股票研究、私募股权和财富管理等场景。内容可通过 Claude Cowork 插件或 Claude Managed Agents API 部署，两者共享同一系统提示与技能。代理用于起草模型、备忘录、研究笔记和对账等分析师工作产物，供专业人士审核，不构成投资、法律、税务或会计建议。",
     "image_prompt_en": "",
@@ -4642,6 +4648,42 @@
       "2026-09-22"
     ],
     "intro_zh": "科技爱好者周刊，每周五发布",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "google/ax": {
+    "first_seen": "2026-09-24",
+    "appearances": [
+      "2026-09-24"
+    ],
+    "intro_zh": "Google's open agentic orchestration runtime",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "dream-num/univer": {
+    "first_seen": "2026-09-24",
+    "appearances": [
+      "2026-09-24"
+    ],
+    "intro_zh": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "strands-agents/harness-sdk": {
+    "first_seen": "2026-09-24",
+    "appearances": [
+      "2026-09-24"
+    ],
+    "intro_zh": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "HKUDS/CLI-Anything": {
+    "first_seen": "2026-09-24",
+    "appearances": [
+      "2026-09-24"
+    ],
+    "intro_zh": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
     "image_prompt_en": "",
     "image_path": ""
   }
