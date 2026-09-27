@@ -5,7 +5,7 @@ tags:
 repo: NVIDIA/Model-Optimizer
 language: Python
 first_seen: 2026-09-25
-appearances: 1
+appearances: 2
 ---
 
 # NVIDIA/Model-Optimizer
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-27/articles/03-NVIDIA__Model-Optimizer|2026-09-27]]
 - [[2026-09-25/articles/05-NVIDIA__Model-Optimizer|2026-09-25]]
 
 ## 上榜历史
 
+- [[2026-09-27/daily|2026-09-27]] — 357 stars
 - [[2026-09-25/daily|2026-09-25]] — 44 stars

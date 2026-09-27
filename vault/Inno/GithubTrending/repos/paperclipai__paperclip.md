@@ -5,7 +5,7 @@ tags:
 repo: paperclipai/paperclip
 language: TypeScript
 first_seen: 2026-08-11
-appearances: 3
+appearances: 4
 ---
 
 # paperclipai/paperclip
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-09-27/articles/01-paperclipai__paperclip|2026-09-27]]
 - [[2026-09-26/articles/01-paperclipai__paperclip|2026-09-26]]
 - [[2026-08-13/articles/10-paperclipai__paperclip|2026-08-13]]
 - [[2026-08-11/articles/05-paperclipai__paperclip|2026-08-11]]
 
 ## 上榜历史
 
+- [[2026-09-27/daily|2026-09-27]] — 2608 stars
 - [[2026-09-26/daily|2026-09-26]] — 2109 stars
 - [[2026-08-13/daily|2026-08-13]] — 571 stars
 - [[2026-08-11/daily|2026-08-11]] — 198 stars
