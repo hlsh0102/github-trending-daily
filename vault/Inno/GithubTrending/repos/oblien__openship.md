@@ -5,7 +5,7 @@ tags:
 repo: oblien/openship
 language: TypeScript
 first_seen: 2026-07-22
-appearances: 1
+appearances: 2
 ---
 
 # oblien/openship
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-30/articles/07-oblien__openship|2026-09-30]]
 - [[2026-07-22/articles/07-oblien__openship|2026-07-22]]
 
 ## 上榜历史
 
+- [[2026-09-30/daily|2026-09-30]] — 437 stars
 - [[2026-07-22/daily|2026-07-22]] — 1562 stars

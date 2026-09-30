@@ -5,7 +5,7 @@ tags:
 repo: averygan/reclip
 language: HTML
 first_seen: 2026-09-04
-appearances: 1
+appearances: 2
 ---
 
 # averygan/reclip
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-09-30/articles/08-averygan__reclip|2026-09-30]]
 - [[2026-09-04/articles/10-averygan__reclip|2026-09-04]]
 
 ## 上榜历史
 
+- [[2026-09-30/daily|2026-09-30]] — 113 stars
 - [[2026-09-04/daily|2026-09-04]] — 88 stars

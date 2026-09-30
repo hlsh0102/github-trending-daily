@@ -53,7 +53,8 @@
       "2026-08-26",
       "2026-08-27",
       "2026-09-25",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-09-30"
     ],
     "intro_zh": "这是一个从零开始学习人工智能工程实践的教程项目，旨在帮助开发者掌握AI系统的构建与部署技能。它提供了从基础理论到实际项目落地的完整学习路径，适合希望系统掌握AI工程化能力的开发者。",
     "image_prompt_en": "",
@@ -2711,7 +2712,8 @@
   "oblien/openship": {
     "first_seen": "2026-07-22",
     "appearances": [
-      "2026-07-22"
+      "2026-07-22",
+      "2026-09-30"
     ],
     "intro_zh": "Openship 是一个开源的、可自托管的部署平台，内置 CI/CD 流水线。它允许用户通过桌面应用、Web 仪表盘或 CLI 将代码推送到容器并管理基础设施。该项目面向需要自主控制部署流程的开发者或团队，提供灵活的部署选择。",
     "image_prompt_en": "",
@@ -3390,7 +3392,8 @@
       "2026-08-11",
       "2026-08-13",
       "2026-09-26",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-09-30"
     ],
     "intro_zh": "Paperclip 是一个开源的 AI 代理管理应用，旨在帮助团队在工作中集中管理和协调多个 AI 代理。它解决了代理分散、缺乏统一监控和控制的问题，适用于需要高效运维多个 AI 工作流的个人或团队。作为一个 TypeScript 项目，它提供了一种轻量级、可自托管的解决方案，让用户能够更便捷地组织、调度和追踪代理任务。",
     "image_prompt_en": "",
@@ -4074,7 +4077,8 @@
     "appearances": [
       "2026-09-03",
       "2026-09-15",
-      "2026-09-16"
+      "2026-09-16",
+      "2026-09-30"
     ],
     "intro_zh": "VoiceStudio 是一个开源且完全本地运行的语音工具集，旨在作为 ElevenLabs 的替代方案，无需账户、API 密钥或订阅即可使用。它支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，并集成了 16 种文本转语音（TTS）引擎、11 种语音识别（ASR）引擎及 646 种语言目录。该项目面向需要在自有硬件（macOS、Windows、Linux 或 Docker）上处理长音频和隐私敏感语音任务的开发者与内容创作者。",
     "image_prompt_en": "",
@@ -4131,7 +4135,8 @@
   "averygan/reclip": {
     "first_seen": "2026-09-04",
     "appearances": [
-      "2026-09-04"
+      "2026-09-04",
+      "2026-09-30"
     ],
     "intro_zh": "ReClip 是一个自托管的开源视频和音频下载工具，提供简洁的 Web 界面。它基于 yt-dlp 支持从 YouTube、TikTok、Instagram 等 1000 多个网站下载内容，并可将视频保存为 MP4 或提取为 MP3。适合需要批量下载媒体文件且希望完全掌控自己数据的个人用户或开发者，后端仅为约 150 行的单一 Python 文件，无需复杂构建步骤，也可通过 Docker 快速部署。",
     "image_prompt_en": "",
@@ -4710,7 +4715,8 @@
     "appearances": [
       "2026-09-25",
       "2026-09-26",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-09-30"
     ],
     "intro_zh": "Hindsight: Agent Memory That Learns",
     "image_prompt_en": "",
@@ -4786,6 +4792,42 @@
       "2026-09-27"
     ],
     "intro_zh": "Visual Studio Code",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "NVIDIA/OpenShell": {
+    "first_seen": "2026-09-30",
+    "appearances": [
+      "2026-09-30"
+    ],
+    "intro_zh": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "t8y2/dbx": {
+    "first_seen": "2026-09-30",
+    "appearances": [
+      "2026-09-30"
+    ],
+    "intro_zh": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "mvschwarz/openrig": {
+    "first_seen": "2026-09-30",
+    "appearances": [
+      "2026-09-30"
+    ],
+    "intro_zh": "Multi-agent harness that runs Claude Code and Codex together as one system",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "cs341-illinois/coursebook": {
+    "first_seen": "2026-09-30",
+    "appearances": [
+      "2026-09-30"
+    ],
+    "intro_zh": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
     "image_prompt_en": "",
     "image_path": ""
   }
