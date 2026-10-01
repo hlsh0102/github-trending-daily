@@ -5,7 +5,7 @@ tags:
 repo: mksglu/context-mode
 language: TypeScript
 first_seen: 2026-09-08
-appearances: 1
+appearances: 2
 ---
 
 # mksglu/context-mode
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-01/articles/04-mksglu__context-mode|2026-10-01]]
 - [[2026-09-08/articles/03-mksglu__context-mode|2026-09-08]]
 
 ## 上榜历史
 
+- [[2026-10-01/daily|2026-10-01]] — 90 stars
 - [[2026-09-08/daily|2026-09-08]] — 96 stars
