@@ -5,7 +5,7 @@ tags:
 repo: JuliusBrussee/caveman
 language: JavaScript
 first_seen: 2026-07-03
-appearances: 5
+appearances: 6
 ---
 
 # JuliusBrussee/caveman
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-10-03/articles/02-JuliusBrussee__caveman|2026-10-03]]
 - [[2026-09-05/articles/08-JuliusBrussee__caveman|2026-09-05]]
 - [[2026-09-04/articles/07-JuliusBrussee__caveman|2026-09-04]]
 - [[2026-07-05/articles/02-JuliusBrussee__caveman|2026-07-05]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-10-03/daily|2026-10-03]] — 209 stars
 - [[2026-09-05/daily|2026-09-05]] — 501 stars
 - [[2026-09-04/daily|2026-09-04]] — 543 stars
 - [[2026-07-05/daily|2026-07-05]] — 1089 stars
