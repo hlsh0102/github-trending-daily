@@ -638,7 +638,8 @@
       "2026-09-15",
       "2026-10-03",
       "2026-10-04",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-06"
     ],
     "intro_zh": "Agent Reach 是一个开源命令行工具，旨在让 AI 代理无需付费 API 即可访问 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等多个网络平台的内容并进行搜索。该项目通过统一接口解决了主流社交平台和网站对 AI 代理设置的访问限制、认证复杂度和数据清洗问题，适合需要让 AI 代理具备互联网信息获取能力的开发者和技术用户。",
     "image_prompt_en": "",
@@ -1355,7 +1356,8 @@
       "2026-08-29",
       "2026-08-30",
       "2026-09-14",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-06"
     ],
     "intro_zh": "OpenMontage 是全球首个开源的智能体视频制作系统，将 AI 编码助手转变为完整的视频制作工作室。它提供了 12 个流水线、52 个工具和 500+ 代理技能，能够自动完成从创意到成片的全流程。该项目面向希望以程序化方式高效生成视频内容的开发者、内容创作者和 AI 爱好者。",
     "image_prompt_en": "",
@@ -2723,7 +2725,8 @@
       "2026-07-22",
       "2026-07-24",
       "2026-09-10",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-06"
     ],
     "intro_zh": "A collection of agent skills for CAD, robotics and hardware design",
     "image_prompt_en": "",
@@ -2899,7 +2902,8 @@
     "appearances": [
       "2026-07-27",
       "2026-10-04",
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-06"
     ],
     "intro_zh": "T3 Code 是一个轻量级的 Web 界面，用于对接多种代码生成代理，包括 Codex、Claude、Cursor 和 OpenCode。它旨在为开发者提供统一的操作入口来调用不同 AI 编码工具，无需在多个终端或界面间切换。该项目适合已经安装并认证了至少一个代码代理服务的开发者，目前处于早期阶段，可能存在缺陷。",
     "image_prompt_en": "",
@@ -4885,7 +4889,8 @@
   "thedotmack/claude-mem": {
     "first_seen": "2026-10-04",
     "appearances": [
-      "2026-10-04"
+      "2026-10-04",
+      "2026-10-06"
     ],
     "intro_zh": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
     "image_prompt_en": "",
@@ -4894,7 +4899,8 @@
   "cloudflare/cloudflare-os": {
     "first_seen": "2026-10-04",
     "appearances": [
-      "2026-10-04"
+      "2026-10-04",
+      "2026-10-06"
     ],
     "intro_zh": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
     "image_prompt_en": "",
@@ -4903,7 +4909,8 @@
   "tester-army/e2e": {
     "first_seen": "2026-10-05",
     "appearances": [
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-06"
     ],
     "intro_zh": "Next generation e2e testing framework for web and mobile apps.",
     "image_prompt_en": "",
@@ -4921,9 +4928,28 @@
   "caddyserver/caddy": {
     "first_seen": "2026-10-05",
     "appearances": [
-      "2026-10-05"
+      "2026-10-05",
+      "2026-10-06"
     ],
     "intro_zh": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "boykopovar/AnyPS5": {
+    "first_seen": "2026-10-06",
+    "appearances": [
+      "2026-10-06"
+    ],
+    "intro_zh": "Tool for automatic PS5 executables porting to Linux and Windows",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "DuarteSantos8/openGym": {
+    "first_seen": "2026-10-06",
+    "appearances": [
+      "2026-10-06"
+    ],
+    "intro_zh": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
     "image_prompt_en": "",
     "image_path": ""
   }

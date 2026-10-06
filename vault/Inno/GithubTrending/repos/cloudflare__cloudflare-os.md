@@ -5,7 +5,7 @@ tags:
 repo: cloudflare/cloudflare-os
 language: TypeScript
 first_seen: 2026-10-04
-appearances: 1
+appearances: 2
 ---
 
 # cloudflare/cloudflare-os
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-06/articles/10-cloudflare__cloudflare-os|2026-10-06]]
 - [[2026-10-04/articles/09-cloudflare__cloudflare-os|2026-10-04]]
 
 ## 上榜历史
 
+- [[2026-10-06/daily|2026-10-06]] — 101 stars
 - [[2026-10-04/daily|2026-10-04]] — 85 stars

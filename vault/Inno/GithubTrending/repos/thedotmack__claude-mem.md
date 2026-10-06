@@ -5,7 +5,7 @@ tags:
 repo: thedotmack/claude-mem
 language: TypeScript
 first_seen: 2026-10-04
-appearances: 1
+appearances: 2
 ---
 
 # thedotmack/claude-mem
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-06/articles/02-thedotmack__claude-mem|2026-10-06]]
 - [[2026-10-04/articles/08-thedotmack__claude-mem|2026-10-04]]
 
 ## 上榜历史
 
+- [[2026-10-06/daily|2026-10-06]] — 534 stars
 - [[2026-10-04/daily|2026-10-04]] — 79 stars

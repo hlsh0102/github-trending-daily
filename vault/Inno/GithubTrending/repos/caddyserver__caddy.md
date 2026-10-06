@@ -5,7 +5,7 @@ tags:
 repo: caddyserver/caddy
 language: Go
 first_seen: 2026-10-05
-appearances: 1
+appearances: 2
 ---
 
 # caddyserver/caddy
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-06/articles/08-caddyserver__caddy|2026-10-06]]
 - [[2026-10-05/articles/10-caddyserver__caddy|2026-10-05]]
 
 ## 上榜历史
 
+- [[2026-10-06/daily|2026-10-06]] — 515 stars
 - [[2026-10-05/daily|2026-10-05]] — 24 stars
