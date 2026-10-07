@@ -5,7 +5,7 @@ tags:
 repo: earthtojake/text-to-cad
 language: JavaScript
 first_seen: 2026-07-22
-appearances: 5
+appearances: 6
 ---
 
 # earthtojake/text-to-cad
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-10-07/articles/03-earthtojake__text-to-cad|2026-10-07]]
 - [[2026-10-06/articles/03-earthtojake__text-to-cad|2026-10-06]]
 - [[2026-10-05/articles/05-earthtojake__text-to-cad|2026-10-05]]
 - [[2026-09-10/articles/05-earthtojake__text-to-cad|2026-09-10]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-10-07/daily|2026-10-07]] — 619 stars
 - [[2026-10-06/daily|2026-10-06]] — 437 stars
 - [[2026-10-05/daily|2026-10-05]] — 83 stars
 - [[2026-09-10/daily|2026-09-10]] — 124 stars
