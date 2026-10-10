@@ -5,7 +5,7 @@ tags:
 repo: cathrynlavery/diagram-design
 language: HTML
 first_seen: 2026-08-12
-appearances: 11
+appearances: 12
 ---
 
 # cathrynlavery/diagram-design
@@ -14,6 +14,7 @@ appearances: 11
 
 ## 详细介绍历史
 
+- [[2026-10-10/articles/04-cathrynlavery__diagram-design|2026-10-10]]
 - [[2026-10-08/articles/05-cathrynlavery__diagram-design|2026-10-08]]
 - [[2026-09-11/articles/08-cathrynlavery__diagram-design|2026-09-11]]
 - [[2026-09-10/articles/06-cathrynlavery__diagram-design|2026-09-10]]
@@ -28,6 +29,7 @@ appearances: 11
 
 ## 上榜历史
 
+- [[2026-10-10/daily|2026-10-10]] — 1739 stars
 - [[2026-10-08/daily|2026-10-08]] — 825 stars
 - [[2026-09-11/daily|2026-09-11]] — 1294 stars
 - [[2026-09-10/daily|2026-09-10]] — 2249 stars
