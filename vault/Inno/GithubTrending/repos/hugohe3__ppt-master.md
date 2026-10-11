@@ -5,7 +5,7 @@ tags:
 repo: hugohe3/ppt-master
 language: Python
 first_seen: 2026-06-28
-appearances: 2
+appearances: 3
 ---
 
 # hugohe3/ppt-master
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-10-11/articles/09-hugohe3__ppt-master|2026-10-11]]
 - [[2026-08-13/articles/08-hugohe3__ppt-master|2026-08-13]]
 - [[2026-06-28/articles/08-hugohe3__ppt-master|2026-06-28]]
 
 ## 上榜历史
 
+- [[2026-10-11/daily|2026-10-11]] — 461 stars
 - [[2026-08-13/daily|2026-08-13]] — 476 stars
 - [[2026-06-28/daily|2026-06-28]] — 589 stars

@@ -5,7 +5,7 @@ tags:
 repo: flutter/flutter
 language: Dart
 first_seen: 2026-06-25
-appearances: 1
+appearances: 2
 ---
 
 # flutter/flutter
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-11/articles/07-flutter__flutter|2026-10-11]]
 - [[2026-06-25/articles/07-flutter__flutter|2026-06-25]]
 
 ## 上榜历史
 
+- [[2026-10-11/daily|2026-10-11]] — 88 stars
 - [[2026-06-25/daily|2026-06-25]] — 73 stars

@@ -5,7 +5,7 @@ tags:
 repo: boykopovar/AnyPS5
 language: C++
 first_seen: 2026-10-06
-appearances: 4
+appearances: 5
 ---
 
 # boykopovar/AnyPS5
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-10-11/articles/02-boykopovar__AnyPS5|2026-10-11]]
 - [[2026-10-10/articles/02-boykopovar__AnyPS5|2026-10-10]]
 - [[2026-10-08/articles/03-boykopovar__AnyPS5|2026-10-08]]
 - [[2026-10-07/articles/04-boykopovar__AnyPS5|2026-10-07]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-10-11/daily|2026-10-11]] — 5805 stars
 - [[2026-10-10/daily|2026-10-10]] — 5868 stars
 - [[2026-10-08/daily|2026-10-08]] — 2716 stars
 - [[2026-10-07/daily|2026-10-07]] — 949 stars
