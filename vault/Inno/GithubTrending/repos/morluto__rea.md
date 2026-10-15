@@ -5,7 +5,7 @@ tags:
 repo: morluto/rea
 language: TypeScript
 first_seen: 2026-10-07
-appearances: 4
+appearances: 5
 ---
 
 # morluto/rea
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-10-15/articles/01-morluto__rea|2026-10-15]]
 - [[2026-10-11/articles/01-morluto__rea|2026-10-11]]
 - [[2026-10-10/articles/01-morluto__rea|2026-10-10]]
 - [[2026-10-08/articles/01-morluto__rea|2026-10-08]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-10-15/daily|2026-10-15]] — 41034 stars
 - [[2026-10-11/daily|2026-10-11]] — 25793 stars
 - [[2026-10-10/daily|2026-10-10]] — 14927 stars
 - [[2026-10-08/daily|2026-10-08]] — 4655 stars

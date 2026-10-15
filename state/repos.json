@@ -2176,7 +2176,8 @@
     "first_seen": "2026-07-10",
     "appearances": [
       "2026-07-10",
-      "2026-09-14"
+      "2026-09-14",
+      "2026-10-15"
     ],
     "intro_zh": "PentAGI 是一个基于 Go 语言开发的全自主 AI 智能体系统，专门用于执行复杂的渗透测试任务。它利用人工智能技术自动化和增强对网络安全漏洞的发现与利用过程，旨在为安全研究人员、渗透测试工程师和网络安全爱好者提供高效、智能化的测试辅助工具。该项目通过多个 AI 代理的协作与管理，支持多种大型语言模型（如 OpenAI、Anthropic、本地 Ollama 等），实现从信息收集到漏洞验证的端到端自动化安全评估。",
     "image_prompt_en": "",
@@ -3485,7 +3486,8 @@
   "nvm-sh/nvm": {
     "first_seen": "2026-08-12",
     "appearances": [
-      "2026-08-12"
+      "2026-08-12",
+      "2026-10-15"
     ],
     "intro_zh": "nvm（Node Version Manager）是一个用于管理多个 Node.js 版本的工具，它通过一个 POSIX 兼容的 bash 脚本实现。该工具解决了开发者在不同项目间切换 Node.js 版本时遇到的版本冲突问题，允许用户轻松安装、切换和卸载特定版本的 Node.js。nvm 主要面向使用 Linux、macOS 或其他类 Unix 系统的 Node.js 开发者，尤其适合需要在多个项目中使用不同 Node.js 版本的用户。",
     "image_prompt_en": "",
@@ -3928,7 +3930,8 @@
       "2026-08-30",
       "2026-08-31",
       "2026-09-01",
-      "2026-09-02"
+      "2026-09-02",
+      "2026-10-15"
     ],
     "intro_zh": "Scientific Agent Skills 是一个面向科学研究的 AI 智能体技能库，提供 163 个经过验证的即用技能和 100 多个科学数据库，覆盖生物学、化学、医学和药物发现等领域。该项目旨在将任何 AI 智能体（如 Cursor、Claude Code 等）转变为能够辅助科学研究的工具，适用于科研人员、药物研发人员等需要快速获取和分析科学数据的用户。它遵循开放的 Agent Skills 标准，兼容多种主流 AI 编程工具，并采用 MIT 许可证开源。",
     "image_prompt_en": "",
@@ -4130,7 +4133,8 @@
       "2026-09-15",
       "2026-09-16",
       "2026-09-30",
-      "2026-10-01"
+      "2026-10-01",
+      "2026-10-15"
     ],
     "intro_zh": "VoiceStudio 是一个开源且完全本地运行的语音工具集，旨在作为 ElevenLabs 的替代方案，无需账户、API 密钥或订阅即可使用。它支持语音克隆、语音设计、视频配音、听写、转录和有声书制作，并集成了 16 种文本转语音（TTS）引擎、11 种语音识别（ASR）引擎及 646 种语言目录。该项目面向需要在自有硬件（macOS、Windows、Linux 或 Docker）上处理长音频和隐私敏感语音任务的开发者与内容创作者。",
     "image_prompt_en": "",
@@ -4266,7 +4270,8 @@
       "2026-09-08",
       "2026-10-01",
       "2026-10-03",
-      "2026-10-11"
+      "2026-10-11",
+      "2026-10-15"
     ],
     "intro_zh": "Context Mode 是一个用于优化 AI 编码代理上下文窗口的开源工具。它通过将工具输出进行沙箱化处理（可减少高达 98% 的输出量）、持久化会话记忆，并借助 MCP 与 hooks 机制在 17 个平台上强制进行路由分发，来解决 AI 编程中上下文过长导致的性能与准确性问题。该项目主要面向使用 AI 辅助开发并面临上下文管理挑战的个人开发者及团队。",
     "image_prompt_en": "",
@@ -4759,7 +4764,8 @@
     "first_seen": "2026-09-24",
     "appearances": [
       "2026-09-24",
-      "2026-09-25"
+      "2026-09-25",
+      "2026-10-15"
     ],
     "intro_zh": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
     "image_prompt_en": "",
@@ -4988,7 +4994,8 @@
       "2026-10-07",
       "2026-10-08",
       "2026-10-10",
-      "2026-10-11"
+      "2026-10-11",
+      "2026-10-15"
     ],
     "intro_zh": "Reverse engineer anything with agents, from app behavior down to native binaries.",
     "image_prompt_en": "",
@@ -5046,6 +5053,33 @@
       "2026-10-11"
     ],
     "intro_zh": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "ifixai-ai/iFixAi": {
+    "first_seen": "2026-10-15",
+    "appearances": [
+      "2026-10-15"
+    ],
+    "intro_zh": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "rust-lang/rust": {
+    "first_seen": "2026-10-15",
+    "appearances": [
+      "2026-10-15"
+    ],
+    "intro_zh": "Empowering everyone to build reliable and efficient software.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "xtool-org/xtool": {
+    "first_seen": "2026-10-15",
+    "appearances": [
+      "2026-10-15"
+    ],
+    "intro_zh": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
     "image_prompt_en": "",
     "image_path": ""
   }

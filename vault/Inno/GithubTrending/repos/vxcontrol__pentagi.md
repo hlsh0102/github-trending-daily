@@ -5,7 +5,7 @@ tags:
 repo: vxcontrol/pentagi
 language: Go
 first_seen: 2026-07-10
-appearances: 2
+appearances: 3
 ---
 
 # vxcontrol/pentagi
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-10-15/articles/08-vxcontrol__pentagi|2026-10-15]]
 - [[2026-09-14/articles/08-vxcontrol__pentagi|2026-09-14]]
 - [[2026-07-10/articles/07-vxcontrol__pentagi|2026-07-10]]
 
 ## 上榜历史
 
+- [[2026-10-15/daily|2026-10-15]] — 1025 stars
 - [[2026-09-14/daily|2026-09-14]] — 590 stars
 - [[2026-07-10/daily|2026-07-10]] — 535 stars
