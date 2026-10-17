@@ -5,7 +5,7 @@ tags:
 repo: K-Dense-AI/scientific-agent-skills
 language: Python
 first_seen: 2026-08-27
-appearances: 9
+appearances: 10
 ---
 
 # K-Dense-AI/scientific-agent-skills
@@ -14,6 +14,7 @@ appearances: 9
 
 ## 详细介绍历史
 
+- [[2026-10-17/articles/02-K-Dense-AI__scientific-agent-skills|2026-10-17]]
 - [[2026-10-16/articles/03-K-Dense-AI__scientific-agent-skills|2026-10-16]]
 - [[2026-10-15/articles/05-K-Dense-AI__scientific-agent-skills|2026-10-15]]
 - [[2026-09-02/articles/09-K-Dense-AI__scientific-agent-skills|2026-09-02]]
@@ -26,6 +27,7 @@ appearances: 9
 
 ## 上榜历史
 
+- [[2026-10-17/daily|2026-10-17]] — 1158 stars
 - [[2026-10-16/daily|2026-10-16]] — 1091 stars
 - [[2026-10-15/daily|2026-10-15]] — 163 stars
 - [[2026-09-02/daily|2026-09-02]] — 912 stars
