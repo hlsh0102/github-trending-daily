@@ -5,7 +5,7 @@ tags:
 repo: android/skills
 language: Kotlin
 first_seen: 2026-10-17
-appearances: 1
+appearances: 2
 ---
 
 # android/skills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-18/articles/07-android__skills|2026-10-18]]
 - [[2026-10-17/articles/07-android__skills|2026-10-17]]
 
 ## 上榜历史
 
+- [[2026-10-18/daily|2026-10-18]] — 355 stars
 - [[2026-10-17/daily|2026-10-17]] — 36 stars
