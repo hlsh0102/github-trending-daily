@@ -5,7 +5,7 @@ tags:
 repo: stablyai/orca
 language: TypeScript
 first_seen: 2026-06-25
-appearances: 3
+appearances: 4
 ---
 
 # stablyai/orca
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-10-19/articles/07-stablyai__orca|2026-10-19]]
 - [[2026-10-18/articles/08-stablyai__orca|2026-10-18]]
 - [[2026-08-13/articles/04-stablyai__orca|2026-08-13]]
 - [[2026-06-25/articles/09-stablyai__orca|2026-06-25]]
 
 ## 上榜历史
 
+- [[2026-10-19/daily|2026-10-19]] — 1146 stars
 - [[2026-10-18/daily|2026-10-18]] — 830 stars
 - [[2026-08-13/daily|2026-08-13]] — 1235 stars
 - [[2026-06-25/daily|2026-06-25]] — 331 stars

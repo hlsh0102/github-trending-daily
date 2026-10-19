@@ -5,7 +5,7 @@ tags:
 repo: akitaonrails/ai-memory
 language: Rust
 first_seen: 2026-08-18
-appearances: 5
+appearances: 6
 ---
 
 # akitaonrails/ai-memory
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-10-19/articles/06-akitaonrails__ai-memory|2026-10-19]]
 - [[2026-10-18/articles/06-akitaonrails__ai-memory|2026-10-18]]
 - [[2026-09-22/articles/04-akitaonrails__ai-memory|2026-09-22]]
 - [[2026-08-21/articles/07-akitaonrails__ai-memory|2026-08-21]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-10-19/daily|2026-10-19]] — 512 stars
 - [[2026-10-18/daily|2026-10-18]] — 178 stars
 - [[2026-09-22/daily|2026-09-22]] — 167 stars
 - [[2026-08-21/daily|2026-08-21]] — 332 stars

@@ -5,7 +5,7 @@ tags:
 repo: MadsLorentzen/ai-job-search
 language: TypeScript
 first_seen: 2026-07-08
-appearances: 4
+appearances: 5
 ---
 
 # MadsLorentzen/ai-job-search
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-10-19/articles/01-MadsLorentzen__ai-job-search|2026-10-19]]
 - [[2026-10-18/articles/02-MadsLorentzen__ai-job-search|2026-10-18]]
 - [[2026-08-26/articles/03-MadsLorentzen__ai-job-search|2026-08-26]]
 - [[2026-08-25/articles/03-MadsLorentzen__ai-job-search|2026-08-25]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-10-19/daily|2026-10-19]] — 2232 stars
 - [[2026-10-18/daily|2026-10-18]] — 1365 stars
 - [[2026-08-26/daily|2026-08-26]] — 1265 stars
 - [[2026-08-25/daily|2026-08-25]] — 434 stars
