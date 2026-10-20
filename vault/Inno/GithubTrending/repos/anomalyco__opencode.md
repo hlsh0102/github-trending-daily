@@ -5,7 +5,7 @@ tags:
 repo: anomalyco/opencode
 language: TypeScript
 first_seen: 2026-09-06
-appearances: 3
+appearances: 4
 ---
 
 # anomalyco/opencode
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-10-20/articles/02-anomalyco__opencode|2026-10-20]]
 - [[2026-10-19/articles/03-anomalyco__opencode|2026-10-19]]
 - [[2026-09-07/articles/06-anomalyco__opencode|2026-09-07]]
 - [[2026-09-06/articles/08-anomalyco__opencode|2026-09-06]]
 
 ## 上榜历史
 
+- [[2026-10-20/daily|2026-10-20]] — 1311 stars
 - [[2026-10-19/daily|2026-10-19]] — 1414 stars
 - [[2026-09-07/daily|2026-09-07]] — 551 stars
 - [[2026-09-06/daily|2026-09-06]] — 725 stars
