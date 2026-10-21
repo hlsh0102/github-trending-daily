@@ -5,7 +5,7 @@ tags:
 repo: Graphify-Labs/graphify
 language: Python
 first_seen: 2026-07-14
-appearances: 1
+appearances: 2
 ---
 
 # Graphify-Labs/graphify
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-21/articles/07-Graphify-Labs__graphify|2026-10-21]]
 - [[2026-07-14/articles/07-Graphify-Labs__graphify|2026-07-14]]
 
 ## 上榜历史
 
+- [[2026-10-21/daily|2026-10-21]] — 802 stars
 - [[2026-07-14/daily|2026-07-14]] — 1095 stars
