@@ -5,7 +5,7 @@ tags:
 repo: Comfy-Org/ComfyUI
 language: Python
 first_seen: 2026-08-10
-appearances: 3
+appearances: 4
 ---
 
 # Comfy-Org/ComfyUI
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-10-22/articles/06-Comfy-Org__ComfyUI|2026-10-22]]
 - [[2026-10-21/articles/05-Comfy-Org__ComfyUI|2026-10-21]]
 - [[2026-10-20/articles/04-Comfy-Org__ComfyUI|2026-10-20]]
 - [[2026-08-10/articles/10-Comfy-Org__ComfyUI|2026-08-10]]
 
 ## 上榜历史
 
+- [[2026-10-22/daily|2026-10-22]] — 939 stars
 - [[2026-10-21/daily|2026-10-21]] — 1206 stars
 - [[2026-10-20/daily|2026-10-20]] — 1011 stars
 - [[2026-08-10/daily|2026-08-10]] — 365 stars

@@ -5,7 +5,7 @@ tags:
 repo: twentyhq/twenty
 language: TypeScript
 first_seen: 2026-05-28
-appearances: 4
+appearances: 5
 ---
 
 # twentyhq/twenty
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-10-22/articles/08-twentyhq__twenty|2026-10-22]]
 - [[2026-06-21/articles/07-twentyhq__twenty|2026-06-21]]
 - [[2026-05-30/articles/04-twentyhq__twenty|2026-05-30]]
 - [[2026-05-29/articles/05-twentyhq__twenty|2026-05-29]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-10-22/daily|2026-10-22]] — 112 stars
 - [[2026-06-21/daily|2026-06-21]] — 140 stars
 - [[2026-05-30/daily|2026-05-30]] — 578 stars
 - [[2026-05-29/daily|2026-05-29]] — 493 stars

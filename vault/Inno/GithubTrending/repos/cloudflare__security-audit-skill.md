@@ -5,7 +5,7 @@ tags:
 repo: cloudflare/security-audit-skill
 language: JavaScript
 first_seen: 2026-09-17
-appearances: 6
+appearances: 7
 ---
 
 # cloudflare/security-audit-skill
@@ -14,6 +14,7 @@ appearances: 6
 
 ## 详细介绍历史
 
+- [[2026-10-22/articles/01-cloudflare__security-audit-skill|2026-10-22]]
 - [[2026-10-21/articles/02-cloudflare__security-audit-skill|2026-10-21]]
 - [[2026-09-21/articles/03-cloudflare__security-audit-skill|2026-09-21]]
 - [[2026-09-20/articles/01-cloudflare__security-audit-skill|2026-09-20]]
@@ -23,6 +24,7 @@ appearances: 6
 
 ## 上榜历史
 
+- [[2026-10-22/daily|2026-10-22]] — 2012 stars
 - [[2026-10-21/daily|2026-10-21]] — 1712 stars
 - [[2026-09-21/daily|2026-09-21]] — 2428 stars
 - [[2026-09-20/daily|2026-09-20]] — 3155 stars
