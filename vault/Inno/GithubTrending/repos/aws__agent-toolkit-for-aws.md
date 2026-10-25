@@ -5,7 +5,7 @@ tags:
 repo: aws/agent-toolkit-for-aws
 language: Python
 first_seen: 2026-06-26
-appearances: 1
+appearances: 2
 ---
 
 # aws/agent-toolkit-for-aws
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-25/articles/03-aws__agent-toolkit-for-aws|2026-10-25]]
 - [[2026-06-26/articles/09-aws__agent-toolkit-for-aws|2026-06-26]]
 
 ## 上榜历史
 
+- [[2026-10-25/daily|2026-10-25]] — 13 stars
 - [[2026-06-26/daily|2026-06-26]] — 47 stars

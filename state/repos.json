@@ -447,7 +447,8 @@
       "2026-10-03",
       "2026-10-04",
       "2026-10-05",
-      "2026-10-07"
+      "2026-10-07",
+      "2026-10-25"
     ],
     "intro_zh": "Impeccable 是一个前端设计语言工具集，专为大型语言模型（如 Claude）设计，旨在通过提供7个领域参考文件、23个设计命令和27条确定性反模式规则，帮助AI生成更专业、一致的用户界面。它解决了AI模型因训练数据重复而导致输出雷同（如统一使用 Inter 字体、紫蓝渐变、卡片嵌套等）的问题，适用于需要定制化前端设计成果的开发者、设计师和AI提示工程团队。该项目包含可直接运行的CLI工具和浏览器扩展，无需额外的LLM API即可执行设计审核。",
     "image_prompt_en": "",
@@ -1610,7 +1611,8 @@
   "aws/agent-toolkit-for-aws": {
     "first_seen": "2026-06-26",
     "appearances": [
-      "2026-06-26"
+      "2026-06-26",
+      "2026-10-25"
     ],
     "intro_zh": "Agent Toolkit for AWS 是 AWS 官方提供的插件和技能集合，旨在帮助 AI 编码助手（如 Claude Code、Codex、Cursor）在 AWS 上构建、部署和管理应用。它通过预构建的 MCP 服务器和工具，简化了 AI Agent 与 AWS 服务（如 CDK、Bedrock、Glue）的集成，让开发者无需手动配置即可让 AI 直接操作云资源。",
     "image_prompt_en": "",
@@ -2456,7 +2458,8 @@
       "2026-07-15",
       "2026-07-16",
       "2026-07-17",
-      "2026-07-18"
+      "2026-07-18",
+      "2026-10-25"
     ],
     "intro_zh": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
     "image_prompt_en": "",
@@ -4602,7 +4605,8 @@
       "2026-09-20",
       "2026-09-21",
       "2026-10-21",
-      "2026-10-22"
+      "2026-10-22",
+      "2026-10-25"
     ],
     "intro_zh": "security-audit-skill 是一个面向编码代理的安全审计技能，将代理转变为安全审计员。它通过侦察、覆盖驱动的漏洞搜寻、候选人验证、结构化输出、独立记录核验和目标中立的报告六个阶段执行多阶段审计，生成可独立验证的机器可读发现。该技能适合需要对单一代码仓库进行结构化安全审计的开发者和安全团队使用。",
     "image_prompt_en": "",
@@ -4920,7 +4924,8 @@
     "appearances": [
       "2026-09-30",
       "2026-10-01",
-      "2026-10-03"
+      "2026-10-03",
+      "2026-10-25"
     ],
     "intro_zh": "OpenShell is the safe, private runtime for autonomous AI agents.",
     "image_prompt_en": "",
@@ -5206,6 +5211,51 @@
       "2026-10-22"
     ],
     "intro_zh": "freehire — the open-source search engine for job seekers",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "luongnv89/claude-howto": {
+    "first_seen": "2026-10-25",
+    "appearances": [
+      "2026-10-25"
+    ],
+    "intro_zh": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "pollen-robotics/microduck": {
+    "first_seen": "2026-10-25",
+    "appearances": [
+      "2026-10-25"
+    ],
+    "intro_zh": "A Tiny biped duck robot 🦆",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "google-gemini/gemini-cli": {
+    "first_seen": "2026-10-25",
+    "appearances": [
+      "2026-10-25"
+    ],
+    "intro_zh": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "jbiaojerry/ebook-treasure-chest": {
+    "first_seen": "2026-10-25",
+    "appearances": [
+      "2026-10-25"
+    ],
+    "intro_zh": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "makecindy/cindy": {
+    "first_seen": "2026-10-25",
+    "appearances": [
+      "2026-10-25"
+    ],
+    "intro_zh": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
     "image_prompt_en": "",
     "image_path": ""
   }
