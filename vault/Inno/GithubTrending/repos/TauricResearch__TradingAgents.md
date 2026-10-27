@@ -5,7 +5,7 @@ tags:
 repo: TauricResearch/TradingAgents
 language: Python
 first_seen: 2026-06-02
-appearances: 5
+appearances: 6
 ---
 
 # TauricResearch/TradingAgents
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-10-27/articles/02-TauricResearch__TradingAgents|2026-10-27]]
 - [[2026-10-26/articles/06-TauricResearch__TradingAgents|2026-10-26]]
 - [[2026-09-10/articles/07-TauricResearch__TradingAgents|2026-09-10]]
 - [[2026-08-26/articles/05-TauricResearch__TradingAgents|2026-08-26]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-10-27/daily|2026-10-27]] — 1395 stars
 - [[2026-10-26/daily|2026-10-26]] — 381 stars
 - [[2026-09-10/daily|2026-09-10]] — 367 stars
 - [[2026-08-26/daily|2026-08-26]] — 218 stars

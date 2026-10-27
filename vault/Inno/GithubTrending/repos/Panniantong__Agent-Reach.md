@@ -5,7 +5,7 @@ tags:
 repo: Panniantong/Agent-Reach
 language: Python
 first_seen: 2026-06-06
-appearances: 11
+appearances: 12
 ---
 
 # Panniantong/Agent-Reach
@@ -14,6 +14,7 @@ appearances: 11
 
 ## 详细介绍历史
 
+- [[2026-10-27/articles/10-Panniantong__Agent-Reach|2026-10-27]]
 - [[2026-10-06/articles/06-Panniantong__Agent-Reach|2026-10-06]]
 - [[2026-10-05/articles/06-Panniantong__Agent-Reach|2026-10-05]]
 - [[2026-10-04/articles/06-Panniantong__Agent-Reach|2026-10-04]]
@@ -28,6 +29,7 @@ appearances: 11
 
 ## 上榜历史
 
+- [[2026-10-27/daily|2026-10-27]] — 746 stars
 - [[2026-10-06/daily|2026-10-06]] — 1155 stars
 - [[2026-10-05/daily|2026-10-05]] — 980 stars
 - [[2026-10-04/daily|2026-10-04]] — 1696 stars

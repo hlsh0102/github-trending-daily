@@ -5,7 +5,7 @@ tags:
 repo: NVIDIA/SkillSpector
 language: Python
 first_seen: 2026-06-12
-appearances: 2
+appearances: 3
 ---
 
 # NVIDIA/SkillSpector
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-10-27/articles/07-NVIDIA__SkillSpector|2026-10-27]]
 - [[2026-06-15/articles/06-NVIDIA__SkillSpector|2026-06-15]]
 - [[2026-06-12/articles/05-NVIDIA__SkillSpector|2026-06-12]]
 
 ## 上榜历史
 
+- [[2026-10-27/daily|2026-10-27]] — 214 stars
 - [[2026-06-15/daily|2026-06-15]] — 964 stars
 - [[2026-06-12/daily|2026-06-12]] — 319 stars
