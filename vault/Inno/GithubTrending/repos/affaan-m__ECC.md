@@ -5,7 +5,7 @@ tags:
 repo: affaan-m/ECC
 language: JavaScript
 first_seen: 2026-05-27
-appearances: 28
+appearances: 29
 ---
 
 # affaan-m/ECC
@@ -14,6 +14,7 @@ appearances: 28
 
 ## 详细介绍历史
 
+- [[2026-10-28/articles/08-affaan-m__ECC|2026-10-28]]
 - [[2026-10-27/articles/05-affaan-m__ECC|2026-10-27]]
 - [[2026-10-18/articles/03-affaan-m__ECC|2026-10-18]]
 - [[2026-10-17/articles/03-affaan-m__ECC|2026-10-17]]
@@ -45,6 +46,7 @@ appearances: 28
 
 ## 上榜历史
 
+- [[2026-10-28/daily|2026-10-28]] — 1165 stars
 - [[2026-10-27/daily|2026-10-27]] — 896 stars
 - [[2026-10-18/daily|2026-10-18]] — 1145 stars
 - [[2026-10-17/daily|2026-10-17]] — 1057 stars

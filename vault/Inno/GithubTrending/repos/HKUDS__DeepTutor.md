@@ -5,7 +5,7 @@ tags:
 repo: HKUDS/DeepTutor
 language: Python
 first_seen: 2026-07-16
-appearances: 2
+appearances: 3
 ---
 
 # HKUDS/DeepTutor
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-10-28/articles/09-HKUDS__DeepTutor|2026-10-28]]
 - [[2026-08-12/articles/10-HKUDS__DeepTutor|2026-08-12]]
 - [[2026-07-16/articles/08-HKUDS__DeepTutor|2026-07-16]]
 
 ## 上榜历史
 
+- [[2026-10-28/daily|2026-10-28]] — 1598 stars
 - [[2026-08-12/daily|2026-08-12]] — 812 stars
 - [[2026-07-16/daily|2026-07-16]] — 172 stars
