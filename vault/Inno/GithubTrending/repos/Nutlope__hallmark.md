@@ -5,7 +5,7 @@ tags:
 repo: Nutlope/hallmark
 language: CSS
 first_seen: 2026-07-14
-appearances: 9
+appearances: 10
 ---
 
 # Nutlope/hallmark
@@ -14,6 +14,7 @@ appearances: 9
 
 ## 详细介绍历史
 
+- [[2026-10-29/articles/06-Nutlope__hallmark|2026-10-29]]
 - [[2026-10-28/articles/02-Nutlope__hallmark|2026-10-28]]
 - [[2026-10-27/articles/01-Nutlope__hallmark|2026-10-27]]
 - [[2026-10-26/articles/02-Nutlope__hallmark|2026-10-26]]
@@ -26,6 +27,7 @@ appearances: 9
 
 ## 上榜历史
 
+- [[2026-10-29/daily|2026-10-29]] — 2110 stars
 - [[2026-10-28/daily|2026-10-28]] — 2830 stars
 - [[2026-10-27/daily|2026-10-27]] — 2244 stars
 - [[2026-10-26/daily|2026-10-26]] — 1317 stars
