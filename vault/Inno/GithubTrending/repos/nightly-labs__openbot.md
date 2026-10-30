@@ -5,7 +5,7 @@ tags:
 repo: nightly-labs/openbot
 language: TypeScript
 first_seen: 2026-10-27
-appearances: 3
+appearances: 4
 ---
 
 # nightly-labs/openbot
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-10-30/articles/06-nightly-labs__openbot|2026-10-30]]
 - [[2026-10-29/articles/09-nightly-labs__openbot|2026-10-29]]
 - [[2026-10-28/articles/03-nightly-labs__openbot|2026-10-28]]
 - [[2026-10-27/articles/09-nightly-labs__openbot|2026-10-27]]
 
 ## 上榜历史
 
+- [[2026-10-30/daily|2026-10-30]] — 709 stars
 - [[2026-10-29/daily|2026-10-29]] — 1054 stars
 - [[2026-10-28/daily|2026-10-28]] — 777 stars
 - [[2026-10-27/daily|2026-10-27]] — 176 stars

@@ -282,7 +282,8 @@
       "2026-10-16",
       "2026-10-17",
       "2026-10-28",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-30"
     ],
     "intro_zh": "Superpowers 是一个为编程代理设计的完整软件开发方法论，构建在一组可组合的技能和初始指令之上。它通过引导代理在编码前先明确规格、制定实现计划，并采用子代理驱动开发流程，来解决代理直接编写代码时缺乏上下文、测试和项目纪律的问题。该项目适用于希望提升编码代理自主工作质量和效率的开发者。",
     "image_prompt_en": "",
@@ -456,7 +457,8 @@
       "2026-10-26",
       "2026-10-27",
       "2026-10-28",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-30"
     ],
     "intro_zh": "Impeccable 是一个前端设计语言工具集，专为大型语言模型（如 Claude）设计，旨在通过提供7个领域参考文件、23个设计命令和27条确定性反模式规则，帮助AI生成更专业、一致的用户界面。它解决了AI模型因训练数据重复而导致输出雷同（如统一使用 Inter 字体、紫蓝渐变、卡片嵌套等）的问题，适用于需要定制化前端设计成果的开发者、设计师和AI提示工程团队。该项目包含可直接运行的CLI工具和浏览器扩展，无需额外的LLM API即可执行设计审核。",
     "image_prompt_en": "",
@@ -2548,7 +2550,8 @@
       "2026-07-16",
       "2026-08-12",
       "2026-10-28",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-30"
     ],
     "intro_zh": "DeepTutor 是一个开源的终身个性化辅导系统，旨在通过持续学习用户的知识状态来提供定制化的教学支持。它利用深度学习技术，根据学习者的历史交互和行为模式动态调整辅导策略，从而解决传统教育系统难以适应个体差异的问题。该项目主要面向教育技术研究人员和开发者，适用于构建自适应学习平台或智能辅导应用。",
     "image_prompt_en": "",
@@ -5004,7 +5007,8 @@
       "2026-10-04",
       "2026-10-06",
       "2026-10-07",
-      "2026-10-08"
+      "2026-10-08",
+      "2026-10-30"
     ],
     "intro_zh": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
     "image_prompt_en": "",
@@ -5301,7 +5305,8 @@
       "2026-10-26",
       "2026-10-27",
       "2026-10-28",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-30"
     ],
     "intro_zh": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
     "image_prompt_en": "",
@@ -5321,7 +5326,8 @@
     "appearances": [
       "2026-10-27",
       "2026-10-28",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-30"
     ],
     "intro_zh": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
     "image_prompt_en": "",
@@ -5331,7 +5337,8 @@
     "first_seen": "2026-10-28",
     "appearances": [
       "2026-10-28",
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-30"
     ],
     "intro_zh": "elayadesign/ai-design-skills - GitHub Trending 项目。",
     "image_prompt_en": "",
@@ -5349,9 +5356,28 @@
   "togg53192-cmd/jailbreaks": {
     "first_seen": "2026-10-29",
     "appearances": [
-      "2026-10-29"
+      "2026-10-29",
+      "2026-10-30"
     ],
     "intro_zh": "LIST OF ALL MY JAILBREAKS",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "milind-soni/OpenMausBot": {
+    "first_seen": "2026-10-30",
+    "appearances": [
+      "2026-10-30"
+    ],
+    "intro_zh": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "CopilotKit/OpenBot": {
+    "first_seen": "2026-10-30",
+    "appearances": [
+      "2026-10-30"
+    ],
+    "intro_zh": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
     "image_prompt_en": "",
     "image_path": ""
   }

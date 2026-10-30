@@ -5,7 +5,7 @@ tags:
 repo: JetBrains/thinkrail
 language: TypeScript
 first_seen: 2026-10-26
-appearances: 4
+appearances: 5
 ---
 
 # JetBrains/thinkrail
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-10-30/articles/04-JetBrains__thinkrail|2026-10-30]]
 - [[2026-10-29/articles/01-JetBrains__thinkrail|2026-10-29]]
 - [[2026-10-28/articles/10-JetBrains__thinkrail|2026-10-28]]
 - [[2026-10-27/articles/03-JetBrains__thinkrail|2026-10-27]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-10-30/daily|2026-10-30]] — 1117 stars
 - [[2026-10-29/daily|2026-10-29]] — 1068 stars
 - [[2026-10-28/daily|2026-10-28]] — 1204 stars
 - [[2026-10-27/daily|2026-10-27]] — 1173 stars
