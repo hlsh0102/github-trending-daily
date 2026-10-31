@@ -5,7 +5,7 @@ tags:
 repo: macro-inc/macro
 language: Rust
 first_seen: 2026-08-13
-appearances: 4
+appearances: 5
 ---
 
 # macro-inc/macro
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-10-31/articles/07-macro-inc__macro|2026-10-31]]
 - [[2026-10-29/articles/05-macro-inc__macro|2026-10-29]]
 - [[2026-08-15/articles/04-macro-inc__macro|2026-08-15]]
 - [[2026-08-14/articles/07-macro-inc__macro|2026-08-14]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-10-31/daily|2026-10-31]] — 57 stars
 - [[2026-10-29/daily|2026-10-29]] — 117 stars
 - [[2026-08-15/daily|2026-08-15]] — 436 stars
 - [[2026-08-14/daily|2026-08-14]] — 1239 stars

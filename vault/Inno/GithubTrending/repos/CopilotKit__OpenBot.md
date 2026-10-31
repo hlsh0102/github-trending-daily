@@ -5,7 +5,7 @@ tags:
 repo: CopilotKit/OpenBot
 language: TypeScript
 first_seen: 2026-10-30
-appearances: 1
+appearances: 2
 ---
 
 # CopilotKit/OpenBot
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-10-31/articles/04-CopilotKit__OpenBot|2026-10-31]]
 - [[2026-10-30/articles/09-CopilotKit__OpenBot|2026-10-30]]
 
 ## 上榜历史
 
+- [[2026-10-31/daily|2026-10-31]] — 706 stars
 - [[2026-10-30/daily|2026-10-30]] — 247 stars
