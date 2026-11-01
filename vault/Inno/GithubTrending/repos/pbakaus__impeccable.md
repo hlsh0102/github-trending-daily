@@ -5,7 +5,7 @@ tags:
 repo: pbakaus/impeccable
 language: JavaScript
 first_seen: 2026-06-02
-appearances: 14
+appearances: 15
 ---
 
 # pbakaus/impeccable
@@ -14,6 +14,7 @@ appearances: 14
 
 ## 详细介绍历史
 
+- [[2026-11-01/articles/07-pbakaus__impeccable|2026-11-01]]
 - [[2026-10-31/articles/03-pbakaus__impeccable|2026-10-31]]
 - [[2026-10-30/articles/03-pbakaus__impeccable|2026-10-30]]
 - [[2026-10-29/articles/07-pbakaus__impeccable|2026-10-29]]
@@ -31,6 +32,7 @@ appearances: 14
 
 ## 上榜历史
 
+- [[2026-11-01/daily|2026-11-01]] — 1338 stars
 - [[2026-10-31/daily|2026-10-31]] — 2300 stars
 - [[2026-10-30/daily|2026-10-30]] — 2870 stars
 - [[2026-10-29/daily|2026-10-29]] — 1472 stars
