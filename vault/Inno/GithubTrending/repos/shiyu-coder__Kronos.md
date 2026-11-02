@@ -5,7 +5,7 @@ tags:
 repo: shiyu-coder/Kronos
 language: Python
 first_seen: 2026-05-28
-appearances: 10
+appearances: 11
 ---
 
 # shiyu-coder/Kronos
@@ -14,6 +14,7 @@ appearances: 10
 
 ## 详细介绍历史
 
+- [[2026-11-02/articles/03-shiyu-coder__Kronos|2026-11-02]]
 - [[2026-10-22/articles/09-shiyu-coder__Kronos|2026-10-22]]
 - [[2026-08-13/articles/06-shiyu-coder__Kronos|2026-08-13]]
 - [[2026-08-04/articles/10-shiyu-coder__Kronos|2026-08-04]]
@@ -27,6 +28,7 @@ appearances: 10
 
 ## 上榜历史
 
+- [[2026-11-02/daily|2026-11-02]] — 630 stars
 - [[2026-10-22/daily|2026-10-22]] — 575 stars
 - [[2026-08-13/daily|2026-08-13]] — 266 stars
 - [[2026-08-04/daily|2026-08-04]] — 200 stars

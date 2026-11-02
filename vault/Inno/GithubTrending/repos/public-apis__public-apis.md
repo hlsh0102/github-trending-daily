@@ -5,7 +5,7 @@ tags:
 repo: public-apis/public-apis
 language: Python
 first_seen: 2026-08-16
-appearances: 2
+appearances: 3
 ---
 
 # public-apis/public-apis
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-11-02/articles/06-public-apis__public-apis|2026-11-02]]
 - [[2026-08-19/articles/06-public-apis__public-apis|2026-08-19]]
 - [[2026-08-16/articles/06-public-apis__public-apis|2026-08-16]]
 
 ## 上榜历史
 
+- [[2026-11-02/daily|2026-11-02]] — 324 stars
 - [[2026-08-19/daily|2026-08-19]] — 1005 stars
 - [[2026-08-16/daily|2026-08-16]] — 2260 stars

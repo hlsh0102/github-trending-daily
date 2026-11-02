@@ -5,7 +5,7 @@ tags:
 repo: milind-soni/OpenMausBot
 language: TypeScript
 first_seen: 2026-10-30
-appearances: 3
+appearances: 4
 ---
 
 # milind-soni/OpenMausBot
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-11-02/articles/05-milind-soni__OpenMausBot|2026-11-02]]
 - [[2026-11-01/articles/06-milind-soni__OpenMausBot|2026-11-01]]
 - [[2026-10-31/articles/02-milind-soni__OpenMausBot|2026-10-31]]
 - [[2026-10-30/articles/05-milind-soni__OpenMausBot|2026-10-30]]
 
 ## 上榜历史
 
+- [[2026-11-02/daily|2026-11-02]] — 922 stars
 - [[2026-11-01/daily|2026-11-01]] — 1303 stars
 - [[2026-10-31/daily|2026-10-31]] — 895 stars
 - [[2026-10-30/daily|2026-10-30]] — 1199 stars

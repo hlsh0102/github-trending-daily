@@ -5,7 +5,7 @@ tags:
 repo: Donchitos/Claude-Code-Game-Studios
 language: Shell
 first_seen: 2026-11-01
-appearances: 1
+appearances: 2
 ---
 
 # Donchitos/Claude-Code-Game-Studios
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-02/articles/08-Donchitos__Claude-Code-Game-Studios|2026-11-02]]
 - [[2026-11-01/articles/03-Donchitos__Claude-Code-Game-Studios|2026-11-01]]
 
 ## 上榜历史
 
+- [[2026-11-02/daily|2026-11-02]] — 967 stars
 - [[2026-11-01/daily|2026-11-01]] — 742 stars
