@@ -5,7 +5,7 @@ tags:
 repo: D4Vinci/Scrapling
 language: Python
 first_seen: 2026-06-01
-appearances: 4
+appearances: 5
 ---
 
 # D4Vinci/Scrapling
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-11-03/articles/03-D4Vinci__Scrapling|2026-11-03]]
 - [[2026-06-04/articles/07-D4Vinci__Scrapling|2026-06-04]]
 - [[2026-06-03/articles/04-D4Vinci__Scrapling|2026-06-03]]
 - [[2026-06-02/articles/05-D4Vinci__Scrapling|2026-06-02]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-11-03/daily|2026-11-03]] — 706 stars
 - [[2026-06-04/daily|2026-06-04]] — 1067 stars
 - [[2026-06-03/daily|2026-06-03]] — 1182 stars
 - [[2026-06-02/daily|2026-06-02]] — 1486 stars

@@ -5,7 +5,7 @@ tags:
 repo: pingdotgg/t3code
 language: TypeScript
 first_seen: 2026-07-27
-appearances: 7
+appearances: 8
 ---
 
 # pingdotgg/t3code
@@ -14,6 +14,7 @@ appearances: 7
 
 ## 详细介绍历史
 
+- [[2026-11-03/articles/07-pingdotgg__t3code|2026-11-03]]
 - [[2026-11-02/articles/04-pingdotgg__t3code|2026-11-02]]
 - [[2026-11-01/articles/04-pingdotgg__t3code|2026-11-01]]
 - [[2026-10-31/articles/09-pingdotgg__t3code|2026-10-31]]
@@ -24,6 +25,7 @@ appearances: 7
 
 ## 上榜历史
 
+- [[2026-11-03/daily|2026-11-03]] — 3229 stars
 - [[2026-11-02/daily|2026-11-02]] — 3094 stars
 - [[2026-11-01/daily|2026-11-01]] — 1148 stars
 - [[2026-10-31/daily|2026-10-31]] — 930 stars
