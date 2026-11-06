@@ -5,7 +5,7 @@ tags:
 repo: google/skills
 language: Python
 first_seen: 2026-06-09
-appearances: 3
+appearances: 4
 ---
 
 # google/skills
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-11-06/articles/09-google__skills|2026-11-06]]
 - [[2026-08-10/articles/09-google__skills|2026-08-10]]
 - [[2026-08-09/articles/04-google__skills|2026-08-09]]
 - [[2026-06-09/articles/03-google__skills|2026-06-09]]
 
 ## 上榜历史
 
+- [[2026-11-06/daily|2026-11-06]] — 211 stars
 - [[2026-08-10/daily|2026-08-10]] — 528 stars
 - [[2026-08-09/daily|2026-08-09]] — 481 stars
 - [[2026-06-09/daily|2026-06-09]] — 461 stars

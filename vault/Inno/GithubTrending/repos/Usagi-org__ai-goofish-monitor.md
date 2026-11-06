@@ -5,7 +5,7 @@ tags:
 repo: Usagi-org/ai-goofish-monitor
 language: Python
 first_seen: 2026-11-04
-appearances: 1
+appearances: 2
 ---
 
 # Usagi-org/ai-goofish-monitor
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-06/articles/04-Usagi-org__ai-goofish-monitor|2026-11-06]]
 - [[2026-11-04/articles/09-Usagi-org__ai-goofish-monitor|2026-11-04]]
 
 ## 上榜历史
 
+- [[2026-11-06/daily|2026-11-06]] — 240 stars
 - [[2026-11-04/daily|2026-11-04]] — 228 stars

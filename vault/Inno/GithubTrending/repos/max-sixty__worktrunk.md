@@ -5,7 +5,7 @@ tags:
 repo: max-sixty/worktrunk
 language: Rust
 first_seen: 2026-11-04
-appearances: 1
+appearances: 2
 ---
 
 # max-sixty/worktrunk
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-06/articles/07-max-sixty__worktrunk|2026-11-06]]
 - [[2026-11-04/articles/03-max-sixty__worktrunk|2026-11-04]]
 
 ## 上榜历史
 
+- [[2026-11-06/daily|2026-11-06]] — 546 stars
 - [[2026-11-04/daily|2026-11-04]] — 438 stars

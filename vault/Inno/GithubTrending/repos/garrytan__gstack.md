@@ -5,7 +5,7 @@ tags:
 repo: garrytan/gstack
 language: TypeScript
 first_seen: 2026-06-23
-appearances: 4
+appearances: 5
 ---
 
 # garrytan/gstack
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-11-06/articles/03-garrytan__gstack|2026-11-06]]
 - [[2026-06-28/articles/10-garrytan__gstack|2026-06-28]]
 - [[2026-06-26/articles/08-garrytan__gstack|2026-06-26]]
 - [[2026-06-24/articles/04-garrytan__gstack|2026-06-24]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-11-06/daily|2026-11-06]] — 612 stars
 - [[2026-06-28/daily|2026-06-28]] — 674 stars
 - [[2026-06-26/daily|2026-06-26]] — 767 stars
 - [[2026-06-24/daily|2026-06-24]] — 1011 stars
