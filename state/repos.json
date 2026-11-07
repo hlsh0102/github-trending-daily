@@ -823,7 +823,8 @@
       "2026-06-09",
       "2026-08-09",
       "2026-08-10",
-      "2026-11-06"
+      "2026-11-06",
+      "2026-11-07"
     ],
     "intro_zh": "该仓库包含针对 Google 产品（如 Google Cloud）的智能体技能集（Agent Skills），旨在通过可复用的技能模块简化智能体的开发与集成。用户可以通过 npx 命令安装所需的技能，例如 Gemini API、AlloyDB 和 BigQuery 等。适用于希望利用 Google 生态构建智能体应用的开发者。",
     "image_prompt_en": "",
@@ -5186,7 +5187,8 @@
   "rust-lang/rust": {
     "first_seen": "2026-10-15",
     "appearances": [
-      "2026-10-15"
+      "2026-10-15",
+      "2026-11-07"
     ],
     "intro_zh": "Empowering everyone to build reliable and efficient software.",
     "image_prompt_en": "",
@@ -5553,7 +5555,8 @@
   "NVIDIA/auto-ontology": {
     "first_seen": "2026-11-06",
     "appearances": [
-      "2026-11-06"
+      "2026-11-06",
+      "2026-11-07"
     ],
     "intro_zh": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
     "image_prompt_en": "",
@@ -5574,6 +5577,69 @@
       "2026-11-06"
     ],
     "intro_zh": "Browser automation CLI for AI agents",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "zed-industries/zed": {
+    "first_seen": "2026-11-07",
+    "appearances": [
+      "2026-11-07"
+    ],
+    "intro_zh": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "rails/rails": {
+    "first_seen": "2026-11-07",
+    "appearances": [
+      "2026-11-07"
+    ],
+    "intro_zh": "Ruby on Rails",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "mpv-player/mpv": {
+    "first_seen": "2026-11-07",
+    "appearances": [
+      "2026-11-07"
+    ],
+    "intro_zh": "🎥 Command line media player",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "react/react": {
+    "first_seen": "2026-11-07",
+    "appearances": [
+      "2026-11-07"
+    ],
+    "intro_zh": "The library for web and native user interfaces.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "angular/angular": {
+    "first_seen": "2026-11-07",
+    "appearances": [
+      "2026-11-07"
+    ],
+    "intro_zh": "Deliver web apps with confidence 🚀",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "symfony/symfony": {
+    "first_seen": "2026-11-07",
+    "appearances": [
+      "2026-11-07"
+    ],
+    "intro_zh": "The Symfony PHP framework",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "prometheus/prometheus": {
+    "first_seen": "2026-11-07",
+    "appearances": [
+      "2026-11-07"
+    ],
+    "intro_zh": "The Prometheus monitoring system and time series database.",
     "image_prompt_en": "",
     "image_path": ""
   }
