@@ -5,7 +5,7 @@ tags:
 repo: sherlock-project/sherlock
 language: Python
 first_seen: 2026-11-10
-appearances: 1
+appearances: 2
 ---
 
 # sherlock-project/sherlock
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-11/articles/09-sherlock-project__sherlock|2026-11-11]]
 - [[2026-11-10/articles/03-sherlock-project__sherlock|2026-11-10]]
 
 ## 上榜历史
 
+- [[2026-11-11/daily|2026-11-11]] — 2393 stars
 - [[2026-11-10/daily|2026-11-10]] — 4267 stars

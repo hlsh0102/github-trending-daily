@@ -5,7 +5,7 @@ tags:
 repo: anthropics/claude-quickstarts
 language: Python
 first_seen: 2026-11-10
-appearances: 1
+appearances: 2
 ---
 
 # anthropics/claude-quickstarts
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-11/articles/04-anthropics__claude-quickstarts|2026-11-11]]
 - [[2026-11-10/articles/05-anthropics__claude-quickstarts|2026-11-10]]
 
 ## 上榜历史
 
+- [[2026-11-11/daily|2026-11-11]] — 531 stars
 - [[2026-11-10/daily|2026-11-10]] — 551 stars
