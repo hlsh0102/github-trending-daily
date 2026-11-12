@@ -5,7 +5,7 @@ tags:
 repo: homeassistant-ai/ha-mcp
 language: Python
 first_seen: 2026-11-10
-appearances: 2
+appearances: 3
 ---
 
 # homeassistant-ai/ha-mcp
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-11-12/articles/08-homeassistant-ai__ha-mcp|2026-11-12]]
 - [[2026-11-11/articles/07-homeassistant-ai__ha-mcp|2026-11-11]]
 - [[2026-11-10/articles/10-homeassistant-ai__ha-mcp|2026-11-10]]
 
 ## 上榜历史
 
+- [[2026-11-12/daily|2026-11-12]] — 645 stars
 - [[2026-11-11/daily|2026-11-11]] — 790 stars
 - [[2026-11-10/daily|2026-11-10]] — 31 stars
