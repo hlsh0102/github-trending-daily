@@ -5,7 +5,7 @@ tags:
 repo: GoogleChrome/modern-web-guidance-src
 language: TypeScript
 first_seen: 2026-11-12
-appearances: 1
+appearances: 2
 ---
 
 # GoogleChrome/modern-web-guidance-src
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-13/articles/01-GoogleChrome__modern-web-guidance-src|2026-11-13]]
 - [[2026-11-12/articles/03-GoogleChrome__modern-web-guidance-src|2026-11-12]]
 
 ## 上榜历史
 
+- [[2026-11-13/daily|2026-11-13]] — 739 stars
 - [[2026-11-12/daily|2026-11-12]] — 159 stars

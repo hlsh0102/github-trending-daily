@@ -5,7 +5,7 @@ tags:
 repo: nodejs/node
 language: JavaScript
 first_seen: 2026-07-27
-appearances: 1
+appearances: 2
 ---
 
 # nodejs/node
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-13/articles/08-nodejs__node|2026-11-13]]
 - [[2026-07-27/articles/07-nodejs__node|2026-07-27]]
 
 ## 上榜历史
 
+- [[2026-11-13/daily|2026-11-13]] — 62 stars
 - [[2026-07-27/daily|2026-07-27]] — 36 stars

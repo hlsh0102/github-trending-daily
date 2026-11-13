@@ -937,7 +937,8 @@
       "2026-10-08",
       "2026-10-10",
       "2026-11-11",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
     "intro_zh": "Agent Skills 是一套为 AI 编码 Agent 提供的、可直接使用的“技能包”，将资深工程师的开发工作流（定义、规划、构建、测试、审查、简化、发布）编码为可重复执行的命令。项目通过 /spec、/plan、/build 等 7 个斜杠命令，让 AI Agent 在软件开发的每个阶段自动应用工程最佳实践与质量门禁，解决 Agent 编码缺乏流程规范与可重复性的问题。适用于希望提升 AI 辅助开发效率与质量的个人开发者或团队。",
     "image_prompt_en": "",
@@ -3015,7 +3016,8 @@
   "nodejs/node": {
     "first_seen": "2026-07-27",
     "appearances": [
-      "2026-07-27"
+      "2026-07-27",
+      "2026-11-13"
     ],
     "intro_zh": "Node.js 是一个开源的、跨平台的 JavaScript 运行时环境，旨在让开发者使用 JavaScript 编写服务器端和网络应用程序。它基于 Chrome V8 引擎，采用事件驱动、非阻塞 I/O 模型，适用于构建高性能、可扩展的网络服务。该项目适合前端和后端开发者，以及任何希望在服务器端运行 JavaScript 的人。",
     "image_prompt_en": "",
@@ -3566,7 +3568,8 @@
     "first_seen": "2026-08-12",
     "appearances": [
       "2026-08-12",
-      "2026-10-15"
+      "2026-10-15",
+      "2026-11-13"
     ],
     "intro_zh": "nvm（Node Version Manager）是一个用于管理多个 Node.js 版本的工具，它通过一个 POSIX 兼容的 bash 脚本实现。该工具解决了开发者在不同项目间切换 Node.js 版本时遇到的版本冲突问题，允许用户轻松安装、切换和卸载特定版本的 Node.js。nvm 主要面向使用 Linux、macOS 或其他类 Unix 系统的 Node.js 开发者，尤其适合需要在多个项目中使用不同 Node.js 版本的用户。",
     "image_prompt_en": "",
@@ -5658,7 +5661,8 @@
     "appearances": [
       "2026-11-10",
       "2026-11-11",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
     "intro_zh": "An open source design system that's fully customizable and agent ready",
     "image_prompt_en": "",
@@ -5718,7 +5722,8 @@
     "first_seen": "2026-11-11",
     "appearances": [
       "2026-11-11",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
     "intro_zh": "The personal finance app for everyone (by everyone)",
     "image_prompt_en": "",
@@ -5736,7 +5741,8 @@
   "GoogleChrome/modern-web-guidance-src": {
     "first_seen": "2026-11-12",
     "appearances": [
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
     "intro_zh": "GoogleChrome/modern-web-guidance-src - GitHub Trending 项目。",
     "image_prompt_en": "",
@@ -5754,7 +5760,8 @@
   "openai/codex-security": {
     "first_seen": "2026-11-12",
     "appearances": [
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-13"
     ],
     "intro_zh": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
     "image_prompt_en": "",
@@ -5766,6 +5773,33 @@
       "2026-11-12"
     ],
     "intro_zh": "All Algorithms implemented in Java",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "pookjw/HermesEnabler": {
+    "first_seen": "2026-11-13",
+    "appearances": [
+      "2026-11-13"
+    ],
+    "intro_zh": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "QwenLM/qwen-code": {
+    "first_seen": "2026-11-13",
+    "appearances": [
+      "2026-11-13"
+    ],
+    "intro_zh": "An open-source AI coding agent that lives in your terminal.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "ashhart/TensorFold": {
+    "first_seen": "2026-11-13",
+    "appearances": [
+      "2026-11-13"
+    ],
+    "intro_zh": "LLM Inference Engine for Metal, CUDA and Vulkan.",
     "image_prompt_en": "",
     "image_path": ""
   }
