@@ -1449,7 +1449,8 @@
       "2026-08-10",
       "2026-08-12",
       "2026-11-10",
-      "2026-11-12"
+      "2026-11-12",
+      "2026-11-14"
     ],
     "intro_zh": "该开源项目是一个基于大语言模型的跨市场股票智能分析系统，支持A股、港股、美股、日股和韩股的自选股监控。它整合多源实时行情与新闻，自动生成决策仪表盘，并通过企业微信、飞书、Telegram、Discord、Slack或邮箱推送给用户。系统设计用于零成本定时运行，适合个人投资者和量化研究人员快速获取每日市场动态与持仓分析。",
     "image_prompt_en": "",
@@ -2901,7 +2902,8 @@
       "2026-07-26",
       "2026-07-27",
       "2026-08-24",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-11-14"
     ],
     "intro_zh": "Buzz 是一个自托管的蜂巢思维协作平台，让人类与 AI 智能体在同一工作空间中实时沟通与协作。它基于 Nostr 协议，所有消息、操作和事件都作为签名事件存储在单一日志中，确保身份一致、审计可追溯。适用于需要人机协同开发、项目管理或自动化流程的团队和个人。",
     "image_prompt_en": "",
@@ -2971,7 +2973,8 @@
       "2026-09-17",
       "2026-09-18",
       "2026-09-19",
-      "2026-10-10"
+      "2026-10-10",
+      "2026-11-14"
     ],
     "intro_zh": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
     "image_prompt_en": "",
@@ -4097,7 +4100,8 @@
   "tailscale/tailcat": {
     "first_seen": "2026-08-30",
     "appearances": [
-      "2026-08-30"
+      "2026-08-30",
+      "2026-11-14"
     ],
     "intro_zh": "Tailcat 是 Tailscale 开源组件的一个重混项目，旨在提供类似 netcat 的功能，但使用 Tailscale 的数据平面（magicsock）进行点对点加密通信，而不依赖 Tailscale 的控制平面。它通过 WireGuard 加密隧道实现端到端安全传输，并利用 DERP 服务器进行 NAT 穿透和兜底中继。该工具适用于需要快速建立加密连接但不想使用完整 Tailscale 服务的开发者，可通过命令行或 Go 库使用，且无需 Tailscale 账户或 root 权限。",
     "image_prompt_en": "",
@@ -5723,7 +5727,8 @@
     "appearances": [
       "2026-11-11",
       "2026-11-12",
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-14"
     ],
     "intro_zh": "The personal finance app for everyone (by everyone)",
     "image_prompt_en": "",
@@ -5742,7 +5747,8 @@
     "first_seen": "2026-11-12",
     "appearances": [
       "2026-11-12",
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-14"
     ],
     "intro_zh": "GoogleChrome/modern-web-guidance-src - GitHub Trending 项目。",
     "image_prompt_en": "",
@@ -5761,7 +5767,8 @@
     "first_seen": "2026-11-12",
     "appearances": [
       "2026-11-12",
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-14"
     ],
     "intro_zh": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
     "image_prompt_en": "",
@@ -5800,6 +5807,33 @@
       "2026-11-13"
     ],
     "intro_zh": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "backnotprop/plannotator": {
+    "first_seen": "2026-11-14",
+    "appearances": [
+      "2026-11-14"
+    ],
+    "intro_zh": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "louislam/uptime-kuma": {
+    "first_seen": "2026-11-14",
+    "appearances": [
+      "2026-11-14"
+    ],
+    "intro_zh": "A fancy self-hosted monitoring tool",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "tradermonty/claude-trading-skills": {
+    "first_seen": "2026-11-14",
+    "appearances": [
+      "2026-11-14"
+    ],
+    "intro_zh": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
     "image_prompt_en": "",
     "image_path": ""
   }

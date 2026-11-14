@@ -5,7 +5,7 @@ tags:
 repo: openai/codex-security
 language: TypeScript
 first_seen: 2026-11-12
-appearances: 2
+appearances: 3
 ---
 
 # openai/codex-security
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-11-14/articles/03-openai__codex-security|2026-11-14]]
 - [[2026-11-13/articles/02-openai__codex-security|2026-11-13]]
 - [[2026-11-12/articles/09-openai__codex-security|2026-11-12]]
 
 ## 上榜历史
 
+- [[2026-11-14/daily|2026-11-14]] — 751 stars
 - [[2026-11-13/daily|2026-11-13]] — 643 stars
 - [[2026-11-12/daily|2026-11-12]] — 52 stars

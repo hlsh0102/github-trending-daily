@@ -5,7 +5,7 @@ tags:
 repo: ZhuLinsen/daily_stock_analysis
 language: Python
 first_seen: 2026-06-22
-appearances: 7
+appearances: 8
 ---
 
 # ZhuLinsen/daily_stock_analysis
@@ -14,6 +14,7 @@ appearances: 7
 
 ## 详细介绍历史
 
+- [[2026-11-14/articles/04-ZhuLinsen__daily_stock_analysis|2026-11-14]]
 - [[2026-11-12/articles/02-ZhuLinsen__daily_stock_analysis|2026-11-12]]
 - [[2026-11-10/articles/09-ZhuLinsen__daily_stock_analysis|2026-11-10]]
 - [[2026-08-12/articles/06-ZhuLinsen__daily_stock_analysis|2026-08-12]]
@@ -24,6 +25,7 @@ appearances: 7
 
 ## 上榜历史
 
+- [[2026-11-14/daily|2026-11-14]] — 256 stars
 - [[2026-11-12/daily|2026-11-12]] — 278 stars
 - [[2026-11-10/daily|2026-11-10]] — 506 stars
 - [[2026-08-12/daily|2026-08-12]] — 243 stars

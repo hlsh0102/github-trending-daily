@@ -5,7 +5,7 @@ tags:
 repo: tailscale/tailcat
 language: Go
 first_seen: 2026-08-30
-appearances: 1
+appearances: 2
 ---
 
 # tailscale/tailcat
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-14/articles/10-tailscale__tailcat|2026-11-14]]
 - [[2026-08-30/articles/04-tailscale__tailcat|2026-08-30]]
 
 ## 上榜历史
 
+- [[2026-11-14/daily|2026-11-14]] — 256 stars
 - [[2026-08-30/daily|2026-08-30]] — 789 stars
