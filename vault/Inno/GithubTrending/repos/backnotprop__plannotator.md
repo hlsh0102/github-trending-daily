@@ -5,7 +5,7 @@ tags:
 repo: backnotprop/plannotator
 language: TypeScript
 first_seen: 2026-11-14
-appearances: 1
+appearances: 2
 ---
 
 # backnotprop/plannotator
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-15/articles/01-backnotprop__plannotator|2026-11-15]]
 - [[2026-11-14/articles/06-backnotprop__plannotator|2026-11-14]]
 
 ## 上榜历史
 
+- [[2026-11-15/daily|2026-11-15]] — 408 stars
 - [[2026-11-14/daily|2026-11-14]] — 108 stars

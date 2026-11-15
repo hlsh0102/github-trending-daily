@@ -5,7 +5,7 @@ tags:
 repo: QwenLM/qwen-code
 language: TypeScript
 first_seen: 2026-11-13
-appearances: 1
+appearances: 2
 ---
 
 # QwenLM/qwen-code
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-15/articles/06-QwenLM__qwen-code|2026-11-15]]
 - [[2026-11-13/articles/06-QwenLM__qwen-code|2026-11-13]]
 
 ## 上榜历史
 
+- [[2026-11-15/daily|2026-11-15]] — 64 stars
 - [[2026-11-13/daily|2026-11-13]] — 151 stars

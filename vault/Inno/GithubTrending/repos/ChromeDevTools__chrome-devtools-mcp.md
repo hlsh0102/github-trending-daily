@@ -5,7 +5,7 @@ tags:
 repo: ChromeDevTools/chrome-devtools-mcp
 language: TypeScript
 first_seen: 2026-07-03
-appearances: 4
+appearances: 5
 ---
 
 # ChromeDevTools/chrome-devtools-mcp
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-11-15/articles/04-ChromeDevTools__chrome-devtools-mcp|2026-11-15]]
 - [[2026-09-03/articles/06-ChromeDevTools__chrome-devtools-mcp|2026-09-03]]
 - [[2026-07-05/articles/05-ChromeDevTools__chrome-devtools-mcp|2026-07-05]]
 - [[2026-07-04/articles/06-ChromeDevTools__chrome-devtools-mcp|2026-07-04]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-11-15/daily|2026-11-15]] — 664 stars
 - [[2026-09-03/daily|2026-09-03]] — 148 stars
 - [[2026-07-05/daily|2026-07-05]] — 304 stars
 - [[2026-07-04/daily|2026-07-04]] — 405 stars

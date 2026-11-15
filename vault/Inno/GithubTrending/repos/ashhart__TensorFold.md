@@ -5,7 +5,7 @@ tags:
 repo: ashhart/TensorFold
 language: Zig
 first_seen: 2026-11-13
-appearances: 1
+appearances: 2
 ---
 
 # ashhart/TensorFold
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-15/articles/09-ashhart__TensorFold|2026-11-15]]
 - [[2026-11-13/articles/07-ashhart__TensorFold|2026-11-13]]
 
 ## 上榜历史
 
+- [[2026-11-15/daily|2026-11-15]] — 37 stars
 - [[2026-11-13/daily|2026-11-13]] — 54 stars

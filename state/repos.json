@@ -1932,7 +1932,8 @@
       "2026-09-05",
       "2026-10-03",
       "2026-10-04",
-      "2026-10-16"
+      "2026-10-16",
+      "2026-11-15"
     ],
     "intro_zh": "Caveman 是一个 Claude Code 技能插件，通过让 AI 代理以原始风格（类似“穴居人”）生成回复，可大幅降低输出字符数约 65-75%，同时保持技术准确性。它适用于 Claude Code、Codex、Gemini、Cursor 等 30 多种 AI 编码工具，旨在减少 API 调用成本并提升响应速度，尤其适合希望以简洁方式获取技术答案的开发者。",
     "image_prompt_en": "",
@@ -1944,7 +1945,8 @@
       "2026-07-03",
       "2026-07-04",
       "2026-07-05",
-      "2026-09-03"
+      "2026-09-03",
+      "2026-11-15"
     ],
     "intro_zh": "chrome-devtools-mcp 是一个开源项目，它通过模型上下文协议（MCP）为 AI 编码助手（如 Claude、Cursor 等）提供操控和检查 Chrome 浏览器的能力。该项目利用 Chrome DevTools 和 Puppeteer，使 AI 代理能够进行可靠的自动化操作、深度调试以及性能分析。它特别适合需要将 AI 编码工具与真实浏览器环境进行集成，以实现自动化测试、故障排查和性能优化的开发者和团队。",
     "image_prompt_en": "",
@@ -2974,7 +2976,8 @@
       "2026-09-18",
       "2026-09-19",
       "2026-10-10",
-      "2026-11-14"
+      "2026-11-14",
+      "2026-11-15"
     ],
     "intro_zh": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
     "image_prompt_en": "",
@@ -4866,7 +4869,8 @@
       "2026-09-24",
       "2026-09-25",
       "2026-09-26",
-      "2026-09-27"
+      "2026-09-27",
+      "2026-11-15"
     ],
     "intro_zh": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
     "image_prompt_en": "",
@@ -5748,7 +5752,8 @@
     "appearances": [
       "2026-11-12",
       "2026-11-13",
-      "2026-11-14"
+      "2026-11-14",
+      "2026-11-15"
     ],
     "intro_zh": "GoogleChrome/modern-web-guidance-src - GitHub Trending 项目。",
     "image_prompt_en": "",
@@ -5795,7 +5800,8 @@
   "QwenLM/qwen-code": {
     "first_seen": "2026-11-13",
     "appearances": [
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-15"
     ],
     "intro_zh": "An open-source AI coding agent that lives in your terminal.",
     "image_prompt_en": "",
@@ -5804,7 +5810,8 @@
   "ashhart/TensorFold": {
     "first_seen": "2026-11-13",
     "appearances": [
-      "2026-11-13"
+      "2026-11-13",
+      "2026-11-15"
     ],
     "intro_zh": "LLM Inference Engine for Metal, CUDA and Vulkan.",
     "image_prompt_en": "",
@@ -5813,7 +5820,8 @@
   "backnotprop/plannotator": {
     "first_seen": "2026-11-14",
     "appearances": [
-      "2026-11-14"
+      "2026-11-14",
+      "2026-11-15"
     ],
     "intro_zh": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
     "image_prompt_en": "",
@@ -5831,9 +5839,19 @@
   "tradermonty/claude-trading-skills": {
     "first_seen": "2026-11-14",
     "appearances": [
-      "2026-11-14"
+      "2026-11-14",
+      "2026-11-15"
     ],
     "intro_zh": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "ag-ui-protocol/ag-ui": {
+    "first_seen": "2026-11-15",
+    "appearances": [
+      "2026-11-15"
+    ],
+    "intro_zh": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
     "image_prompt_en": "",
     "image_path": ""
   }
