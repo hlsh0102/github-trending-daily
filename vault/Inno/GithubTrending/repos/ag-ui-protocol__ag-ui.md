@@ -5,7 +5,7 @@ tags:
 repo: ag-ui-protocol/ag-ui
 language: TypeScript
 first_seen: 2026-11-15
-appearances: 1
+appearances: 2
 ---
 
 # ag-ui-protocol/ag-ui
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-16/articles/02-ag-ui-protocol__ag-ui|2026-11-16]]
 - [[2026-11-15/articles/08-ag-ui-protocol__ag-ui|2026-11-15]]
 
 ## 上榜历史
 
+- [[2026-11-16/daily|2026-11-16]] — 355 stars
 - [[2026-11-15/daily|2026-11-15]] — 9 stars

@@ -5,7 +5,7 @@ tags:
 repo: google-labs-code/stitch-skills
 language: TypeScript
 first_seen: 2026-07-12
-appearances: 1
+appearances: 2
 ---
 
 # google-labs-code/stitch-skills
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-16/articles/03-google-labs-code__stitch-skills|2026-11-16]]
 - [[2026-07-12/articles/04-google-labs-code__stitch-skills|2026-07-12]]
 
 ## 上榜历史
 
+- [[2026-11-16/daily|2026-11-16]] — 247 stars
 - [[2026-07-12/daily|2026-07-12]] — 340 stars
