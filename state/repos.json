@@ -703,7 +703,8 @@
       "2026-07-09",
       "2026-07-31",
       "2026-08-01",
-      "2026-08-31"
+      "2026-08-31",
+      "2026-11-17"
     ],
     "intro_zh": "last30days 是一个 AI 智能体技能，能够自动从 Reddit、X、YouTube、Hacker News、Polymarket 等多个平台搜索指定主题，并基于点赞、投票等社区反馈生成有据可查的摘要。它解决的是传统搜索引擎依赖编辑或算法排序、难以快速获得真实社区评价的痛点，适合需要追踪近30天内热点事件或话题的开发者与内容创作者。",
     "image_prompt_en": "",
@@ -2380,7 +2381,8 @@
     "first_seen": "2026-07-12",
     "appearances": [
       "2026-07-12",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "intro_zh": "这是一个专为 Google Stitch 设计的 Agent Skills 库，遵循 Agent Skills 开放标准。它提供一系列可复用的技能，用于在 Stitch 平台上辅助设计、构建和实用工具的开发。该库适用于 Codex、Antigravity、Gemini CLI、Claude Code 和 Cursor 等编码代理，通过插件市场可快速安装和集成。",
     "image_prompt_en": "",
@@ -4874,7 +4876,8 @@
       "2026-09-26",
       "2026-09-27",
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "intro_zh": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
     "image_prompt_en": "",
@@ -5827,7 +5830,8 @@
     "appearances": [
       "2026-11-14",
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "intro_zh": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
     "image_prompt_en": "",
@@ -5846,7 +5850,8 @@
     "first_seen": "2026-11-14",
     "appearances": [
       "2026-11-14",
-      "2026-11-15"
+      "2026-11-15",
+      "2026-11-17"
     ],
     "intro_zh": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
     "image_prompt_en": "",
@@ -5856,7 +5861,8 @@
     "first_seen": "2026-11-15",
     "appearances": [
       "2026-11-15",
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "intro_zh": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
     "image_prompt_en": "",
@@ -5883,9 +5889,37 @@
   "elementalsouls/Claude-BugHunter": {
     "first_seen": "2026-11-16",
     "appearances": [
-      "2026-11-16"
+      "2026-11-16",
+      "2026-11-17"
     ],
     "intro_zh": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "getarcaneapp/arcane": {
+    "first_seen": "2026-11-17",
+    "appearances": [
+      "2026-11-17"
+    ],
+    "intro_zh": "Modern Docker Management, Designed for Everyone",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "DeanChensj/jiangshan-map": {
+    "first_seen": "2026-11-17",
+    "appearances": [
+      "2026-11-17"
+    ],
+    "intro_zh": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+    "image_prompt_en": "",
+    "image_path": ""
+  },
+  "NVIDIA/SkillEvaluator": {
+    "first_seen": "2026-11-17",
+    "appearances": [
+      "2026-11-17"
+    ],
+    "intro_zh": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
     "image_prompt_en": "",
     "image_path": ""
   }

@@ -5,7 +5,7 @@ tags:
 repo: tradermonty/claude-trading-skills
 language: Python
 first_seen: 2026-11-14
-appearances: 2
+appearances: 3
 ---
 
 # tradermonty/claude-trading-skills
@@ -14,10 +14,12 @@ appearances: 2
 
 ## 详细介绍历史
 
+- [[2026-11-17/articles/04-tradermonty__claude-trading-skills|2026-11-17]]
 - [[2026-11-15/articles/03-tradermonty__claude-trading-skills|2026-11-15]]
 - [[2026-11-14/articles/09-tradermonty__claude-trading-skills|2026-11-14]]
 
 ## 上榜历史
 
+- [[2026-11-17/daily|2026-11-17]] — 837 stars
 - [[2026-11-15/daily|2026-11-15]] — 553 stars
 - [[2026-11-14/daily|2026-11-14]] — 69 stars
