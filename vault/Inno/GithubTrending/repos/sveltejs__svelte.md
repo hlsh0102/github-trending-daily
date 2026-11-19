@@ -5,7 +5,7 @@ tags:
 repo: sveltejs/svelte
 language: JavaScript
 first_seen: 2026-06-07
-appearances: 1
+appearances: 2
 ---
 
 # sveltejs/svelte
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-19/articles/10-sveltejs__svelte|2026-11-19]]
 - [[2026-06-07/articles/07-sveltejs__svelte|2026-06-07]]
 
 ## 上榜历史
 
+- [[2026-11-19/daily|2026-11-19]] — 692 stars
 - [[2026-06-07/daily|2026-06-07]] — 25 stars

@@ -5,7 +5,7 @@ tags:
 repo: nvm-sh/nvm
 language: Shell
 first_seen: 2026-08-12
-appearances: 3
+appearances: 4
 ---
 
 # nvm-sh/nvm
@@ -14,12 +14,14 @@ appearances: 3
 
 ## 详细介绍历史
 
+- [[2026-11-19/articles/06-nvm-sh__nvm|2026-11-19]]
 - [[2026-11-13/articles/03-nvm-sh__nvm|2026-11-13]]
 - [[2026-10-15/articles/04-nvm-sh__nvm|2026-10-15]]
 - [[2026-08-12/articles/04-nvm-sh__nvm|2026-08-12]]
 
 ## 上榜历史
 
+- [[2026-11-19/daily|2026-11-19]] — 237 stars
 - [[2026-11-13/daily|2026-11-13]] — 63 stars
 - [[2026-10-15/daily|2026-10-15]] — 52 stars
 - [[2026-08-12/daily|2026-08-12]] — 22 stars

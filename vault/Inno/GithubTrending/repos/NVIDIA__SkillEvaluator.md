@@ -5,7 +5,7 @@ tags:
 repo: NVIDIA/SkillEvaluator
 language: Python
 first_seen: 2026-11-17
-appearances: 1
+appearances: 2
 ---
 
 # NVIDIA/SkillEvaluator
@@ -14,8 +14,10 @@ appearances: 1
 
 ## 详细介绍历史
 
+- [[2026-11-19/articles/05-NVIDIA__SkillEvaluator|2026-11-19]]
 - [[2026-11-17/articles/10-NVIDIA__SkillEvaluator|2026-11-17]]
 
 ## 上榜历史
 
+- [[2026-11-19/daily|2026-11-19]] — 312 stars
 - [[2026-11-17/daily|2026-11-17]] — 873 stars
