@@ -5,7 +5,7 @@ tags:
 repo: jingyaogong/minimind
 language: Python
 first_seen: 2026-09-01
-appearances: 4
+appearances: 5
 ---
 
 # jingyaogong/minimind
@@ -14,6 +14,7 @@ appearances: 4
 
 ## 详细介绍历史
 
+- [[2026-11-22/articles/04-jingyaogong__minimind|2026-11-22]]
 - [[2026-11-21/articles/04-jingyaogong__minimind|2026-11-21]]
 - [[2026-11-20/articles/04-jingyaogong__minimind|2026-11-20]]
 - [[2026-09-02/articles/05-jingyaogong__minimind|2026-09-02]]
@@ -21,6 +22,7 @@ appearances: 4
 
 ## 上榜历史
 
+- [[2026-11-22/daily|2026-11-22]] — 488 stars
 - [[2026-11-21/daily|2026-11-21]] — 847 stars
 - [[2026-11-20/daily|2026-11-20]] — 238 stars
 - [[2026-09-02/daily|2026-09-02]] — 1005 stars
