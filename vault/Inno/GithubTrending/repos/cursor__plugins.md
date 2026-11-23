@@ -5,7 +5,7 @@ tags:
 repo: cursor/plugins
 language: TypeScript
 first_seen: 2026-05-30
-appearances: 14
+appearances: 15
 ---
 
 # cursor/plugins
@@ -14,6 +14,7 @@ appearances: 14
 
 ## 详细介绍历史
 
+- [[2026-11-23/articles/05-cursor__plugins|2026-11-23]]
 - [[2026-11-22/articles/05-cursor__plugins|2026-11-22]]
 - [[2026-11-21/articles/05-cursor__plugins|2026-11-21]]
 - [[2026-11-20/articles/05-cursor__plugins|2026-11-20]]
@@ -31,6 +32,7 @@ appearances: 14
 
 ## 上榜历史
 
+- [[2026-11-23/daily|2026-11-23]] — 294 stars
 - [[2026-11-22/daily|2026-11-22]] — 260 stars
 - [[2026-11-21/daily|2026-11-21]] — 299 stars
 - [[2026-11-20/daily|2026-11-20]] — 384 stars
