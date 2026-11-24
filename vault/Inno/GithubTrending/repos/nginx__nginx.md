@@ -5,7 +5,7 @@ tags:
 repo: nginx/nginx
 language: C
 first_seen: 2026-06-07
-appearances: 5
+appearances: 6
 ---
 
 # nginx/nginx
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-11-24/articles/07-nginx__nginx|2026-11-24]]
 - [[2026-11-23/articles/07-nginx__nginx|2026-11-23]]
 - [[2026-11-22/articles/07-nginx__nginx|2026-11-22]]
 - [[2026-11-21/articles/07-nginx__nginx|2026-11-21]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-11-24/daily|2026-11-24]] — 158 stars
 - [[2026-11-23/daily|2026-11-23]] — 163 stars
 - [[2026-11-22/daily|2026-11-22]] — 189 stars
 - [[2026-11-21/daily|2026-11-21]] — 246 stars
