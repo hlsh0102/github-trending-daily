@@ -5,7 +5,7 @@ tags:
 repo: openvinotoolkit/openvino
 language: C++
 first_seen: 2026-11-20
-appearances: 5
+appearances: 6
 ---
 
 # openvinotoolkit/openvino
@@ -14,6 +14,7 @@ appearances: 5
 
 ## 详细介绍历史
 
+- [[2026-11-25/articles/08-openvinotoolkit__openvino|2026-11-25]]
 - [[2026-11-24/articles/08-openvinotoolkit__openvino|2026-11-24]]
 - [[2026-11-23/articles/08-openvinotoolkit__openvino|2026-11-23]]
 - [[2026-11-22/articles/08-openvinotoolkit__openvino|2026-11-22]]
@@ -22,6 +23,7 @@ appearances: 5
 
 ## 上榜历史
 
+- [[2026-11-25/daily|2026-11-25]] — 185 stars
 - [[2026-11-24/daily|2026-11-24]] — 187 stars
 - [[2026-11-23/daily|2026-11-23]] — 158 stars
 - [[2026-11-22/daily|2026-11-22]] — 200 stars
