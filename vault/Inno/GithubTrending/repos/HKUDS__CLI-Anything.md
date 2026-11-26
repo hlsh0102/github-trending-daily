@@ -5,7 +5,7 @@ tags:
 repo: HKUDS/CLI-Anything
 language: Python
 first_seen: 2026-09-24
-appearances: 14
+appearances: 15
 ---
 
 # HKUDS/CLI-Anything
@@ -14,6 +14,7 @@ appearances: 14
 
 ## 详细介绍历史
 
+- [[2026-11-26/articles/03-HKUDS__CLI-Anything|2026-11-26]]
 - [[2026-11-25/articles/03-HKUDS__CLI-Anything|2026-11-25]]
 - [[2026-11-24/articles/03-HKUDS__CLI-Anything|2026-11-24]]
 - [[2026-11-23/articles/03-HKUDS__CLI-Anything|2026-11-23]]
@@ -31,6 +32,7 @@ appearances: 14
 
 ## 上榜历史
 
+- [[2026-11-26/daily|2026-11-26]] — 1106 stars
 - [[2026-11-25/daily|2026-11-25]] — 1074 stars
 - [[2026-11-24/daily|2026-11-24]] — 1075 stars
 - [[2026-11-23/daily|2026-11-23]] — 699 stars
