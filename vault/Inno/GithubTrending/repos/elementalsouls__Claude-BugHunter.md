@@ -5,7 +5,7 @@ tags:
 repo: elementalsouls/Claude-BugHunter
 language: Python
 first_seen: 2026-11-16
-appearances: 10
+appearances: 11
 ---
 
 # elementalsouls/Claude-BugHunter
@@ -14,6 +14,7 @@ appearances: 10
 
 ## 详细介绍历史
 
+- [[2026-11-27/articles/01-elementalsouls__Claude-BugHunter|2026-11-27]]
 - [[2026-11-26/articles/01-elementalsouls__Claude-BugHunter|2026-11-26]]
 - [[2026-11-25/articles/01-elementalsouls__Claude-BugHunter|2026-11-25]]
 - [[2026-11-24/articles/01-elementalsouls__Claude-BugHunter|2026-11-24]]
@@ -27,6 +28,7 @@ appearances: 10
 
 ## 上榜历史
 
+- [[2026-11-27/daily|2026-11-27]] — 1597 stars
 - [[2026-11-26/daily|2026-11-26]] — 1652 stars
 - [[2026-11-25/daily|2026-11-25]] — 1826 stars
 - [[2026-11-24/daily|2026-11-24]] — 1833 stars

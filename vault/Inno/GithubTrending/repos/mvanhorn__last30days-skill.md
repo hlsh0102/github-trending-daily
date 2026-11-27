@@ -5,7 +5,7 @@ tags:
 repo: mvanhorn/last30days-skill
 language: Python
 first_seen: 2026-06-06
-appearances: 21
+appearances: 22
 ---
 
 # mvanhorn/last30days-skill
@@ -14,6 +14,7 @@ appearances: 21
 
 ## 详细介绍历史
 
+- [[2026-11-27/articles/10-mvanhorn__last30days-skill|2026-11-27]]
 - [[2026-11-26/articles/10-mvanhorn__last30days-skill|2026-11-26]]
 - [[2026-11-25/articles/10-mvanhorn__last30days-skill|2026-11-25]]
 - [[2026-11-24/articles/10-mvanhorn__last30days-skill|2026-11-24]]
@@ -38,6 +39,7 @@ appearances: 21
 
 ## 上榜历史
 
+- [[2026-11-27/daily|2026-11-27]] — 759 stars
 - [[2026-11-26/daily|2026-11-26]] — 945 stars
 - [[2026-11-25/daily|2026-11-25]] — 703 stars
 - [[2026-11-24/daily|2026-11-24]] — 695 stars
