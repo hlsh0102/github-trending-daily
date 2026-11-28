@@ -5,7 +5,7 @@ tags:
 repo: firecrawl/firecrawl
 language: TypeScript
 first_seen: 2026-08-11
-appearances: 9
+appearances: 10
 ---
 
 # firecrawl/firecrawl
@@ -14,6 +14,7 @@ appearances: 9
 
 ## 详细介绍历史
 
+- [[2026-11-28/articles/06-firecrawl__firecrawl|2026-11-28]]
 - [[2026-11-27/articles/06-firecrawl__firecrawl|2026-11-27]]
 - [[2026-11-26/articles/06-firecrawl__firecrawl|2026-11-26]]
 - [[2026-11-25/articles/06-firecrawl__firecrawl|2026-11-25]]
@@ -26,6 +27,7 @@ appearances: 9
 
 ## 上榜历史
 
+- [[2026-11-28/daily|2026-11-28]] — 822 stars
 - [[2026-11-27/daily|2026-11-27]] — 1046 stars
 - [[2026-11-26/daily|2026-11-26]] — 1135 stars
 - [[2026-11-25/daily|2026-11-25]] — 991 stars
